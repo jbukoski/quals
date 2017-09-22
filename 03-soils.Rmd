@@ -57,7 +57,7 @@ Additionally, Thom notes that his five suggested geomorphig settings *are not co
 
 ### Woodroffe, 1983
 
-*"Development of mangrove forests from a geological perspective"* [@woodroffe1983development]
+*"Development of mangrove forests from a geological perspective"*
 
 **Key contribution:** This paper describes the development of an autochthnous, geomorphically inactive mangrove forests on Grand Cayman island. The study takes a geological perspective in that they examine soil depths and soil cores throughout the west peninsula, and reconstruct models of autochthonous development of the mangrove forest through time.
 
