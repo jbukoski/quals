@@ -9,3 +9,8 @@ before_script:
 script:
   - ./_build.sh
   - ./_deploy.sh
+
+env:
+  global:
+    secure: "oZYUfh8ZtlWGgkqUjWf77rZ87q2ZV4lcNfv+mxPqmAf6IU/znL4SIHVe2V7+NFVODIBcFkBFiQUOxwLZkwLna16VGDcf+zTt8h6LT45AGoa/XwiWm+dZGoOo0HyKlzmqPoneXy4c0U8zx1Hurhvb/gudvbw7lLAy62hMUi+y5NkxP5I4oaXyU7aFztM8ePqkeaYSk7u63tpmAQiaRfzbWdj0RwsCwNlgMK/kRjM1p+gw3L2l+29TsQ/z/0kz21x66ir6Y7N+iupUBFv0toZu4OU8YWMqnbzlwZAfs5QQkGmQrgdnBP+XP1JRdJ9C5gk85GChhmNqNT5hgGT9tdR8L/G2uw3DPrci/kt401iRBDnS/LD+9pmfZ7vfQstUQnp9jiBe4yoZSnZBKo4+rQLObZsf1DjFAuHdLO1UZkYaBlnMxmypW8fL8+6s1RsqzCYIbhAhK+CEUZo03EXO3G0ZcZAyLoRf48Bf8gGLAv86QFlALaHK7MfW1OfRxhek5V3uIVozZv5unn7OCkeSgXmKnHxhesxD/S4Yepdb6C6ZTbKFBs0uFlrGttATdf3cwrp1VLgRNlg1xOZR9XorduQ9126NJ7lnQDtfvWZWkVN60EAlu7AeRqxS+GvVbz9ImWlxAp2hmzLbJDuoq4rZXLbwHIutDgAPjD5yzKiVigupt9c="
+
