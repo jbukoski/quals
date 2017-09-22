@@ -1,0 +1,189 @@
+# Soils & geomorphology
+
+## Geomorphology
+
+### Preface
+
+### Thom, 1967
+
+*"Mangrove ecology and deltaic geomorphology: Tabasco, Mexico"* [@thom1967mangrove]
+
+A full summary of Thom, 1967 is provided in the "Zonation and Disturbacen section." Please refer to Section \@ref(thom1967).
+
+From a geomorphological standpoint, this is one of the most well-cited studies arguing that mangrove vegetation patterns respond primarily to the hydrological and sedimentary conditions that exist within a given site.
+
+### Carlton, 1974
+
+*"Land building and stabilization of mangroves"* [@carlton1974land]
+
+**Key contribution:** This is a perhaps less seminal paper but provides a brief review of the literature surrounding the ability of mangroves to "build" and "stabilize" shorelines. Much of the reviewed work is from Florida.
+
+**Key conclusions:** Carlton concludes more or less that mangroves do not "build" land *per se*, but are influential upon the *rate* at which sediments accrete on shorelines. In sum, two viewpoints exist:
+
+  1. mangroves "build" land by accretion of sediments (*a la* Davis 1940) (UNSUPPORTED)
+  2. mangroves modify the rate at which sediments accrete, thus affecting the speed of geomorphic change rather than the direction (Egler 1952, Gill 1971) (SUPPORTED)
+  
+*Further reading:*
+
+  1. Egler 1952
+  2. Gill 1971
+
+### Thom, 1982
+
+"*Mangrove ecology: A geomorphological perspective"* [@thom1982mangrove]
+
+**Key contribution:** This study is best known for the five environmental settings that Thom lays out for clastic (terrigenous) sediment deposition. The five environmental settings are detailed below:
+
+  1. *River dominated* - Deltaic or estuarine settings in which significant sediment is transported from alluvial flows to the coastal region. The landscape is marked by numerous distributaries and interdistributary basins that vary in hydrology, particularly in regards to tidal influence.
+  2. *Tide dominated* - Estuarine type settings in which the dominant hydrology is the bidirectional flow of tides. Often see sandy shoals within the estuary that are shaped parallel to the flow of tides.
+  3. *Wave dominated* - Environmental settings in which flat shorelines accumulate sand barriers or cheniers that create lagoons and create regions of low-energy coastlines in which mangroves may establish. Sediment is primarily autochthonous.
+  4. *River & wave composite* - Settings in which both deltaic plains with strong alluvial influence as well as strong wave influences create a complex of alluvial fans and lagoons blocked by wave-distributed sand barriers from longshore flows. E.g., Tabasco, Mexico.
+  5. *Drowned river valleys* - Estuaries or embayments that are underlain by impervious rock and have been flooded during the most recent period of sea level rise.
+  
+**Key knowledge:** Thom describes the geomorphology of mangrove from three standpoints:
+
+  1. *Geophysical* - The dominant physical processes that affect a landscape, such as SLR or climate
+  2. *Geomorphic* - The dynamic history of the land in response to the dominant geophysical factors. Can be broken into three scales:
+    a. macro: clastic vs. carbonate sediments
+    b. meso: dominant physical process (tide vs. riverine vs. wave)
+    c. micro: microtopographic features such as drainage and elevation that produce environmental gradients
+    
+  3. *Biological* - Factors such as biogeography or competition that affect the landscape
+  
+Additionally, Thom notes that his five suggested geomorphig settings *are not comprehensive but are rather representative of dominant processes that may be relevant.* Thom goes on to discuss variations and scale in time and space and their resultant effects on mangrove geomorphology. He concludes that zonation of mangrove species responds opportunistically to geomorphic setting, and areas with high geomorphic diversity will have high degrees of habitat variation.
+
+**Topics to think about further:**
+  1. How do geomorphic settings related to soil texture and soil carbon?
+
+### Woodroffe, 1983
+
+*"Development of mangrove forests from a geological perspective"* [@woodroffe1983development]
+
+**Key contribution:** This paper describes the development of an autochthnous, geomorphically inactive mangrove forests on Grand Cayman island. The study takes a geological perspective in that they examine soil depths and soil cores throughout the west peninsula, and reconstruct models of autochthonous development of the mangrove forest through time.
+
+**Key findings:** The study concludes that there were key tidal inlets which were eventually breached my rising sea levels and allowed for expanded colonization of the calcerous bedrock by mangroves. Soil depths & cores indicate that there was a forest of landlocked mangroves at one point during low-levels (200 cm below present), but the authors are unsure of how tidal fluxes reached this area.
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
+
+```
+
+
+### Thom, 1984
+
+*"Coastal landforms and geomorphic processes"* [@thom1984coastal]
+
+**Key contribution:** This is an extension of [@thom1982mangrove], in which Thom describes three carbonate settings. The conclusions are largely the same as [@thom1982mangrove], and thus refer to the above entry for them.
+
+**Key additions:** The carbonate settings that Thom adds to his original five clastic settings are as follows:
+
+  6. *Carbonate platform* - Accumulation of lime muds and peat on low-energy tropical coasts. Oftentimes the fringing mangroves are against large, open, shallow bodies of water. Coral reef or sand barriers may block wave and tidal energy to produce low-energy conditions
+  7. *Sand/shingle barrier* - Mangroves may form on the cemented or non-cemented coral detritus, for example patchy mangroves colozining portions of the Great Barrier Reef. Sand mostly consists of carbonate particles and sea levels play an important part on depositional characteristics
+  8. *Carbonate embayments* - Embayments in which soil "crusts" were submerged by SLR during Holocene. E.g., patchy mangroves on old reef complexes that are highly variable and reflect varability in the substrate complexity.
+  
+**Key knowledge:** In addition, Thom discusses some of the prior models of succession and zonation in mangroves. In particular he identifies three trends of research, including one in which he situates himself:
+
+  1. *"Classical succesional view of mangroves"* - The "Davis 1940" view of mangroves that emphasizes the role of biota rather than geophysical or geomorphological processes
+  2. *"Environmental gradient view"* - The more "ecological niche" based view of vegetation patterning that results from environmental gradients; Watson 1928 was one of first studies to argue for this effect
+  3. *"Physiographic ecology"* - regards physical and botanical landscapes as mosaics of landforms that result from differential effects of physical processes on different materials, and the promotion of different biological communities in response to them
+    - focused at landscape scale, geomorphic variety produces variety in biological assemblages
+
+**Other reading:**
+
+  - Snedaker, 1982 - Mangrove species zonation: Why?
+
+### Woodroffe, 1990
+
+*"The impact of sea-level rise on mangrove shorelines"*
+
+### Woodroffe, 1992
+
+*"Mangrove sediments and geomorphology"* (In Robertson and Alongi, 1992)
+
+**Key contribution:** This is a key synthesis of knowledge related to geomorphology and environmental settings in mangroves. 
+
+### McKee, 2007
+
+"*Caribbean mangroves adjust to rising sea level through biotic controls on change in soil elevation"*
+
+## Sedimentation and hydrology
+
+### Preface
+
+### Wolanski, 1986
+
+"*Tidal mixing and trapping in mangrove swamps"*
+
+### Wolanski, 1992
+
+*"Mangrove hydrodynamics"* (In Robertson and Alongi, 1992)
+
+### Furukawa, 1996
+
+*"Sedimentation in mangroves"*
+
+### Furukawa, 1997
+
+*"Currents and sediment transport in mangrove forests"*
+
+### van Maren, 2013
+
+*"The role of flow asymmetry and mud properties on tidal flat sedimentation"*
+
+
+## Soil formation
+
+### Preface
+
+### Amundson, 2003
+
+### Amundson, 2014
+
+
+## Soil carbon processes
+
+### Preface
+
+
+### Amundson, 2001
+
+*"The carbon budget in soils"*
+
+### Bouillon, 2003
+
+*"Sources of organic carbon in mangrove sediments: Variability and possible ecological implications"*
+
+### Krauss, 2003
+
+*"Differential rates of vertical accretion and elevation change among aerial root types in Micronesian mangrove forests"*
+
+### Lovelock, 2008
+
+*"Soil respiration and belowground carbon allocation in mangrove forests"*
+
+### Breithaupt, 2012
+
+*"Organic carbon burial rates in mangrove sediments: Strengthening the global budget"*
+
+### Lunstrum, 2014
+
+*"Soil carbon stocks and accumulation in young mangrove forests"*
+
+
+
+## SOC spatial patterns
+
+### Preface
+
+### Twilley, 1992
+
+*"Carbon sinks in mangroves and their implications to carbon budget of tropical coastal ecosystems"*
+
+### Lacerda, 1995
+
+*"Biogeochemistry of mangrove soil organic matter: A comparison between Rhizophora and Avicennia soils in southeastern Brazil"*
+
+### Atwood, 2017
+
+*"Global patterns in mangrove soil carbon stocks and losses"*

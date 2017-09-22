@@ -1,0 +1,22 @@
+--- 
+title: "Qualifying Exams Literature Review"
+author: "Jacob J. Bukoski"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::pdf_book
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This book provides documentation of the key studies for my qualifying examination at the Department of Environmental Science, Policy and Management at the University of California - Berkeley."
+---
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+# Preface {-}

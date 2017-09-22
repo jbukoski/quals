@@ -1,0 +1,24 @@
+# Ecoinformatics
+
+Ecoinformatics...
+
+## Ecoinformatics
+
+### Preface
+
+
+### Jones, 2006
+
+*"The new bioinformatics: Integrating ecological data from the gene to the biosphere"*
+
+### Bekker, 2007
+
+*"Long term datasets: From descriptive to prescriptive data using ecoinformatics"*
+
+### Hale, 2009
+
+*"Beyond data management: How ecoinformatics can benefit environmental monitoring programs"*
+
+### Michener and Jones, 2012
+
+*"Ecoinformatics: Supporting ecology as a data intensive science"*

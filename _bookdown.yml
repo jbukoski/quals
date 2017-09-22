@@ -1,0 +1,9 @@
+book_filename: "bookdown-demo"
+output:
+  bookdown::gitbook:
+    lib_dir: "book_assets"
+  bookdown::pdf_book:
+    keep_tex: yes
+language:
+  ui:
+    chapter_name: "Chapter "
