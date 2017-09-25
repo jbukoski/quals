@@ -6,22 +6,79 @@ Ecoinformatics...
 
 ### Preface
 
+### Michener, 2001
+
+*"Defining and unraveling biocomplexity"* [@michener2001defining]
 
 ### Jones, 2006
 
-*"The new bioinformatics: Integrating ecological data from the gene to the biosphere"*
+*"The new bioinformatics: Integrating ecological data from the gene to the biosphere"* [@jones2006new]
+
+**Key contribution:** This paper makes the case for "locating, accessing and integrating" data within ecology. They provide examples of the successes associated with doing so in alternative fields (genetics), and make a case for the need within ecology. They also outline metadata-drive versus vertically integrated databases (data warehouses), and the relative pros/cons of the two.
+
+**Key notes**: Some relevant points from the article:
+
+  - Focus on "experimental" design and testing of multiple hypotheses makes ecological data inherently heterogeneous.
+  - Ecoinformatics importance is housed in ability to "allow a broader perspective over time and space, and across many disciplines, than is possible from on or a few studies," and in allowing data to be reused for questions that may emerge in the future.
+  - Current standard for storing of data is in heterogeneous spreadsheets
+  - *Data warehouses (vertically-integrated)* - databases that coalesce data from many investigators, but focused on one theme and searchable often through an online interface; often represents a "least-common denominator" approach in that they are less complex than original dataset
+    - examples: GenBank, VegBank or TreeBase
+  - *Data collections (metadata-drive)* - collection of datasets that are loosely structured together by well-crafted metadata
+    - advantages:
+      1. data of disparate types can be housed within a single location
+      2. focuses on project-level data and thus is familiar to researchers
+      3. metadata often more detailed
+      4. metadata often more precise and thus can be used in search functions
+  - *metadata standards* - "consistent and rigorous sets of definitions for metadata categories that are broadly adopted by a research community"
+    - Several examples exist within ecology:
+      1. Ecological Metadata Language (EML)
+      2. Biological Data Profile (BDP)
+      3. Geographic Markup Language (GML)
+    - the Knowledge Network for Biocomplexity (KNB) is a metadata-drive repo that provides mappings from EML to BDP (but not from BDP to EML as of time of article publication).
+  - *data islands* - data derived from researchers working on disparate, autonomous topics that focus on specific, predetermined hypotheses
+    - often subject to entrenched domain-specific vocabularies and also assumptions
+  - *ontologies* - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as how the terms interrelate
+    - *Science Environment for Ecological Knowledge (SEEK)* - one example of a system developing ontologies within ecology
+
+**Further reading:**
+
+  1. Look into metadata languages (e.g., EML)
+  2. Look into some of the earlier work on databases by Michener
+
+### Michener, 2006
+
+*"Meta-information concepts for ecological data management"* [@michener2006meta]
+
 
 ### Bekker, 2007
 
-*"Long term datasets: From descriptive to prescriptive data using ecoinformatics"*
+*"Long term datasets: From descriptive to prescriptive data using ecoinformatics"* [@bekker2007long]
+
+**Key contribution:** This is the lead article to a special issue in *Journal of Vegetation Science* that focuses on ecoinformatics driven approaches to understanding complexity within vegetation systems. The article is less informative in its own right as much as a good pointer to other key studies working with vegetation science and ecoinformatics. It appears to be one of the earliest applications of ecoinformatics to vegetation science.
+
+**Further reading:**
+
+  1. Le Duc, 2007 - A database application for long-term ecological field experiments
+  2. Peacock, 2007 - The RAINFOR database, for monitoring forest biomass and dynamics
+  
+
+
 
 ### Hale, 2009
 
-*"Beyond data management: How ecoinformatics can benefit environmental monitoring programs"*
+*"Beyond data management: How ecoinformatics can benefit environmental monitoring programs"* [@hale2009beyond]
+
+
+### Feller, 2010
+
+*"Biocomplexity in mangrove ecosystems"* [@feller2010biocomplexity]
+
+
 
 ### Michener and Jones, 2012
 
-*"Ecoinformatics: Supporting ecology as a data intensive science"*
+*"Ecoinformatics: Supporting ecology as a data intensive science"* [@michener2012ecoinformatics]
+
 
 
 ## Ontologies

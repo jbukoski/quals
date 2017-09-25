@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-09-24">
+<meta name="date" content="2017-09-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -158,10 +158,13 @@
 <li class="chapter" data-level="5" data-path="ecoinformatics.html"><a href="ecoinformatics.html"><i class="fa fa-check"></i><b>5</b> Ecoinformatics</a><ul>
 <li class="chapter" data-level="5.1" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html"><i class="fa fa-check"></i><b>5.1</b> Ecoinformatics</a><ul>
 <li class="chapter" data-level="5.1.1" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#preface-8"><i class="fa fa-check"></i><b>5.1.1</b> Preface</a></li>
-<li class="chapter" data-level="5.1.2" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#jones-2006"><i class="fa fa-check"></i><b>5.1.2</b> Jones, 2006</a></li>
-<li class="chapter" data-level="5.1.3" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#bekker-2007"><i class="fa fa-check"></i><b>5.1.3</b> Bekker, 2007</a></li>
-<li class="chapter" data-level="5.1.4" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#hale-2009"><i class="fa fa-check"></i><b>5.1.4</b> Hale, 2009</a></li>
-<li class="chapter" data-level="5.1.5" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#michener-and-jones-2012"><i class="fa fa-check"></i><b>5.1.5</b> Michener and Jones, 2012</a></li>
+<li class="chapter" data-level="5.1.2" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#michener-2001"><i class="fa fa-check"></i><b>5.1.2</b> Michener, 2001</a></li>
+<li class="chapter" data-level="5.1.3" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#jones-2006"><i class="fa fa-check"></i><b>5.1.3</b> Jones, 2006</a></li>
+<li class="chapter" data-level="5.1.4" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#michener-2006"><i class="fa fa-check"></i><b>5.1.4</b> Michener, 2006</a></li>
+<li class="chapter" data-level="5.1.5" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#bekker-2007"><i class="fa fa-check"></i><b>5.1.5</b> Bekker, 2007</a></li>
+<li class="chapter" data-level="5.1.6" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#hale-2009"><i class="fa fa-check"></i><b>5.1.6</b> Hale, 2009</a></li>
+<li class="chapter" data-level="5.1.7" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#feller-2010"><i class="fa fa-check"></i><b>5.1.7</b> Feller, 2010</a></li>
+<li class="chapter" data-level="5.1.8" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#michener-and-jones-2012"><i class="fa fa-check"></i><b>5.1.8</b> Michener and Jones, 2012</a></li>
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="ontologies.html"><a href="ontologies.html"><i class="fa fa-check"></i><b>5.2</b> Ontologies</a><ul>
 <li class="chapter" data-level="5.2.1" data-path="ontologies.html"><a href="ontologies.html#preface-9"><i class="fa fa-check"></i><b>5.2.1</b> Preface</a></li>
@@ -214,21 +217,109 @@
 <div id="preface-8" class="section level3">
 <h3><span class="header-section-number">5.1.1</span> Preface</h3>
 </div>
+<div id="michener-2001" class="section level3">
+<h3><span class="header-section-number">5.1.2</span> Michener, 2001</h3>
+<p><em>“Defining and unraveling biocomplexity”</em> <span class="citation">(Michener et al. <a href="#ref-michener2001defining">2001</a>)</span></p>
+</div>
 <div id="jones-2006" class="section level3">
-<h3><span class="header-section-number">5.1.2</span> Jones, 2006</h3>
-<p><em>“The new bioinformatics: Integrating ecological data from the gene to the biosphere”</em></p>
+<h3><span class="header-section-number">5.1.3</span> Jones, 2006</h3>
+<p><em>“The new bioinformatics: Integrating ecological data from the gene to the biosphere”</em> <span class="citation">(Jones et al. <a href="#ref-jones2006new">2006</a>)</span></p>
+<p><strong>Key contribution:</strong> This paper makes the case for “locating, accessing and integrating” data within ecology. They provide examples of the successes associated with doing so in alternative fields (genetics), and make a case for the need within ecology. They also outline metadata-drive versus vertically integrated databases (data warehouses), and the relative pros/cons of the two.</p>
+<p><strong>Key notes</strong>: Some relevant points from the article:</p>
+<ul>
+<li>Focus on “experimental” design and testing of multiple hypotheses makes ecological data inherently heterogeneous.</li>
+<li>Ecoinformatics importance is housed in ability to “allow a broader perspective over time and space, and across many disciplines, than is possible from on or a few studies,” and in allowing data to be reused for questions that may emerge in the future.</li>
+<li>Current standard for storing of data is in heterogeneous spreadsheets</li>
+<li><em>Data warehouses (vertically-integrated)</em> - databases that coalesce data from many investigators, but focused on one theme and searchable often through an online interface; often represents a “least-common denominator” approach in that they are less complex than original dataset
+<ul>
+<li>examples: GenBank, VegBank or TreeBase</li>
+</ul></li>
+<li><em>Data collections (metadata-drive)</em> - collection of datasets that are loosely structured together by well-crafted metadata
+<ul>
+<li>advantages:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>data of disparate types can be housed within a single location</li>
+<li>focuses on project-level data and thus is familiar to researchers</li>
+<li>metadata often more detailed</li>
+<li>metadata often more precise and thus can be used in search functions</li>
+</ol></li>
+<li><em>metadata standards</em> - “consistent and rigorous sets of definitions for metadata categories that are broadly adopted by a research community”
+<ul>
+<li>Several examples exist within ecology:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Ecological Metadata Language (EML)</li>
+<li>Biological Data Profile (BDP)</li>
+<li>Geographic Markup Language (GML)</li>
+</ol>
+<ul>
+<li>the Knowledge Network for Biocomplexity (KNB) is a metadata-drive repo that provides mappings from EML to BDP (but not from BDP to EML as of time of article publication).</li>
+</ul></li>
+<li><em>data islands</em> - data derived from researchers working on disparate, autonomous topics that focus on specific, predetermined hypotheses
+<ul>
+<li>often subject to entrenched domain-specific vocabularies and also assumptions</li>
+</ul></li>
+<li><em>ontologies</em> - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as how the terms interrelate
+<ul>
+<li><em>Science Environment for Ecological Knowledge (SEEK)</em> - one example of a system developing ontologies within ecology</li>
+</ul></li>
+</ul>
+<p><strong>Further reading:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Look into metadata languages (e.g., EML)</li>
+<li>Look into some of the earlier work on databases by Michener</li>
+</ol>
+</div>
+<div id="michener-2006" class="section level3">
+<h3><span class="header-section-number">5.1.4</span> Michener, 2006</h3>
+<p><em>“Meta-information concepts for ecological data management”</em> <span class="citation">(Michener <a href="#ref-michener2006meta">2006</a>)</span></p>
 </div>
 <div id="bekker-2007" class="section level3">
-<h3><span class="header-section-number">5.1.3</span> Bekker, 2007</h3>
-<p><em>“Long term datasets: From descriptive to prescriptive data using ecoinformatics”</em></p>
+<h3><span class="header-section-number">5.1.5</span> Bekker, 2007</h3>
+<p><em>“Long term datasets: From descriptive to prescriptive data using ecoinformatics”</em> <span class="citation">(Bekker et al. <a href="#ref-bekker2007long">2007</a>)</span></p>
+<p><strong>Key contribution:</strong> This is the lead article to a special issue in <em>Journal of Vegetation Science</em> that focuses on ecoinformatics driven approaches to understanding complexity within vegetation systems. The article is less informative in its own right as much as a good pointer to other key studies working with vegetation science and ecoinformatics. It appears to be one of the earliest applications of ecoinformatics to vegetation science.</p>
+<p><strong>Further reading:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Le Duc, 2007 - A database application for long-term ecological field experiments</li>
+<li>Peacock, 2007 - The RAINFOR database, for monitoring forest biomass and dynamics</li>
+</ol>
 </div>
 <div id="hale-2009" class="section level3">
-<h3><span class="header-section-number">5.1.4</span> Hale, 2009</h3>
-<p><em>“Beyond data management: How ecoinformatics can benefit environmental monitoring programs”</em></p>
+<h3><span class="header-section-number">5.1.6</span> Hale, 2009</h3>
+<p><em>“Beyond data management: How ecoinformatics can benefit environmental monitoring programs”</em> <span class="citation">(Hale and Hollister <a href="#ref-hale2009beyond">2009</a>)</span></p>
+</div>
+<div id="feller-2010" class="section level3">
+<h3><span class="header-section-number">5.1.7</span> Feller, 2010</h3>
+<p><em>“Biocomplexity in mangrove ecosystems”</em> <span class="citation">(Feller et al. <a href="#ref-feller2010biocomplexity">2010</a>)</span></p>
 </div>
 <div id="michener-and-jones-2012" class="section level3">
-<h3><span class="header-section-number">5.1.5</span> Michener and Jones, 2012</h3>
-<p><em>“Ecoinformatics: Supporting ecology as a data intensive science”</em></p>
+<h3><span class="header-section-number">5.1.8</span> Michener and Jones, 2012</h3>
+<p><em>“Ecoinformatics: Supporting ecology as a data intensive science”</em> <span class="citation">(Michener and Jones <a href="#ref-michener2012ecoinformatics">2012</a>)</span></p>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-michener2001defining">
+<p>Michener, William K, Thomas J Baerwald, Penelope Firth, Margaret A Palmer, James L Rosenberger, Elizabeth A Sandlin, and Herman Zimmerman. 2001. “Defining and Unraveling Biocomplexity.” <em>BioScience</em> 51 (12): 1018–23. doi:<a href="https://doi.org/10.1641/0006-3568(2001)051[1018:DAUB]2.0.CO;2">10.1641/0006-3568(2001)051[1018:DAUB]2.0.CO;2</a>.</p>
+</div>
+<div id="ref-jones2006new">
+<p>Jones, Matthew B, Mark P Schildhauer, OJ Reichman, and Shawn Bowers. 2006. “The New Bioinformatics: Integrating Ecological Data from the Gene to the Biosphere.” <em>Annual Review of Ecology, Evolution, and Systematics</em> 37. doi:<a href="https://doi.org/10.1146/annurev.ecolsys.37.091305.110031">10.1146/annurev.ecolsys.37.091305.110031</a>.</p>
+</div>
+<div id="ref-michener2006meta">
+<p>Michener, William K. 2006. “Meta-Information Concepts for Ecological Data Management.” <em>Ecological Informatics</em> 1 (1): 3–7. doi:<a href="https://doi.org/10.1016/j.ecoinf.2005.08.004">10.1016/j.ecoinf.2005.08.004</a>.</p>
+</div>
+<div id="ref-bekker2007long">
+<p>Bekker, Renée M, Eddy van der Maarel, Helge Bruelheide, and Kerry Woods. 2007. “Long-Term Datasets: From Descriptive to Predictive Data Using Ecoinformatics.” <em>Journal of Vegetation Science</em> 18 (4): 458–62.</p>
+</div>
+<div id="ref-hale2009beyond">
+<p>Hale, Stephen S, and Jeffrey W Hollister. 2009. “Beyond Data Management: How Ecoinformatics Can Benefit Environmental Monitoring Programs.” <em>Environmental Monitoring and Assessment</em> 150 (1-4): 227. doi:<a href="https://doi.org/10.1007/s10661-008-0675-x">10.1007/s10661-008-0675-x</a>.</p>
+</div>
+<div id="ref-feller2010biocomplexity">
+<p>Feller, Ilka C, CE Lovelock, U Berger, KL McKee, SB Joye, and MC Ball. 2010. “Biocomplexity in Mangrove Ecosystems.” <em>Annual Review of Marine Science</em> 2: 395–417. doi:<a href="https://doi.org/10.1146/annurev.marine.010908.163809">10.1146/annurev.marine.010908.163809</a>.</p>
+</div>
+<div id="ref-michener2012ecoinformatics">
+<p>Michener, William K, and Matthew B Jones. 2012. “Ecoinformatics: Supporting Ecology as a Data-Intensive Science.” <em>Trends in Ecology &amp; Evolution</em> 27 (2): 85–93. doi:<a href="https://doi.org/10.1016/j.tree.2011.11.016">10.1016/j.tree.2011.11.016</a>.</p>
 </div>
 </div>
             </section>
