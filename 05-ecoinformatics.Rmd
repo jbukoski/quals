@@ -22,3 +22,47 @@ Ecoinformatics...
 ### Michener and Jones, 2012
 
 *"Ecoinformatics: Supporting ecology as a data intensive science"*
+
+
+## Ontologies
+
+### Preface
+
+### Williams, 2006
+
+### Madin, 2008
+
+### Reichman, 2011
+
+### Wickham, 2014
+
+
+## Tipping points
+
+### Scheffer, 2001
+
+### Riggs, 2008
+
+### Scheffer, 2009
+
+
+## Decision-making
+
+### Fischer, 2009
+
+### Chapin, 2010
+
+### Folke, 2010
+
+### Polasky, 2011
+
+
+## Mangrove thresholds
+
+### Cavanaugh, 2014
+
+### Eslami-Andergoli, 2015
+
+### Ellison, 2015
+
+### Sasmito, 2016

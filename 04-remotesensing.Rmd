@@ -1,1 +1,51 @@
 # Remote sensing
+
+## Overview
+
+### Preface
+
+### Smith, 2009
+
+*"Applications of remote sensing in geomorphology"* [@smith2009applications]
+
+
+### Adam, 2010
+
+*"Multispectral and hyperspectral remote sensing for identification and mapping of wetland vegetation: A review"* [@adam2010multispectral]
+
+
+### Heumann, 2011
+
+*"Satellite remote sensing of mangrove forests: Recent advances and future opportunities"* [@heumann2011satellite]
+
+
+### Kuenzer, 2011
+
+*"Remote sensing of mangrove ecosystems: A review"* [@kuenzer2011remote]
+
+
+## Vegetation
+
+### Jensen, 1996
+
+### Wang, 2004
+
+### Vaiphasa, 2005
+
+### Vaiphasa, 2006
+
+### Dronova, 2012
+
+
+## Geomorphology
+
+### Hess, 1990
+
+### Imhoff, 1990
+
+### Souza-Filho, 2003
+
+
+## Monitoring
+
+### Lucas, 2014

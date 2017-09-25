@@ -8,7 +8,7 @@
 
 *"Mangrove ecology and deltaic geomorphology: Tabasco, Mexico"* [@thom1967mangrove]
 
-A full summary of Thom, 1967 is provided in the "Zonation and Disturbacen section." Please refer to Section \@ref(thom1967).
+A full summary of Thom, 1967 is provided in the "Zonation and Disturbance section." Please refer to Section \@ref(thom1967).
 
 From a geomorphological standpoint, this is one of the most well-cited studies arguing that mangrove vegetation patterns respond primarily to the hydrological and sedimentary conditions that exist within a given site.
 
@@ -28,9 +28,9 @@ From a geomorphological standpoint, this is one of the most well-cited studies a
   1. Egler 1952
   2. Gill 1971
 
-### Thom, 1982
+### Thom, 1982 {#thom1982}
 
-"*Mangrove ecology: A geomorphological perspective"* [@thom1982mangrove]
+*"Mangrove ecology: A geomorphological perspective"* [@thom1982mangrove]
 
 **Key contribution:** This study is best known for the five environmental settings that Thom lays out for clastic (terrigenous) sediment deposition. The five environmental settings are detailed below:
 
@@ -53,11 +53,12 @@ From a geomorphological standpoint, this is one of the most well-cited studies a
 Additionally, Thom notes that his five suggested geomorphig settings *are not comprehensive but are rather representative of dominant processes that may be relevant.* Thom goes on to discuss variations and scale in time and space and their resultant effects on mangrove geomorphology. He concludes that zonation of mangrove species responds opportunistically to geomorphic setting, and areas with high geomorphic diversity will have high degrees of habitat variation.
 
 **Topics to think about further:**
+
   1. How do geomorphic settings related to soil texture and soil carbon?
 
 ### Woodroffe, 1983
 
-*"Development of mangrove forests from a geological perspective"*
+*"Development of mangrove forests from a geological perspective"* [@woodroffe1983development]
 
 **Key contribution:** This paper describes the development of an autochthnous, geomorphically inactive mangrove forests on Grand Cayman island. The study takes a geological perspective in that they examine soil depths and soil cores throughout the west peninsula, and reconstruct models of autochthonous development of the mangrove forest through time.
 
@@ -74,7 +75,7 @@ knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 
 *"Coastal landforms and geomorphic processes"* [@thom1984coastal]
 
-**Key contribution:** This is an extension of [@thom1982mangrove], in which Thom describes three carbonate settings. The conclusions are largely the same as [@thom1982mangrove], and thus refer to the above entry for them.
+**Key contribution:** This is an extension of [@thom1982mangrove], in which Thom describes three carbonate settings. The conclusions are largely the same as [@thom1982mangrove], and thus refer to section \@ref(thom1982) for them.
 
 **Key additions:** The carbonate settings that Thom adds to his original five clastic settings are as follows:
 
@@ -95,17 +96,17 @@ knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 
 ### Woodroffe, 1990
 
-*"The impact of sea-level rise on mangrove shorelines"*
+*"The impact of sea-level rise on mangrove shorelines"* [@woodroffe1990impact]
 
 ### Woodroffe, 1992
 
-*"Mangrove sediments and geomorphology"* (In Robertson and Alongi, 1992)
+*"Mangrove sediments and geomorphology"* [@woodroffe1992mangrove]
 
 **Key contribution:** This is a key synthesis of knowledge related to geomorphology and environmental settings in mangroves. 
 
 ### McKee, 2007
 
-"*Caribbean mangroves adjust to rising sea level through biotic controls on change in soil elevation"*
+*"Caribbean mangroves adjust to rising sea level through biotic controls on change in soil elevation"* [@mckee2007caribbean]
 
 ## Sedimentation and hydrology
 
