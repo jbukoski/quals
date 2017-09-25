@@ -2,8 +2,6 @@
 
 ## Geomorphology
 
-### Preface
-
 ### Thom, 1967
 
 *"Mangrove ecology and deltaic geomorphology: Tabasco, Mexico"* [@thom1967mangrove]

@@ -6,15 +6,55 @@ Ecoinformatics...
 
 ### Preface
 
-### Michener, 2001
+### Michener *et al*, 2001
 
 *"Defining and unraveling biocomplexity"* [@michener2001defining]
 
-### Jones, 2006
+**Key contribution:** This study's primary contribution to the literature is a formal definition of biocomplexity, and an investigation of its emergence within the scientific disciplines. The article primarily discusses:
+
+  1. Defining biocomplexity
+  2. Examining the characteristics of biocomplexity
+  3. Speculating on future of biocomplexity
+  
+*Biocomplexity* - "properties emerging from the interplay of behavioral, biological, chemical, physical, and social interactions that affect, sustain, or are modified by living organisms, including humans" (as defined by [@michener2001defining])
+  
+**Key notes: **
+
+  - Biocomplexity exists in contrast to the Popperian type of reductionalist science (causality & falsification), and recognizes that reduced causal mechanisms often are not robust within real-world situations
+    - "myriad confounding factors operating at different temporal and spatial scales"
+  - Two features of "biocomplexity"
+    1. biocomplexity occurs as temporal, spatial and conceptual boundaries are broken-down and worked across
+    2. emergent & unexpected properties may (or likely will) arise in response to biocomplexity
+
+**Characteristics of "biocomplexity":**
+
+  1. relevant for a wide range of organisms microbial to megafauna [(including humans)]
+  2. relevant for a wide range of environments
+  3. reflected in nonlinear, chaotic, or unpredictable behaviors -- which likely necessitates sophisticated and innovative quantitative procedures
+  4. likely to span many hierarchical levels as well as across multiples scales in space and time
+    
+**Key research trajectories for ecology (as posed by Thompson 2001):**
+
+  1. "dynamics of coalescence in complex communities" - how do environmental constraints and species availability result in current complex ecological communities
+  2. "ecological memory" - how do past events & conditions influence current ecological structure conditions
+  3. "emergent properties" - examining whether first principles of "hard" sciences can predict composition, structure & function
+  4. "ecological topology" - identifying "rules" that occur over different scales of time and space and examining how they interact to produce ecosystems
+
+**Further reading:**
+
+  1. [@thompson2001frontiers] - Frontiers of ecology: As ecological research enters a new era of collaboration, integration, and technological sophistication, four frontiers seem paramount for understanding how biological and physical processes interact over multiple spatial and temporal scales to shape the earth's biodiversity
+
+### Jones *et al*, 2006
 
 *"The new bioinformatics: Integrating ecological data from the gene to the biosphere"* [@jones2006new]
 
 **Key contribution:** This paper makes the case for "locating, accessing and integrating" data within ecology. They provide examples of the successes associated with doing so in alternative fields (genetics), and make a case for the need within ecology. They also outline metadata-drive versus vertically integrated databases (data warehouses), and the relative pros/cons of the two.
+
+**Examples of metadata and data collections in ecology:**
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/jones2006AREES.bmp"))
+```
 
 **Key notes**: Some relevant points from the article:
 
@@ -49,8 +89,34 @@ Ecoinformatics...
 
 *"Meta-information concepts for ecological data management"* [@michener2006meta]
 
+**Definitions:**
+  - *metadata* - "information about data"; higher level descriptions of data
+  - *meta-information* - information derived from subsequent data processing and analyses
 
-### Bekker, 2007
+**Key contribution:** Michener outlines some of the key criteria, challenges and opportunities for metadata within an ecological context.
+
+**Notes on metadata: **
+
+  - Benefits of metadata
+    1. Longevity of the data is greatly increased
+    2. Reuse of the data both by the original researcher and others is facilitated
+    3. Well-documented data may be used to expand scale of ecological inquiry
+  - Metadata functionality
+    1. Supports data discovery (most basic level)
+    2. Facilitates the acquisition and use of data by humans (requires additional metadata)
+    3. Enables automatic discovery, ingestion and analysis of data (requires more sophisticated metadata), which needs:
+      a. research context (hypothesis, study site, experimental design, etc.)
+      b. status of dataset
+      c. physical structure of dataset
+      d. info to facilitate use and comprehension
+      
+**Ecological Metadata Language (EML):**
+
+  - EML is a standard for metadata that provides structure that supports automated functions of metadata listed above and is implemented in eXtensible Markup Language (XML)
+  - Organized into modules, such as "dataset", "access", "physical", "party coverage", "project", "methods", "datatable", "attribute", and "physical"
+  - additional info at "ecoinformatics.org"
+  
+### Bekker *et al*, 2007
 
 *"Long term datasets: From descriptive to prescriptive data using ecoinformatics"* [@bekker2007long]
 
@@ -62,20 +128,18 @@ Ecoinformatics...
   2. Peacock, 2007 - The RAINFOR database, for monitoring forest biomass and dynamics
   
 
-
-
-### Hale, 2009
+### Hale & Hollister, 2009
 
 *"Beyond data management: How ecoinformatics can benefit environmental monitoring programs"* [@hale2009beyond]
 
 
-### Feller, 2010
+### Feller *et al*, 2010
 
 *"Biocomplexity in mangrove ecosystems"* [@feller2010biocomplexity]
 
 
 
-### Michener and Jones, 2012
+### Michener & Jones, 2012
 
 *"Ecoinformatics: Supporting ecology as a data intensive science"* [@michener2012ecoinformatics]
 
