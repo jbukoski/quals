@@ -1,3 +1,9 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
 # Prospectus
 
 ## Project 1
@@ -29,11 +35,56 @@
   3. Remote Sensing of Geomorphology - Section \@ref(rs-geomorphology)
 
 
+
 ## Project 2
+
+**Working title:** *"Leveraging ecoinformatics to understand biocomplexity in mangroves"* 
+
+(also known as Jacob's attempt to jam as many buzzwords into a title as possible"
+
+**Overview:** This will be a continuation of the PLoS One work that seeks to couple field data of forest structure and soil characteristics. I currently envisage this as testing for correlations between soil organic carbon stocks and forest biomass, structure, and species composition properties. I am working on building a database for mangroves of the Americas with a URAP student that parallels the one I built for Southeast Asia during my master's work, and am interested in testing the same models on the new dataset. I am also considering getting another URAP student to begin compiling a database for Africa / the middle East, which is the other major region for mangroves. One valuable product would be a comprehensive database of mangrove forest structure and soil characteristics data, with checks on how comparable the different sampling methodologies, datasets, etc. are.
+
+**Target journal:** TBD
+
+**Coauthors:** TBD
+
+**Research questions:**
+
+  1. Basal area and latitude were found to be significant predictors of soil organic carbon in mangroves of Southeast Asia when controlling for site-specific effects (e.g., geomorphology). Are the results reproducible in the Americas, a mangrove region that is floristically less diverse than Southeast Asia? Same for Africa / Mid East.
+
+**Note:** If I am successful in constructing a database of forest structure, species, etc. from the literature, there are many other research questions that can be explored, such as:
+
+  1. Examining effects of sea level rise or tidal range on mangrove structure & species assemblages.
+  2. RS studies such as discrimination of mangrove species or looking at geomorphology (RS data permitting)
+  
+This might be difficult, though, as authors may not be forthcoming with data.
+
+
+
+## Project 3
 
 **Working title:** *Variation in forest structure, species and carbon stocks at two equi-latitude deltaic mangroves*
 
-**Overview:** This chapter will focus on elucidating the differences within two “deltaic” forests in terms of soil conditions and stocks. I am sitting on datasets of forest structure, species composition and soil carbon for two sites on the west and east coasts of peninsular Thailand. The sites, however, are markedly different in their formation and may have significant differences in terms of topography, morphology, etc. that could attempt to be quantified. Potentially collect data on soil texture to couple with dataset and couple with soil organic carbon.
+**Overview:** This chapter will focus on elucidating the differences within two “deltaic” forests in terms of carbon stocks, forest structure, and species diversity. I am sitting on datasets from my time at Yale for two sites on the west and east coasts of peninsular Thailand, that are at relatively equal latitudes. The sites, however, are markedly different in their formation and may have significant differences in terms of topography, morphology, etc. that would make for a nice case study. Preliminary analysis shows that at one site (Krabi) the SOC is exteremely heterogeneous over space, whereas at the other (Pak Panang) SOC is markedly homogeneous. This is likely due to Krabi  Potentially collect data on soil texture to couple with dataset and couple with soil organic carbon.
+
+Krabi Estuary, Krabi (Andaman Coast)
+
+  - marked by three major fluvial inputs as well as numerous distributaries and intertidal basins
+  
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/krabi.bmp"))
+```
+
+Pak Panang, Nakorn Si Thammarat (Gulf of Thailand)
+
+  - deltaic formation from single active tributary
+  - deposited sediments are reworked by wave action perpendicular to coast to form a chenier upon which a mudflat has formed over time
+  - likely agricultural sediments given upland land use
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/pakpanang.bmp"))
+```
+
 
 **Target journal: ** TBD
 
@@ -41,11 +92,16 @@
 
 **Research questions: **
 
-**Note: ** This is just a write-up of the forest structure and carbon stock data that I collected during my Master's.
+  1. How do species composition, forest structure and carbon stocks (AG & BG) vary between equilatitude forests of differing geomorphic position?
+  2. How much carbon exists within the Krabi River Estuary and Pak Panang mangrove forests (simple C quantification)?
+
+**Notes: ** 
+
+  - write-up of data from Yale
+  - look at hydrological models in landscape to support geomorphology characterization (landscape level)
 
 
-
-## Project 3
+## Project 4
 
 **Working title:** *Patch dynamics and regeneration in an estuarine mangrove forest due to upland shifts in hydrology*
 
@@ -55,9 +111,4 @@
 
 **Coauthors: ** TBD
 
-**Research questions: **
-
-
-## Project 4
-
-**Working title:** Fill this in later... reproducing PLoS One study with Ben and potentially another URAP student
+**Research questions: ** Will suss out later...

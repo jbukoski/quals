@@ -141,6 +141,27 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 
 *"Biocomplexity in mangrove ecosystems"* [@feller2010biocomplexity]
 
+**Key contribution:** Aim to elucidate the factors playing in at different hierarchical levels in mangrove ecosystems (biocomplexity). They use emergent properties (which they define as "patterns or processes that occur at multiple hierarchical levels within ecosystems") to examine underlying ecological processes within mangroves.
+
+**Key findings:** The article doesn't differ much from other reviews of controls on mangrove processes, apart from the structure in which they examine:
+
+  1. controls of emergent properties (namely specializations for variable salinity, flooding and nutrient availability)
+    - e.g., salinity tolerance, flooding tolerance, reproductive traits/regeneration, nutrient availability
+    - perhaps analogous to "processes"
+  2. collective properties of forests (e.g., zonation, productivity, nutrient cycling, food webs)
+    - perhaps analogous to "functions"
+  3. emergent/collective properties of ecosystems & landscapes (e.g., habitat stability & connectivity of ecosystems)
+    - perhaps analogous to "services" or "benefits"
+    
+They discuss Individual Based Models (IBMs) as useful though limited tools for examining biocomplexity within mangroves, but note that there is relatively little work in this field to date.
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
+```
+
+**Relevance to research:**
+
+  1. Are IBMs relevant for research questions at hand?
 
 
 ### Michener & Jones, 2012

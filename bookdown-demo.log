@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.15)  19 SEP 2017 17:41
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.9.15)  26 SEP 2017 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,21 +882,34 @@ Chapter 1.
 Chapter 2.
 [9]
 
-Package natbib Warning: Citation `thom1967mangrove' on page 10 undefined on inp
-ut line 256.
+LaTeX Warning: Reference `geomorphology-soils' on page 10 undefined on input li
+ne 259.
+
+
+LaTeX Warning: Reference `rs-geomorphology' on page 10 undefined on input line 
+261.
+
+[10] [11] [12
+
+]
+Chapter 3.
+[13]
+
+Package natbib Warning: Citation `thom1967mangrove' on page 14 undefined on inp
+ut line 503.
 
 ! Dimension too large.
 <to be read again> 
                    b
-l.270 \includegraphics{images/thom1967.bmp}
+l.517 \includegraphics{images/thom1967.bmp}
                                             
 Here is how much of TeX's memory you used:
- 24562 strings out of 495536
- 431597 string characters out of 6186181
- 481209 words of memory out of 5000000
- 27640 multiletter control sequences out of 15000+600000
+ 24571 strings out of 495536
+ 431701 string characters out of 6186181
+ 483427 words of memory out of 5000000
+ 27649 multiletter control sequences out of 15000+600000
  4112 words of font info for 29 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  54i,5n,68p,10411b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bookdown-demo.pdf (9 pages).
+Output written on bookdown-demo.pdf (13 pages).
