@@ -19,4 +19,4 @@ knitr::write_bib(c(
 ), 'packages.bib')
 ```
 
-# Preface
+# Preface {-}

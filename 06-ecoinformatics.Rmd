@@ -4,8 +4,6 @@ Ecoinformatics...
 
 ## Ecoinformatics
 
-### Preface
-
 ### Michener *et al*, 2001
 
 *"Defining and unraveling biocomplexity"* [@michener2001defining]
@@ -132,6 +130,12 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 
 *"Beyond data management: How ecoinformatics can benefit environmental monitoring programs"* [@hale2009beyond]
 
+**Key contribution: ** This is actually a relatively lackluster study that I added. They describe the relevance of ecoinformatics for environmental monitoring, but do not go much beyond some of the other pieces on ecoinformatics and its relevance for ecology. Some relevant points that stood out to me:
+
+  - Standardization of taxonomic classes may be facilitated by ecoinformatics and application of ontologies in ecoinformatics
+  - Establishing standards and protocols can help in synthesizing studies and results across time and space
+
+**Note: ** Likely better to focus on other studies within the literature than this one as they don't bring up many points beyond those expressed in more seminal works.
 
 ### Feller *et al*, 2010
 
@@ -143,6 +147,32 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 
 *"Ecoinformatics: Supporting ecology as a data intensive science"* [@michener2012ecoinformatics]
 
+**Key contribution: ** This is a seminal study on the relevance of ecoinformatics written by two of the leading thinkers in the field.
+
+**Key notes: ** Several key notes from the study are:
+
+  - The authors describe the 'data life cycle', with 8 steps that do not necessarily occur in sequential order and depend upon the analysis research question at hand.
+  - The steps are:
+    1. *plan* - derive a data management plan that is often a living document as needs and uses for data will change over time
+    2. *collect* - highly variable mechanisms under which this occur given the vast amount of data types and collecting methods that exist; standardization in collection procedures is key for synthesizing data at later times
+    3. *assure* - measures taken to ensure data quality both before and after collection of the data; may consist of standardization of codes, units or metadata (e.g., using EML)
+    4. *describe* - sufficiently describing the data via metadata (who, what, when, where, why)
+    5. *preserve* - depositing of data in a repository such that they may be verified, maintained and accessible through time
+    6. *discover* - identifying appropriate data for research question of interest; double-edged sword in that you can get millions of hits or alternatively have tons of distinct data sources that exist only on disparate, local machines
+      - Use of DataONE - sophisticated search tools that drill down into data to identify datasets of actual interest; this is where ontologies come into play
+    7. *integrate* - understanding methodological diffs, transforming to common representations and converting and recoding data to comparable semantics
+    8. *analyze* - reproducibility in analysis, with a particular focus on scientific workflows
+
+*DataONE:* DataONE is a research platform that seeks to support the entire data life cycle, as well as integrate many different forms of data. There are three principle components:
+  1. Member Nodes - contribute data, computing resources and services (e.g., data repositories, universities, computing centers)
+  2. Coordinating Nodes - support network-wide services such as indexing, replication, and interactability of Member Nodes
+  3. Investigator Toolkit - tools for researchers to employ in all steps of the data life cycle
+    
+*The data life cycle:*
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/michenerjones2012.bmp"))
+```
 
 
 ## Ontologies

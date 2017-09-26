@@ -57,7 +57,7 @@ knitr::include_graphics(rep("images/thom1967.bmp"))
   1. Thom 1982 - Identification of five geomorphic clastic settings
   2. Thom 1984 - Identification of three geomorphic carbonate settings
 
-### Lugo and Snedaker, 1974
+### Lugo & Snedaker, 1974
 
 *"The ecology of mangroves"* [@lugo1974ecology]
 
@@ -123,7 +123,7 @@ She provides a discussion of the hypothesis as well as links it to several studi
   1. Rabinowitz, 1978 - "Dispersal properties of mangrove propagules"
   2. Sousa et al, 2007
   
-### Putz and Chan, 1986
+### Putz & Chan, 1986
 
 *"Tree growth dynamics and productivity in a mature mangrove forest in Malaysia"* [@putz1986tree]
 
@@ -181,7 +181,7 @@ knitr::include_graphics(rep("images/smith1992tab3.bmp"))
   
 **Research relevance:** Can the same models be employed to look at shifts in forest structure due to sea-level rise?
 
-### Sherman, 2000
+### Sherman *et al*, 2000
 
 *"Small-scale disturbance and regeneration dynamics in a neotropical mangrove forest"* [@sherman2000small]
 
@@ -195,7 +195,7 @@ knitr::include_graphics(rep("images/smith1992tab3.bmp"))
   - found that seedling and sapling density generally followed mature tree (by basal area) compositions for both transects
   - current spatial distribution of species zones is still unexplained for the site
 
-### Sousa, 2007
+### Sousa *et al*, 2007
 
 *"Supply-side ecology in mangroves: Do propagule dispersal and seedling establishment explain forest structure?"* [@sousa2007supply]
 
