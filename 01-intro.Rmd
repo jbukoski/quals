@@ -4,20 +4,16 @@ This book is a documentation of the key concepts, findings, and figures of the a
 
 ## Research summary
 
-My research interests are broadly focused on parsing apart the relative influence of autochthonous (within the system) vs. allochthonous (from outside of the system) inputs to organic carbon in mangrove sediments. I aim to investigate whether remote sensing and ecoinformatics (standardization and aggregation of disperse field data) can be leveraged to better understand heterogeneity both within- and across-sites.
+My research interests are broadly focused on parsing apart the relative influence of autochthonous (within the system) vs. allochthonous (from outside of the system) inputs to organic carbon in mangrove sediments. I aim to investigate whether remote sensing and ecoinformatics (standardization and aggregation of disperse field data) can be leveraged to better understand heterogeneity both within and across sites.
 
 ## Fields of examination
 
-Thus, the topics covered in the exam are namely:
+The topics covered in the exam are namely:
 
-1. Mangrove forest ecology, with an emphasis on regeneration dynamics (Prof. Wayne Sousa)
-2. Mangrove soil organic carbon and geomorphology (Prof. Ron Amundson)
-3. Remote sensing of wetlands, with a particular focus on mangroves (Prof. Iryna Dronova)
-4. Ecoinformatics, tipping points, and decision-making theory (Prof. Carl Boettiger)
-
-## Book format
-
-The book chapters, with subsections for each of the assigned chapters that is identified in a "First author, year of publication" format. Each subsection provides a brief review of the key concepts associated with the article of interest, key findings, and a reprint of any key figures.
+1. Mangrove forest ecology, with an emphasis on regeneration dynamics (Wayne)
+2. Mangrove soil organic carbon and geomorphology (Ron)
+3. Remote sensing of wetlands, with a particular focus on mangroves (Iryna)
+4. Ecoinformatics, tipping points, and decision-making theory (Carl)
 
 ## Disclaimer
 

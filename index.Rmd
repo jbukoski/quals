@@ -20,3 +20,5 @@ knitr::write_bib(c(
 ```
 
 # Preface {-}
+
+A `R bookdown` document to organize my literature review and map concepts to my research ideas in preparation for my qualifying exams.
