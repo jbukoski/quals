@@ -57,7 +57,7 @@ knitr::include_graphics(rep("images/thom1967.bmp"))
   1. Thom 1982 - Identification of five geomorphic clastic settings
   2. Thom 1984 - Identification of three geomorphic carbonate settings
 
-### Lugo & Snedaker, 1974
+### Lugo & Snedaker, 1974 {#lugosnedaker1974}
 
 *"The ecology of mangroves"* [@lugo1974ecology]
 

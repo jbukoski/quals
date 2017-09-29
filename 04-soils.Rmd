@@ -69,7 +69,7 @@ knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 ```
 
 
-### Thom, 1984
+### Thom, 1984 {#thom1984}
 
 *"Coastal landforms and geomorphic processes"* [@thom1984coastal]
 
@@ -96,15 +96,108 @@ knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 
 *"The impact of sea-level rise on mangrove shorelines"* [@woodroffe1990impact]
 
-### Woodroffe, 1992
+**Key contribution:** This review by Woodroffe discusses the impacts of relative sea level rise as it was projected at the time on mangroves. There has since been 27 years worth of research in this topic, and thus it's important to couple this study with more recent papers.
+
+*Crux of the issue* - "order of rates of sea-level rise that have been predicted would in some cases lead to major disruption of mangrove forests"
+
+**Key notes: **
+
+  - ability of mangrove forests to respond to different levels of sea level rise depends on coastal morphology
+    1. steep cliffs (e.g., mid-oceanic atolls) may not be able to respond due to lack of ability to migrate along shoreline as well as distant propagule sources for recolonization
+  - Eustatic patterns during Holocene have varied regionally
+    - in Indian and Pacific Oceans, rose to approximately 1-2 m above present levels, before falling and stabilizing at current levels
+    - in West Indies and Southern US, increasingly risen though at decelerating rates to arrive at period of stability of today
+  - mangroves are effective indicators of past sea-level if species with given preference for position in intertidal zone can be identified within paleosedimenets
+    - however, often not clear because of compaction and contamination with younger aged organic matter
+  - given sea level rise, the ability of mangrove forests to persist may be largely dependent upon the catchment size of deltas (i.e., size of area from which water and sediments drain)
+  - carbonate settings are at higher risk of undergoing regime shifts relative to deltaic or estuarine mangroves
+    
+Woodroffe combines Thom's environmental settings into three primary classes of geomorphological development:
+  
+  1. river dominated
+  2. tide dominated
+  3. carbonate
+  
+He expounds on them in this article, whereas he summarizes them in his review in Tropical Mangrove Ecosystems (see Section @\ref(woodroffe1992)).
+
+### Woodroffe, 1992 {#woodroffe1992}
 
 *"Mangrove sediments and geomorphology"* [@woodroffe1992mangrove]
 
-**Key contribution:** This is a key synthesis of knowledge related to geomorphology and environmental settings in mangroves. 
+**Key contribution:** This is a key synthesis of knowledge related to geomorphology and environmental settings in mangroves. Woodroffe gives an overview of sedimentation and shoreline progradation / erosion, followed by a review of Thom's environmental settings and Lugo and Snedaker's mangrove habitats. He concludes the article with a review of stratigraphy and paleoecology, with particular reference to mangrove responses to relative sea level rise.
+
+**Key findings:**
+
+  - For Thom's clastic environmental settings, refer to Section \@ref(thom1982) 
+  - For Thom's carbonate environmental settings, refer to Section \@ref(thom1984)
+  - For Lugo and Snedaker's functional habitats, refer to Section \@ref(lugosnedaker1974)
+
+Diagrams of Thom's environmental settings are provided below:
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(rep("images/thom1982.bmp"))
+knitr::include_graphics(rep("images/thom1984.bmp"))
+
+```
+
+*Stratigraphy and paleoecology:*
+
+  - Quaternary period (~past two million years) comprised of:
+    1. Holocene (~11,700 YBP)
+      - sea level has been approximately stable for 6,000 years
+      - sea level was rising rapidly from approximately 10,000 - 6,000 YBP
+      - though there is likely regional variation
+    2. Pleistocene (~2.5 mil to 11,700 YBP)
+  - Sediments deposited during Holocene are well preserved and contain structures & fossils that are useful, whereas sediments deposited during Pleistocene are less well preserved
+  - sea level rise on more gradually sloping coasts likely resulted in significant fluctuation of mangrove forests, whereas carbonate atolls (e.g., on coral) likely disappeared during high sea levels or were restablished during low sea levels
+  - *transgression* - landward movement of shoreline during periods of sea level rise
+  - *regression* - seaward movement of shoreline during periods of sea level subsidence
+    - there are also iteractions with progradation and erosion that may reverse processes at specific locations
+  - Woodroffe examines three patterns of tropical geomorphological development:
+    1. tropical deltas that are river dominated (poorly studied as of 1992)
+    2. estuarine embayments that are tide-dominated
+      1. Progradational model - estuary shoreline gradually build into estuary and is generally fringed by mangroves
+      2. Big swamp model - rapid accumulation of sediment as sea level stabilizes followed by vertical accretion and conversion to other types; differs from progradational model in that there's little age difference between mangrove sediments
+      3. Barrier estuary/mud basin - sand reworked from seward shelf and forms sandy barrier or flood tidal delta; lagoon is sink for fluvial sand and mud from terrestrial sources by rivers
+    3. carbonate banks or reefs
+      - predominantly characterized by in situ production of sediments
+
+*Note: * This is a key study that would be good to review again later.
+
 
 ### McKee, 2007
 
 *"Caribbean mangroves adjust to rising sea level through biotic controls on change in soil elevation"* [@mckee2007caribbean]
+
+**Key contribution: ** This is a very well-cited study that experimentally examples biological controls on soil elevation in mangroves of the Meso American Barrier Reef (in Belize). 
+
+**Study design: ** The authors installed elevation rods with rod surface elevation tables (RSETs) that were able to measure changes in elevation from a baseline over the course of three years in fringe, transition and interior mangroves. They examined the effects of nutrient additions (N, P & a control) across three transects at three replicate sites. In addition, they laid a sand horizon in a plot adjacent to the RSETs and used cores to monitor subsurface accretion, allowing for differentiation between subsurface accretion and surface accretion of biomass to elevation. Finally, the authors examine several cores (up to 10m in depth) across sites throughout the Caribbean to examine relative SLR and mean soil accretion.
+
+**Key results: ** The authors conclude that the fringe portion of the forests are able to keep pace with sea level rise, primarily due to subsurface accumulation of biomass (significantly correlated with elevation change). The fringe zone was found to have significantly positive gain in elevation, with majority from subsurface change, whereas interior and transition zones saw subsidence. Elevation gains were seen across all sites for P addition, whereas elevation gain was variable in directino for N (negative in interior).
+
+The authors give three key points:
+
+  1. Rates of modern change in elevation may vary in both direction and magnitude within forests
+  2. Elevation changes vary in relation to physico-chemical gradients that may control natural productivity of mangroves
+  3. Elevation changes due to variation in nutrients are variable in both direction and magnitude
+  
+The key results in elevation change across treatments are shown below:
+  
+```{r, echo=FALSE}
+
+knitr::include_graphics(rep("images/mckee2007GlobEcolBiog.bmp"))
+
+```
+
+The results from the mangrove peat cores showed that peat accumulation corresponded with rates of SLR over the past 6,000-7,000 years. Although they are currently keeping pace with sea level rise, the cores show that at points (in which SLR exceeded 5 mm / yr), mangroves were lost from the area. Thus, the presence of mangroves at these sites depends on relative SLR rates (eustatic rise plus local subsidence). Rates of mangrove peat accretion, however, may underestimate ability to respond to SLR as these are often based on mean rates from historical records that likely fluctuate significantly in response to SLR.
+
+### Woodroffe, 2016
+
+*"Mangrove sedimentation and response to relative sea level rise"* [@woodroffe2016mangrove]
+
+
+
 
 ## Sedimentation and hydrology
 

@@ -106,13 +106,40 @@ Among most important techniques for postprocessing of LiDAR point clouds for geo
   - Coupling of species mapping with species-specific allometry equations for better estimates of mangrove biomass
     - Might make sense in Americas where just three species exist (easier!)
 
-      
-  
-  
-
 ### Kuenzer, 2011
 
 *"Remote sensing of mangrove ecosystems: A review"* [@kuenzer2011remote]
+
+
+
+### Giri, 2016
+
+*"Observation and monitoring of mangrove forests using remote sensing: Opportunities and challenges"* [@giri2016observation]
+
+**Key contribution:** This is an introductory piece to a special issue on monitoring mangroves using RS. There are potentially interesting pieces in the special issue but most are focused on vegetation dynamics rather than geomorphology.
+
+Giri is one of the key researchers working on mapping of mangrove forests using RS data, and offers some succint advice on steps for classifying mangrove forests:
+
+  1. identify clear and concise objective
+  2. develop classification system and legend
+  3. satellite and secondary data acquisition
+  4. data pre-processing
+  5. training data collection
+  6. image classification
+  6. results validation
+  8. dissemination of results
+  9. application of classification results
+ 
+*Random notes:* 
+
+  - Important to be clear on consideration of purely true mangroves, or true mangroves with mangrove associates.
+  - Entire Landsat archive available in Amazon Web Services as well as Google Earth Engine.
+
+Article synopses:
+
+  - Zhu et al, 2016: Look at Back Propagation ANN to map mangrove forest biomass using WorldView-2 imagery. Find that inclusion of species dummy variable for *S. apetala* vs *K. candel* highly significant in improving biomass estimation accuracy.
+  - Cuogo et al, 2016: Examined SAR backscattering from Radarsat-2 C-band data for correlations with forest structure and species data in Amazon. *Might be interesting to look into their methods for sites in Thailand*
+  - Jones et al, 2016: Used Giri's data to assess changes in mangrove cover at national level for Madagascar. Produced higher accuracy maps with improved detail relative to Giri's data. Potentially interesting for Thailand.
 
 
 ## Vegetation
