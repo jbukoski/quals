@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-09-26">
+<meta name="date" content="2017-09-28">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -245,10 +245,94 @@
 <div id="adam-2010" class="section level3">
 <h3><span class="header-section-number">5.1.2</span> Adam, 2010</h3>
 <p><em>“Multispectral and hyperspectral remote sensing for identification and mapping of wetland vegetation: A review”</em> <span class="citation">(Adam, Mutanga, and Rugege <a href="#ref-adam2010multispectral">2010</a>)</span></p>
+<p><strong>Key contribution: </strong> This review examines the status quo of mapping wetland vegetation using spectral (multi and hyper) imagery, with a particular focus on discriminating wetland vegetation as well as monitoring biophysical and biochemical characteristics.</p>
+<p><strong>Key findings: </strong></p>
+<ul>
+<li>the spectral and spatial composition of mangrove species and vegetation assemblages has complicated use of multispectral (broadband) imagery; hyperspectral (narrowband) imagery is promising but more difficult to access
+<ul>
+<li>spectral signatures of different wetland veg are often similar, and are “muddied” by spectral reflectance from soil, hydrologic regime or atmospheric conditions</li>
+</ul></li>
+<li>spectral signatures affected most strongly by biochemical and biophysical properties of leaves, which vary greatly across species</li>
+<li>discrimination of wetland species from Landsat TM or SPOT imagery has generally been insufficient due to:
+<ol style="list-style-type: decimal">
+<li>lack of fine, ecological divisions between vegetation species</li>
+<li>broad nature of spectral wavebands</li>
+<li>lack of high spectral and spatial resolution to detect subcanopy vegetation types</li>
+</ol></li>
+<li>ANNs and fuzzy classification techniques have shown promise in better classifying mixed species pixels</li>
+<li>most important biochemical and biophysical properties characterizing wetland species are:
+<ol style="list-style-type: decimal">
+<li>chlorophyll - green pigment</li>
+<li>biomass concentration - biophysical prop</li>
+<li>leaf water content</li>
+</ol></li>
+<li>major issue of using vegetation indices (e.g., NDVI) to estimate biomass is the saturation problem
+<ul>
+<li>Mutanga and Skidmore (2004) propose one mechanism to resolve saturation problem</li>
+</ul></li>
+<li>building spectral libraries via hyperspectral sensors is critical for discriminating wetland species, but also needs investigation at different sites &amp; scales as reflectance within species may vary depending on environmental conditions</li>
+</ul>
+<p><strong>Research ideas:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Spectral imagery can be effective in monitoring plant water content, which may vary significantly across mangrove species due to differing water use efficiencies</li>
+</ol>
+<p><strong>Further reading:</strong></p>
 </div>
 <div id="heumann-2011" class="section level3">
 <h3><span class="header-section-number">5.1.3</span> Heumann, 2011</h3>
 <p><em>“Satellite remote sensing of mangrove forests: Recent advances and future opportunities”</em> <span class="citation">(Heumann <a href="#ref-heumann2011satellite">2011</a>)</span></p>
+<p><strong>Key contribution: </strong> One of several reviews of mangroves and remote sensing techniques that focuses primarily (i.e., solely) on vegetation mapping.</p>
+<p><strong>Key findings: </strong></p>
+<ul>
+<li>Spectral discrimination of different species not successful using multispectral (broadband) imagery (Ramsey and Jensen, 1996).
+<ul>
+<li>Mixed pixels also an issue for discriminating species as well as estimating canopy structure</li>
+</ul></li>
+<li>Spectral saturation at high biomass values is a particular problem for mapping biomass and volumes</li>
+<li>Very high resolution imagery effective at reducing mixed pixels just due to smaller size</li>
+<li>OBIA has typically been applied to species discrimination rather than extent of mangrove mappings</li>
+<li>Quickbird and IKONOS sensors are most common for very high resolution imagery due to long-term archiving of data
+<ul>
+<li>multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels</li>
+</ul></li>
+<li>Use of spectral data only is often insufficient for discrimination of species
+<ul>
+<li>Classification accuracies are greatly improved when other image properties are considered, such as texture</li>
+<li>Texture analaysis has been applied to species discrimination, but has not been investigated (as of 2011) for other forest characteristics</li>
+</ul></li>
+<li>C-band PolSAR has lowest ability to parse forest structure of SAR bands</li>
+</ul>
+<p><em>Mangrove biomass:</em></p>
+<ul>
+<li>Canopy height and biomass have been shown to be strongly correlated in mangroves (e.g., Fromard et al., 1998; Smith and Whelan, 2006)
+<ul>
+<li>must studies of height and biomass have employed SAR data</li>
+<li>different polarizations (based on wavelength) interact differently with different components of the forest</li>
+<li>trunks and soils may produce single or double bounce interactions</li>
+<li>signal may scatter within canopy
+<ul>
+<li>P-band POLSAR or HV polarization of L-band SAR perform best in mapping aboveground biomass</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><em>Very-high resolution satellites:</em></p>
+<ul>
+<li>The IKONOS and Quickbird are most commonly used, due to archiving of data and plans for long-term consistency
+<ol style="list-style-type: decimal">
+<li>IKONOS &gt; GeoEye-1 (successor) (multispect @ 1.65 m and panchrom @ 0.41 m)</li>
+<li>Quickbird &gt; Worldview-2 (successor) (&lt;2m multi, &lt;0.5 m panchrom)</li>
+</ol>
+<ul>
+<li>note that Worldview-2 has 8 multispectral channels, including those in yellow and red edge ranges designed for veg studies</li>
+</ul></li>
+</ul>
+<p><strong>Research ideas:</strong></p>
+<ul>
+<li>Coupling of species mapping with species-specific allometry equations for better estimates of mangrove biomass
+<ul>
+<li>Might make sense in Americas where just three species exist (easier!)</li>
+</ul></li>
+</ul>
 </div>
 <div id="kuenzer-2011" class="section level3">
 <h3><span class="header-section-number">5.1.4</span> Kuenzer, 2011</h3>

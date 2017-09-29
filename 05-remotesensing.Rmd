@@ -38,11 +38,77 @@ Among most important techniques for postprocessing of LiDAR point clouds for geo
 
 *"Multispectral and hyperspectral remote sensing for identification and mapping of wetland vegetation: A review"* [@adam2010multispectral]
 
+**Key contribution: ** This review examines the status quo of mapping wetland vegetation using spectral (multi and hyper) imagery, with a particular focus on discriminating wetland vegetation as well as monitoring biophysical and biochemical characteristics.
+
+**Key findings: ** 
+
+  - the spectral and spatial composition of mangrove species and vegetation assemblages has complicated use of multispectral (broadband) imagery; hyperspectral (narrowband) imagery is promising but more difficult to access
+    - spectral signatures of different wetland veg are often similar, and are "muddied" by spectral reflectance from soil, hydrologic regime or atmospheric conditions
+  - spectral signatures affected most strongly by biochemical and biophysical properties of leaves, which vary greatly across species
+  - discrimination of wetland species from Landsat TM or SPOT imagery has generally been insufficient due to:
+    1. lack of fine, ecological divisions between vegetation species
+    2. broad nature of spectral wavebands
+    3. lack of high spectral and spatial resolution to detect subcanopy vegetation types
+  - ANNs and fuzzy classification techniques have shown promise in better classifying mixed species pixels
+  - most important biochemical and biophysical properties characterizing wetland species are:
+    1. chlorophyll - green pigment
+    2. biomass concentration - biophysical prop
+    3. leaf water content
+  - major issue of using vegetation indices (e.g., NDVI) to estimate biomass is the saturation problem
+    - Mutanga and Skidmore (2004) propose one mechanism to resolve saturation problem
+  - building spectral libraries via hyperspectral sensors is critical for discriminating wetland species, but also needs investigation at different sites & scales as reflectance within species may vary depending on environmental conditions
+  
+**Research ideas:**
+
+  1. Spectral imagery can be effective in monitoring plant water content, which may vary significantly across mangrove species due to differing water use efficiencies
+
+**Further reading:**
+  
 
 ### Heumann, 2011
 
 *"Satellite remote sensing of mangrove forests: Recent advances and future opportunities"* [@heumann2011satellite]
 
+**Key contribution: ** One of several reviews of mangroves and remote sensing techniques that focuses primarily (i.e., solely) on vegetation mapping. 
+
+**Key findings: **
+  
+  - Spectral discrimination of different species not successful using multispectral (broadband) imagery (Ramsey and Jensen, 1996).
+    - Mixed pixels also an issue for discriminating species as well as estimating canopy structure
+  - Spectral saturation at high biomass values is a particular problem for mapping biomass and volumes
+  - Very high resolution imagery effective at reducing mixed pixels just due to smaller size
+  - OBIA has typically been applied to species discrimination rather than extent of mangrove mappings
+  - Quickbird and IKONOS sensors are most common for very high resolution imagery due to long-term archiving of data
+    - multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels
+  - Use of spectral data only is often insufficient for discrimination of species
+    - Classification accuracies are greatly improved when other image properties are considered, such as texture
+    - Texture analaysis has been applied to species discrimination, but has not been investigated (as of 2011) for other forest characteristics
+  - C-band PolSAR has lowest ability to parse forest structure of SAR bands
+  
+*Mangrove biomass specific findings:*
+
+  - Canopy height and biomass have been shown to be strongly correlated in mangroves (e.g., Fromard et al., 1998; Smith and Whelan, 2006)
+    - must studies of height and biomass have employed SAR data
+    - different polarizations (based on wavelength) interact differently with different components of the forest
+      - trunks and soils may produce single or double bounce interactions
+      - signal may scatter within canopy
+        - P-band POLSAR or HV polarization of L-band SAR perform best in mapping aboveground biomass
+
+*Very-high resolution satellites:*
+
+  - The IKONOS and Quickbird are most commonly used, due to archiving of data and plans for long-term consistency
+    1. IKONOS > GeoEye-1 (successor) (multispect @ 1.65 m and panchrom @ 0.41 m)
+    2. Quickbird > Worldview-2 (successor) (<2m multi, <0.5 m panchrom)
+      - note that Worldview-2 has 8 multispectral channels, including those in yellow and red edge ranges designed for veg studies
+
+**Research ideas:**
+
+  - Coupling of species mapping with species-specific allometry equations for better estimates of mangrove biomass
+    - Might make sense in Americas where just three species exist (easier!)
+
+      
+  
+  
 
 ### Kuenzer, 2011
 
