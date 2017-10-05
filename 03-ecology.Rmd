@@ -8,7 +8,7 @@ This is just some intro stuff here.
 
 Establishment of monospecific stands of mangrove trees in zones parallel to shorelines (zonation) has been among the most well-studied phenomenon in mangroves. Physicochemical gradients exist from the shoreward to landward edges of the intertidal zone, with implications for the recruitment, establishment, and dominance of different mangrove tree species. Several hypotheses attempting to explain zonation in mangroves have existed throughout time:
 
-*Zonation as mangrove succession - Davis, 1940:*
+*Zonation as mangrove succession due to land building - Davis, 1940:*
 
   - From his work in Florida, Davis believed that mangroves promoted shoreline progradation, which was followed by establishment of *Avicennia germinans* species in the most seaward portion of the intertidal zone. Eventually *Rhizophora mangle* with a few *Laguncularia racemosa* individuals would outcompete *A. germinans* as the shore (and thus habitat for *A. germinans*) continued to prograde. Davis believed that the zones of species were a successional process, eventually climaxing in a terrestrial forest dominated by non-mangrove species.
   
@@ -16,9 +16,13 @@ Establishment of monospecific stands of mangrove trees in zones parallel to shor
 
   - Thom did his field work in a composite lagoon and riverine system in Tabasco, Mexico, and provided one of the first most comprehensive sets of evidence against Davis's hypothesis of zonation as mangrove succession. In looking at the different habitats in which mangrove tree species existed, Thom concluded that zonation of species was in response to the hydrological and substratum conditions of a site, which were ultimately variables controlled by geomorphic processes. As a result, he concluded that spatial patterns of mangrove species were in response to geomorphic changes in the land rather than mangrove species inducing patterns in geomorphology (and thus species zonation was relatively "stable").
   
-*Zonation as adaptation to physico-chemical gradients - Macnae, 1968:*
+*Zonation as adaptation to physico-chemical gradients - Watson, 1928; Davis, 1940; Macnae, 1968; Ball 1988:*
 
-*Zonation as result of interspecific competition - Clarke and Hannon, 1971:*
+  - 
+
+*Zonation as result of interspecific competition - Clarke and Hannon, 1970:*
+
+  - 
 
 *Zonation due to tidal sorting of propagules - Rabinowitz, 1978:*
 
@@ -26,13 +30,13 @@ Establishment of monospecific stands of mangrove trees in zones parallel to shor
 
 *Zonation as result of differential predation on propagules - Smith, 1987:*
 
-
+  - [@smith1987seed] was among the first studies to experimentally test the existence of differential rates of propagule predation by grapsid crabs for different mangrove tree species. His results showed that differential rates of mangrove predation did exist for the distinct species, and were correlated to the nutritional content (e.g., presence of tannins, simple sugars, etc.) of the species. Furthermore, he found a significant negative relationship between species dominance and rate of propagule predation, which led him to conclude that differential rates of propagule predation influence the zonation of species in mangroves. Perhaps most clearly, he found that *A. marina* was consumed heavily within the mid-intertidal region of the forest, in which no parent trees of *A. marina* exist. Smith notes that no single hypothesis is likely to explain all of zonation, but that the results of his study are significant and parallel those of other studies in terrestrial forests.
 
 
 Several comprehensive reviews of zonation in mangroves are provided in:
 
-  - Lugo and Snedaker, 1974 (Reviewed in this chapter)
-  - Smith, Forest Structure (In Robertson and Alongi, 1992)
+  - Lugo and Snedaker, 1974 (Reviewed in Section \@ref(lugosnedaker1974))
+  - Smith, Forest Structure (Reviewed in Section \@ref(smith1992))
 
 ### Thom, 1967 {#thom1967}
 
@@ -136,7 +140,19 @@ She provides a discussion of the hypothesis as well as links it to several studi
   - Based on growth-rates and age-class distributions, Putz and Chan conclude that self-thinning did occur within the forest, particularly for *R. apiculata*.
   - Total biomass was relatively high, with "stable" biomass estimated at 350-400 Mg/Ha.
 
-### Smith, 1992
+### Smith, 1987
+
+*"Seed predation in relation to tree dominance and distribution in mangrove forests"* [@smith1987seed]
+
+**Key contribution: ** This is one of the earliest examinations of the effects of predation (by grapsid crabs) on propagule survival for different species. They found significant relationships between propagule predation and nutritional content, as well as location within the intertidal floor. The results led them to conclude that propagule predation is a significant factor in defining zonation in mangrove forests.
+
+**Experimental design: ** Propagules were tethered to twine strings and monitored over 18 days in 5 replicate plots in each of three forest types (high, intermediate and low conspecific dominance) for each of the five species. Additionally, propagules of each of the five species were analyzed for nutritional content and related to predation patterns using PCA.
+
+**Key results: ** The findings show that differential predation for certain species does occur. In particular, predation on *A. marina* in the mid intertidal was found to explain the relative absence of parent *A. marina* trees in the mid-intertidal section of the forest. Rates of predation of *A. marina* were found to be higher than in the low or high intertidal regions.
+
+With the exception of *Ceriops tagal*, amount of predation was significantly negatively correlated with conspecific dominance (i.e., low dominance by parent trees led to high predation rates) across the other four species.
+
+### Smith, 1992 {#smith1992}
 
 *"Forest structure" (In Robertson and Alongi, 2002)* [@smith1992forest]
 
@@ -233,6 +249,164 @@ See also:
   2. Early growth of mangrove seedlings in Panama... [@rabinowitz1978early]
 
 ## Ecophysiology & establishment
+
+### Chapman, 1976 {#chapman1976}
+
+*"Ch. 8 - Ecological factors"* [@chapman1976ecological]
+
+**Key contribution: ** This is a somewhat dated review of ecological factors that are influential on mangrove vegetation. There are more recent reviews that should be referred to, but this chapter provides a nice overview of some of the earlier work related to mangrove vegetation and ecological factors.
+
+**Key notes: **
+
+*Inundation* - The effects of salinity versus frequency and duration of inundation likely influences seedlings versus mature trees differentially. Inundation "classes" were originally proposed by Watson (and others), but likely have little practical value now. Number of days of *lack of* inundation is understood (by Chapman) to be the most important component of "inundation" more broadly. There is a seasonal component that is important to consider (i.e., areas that have no tidal inundation and no rainfall may be more hypersaline and hostile to establishment).
+
+*Salinity* - Chapman notes that there are correlations between salinity and presence of vegetation, but the relationships may be overstated.
+
+*Soil composition* - The texture of soils is extremely important as it relates to drainage and also aeration of the soil. The presence of sand within the soil can be extremely important; often have complete lack of oxygen within 5 cm soil depth (along channels as well). Presence of peat or other organic layers can greatly influence gas and water infiltration. The dark color of soils is related to iron sulfide production by anaerobic bacteria.
+
+*Water table and drainage* - The mean level of the water table has been found at some sites to increase as you move towards the shoreward section of the forest. There is very little movement with seasonal changes in tide (i.e., spring vs. neap tides), which may be related to the texture of the soil present. Some carbonate settings have extremely coarse substrates (majority of sand > 2 mm).
+
+*non NaCl soil chemistry* - CEC is generally higher in the surface levels of the soil.
+
+*Biota:* Chapman provides 6 habitats in which biota exist, as an extension of MacNae. They most significant habitat for my particular research purposes are the ecosystem engineers, which would consist of the crustaceans that inhabit the canopies, the soil surface, and the soil itself.
+
+**Further reading: ** Need to look up sulfur reduction processes.
+
+
+### Chapman, 1976 {#chapman1976}
+
+*"Ch. 9 - Physiology of mangroves"* [@chapman1976physiology]
+
+
+### Ball, 1988 {#ball1988}
+
+*"Ecophysiology of mangroves"* [@ball1988ecophysiology]
+
+**Key significance: ** This is an excellent review of the ecophysiology (how the phyisology of the trees responds to their particular environment) of mangrove trees. This paper should be reviewed more than once.
+
+One of the **key concepts** to emerge from this study is:
+
+  - Mangroves have largely evolved to have large tolerances to salinity and inundation given the very dynamic environments in which they exist. Rather than evolving to exist in narrow niches, competition may drive zonation and thus the existence of multiple species in moderate stress environments.
+
+**Key notes: **
+
+*Waterlogging* - Key fact is that oxygen diffuses through air 10,000 times more rapidly than through water, thus root systems of mangroves are adapted such that they avoid extensive inundation through areal roots. 
+
+  - degree of soil saturation effects form and availability of different nutrients -- how specifically does this happen?
+  - may have different amounts of availability of P and N along the tidal gradient
+    - N primarily exists as ammonia in frequently tidal regions, which binds easily to organic compounds and thus persists within the soil system
+    - N exists primarily as nitrate in less frequently flooded zones, which is more prone to leaching. Typically find that these zones are P limited rather than N limited, however, which is easily absorped onto clay or precipitated with Ca, Al, or Fe
+    
+*Salinity* - Important to remember that tolerance of salinity is largely dependent upon the developmental stage of the plant! The presence of cotyledonary reserves allow seedlings to persist in conditions that are otherwise inhospitable to them, but may not establish successfully following depletion of these reserves.
+
+Mangroves frequently classified according to three different mechanisms of tolerance:
+
+  1. salt exclusion - all mangroves exclude salt at the root tips
+  2. salt accumulation - all mangroves accumulate ions (though they show preferential differences for different ions) to maintain osmoregulation
+  3. salt excretion - selective species have ability to excrete salts
+  
+The particular salinity tolerance of a species may be particularly difficult to determine due to the species deriving water from sources other than surface water (i.e., freshwater underground seepage). Compartmentalization of ions is extremely important for maintaining biochemical processes, for example photosynthesis, especially for those species that are incapable of secreting salts.
+
+The ratio of Na+ / K+ is important in chloroplasts (cell of the leaf responsible for photosynthesis). Deficiencies in K+ concentration have been shown to result in loss of photosynthetic capability, particularly for Avicennia species. 
+
+The major mechanism of ion transport into the transpiration system of the plant is through symplastic pathways (inside of plasma membrane where water and low-molecular-weight solutes can diffuse freely).
+
+Species of some genera (*Acanthus, Aegialitis, Aegiceras* and *Avicennia*) are capable of secreting salt from leaves.
+
+*Photosynthesis* - Most evidence points towards C~3~ photosynthetic pathways within mangrove species, however they exhibit very conservative water-use efficiencies relative to most C~3~ plants. Mangroves exhibit a variety of traits/mechanisms to manage water use efficiency while maintaining carbon assimilation.
+
+Three major leaf characteristics for maintaining leaf temperatures that vary among species are:
+
+  1. leaf angle - affects radiant heat loading on the leaf and can be adjusted to reduce solar incidence
+  2. leaf size - heat transfer is a function of the leaf geometry and wind speed; decreases in leaf size allows the leaf to maintain temperatures close to ambient temperatures, with sacrificing solar incidence
+  3. heat capacity per unit area - a function of dry weight and water content per unit area; higher heat capacity buffers against warming of leaves
+
+A classic, hypothetical schematic of interspecific tolerances for salinity is shown below:
+
+```{r}
+knitr::include_graphics(rep("images/ball1988Trees.bmp"))
+```
+
+*Major tradeoffs* - The two major tradeoffs that are seen in mangroves in relation to photosynthesis and salinity tolerances are:
+
+  1. Salt exclusion during water uptake may induce significant carbon costs to the plant; often seen through more root biomass coupled with decrease in rate of water uptake
+  2. High water use efficiency restricts rates of water efflux but also restricts rates of CO~2~ influx
+
+**Relevant for research: **
+
+  - differential amounts of root biomass may be seen along salinity gradients due to differing degrees of water use efficiency and maintenance of photosynthetic production - what are the implications for soil C?
+
+### McKee, 1993 {#mckee1993}
+
+*"Soil physicochemical patterns and mangrove species distribution - reciprocal effects?"* [@mckee1993soil]
+
+**Key contribution: ** 
+
+*Methods: * The study employed field and greenhouse analyses to examine the impacts of reducing soil conditions and sulphide presence on seedling growth. Field work was performed in Florida, with common zonation of *R. mangle* in the fringe forest and mixes of *R. mangle* and *A. germinans* in the basin forest that filters out to monospecific stands of *A. germinans* in the most landward basin.
+
+Soil samples were collected along transects directly next to *Rhizophora* prop roots, *Avicennia* pneumatophores, a mix of the two roots, as well as no roots for comparison of reducing soil conditions and sulphides. A factorial treatment arrangement for four flooding conditions on two species was designed in a greenhouse experimental setting to examine the effects of reducing conditions and sulfide on seedling growth, and vice versa.
+
+**Key results: **
+
+*Field studies* - Distinct zonation between both species composition and reducing soil conditions and sulphide were seen. Changes in Eh and sulphide concentration strongly correlated with shifts in species compositions. 
+
+  - Higher Eh was found for mixed basin and fringe forest, whereas lower Eh was found with monospecific-basin *Avicennia*
+  - Higher sulphide concentrations were found in monospecific basin *A. germinans* region (contrasts with results of seedlings study).
+
+*Greenhouse studies* - Greatest difference in biomass growth between flooding treatments was seen belowground. *A. germinans* exhibited much lower growth in the flooded treatments relative to the drained treatment, whereas flooding stimulated belowground growth in *R. mangle*.
+
+Presence of sulphide had little effect on growth (AG or BG) of *R. mangle*, but was found to reduce AG and BG growth in *A. germinans*.
+
+Additionally, the presence of both species induced higher redox potential (Eh) relative to soils without any mangrove seedilings. Addition of sulphide induced a reduction in Eh.
+  - This is likely due to O~2~ leaking from mangrove roots into the rhizosphere and thus inducing higher redox potentials
+  - May also reduce buildup of sulphide through oxidation of sulphide in rhizosphere or inhibiting activity of sulphate-reducing bacteria
+  
+**Key conclusions:** The authors make several key conclusions given their results:
+
+  - The results of the field and greenhouse experiments do not match, in that *A. germinans* was found in the portion of the forest with the highest sulphide conditions, but seedlings were found to be highly sensitive to low redox and high sulphide concentrations.
+    - Hypotheses are given that i) other controls on presence of *R. mangle* in this region are stronger than sulphide - *A. germinans* interactions, ii) may be a result of other factors (propagule dispersion, predation, competition), or iii) adult trees may exhibit different tolerances than seedlings
+  - The two-way effect of redox and sulphide on roots (and roots on redox) make it difficult to infer mechanistic processes from correlative studies
+
+**Other notes: **
+
+  - Seawater is the primary source of sulphate for reduction by dissimilatory sulphate reducing bacteria. H~2~S may be present in degrees to be toxic to mangroves, particularly seedlings.
+
+
+
+### McKee, 1995 {#mckee1995}
+
+*"Seedling recruitment patterns in a Belizean mangrove forest"* [@mckee1995seedling]
+
+
+### Sherman, 1998 {#sherman1998}
+
+*"Soil-plant interactions in a neotropical mangrove forest: Iron, phosphorus and sulfur dynamics"* [@sherman1998soil]
+
+
+### Krauss, 2008 {#krauss2008}
+
+*"Environmental drivers in mangrove establishment and early development: A review"* [@krauss2008environmental]
+
+**Key contribution:** This is likely the most comprehensive and up to date review of ecophysiology and mangrove development in mangroves. This should be reviewed several times.
+
+**Five central paradigms** - Krauss *et al* provide five central paradigms that shape a lot of the work thinking and work related to mangrove eco-physiology:
+
+  1. *Lack of a functional understory in most mangrove forests* - often have seedlings and saplings, but no vines, herbaceous plants or shrubs. Several studies have concluded that terrestrial understory species have just not adapted shade or salinity tolerance (or both)
+  2. *Inundation classifications* - studies have shown that species are found in distinctive zones, but also that many species of mangroves are capable of colonizing a wide range of inundation frequencies; one of the earliest definitions of inundation classes was given by Watson, 1928
+  3. *Salinity tolerance, zonation and biomass allocation* - Much of this work has been forwarded by M. Ball, e.g., see Ball 1988, Section \@ref(ball1988). The interaction of inundation, salinity, soil saturation and fertility has been found to explain zonation in many instances, though not necessarily all. Mangrove zonation is a hypothesis-rich field.
+  4. *Interrelatedness of nutrient enrichment, growth and herbivory* - Tradeoffs exist between slow growth, defense against herbivory and nutrient limitation. Field experiments may address nutrient limitation to understand growth rates and relative survival/establishment strategies
+  5. *Geomorphological classification* - A number of geomorphological classifications have been proposed.
+
+
+### Dangremond, 2015 {#dangremond2015}
+
+*"Environmental tolerances of rare and common mangroves along light and salinity gradients"* [@dangremond2015environmental]
+
+
+
+
+
+
 
 ## Trophic interactions
 

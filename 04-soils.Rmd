@@ -196,7 +196,40 @@ The results from the mangrove peat cores showed that peat accumulation correspon
 
 *"Mangrove sedimentation and response to relative sea level rise"* [@woodroffe2016mangrove]
 
+**Key contribution: ** This study is a review of sedimentary processes and geomorphology with a particular focus on their responses to relative sea level rise. The study introduces the concept of the accomodation space in the context of mangroves, which is the space available for potential sediment accumulation.
 
+**Notes: **
+
+Considering processes at different scales:
+
+  1. Macroscale - processes at the landscape level (environmental setting *a la* Thom)
+    - Climate, eustatics
+  2. Mesoscale - habitat level (fringe, basin, etc. *a la* Lugo and Snedaker)
+    - Hydrodynamics, sediment supply (allochthonous vs. autochthonous)
+  3. Microscale - individual tree or plot level
+    - Interactions between surface elevation, geomorphic processes (accretion vs. compaction), and biological processes (BGB production)
+
+```{r, echo=FALSE}
+
+knitr::include_graphics(rep("images/woodroffe2016ARMS.bmp"))
+
+```
+
+A nice summary of interactions between sedimentology, hydrology and biology:
+
+"The distribution of mangrove species coincides with the intertidal accomodation space, which progressively fills through sediment accumulation. Emergent properties and biocomplexity are a function of hydroperiod and are related to salinity and flooding tolerance, the latter of which is related to root morphologies, physiology, and reproductive traits such as vivipary."
+
+*Accomodation space* - the space available for potential sediment accumulation. Typically see highest accomodation space at shoreline in mangroves, though it may be highly variable (e.g., basin areas that are only flooded during highest tides).
+
+  - may distinguish between mineral vs. biological accretion, and thus may consider "ecological accomodation space"
+  
+Rates of sedimentation depend upon the accomodation space, which depends on hydrology and other factors. In the short term, the rate of sediment deposition appears independent of rate of SLR. The accomodation space is directly constrained by upper limit of tidal flooding.
+
+Focusing on vertical adjustment within a mangrove forests risks missing broader regional picture in that mangroves have constantly shifted position throughout time, and thus there may be natural fluctuations with sea level rise that can maintain existence as well as are potentially key climate change mitigation opportunities.
+
+**Further reading:**
+
+  - See the highlighted references in Mendley for additional reading -- there are quite a number worth looking at further.
 
 
 ## Sedimentation and hydrology

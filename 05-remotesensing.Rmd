@@ -110,6 +110,56 @@ Among most important techniques for postprocessing of LiDAR point clouds for geo
 
 *"Remote sensing of mangrove ecosystems: A review"* [@kuenzer2011remote]
 
+**Key contribution: ** This is a very extensive review of remote sensing and mangroves.
+
+**Notes: **
+
+*Optical imagery: *
+
+The spectral signature of mangrove leaves are largely a function of age, vitality, phenological props and physiological props. Greater discrimination between species (at least in Vietnam) may be seen in the NIR, but little differentiation seen in VIS:
+
+```{r}
+knitr::include_graphics(rep("images/kuenzer2011RemSens.bmp"))
+```
+
+*Radar imagery: *
+
+  - SAR imagery provides intensity values of the "backscatter coefficient". Given different polarizations and wavelengths of SAR scanning, different interactions with mangrove landscape occur.
+  - The different SAR bands are as follows:
+    1. X-band - 3 cm wavelength, effective for direct backscatter from canopy
+    2. C-band - 6 cm, plant/soil multiple and volume scattering
+    3. L-band - 24 cm, direct backscatter from soil & water
+    
+```{r}
+knitr::include_graphics(rep("images/kuenzer2011RemSensFig4.bmp"))
+```
+  
+*Sensors:*
+
+  - See Table 2 in the study for an extensive list of sensors used within remote sensing of mangrove studies
+  - Aerial imagery is limited in that it cannot be scaled beyond immediate site/locality, but has value in that it can provide high-resolution data particularly for hard to access sites without field data.
+  - High spatial resolution data (IKONOS & Quickbird)
+    - Ultimate goal is to map mangroves at the species level
+    - A comparison of IKONOS and QuickBird found IKONOS (4 m) to be more effective at discriminating in species because of the higher spectral resolution. QuickBird has higher spatial resolution (1 m) but was less useful in this particular investigation (Greg's paper).
+  - Hyperspectral imagery
+    - identifying relevant bands is a time intensive process and many bands are highly correlated
+  - EnMAP sensor
+    - satellite hyperspectral data that will provide more access to hyperspectral datasets globally
+      - is this online? I'm not sure yet.
+  
+Several tables are given in the paper that describe the various data sensors and platforms and their relative benefits and limitations for remote sensing of mangroves.
+
+*Needs within RS of mangroves space:*
+
+The authors call for several needs within the remote sensing of mangrove space:
+
+  1. Need for homogenized classification schemes - ontologies, e.g., what is a sparse versus dense mangrove
+  2. Need for standardized data-processing models - standardiziing preprocessing, processing and post processing such that enhanced comparability of studies is enabled
+  3. Need for homogenized transparent accuracy assessment - self explanatory
+  4. Need for further investigations of synergistic data use - coupling of new, novel and disparate RS datasets to investigate novel research questions
+  5. Need for ecosystem service assessments
+  6. Need for interdisciplinary and well-networked research teams
+
 
 
 ### Giri, 2016
