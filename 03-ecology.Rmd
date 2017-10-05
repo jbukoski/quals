@@ -323,7 +323,7 @@ Three major leaf characteristics for maintaining leaf temperatures that vary amo
 
 A classic, hypothetical schematic of interspecific tolerances for salinity is shown below:
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics(rep("images/ball1988Trees.bmp"))
 ```
 
@@ -382,6 +382,24 @@ Additionally, the presence of both species induced higher redox potential (Eh) r
 
 *"Soil-plant interactions in a neotropical mangrove forest: Iron, phosphorus and sulfur dynamics"* [@sherman1998soil]
 
+**Key contribution:** This study examines the interactions of species distribution and select nutrients along a 3 km transect in the Dominican Republic. Species distributions, nutrients and abiotic factors were found to covary along the transect, with different processes dominating pathways in the lower versus upper intertidal regions.
+
+**Research design:** A 3 kilometer transect was laid out through the forest and 14 permanent, 30 m radius plots were established to measure species composition and surface and soil water biogeochemistry from 6 different dates over a two year period.
+
+**Key results:**
+
+*Salinity* - The salinity levels along the transect decreased as the tidal influence decreased and the influence of fresh water from rivers increased. Additionally, salinity was found to be higher at soil depths of 50 cm than the surface water.
+
+*Sulfate* - Sulfate levels reflected changes in salinity. Sulfate was constant in concentration until 1700 m into the forest (the approximate reach of tidal inundation), at which poin it steadily declined. Sulfate concentrations were deeper in deep soil water than surface waters.
+
+*Species presence* - Presence of *Rhizophora* was significantly correlated with salinity and sulfate concentrations of deep soilwater; *A. germinans* was significantly negatively correlated with deep soilwater salinity and sulfate. *L. racemosa* was not correlated with salinity, but was significantly correlated with surface water total phosphorus. Many of the other surface water soil parameters were not correlated with species distributions.
+
+**Key conclusions:**
+
+  1. The correlations between species distribution and soil chemistry parameters are not necessarily uni-directional. Others have shown that mangrove trees may have significant influence on the chemistry of the soil (e.g., McKee 1993 - oxidiation of rhizosphere which modifies redox potential and sulfide concentrations)
+  2. The patterns across phosphorus, sulfate, alkalinity and pyrite (Fe) concentrations across the transect were found to be largely controlled by sulfate reduction and its associated chemical reactions.
+  3. The nutrient dynamics of fringe vs basin forests vary, and are reflected in physiological strategies by different species. For example, *R. mangle* has higher nutrient resorption rates than *A. germinans*.
+  4. Strong interactions appear to exist between hydrology, species distributions and soil dynamics. In the lower intertidal basin, physical processes appeared to dominate biogeochemical cycling because of high export rates of material. Chemical and biological processes in the upper intertidal region are more important given the lower amount of nutrient export.
 
 ### Krauss, 2008 {#krauss2008}
 
@@ -396,6 +414,57 @@ Additionally, the presence of both species induced higher redox potential (Eh) r
   3. *Salinity tolerance, zonation and biomass allocation* - Much of this work has been forwarded by M. Ball, e.g., see Ball 1988, Section \@ref(ball1988). The interaction of inundation, salinity, soil saturation and fertility has been found to explain zonation in many instances, though not necessarily all. Mangrove zonation is a hypothesis-rich field.
   4. *Interrelatedness of nutrient enrichment, growth and herbivory* - Tradeoffs exist between slow growth, defense against herbivory and nutrient limitation. Field experiments may address nutrient limitation to understand growth rates and relative survival/establishment strategies
   5. *Geomorphological classification* - A number of geomorphological classifications have been proposed.
+
+**Temperature** - Temperature largely important for two considerations:
+
+  1. Controls the geographical extent of mangroves globally (cold limits); different species have been shown to have different tolerances (*Avicennia* spp. typically seen in coldest conditions)
+  2. Excessive heat can impact photosynthetic functioning and damage plants through direct cellular damage
+    - mechanistic understanding of how temperatures affect mangrove individuals (extreme heat or cold stress) is lacking and needs further research
+    
+**Atmospheric CO~2~** - For a given amount of nutrients, higher CO~2~ concentrations will often increases relative growth rates, however, the particular growth seen will likely vary significantly across species.
+
+**Salinity** - Salinity is one of the major environmental conditions that mangroves have to have evolved to be able to handle a wide range of conditions exist upon which mangroves have to be able to tolerate
+
+Given high salinity concentrations in the external environments, mangroves have to maintain osmotic potentials below these levels (~ -2.5 to -6.0 MPa). 
+
+Inorganic molecules are stored in the vacuoles, whereas organic salt molecules are maintained in the non-vacuolar spaces to help regulate salinity and protect functioning. A variety of mechanisms exist to maintain photosynthesis under saline conditions, but the two are largely decoupled in that salt flux to leaves does not increase with higher transpiration.
+
+**Light** - Interactive effects between levels of light and salinity exist, thus need to consider the two in concert. The combination of the saline environment and high levels of solar incidence create a high risk for photoinhibition (in which solar incidence is greater than can be used and may damage functioning).
+
+  - Species of mangroves differ in their strategies to avoid photoinhibition, e.g., vertical leaf angles of *Rhizophora* spps whereas *Bruguiera* spps have larger xanthophyll pigment pools
+  - Biomass growth may change depending upon salinity vs. light levels, and may be different across species
+  
+Presence of light gaps may be particularly important for certain species (e.g., *Rhizophora*). There are a number of studies beyond [@sherman2000small] that have investigated gap dynamics and are worth looking at.
+  
+**Nutrients** - Mangrove ecosystems are largely nutrient limited ecosystems due to infertility of upland soils and often a lack of terrigenous input. Response of mangrove trees to nutrient additions are common to that of other forests, often with increased growth rates and reduced nutrient use efficiencies.
+
+Several traits of mangroves exist to deal with nutrient limitations:
+
+  1. allocation of biomass to roots (particularly fine roots) relative to shoots
+  2. large maternal reserves for propagules
+  3. high amounts of nutrient resorption - resorption of nutrients from leaves prior to senescence
+  4. high nutrient use efficiency for photosynthesis
+  5. schlerophylly and tissue quality -- reduces both decomposition and herbivory
+  6. mutualistic associations, e.g., with vesicular arbuscular mycorrhizae or encrusting epibionts (?)
+  
+In addition, different strategies exist for high nutrient environments:
+
+  1. investment in leaf development and rapid growth rather than defense related traits
+  2. high PWUE - high extraction of water which salinizes the soil and may exclude competitors
+
+The availability of nutrients vs other environmental conditions often induces tradeoffs among different species. 
+
+**Flooding and SLR** - Flooding of mangroves greatly changes the soil conditions within very short time frames (less than a day). Mangrove roots may metabolize anaerobically for short periods of time, but more effective to avoid root hypoxia through internal aeration.
+
+Mangroves may aerate the rhizosphere through loss of O~2~ from roots, which oxidizes the soil and protects against harmful sulfide. The oxidized rhizosphere may also reduce flows of O~2~ from the plant to the soil during periods of inundation.
+
+However, mangroves are facultative halophytes and thus grow best under species-specific optimal levels of salinity and inundation, but growth levels generally are reduced under conditions beyond their particular optimum.
+
+Prolonged inundation, for example through sea level rise, reduces growth rates which may negate the effects CO~2~ fertilization. Over more short time periods, growth was reduced quickly but normal metabolic functioning quickly rebounded (after a period of a few weeks).
+
+**Biota** - Interacting effects of microconditions within the forest and biota, particularly insects or crabs that are predators of mangroves trees may be significant in establishement of seedlings.
+
+Additionally they can play important roles as ecosystem engineers, aerating soil, changing microtopography, or altering the texture of the soil.
 
 
 ### Dangremond, 2015 {#dangremond2015}
