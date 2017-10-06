@@ -18,7 +18,7 @@ Establishment of monospecific stands of mangrove trees in zones parallel to shor
   
 *Zonation as adaptation to physico-chemical gradients - Watson, 1928; Davis, 1940; Macnae, 1968; Ball 1988:*
 
-  - 
+  - One of the more commonly examined hypotheses for examining species zonation and investigated by a wide range of researchers. Watson's "inundation classes" and discussion of salinity may be one of the earliest, well-cited references to environmental gradients. The hypothesis holds that mangrove species have adapted to establish or compete in microenvironments that exist along environmental gradients. Given the dynamic nature of mangrove ecosystems, it is unlikely that mangrove species specialize to unique microenvironments, but more likely exhibit tolerance to a wide range of conditions. However, some may preferentially outcompete others in environments towards the ends of gradient spectrums, and thus ecophysiology may play an important role in competition and survival or growth *following* establishment.
 
 *Zonation as result of interspecific competition - Clarke and Hannon, 1970:*
 
@@ -47,9 +47,7 @@ Several comprehensive reviews of zonation in mangroves are provided in:
 The following chart details the presence of different stand types within the geomorphic settings of Tabasco, Mexico.
 
 ```{r, echo=FALSE}
-
 knitr::include_graphics(rep("images/thom1967.bmp"))
-
 ```
 
 *Key findings:* Thom's findings provided evidence that:
@@ -84,9 +82,7 @@ In addition, Lugo and Snedaker provide a review of matter cycling in mangroves; 
 Lugo and Snedaker provide a conceptual model of energy flows in mangroves (below), although it may be slightly over simplified.
 
 ```{r, echo=FALSE}
-
 knitr::include_graphics(rep("images/lugo1974.bmp"))
-
 ```
 
 ### Rabinowitz, 1978a
@@ -272,7 +268,6 @@ See also:
 
 **Further reading: ** Need to look up sulfur reduction processes.
 
-
 ### Chapman, 1976, Ch. 9 {#chapman1976ch9}
 
 *"Ch. 9 - Physiology of mangroves"* [@chapman1976physiology]
@@ -320,11 +315,7 @@ Some researchers have considered mangroves as xerophytic systems (i.e., arid sys
 
 *Carbon assimilation* - The information provided here is cursory and simply points to a lack of information. Marilyn Ball has done much more work on this topic, particularly in relation to PWUE, and her articles should be referred to here.
 
-
-
 ### Chapman, 1976, Ch. 10 {#chapman1976ch10}
-
-
 
 ### Ball, 1988 {#ball1988}
 
@@ -419,11 +410,32 @@ Additionally, the presence of both species induced higher redox potential (Eh) r
 
   - Seawater is the primary source of sulphate for reduction by dissimilatory sulphate reducing bacteria. H~2~S may be present in degrees to be toxic to mangroves, particularly seedlings.
 
-
-
 ### McKee, 1995 {#mckee1995}
 
 *"Seedling recruitment patterns in a Belizean mangrove forest"* [@mckee1995seedling]
+
+**Key significance:** This study examines the relative influence of edaphic and dispersal related characteristics on species patterning of mangroves in the Twin Cays (Belize). The study is unique in that it does well to look at the effects of multiple hypotheses (ecophysiology vs. dispersal properties) on zonation.
+
+**Research design:** Transects were laid perpendicular to the shoreline and extended through different "zones" of mangrove species. Plots were stablished along the transects and edaphic chracteristics as well as seedling densities and forest structure were collected. Additionally, tests of seedling growth were performed by transplanting individuals to forest plots of different mangrove parent species (but similar edaphic conditions). Propagules were collected and measured to examine dispersal properties.
+
+**Key results:** McKee concludes that different factors were more important for different species. In particular:
+
+  - *R. mangle* - Majority of variation in seedling density was explained by distance to parent trees, which would indicate dispersal properties were dominant controls
+  - *A. germinans* - Availability of resources, specifically light and NH~4~ explained majority of seedling density, indicating that nutrient limitations were primary controls.
+  - *L. racemosa* - A mix of dispersal and ecophysiological controls were found to explain seedling densities; however, seedlings were rare throughout the forest and thus the site conditions are likely too stressful for *L. racemosa* to exhibit canopy dominance.
+  
+In relation to seedling survival, the following is concluded:
+
+  1. dispersal and establishment properties (related to predation, dessication or inability to root) were primary causes of seedling mortality (i.e., during the establishment phase)
+  2. following establishment, physico-chemical factors such as salinity, flooding or nutrient availability were found to largely determine survival of seedlings
+  
+There are a number of nice figures that relate species zone to different criteria, but a nice visualization of quantifying relative density of species zonation is shown below (may be worth recreating for Krabi and Pak Panang):
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/mckee1995Oeco.bmp"))
+```
+
+**Other notes:** McKee collects a number of edaphic variables (e.g., salinity, sulphide, redox potential, etc.) and then uses PCA to extract three ecologically relevant "factors" that she uses to associate with seedling establishment and survival: i) salinity, ii) inundation, and iii) nutrients/resources. This appears to be a clever way of dealing with emergent properties and controls on mangroves and may be of interest for further examining interactive factors.
 
 
 ### Sherman, 1998 {#sherman1998}
