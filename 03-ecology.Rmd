@@ -250,7 +250,7 @@ See also:
 
 ## Ecophysiology & establishment
 
-### Chapman, 1976 {#chapman1976}
+### Chapman, 1976, Ch. 8 {#chapman1976ch8}
 
 *"Ch. 8 - Ecological factors"* [@chapman1976ecological]
 
@@ -273,9 +273,57 @@ See also:
 **Further reading: ** Need to look up sulfur reduction processes.
 
 
-### Chapman, 1976 {#chapman1976}
+### Chapman, 1976, Ch. 9 {#chapman1976ch9}
 
 *"Ch. 9 - Physiology of mangroves"* [@chapman1976physiology]
+
+*Physiology* - Functioning
+
+**Key contribution:** This chapter provides a nice overview of the physiology of mangroves, primarily in relation to:
+
+  1. Physiology of viviparous seedlings
+  2. Physiology of the pneumatophores
+  3. Physiology of salt control
+  4. Osmotic pressures
+  5. Transpiration rates
+  6. Carbon assimilation rates
+  
+*Viviparous seedlings* - The salinity of seedlings has been shown to be much lower than that of parent trees. This might increase buoyancy of the propagule and also protect it against very hostile environments. Seedlings quickly take up salts upon establishment, rapidly reaching to osmotic potentials of parent trees.
+
+Additionally, seedlings are found to be able to respire anaerobically. Respiration may be inhibited by several factors, such as presence of a fruit wall (*A. marina*) or the uptake of large concentrations of salts (*R. mucronata*).
+
+*Pneumatophores* - A number of studies have shown that pneumatophores are largely plant systems responsible for exchanges of gases. The discussion of pneumatophores here focused on three primary points:
+
+  1. *Gaseous exchange* - Much of this is conducted through the lenticels, which may also occur on stilt roots. The individual pneumatophores are seen as being responsible for aerating the particular section of cable root it exists upon, as well as any stabilizing roots underneath.
+  2. *Respiratory function* - Respiratory activity of pneumatophores likely makes up a significant (1/8 to 1/2) of total respiration.
+  3. *Other purposes* - Pneumatophores may server other purposes besides gas exchange or respiration. For example:
+    - *Sonneratia* and *Avicennia* pneumatophores produce very fine roots near the surface of the soil which aid in absorbing nutrients. As sediment accretes, the lower rootlets cease functioning and new sets closer to the surface are produced. Older pneumatophores may exist primarily as support organs for the absorbing rootlets
+    - This is interesting in reference to carbon, soil accretion and biological contribution; it would be good to look into morphological differences of roots in mangroves. A review article?
+    
+*Salt control* - Different strategies exist to deal with maintaining osmotic potentials and handling salts within mangroves.
+
+  1. *Salt exuding* - *Avicennia* and *Aegiceras* spps. are able to exude salt from glands in leaves, which is an energy intensive process. These same species do not appear to exclude salt at the roots to the same degree that other species without salt secretion glands do.
+  2. *Exclusion at roots* - Species without salt secretion glands maintain high osmotic potentials within their roots, which prevents much of the salt in the root system from entering the tree.
+  3. *Increasing leaf succulence* - Differential rates of storage of water and salts in vacuoles and leaf tissues vary amongst species, as well as with tree age and also environmental salinity levels. The coupling of root exclusion and increasing leaf succulence may be primary mechanisms of handling salinity for non-secreting species.
+
+*Osmotic pressures* - Osmotic pressure is the tendency for water to enter a solution through osmosis. High OPs indicate a higher ability to take in water via osmosis. Interestingly, the OP in excess of sea water (i.e., effective OP) in mangroves is comparable to OP values in terrestrial species. When considering OP in mangroves, need to think of three compartments:
+
+  1. OP in roots - uptake of water
+  2. OP in leaves - transpiration and thus loss of water
+  3. OP in vascular stem - flow rates within the plant
+  
+For non salt-secreting species, the flow of water through the system is largely salt-free. OPs can vary within species depending on different salinity conditions, which might be reflected in succulence or other traits measurable by remotely sensed data (hyperspectral imagery).
+
+*Transpiration rates* - The transpiration rates of mangroves are reduced in saline conditions, and are affected by other environmental factors such as soil texture (e.g., more rapid transpiration from plants in sand than mud), but also depends on species. Evidence has been shown that transpiration rates are higher for *Avicennia* in presence of salt.
+
+Some researchers have considered mangroves as xerophytic systems (i.e., arid systems with lack of water), but others have attacked this in that mangroves receive continuous supply of water (though limited) and thus are not living in a water limited system. For non-mangrove species living in a mangrove ecosystem, xerophytic conditions are likely present.
+
+*Carbon assimilation* - The information provided here is cursory and simply points to a lack of information. Marilyn Ball has done much more work on this topic, particularly in relation to PWUE, and her articles should be referred to here.
+
+
+
+### Chapman, 1976, Ch. 10 {#chapman1976ch10}
+
 
 
 ### Ball, 1988 {#ball1988}
