@@ -173,7 +173,7 @@ With the exception of *Ceriops tagal*, amount of predation was significantly neg
   - stand height, density and biomass accumulation seem to correlate with climatic factors, particularly rainfall
   - mangroves appear to have more pioneer-phase traits (e.g., r-strategy dispersal of propagules) relative to mature-phase traits
 
-**Status of zonation hypotheses as of 1992:*
+**Status of zonation hypotheses as of 1992:**
 
 ```{r echo=FALSE}
 knitr::include_graphics(rep("images/smith1992tab3.bmp"))
