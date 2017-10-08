@@ -198,15 +198,95 @@ knitr::include_graphics(rep("images/michenerjones2012.bmp"))
 
 ## Ontologies
 
-### Preface
+### Williams, 2006 {#williams2006}
 
-### Williams, 2006
+*"Ontologies for ecoinformatics"* [@williams2006ontologies]
 
-### Madin, 2008
+**Key contribution:** This is an early piece that gives an overview of what purpose ontologies may serve within ecology. They discuss it in particular relation to food webs within ecology, which are inherently complex with multiple definitions or system-specific interpretations for terms.
 
-### Reichman, 2011
+**Key notes: ** Ontologies should be employed to describe the following characteristics of a dataset:
+
+  1. Where, when and by who the data are collected
+  2. A description of what was observed, including identity and traits of the organism
+  3. Sampling protocol, including collection procedures and associated experimental manipulations
+  
+The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the important of separating "entities" and "traits".
+
+The piece by Madin, 2008 (see Section \@ref(madin2008) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.
+
+
+
+### Madin, 2008 {#madin2008}
+
+*"Advancing ecological research with ontologies"* [@madin2008advancing]
+
+**Key significance:** The article gives an overview of ontologies in ecology, with particular focus on:
+
+  1. What issue they are capable of resolving - i.e., integration of heterogeneous data
+  2. What ontologies are and the forms they take
+  3. Ongoing efforts to advance ontologies within ecology
+
+**"Ontologies** provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning."
+
+**The issue:** Lack of critical consideration of "concepts" within ecology complicates interpretation and synthesis of findings, as well as the location and reuse of existing datasets.
+
+**The solution:** Ontologies provide a formal framework for establishing concepts within a discipline, and can resolve some of issues that arise from multiple or nuanced interpretations of the same "concept" within ecology.
+
+**Notes: ** Ontologies within ecology are becoming more common, with three particular trends emerging:
+
+  1. Domain-specific ontologies that focus on capturing terminology used in specialized scientific disciplines or communities, for example:
+      1. Ontologies in OWL for food-web networks that are described in Williams 2006 (see Section \@ref(williams2006)).
+      2. *Semantic Web for Earth and Environmental Terminology (SWEET)* - Maintained by NASA JPL, use OWL ontologies to improve data integration and access capabilities.
+  2. Framework ontologies that define general concepts and relationships that others can extend when building domain ontologies, for example:
+      1. *Extensible Observation Ontology (OBOE)* -  component of the SEEK project; basic concepts and relationships for describing observational dataets (e.g., field, experimental, simulation and monitoring data). Compatible with the Ecological Metadata Language, and its core concepts (i.e., "Entity", "Characteristic", and "Measurement Standard") can all be extended with domain-specific ontologies.
+      2. *Classes for Environmental Data Exchange (CEDEX)* - formal framework for describing monitoring and experimental data from the European consortium of long-term ecological research stations.
+      3. *Observations Data Model (ODM)* or the *Open Geospatial Consortium's Observations and Measurements model OGC O&M* - framework intended to facilitate the sharing and reuse of data within particular domains (hydrology projects for the first, geospatial work for the second); free-form extensibility of OBOE is not present.
+  3. Other less formal approaches that identify and describe terms and concepts that are relevant to ecological research
+    - These commonly exist as thesauri that seek to standardize use of terms (and thus may aid in searching or browsing), but are not as effective as formal ontologies due to informal (and therefore a lack of logical relationships) nature.
+
+The authors provide a nice figure that exemplifies the architectural framework of responsible management and archiving of data:
+
+```{r}
+knitr::include_graphics(rep("images/madin2008.bmp"))
+```
+
+
+
+### Reichman, 2011 {#reichman2011}
+
+*"Challenges and opportunities of open data in ecology"* [@reichman2011challenges]
+
+**Key significance:** This piece focuses on how ecology (in some respects) has moved from a site-scale experimental field to one that is capable of large synthesis studies across broad spatial or temporal scales. They discuss issues of heterogeneity in data format and availability, and how to resolve them in order to perform synthetic analyses.
+
+**Key notes: **
+
+Reichman *et al* estimate that just 1% of ecological data that has been produced is available after publication of the associated results.
+
+They note three major technological challenges to "open data" (a la, Michiner, 2006), namely:
+
+  1. Data dispersion - Decentralized existence across a broad range of databases
+  2. Heterogeneity - Lack of consistency in collection, formatting and reporting
+  3. Provenance - Issues of origin and history
+  
+*Data dispersion:*
+  
+  - *DataONE* - A project designed to provide access to a number of central data repositories (e.g., Dryad) that facilitates data searching and access (also see *Global Earth Observation System of Systems (GEOSS)*)
+
+*Heterogeneity:*
+
+  - Data heterogeneity unlikely to be resolved due to specific research objectives and logistical constraints. Use of structured metadata such as Ecological Metadata Language (EML), however, is efficient at aiding access and reporting of heterogeneous data.
+
+*Data provenance:*
+
+  - Need scripted workflows that show quality control, processing and analysis of a dataset, particularly for derived datasets (e.g., meta-analyses or other secondary data objects)
+  - Unique identifiers (as DataONE) provides can be key for monitoring data provenance
+  
+*Social considerations:* Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.
+
 
 ### Wickham, 2014
+
+*"Tidy data"* [@wickham2014tidy]
 
 
 ## Tipping points

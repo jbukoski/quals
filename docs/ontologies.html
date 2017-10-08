@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-06">
+<meta name="date" content="2017-10-07">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -224,11 +224,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="6.1.7" data-path="ecoinformatics-1.html"><a href="ecoinformatics-1.html#michener-jones-2012"><i class="fa fa-check"></i><b>6.1.7</b> Michener &amp; Jones, 2012</a></li>
 </ul></li>
 <li class="chapter" data-level="6.2" data-path="ontologies.html"><a href="ontologies.html"><i class="fa fa-check"></i><b>6.2</b> Ontologies</a><ul>
-<li class="chapter" data-level="6.2.1" data-path="ontologies.html"><a href="ontologies.html#preface-6"><i class="fa fa-check"></i><b>6.2.1</b> Preface</a></li>
-<li class="chapter" data-level="6.2.2" data-path="ontologies.html"><a href="ontologies.html#williams-2006"><i class="fa fa-check"></i><b>6.2.2</b> Williams, 2006</a></li>
-<li class="chapter" data-level="6.2.3" data-path="ontologies.html"><a href="ontologies.html#madin-2008"><i class="fa fa-check"></i><b>6.2.3</b> Madin, 2008</a></li>
-<li class="chapter" data-level="6.2.4" data-path="ontologies.html"><a href="ontologies.html#reichman-2011"><i class="fa fa-check"></i><b>6.2.4</b> Reichman, 2011</a></li>
-<li class="chapter" data-level="6.2.5" data-path="ontologies.html"><a href="ontologies.html#wickham-2014"><i class="fa fa-check"></i><b>6.2.5</b> Wickham, 2014</a></li>
+<li class="chapter" data-level="6.2.1" data-path="ontologies.html"><a href="ontologies.html#williams2006"><i class="fa fa-check"></i><b>6.2.1</b> Williams, 2006</a></li>
+<li class="chapter" data-level="6.2.2" data-path="ontologies.html"><a href="ontologies.html#madin2008"><i class="fa fa-check"></i><b>6.2.2</b> Madin, 2008</a></li>
+<li class="chapter" data-level="6.2.3" data-path="ontologies.html"><a href="ontologies.html#reichman2011"><i class="fa fa-check"></i><b>6.2.3</b> Reichman, 2011</a></li>
+<li class="chapter" data-level="6.2.4" data-path="ontologies.html"><a href="ontologies.html#wickham-2014"><i class="fa fa-check"></i><b>6.2.4</b> Wickham, 2014</a></li>
 </ul></li>
 <li class="chapter" data-level="6.3" data-path="tipping-points.html"><a href="tipping-points.html"><i class="fa fa-check"></i><b>6.3</b> Tipping points</a><ul>
 <li class="chapter" data-level="6.3.1" data-path="tipping-points.html"><a href="tipping-points.html#scheffer-2001"><i class="fa fa-check"></i><b>6.3.1</b> Scheffer, 2001</a></li>
@@ -271,20 +270,98 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="ontologies" class="section level2">
 <h2><span class="header-section-number">6.2</span> Ontologies</h2>
-<div id="preface-6" class="section level3">
-<h3><span class="header-section-number">6.2.1</span> Preface</h3>
+<div id="williams2006" class="section level3">
+<h3><span class="header-section-number">6.2.1</span> Williams, 2006</h3>
+<p><em>“Ontologies for ecoinformatics”</em> <span class="citation">(Williams, Martinez, and Golbeck <a href="#ref-williams2006ontologies">2006</a>)</span></p>
+<p><strong>Key contribution:</strong> This is an early piece that gives an overview of what purpose ontologies may serve within ecology. They discuss it in particular relation to food webs within ecology, which are inherently complex with multiple definitions or system-specific interpretations for terms.</p>
+<p><strong>Key notes: </strong> Ontologies should be employed to describe the following characteristics of a dataset:</p>
+<ol style="list-style-type: decimal">
+<li>Where, when and by who the data are collected</li>
+<li>A description of what was observed, including identity and traits of the organism</li>
+<li>Sampling protocol, including collection procedures and associated experimental manipulations</li>
+</ol>
+<p>The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the important of separating “entities” and “traits”.</p>
+<p>The piece by Madin, 2008 (see Section <a href="ontologies.html#madin2008">6.2.2</a> provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.</p>
 </div>
-<div id="williams-2006" class="section level3">
-<h3><span class="header-section-number">6.2.2</span> Williams, 2006</h3>
+<div id="madin2008" class="section level3">
+<h3><span class="header-section-number">6.2.2</span> Madin, 2008</h3>
+<p><em>“Advancing ecological research with ontologies”</em> <span class="citation">(Madin et al. <a href="#ref-madin2008advancing">2008</a>)</span></p>
+<p><strong>Key significance:</strong> The article gives an overview of ontologies in ecology, with particular focus on:</p>
+<ol style="list-style-type: decimal">
+<li>What issue they are capable of resolving - i.e., integration of heterogeneous data</li>
+<li>What ontologies are and the forms they take</li>
+<li>Ongoing efforts to advance ontologies within ecology</li>
+</ol>
+<p>**“Ontologies** provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning.”</p>
+<p><strong>The issue:</strong> Lack of critical consideration of “concepts” within ecology complicates interpretation and synthesis of findings, as well as the location and reuse of existing datasets.</p>
+<p><strong>The solution:</strong> Ontologies provide a formal framework for establishing concepts within a discipline, and can resolve some of issues that arise from multiple or nuanced interpretations of the same “concept” within ecology.</p>
+<p><strong>Notes: </strong> Ontologies within ecology are becoming more common, with three particular trends emerging:</p>
+<ol style="list-style-type: decimal">
+<li>Domain-specific ontologies that focus on capturing terminology used in specialized scientific disciplines or communities, for example:
+<ol style="list-style-type: decimal">
+<li>Ontologies in OWL for food-web networks that are described in Williams 2006 (see Section <a href="ontologies.html#williams2006">6.2.1</a>).</li>
+<li><em>Semantic Web for Earth and Environmental Terminology (SWEET)</em> - Maintained by NASA JPL, use OWL ontologies to improve data integration and access capabilities.</li>
+</ol></li>
+<li>Framework ontologies that define general concepts and relationships that others can extend when building domain ontologies, for example:
+<ol style="list-style-type: decimal">
+<li><em>Extensible Observation Ontology (OBOE)</em> - component of the SEEK project; basic concepts and relationships for describing observational dataets (e.g., field, experimental, simulation and monitoring data). Compatible with the Ecological Metadata Language, and its core concepts (i.e., “Entity”, “Characteristic”, and “Measurement Standard”) can all be extended with domain-specific ontologies.</li>
+<li><em>Classes for Environmental Data Exchange (CEDEX)</em> - formal framework for describing monitoring and experimental data from the European consortium of long-term ecological research stations.</li>
+<li><em>Observations Data Model (ODM)</em> or the <em>Open Geospatial Consortium’s Observations and Measurements model OGC O&amp;M</em> - framework intended to facilitate the sharing and reuse of data within particular domains (hydrology projects for the first, geospatial work for the second); free-form extensibility of OBOE is not present.</li>
+</ol></li>
+<li>Other less formal approaches that identify and describe terms and concepts that are relevant to ecological research
+<ul>
+<li>These commonly exist as thesauri that seek to standardize use of terms (and thus may aid in searching or browsing), but are not as effective as formal ontologies due to informal (and therefore a lack of logical relationships) nature.</li>
+</ul></li>
+</ol>
+<p>The authors provide a nice figure that exemplifies the architectural framework of responsible management and archiving of data:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">include_graphics</span>(<span class="kw">rep</span>(<span class="st">&quot;images/madin2008.bmp&quot;</span>))</code></pre></div>
+<p><img src="images/madin2008.bmp" /><!-- --></p>
 </div>
-<div id="madin-2008" class="section level3">
-<h3><span class="header-section-number">6.2.3</span> Madin, 2008</h3>
-</div>
-<div id="reichman-2011" class="section level3">
-<h3><span class="header-section-number">6.2.4</span> Reichman, 2011</h3>
+<div id="reichman2011" class="section level3">
+<h3><span class="header-section-number">6.2.3</span> Reichman, 2011</h3>
+<p><em>“Challenges and opportunities of open data in ecology”</em> <span class="citation">(Reichman, Jones, and Schildhauer <a href="#ref-reichman2011challenges">2011</a>)</span></p>
+<p><strong>Key significance:</strong> This piece focuses on how ecology (in some respects) has moved from a site-scale experimental field to one that is capable of large synthesis studies across broad spatial or temporal scales. They discuss issues of heterogeneity in data format and availability, and how to resolve them in order to perform synthetic analyses.</p>
+<p><strong>Key notes: </strong></p>
+<p>Reichman <em>et al</em> estimate that just 1% of ecological data that has been produced is available after publication of the associated results.</p>
+<p>They note three major technological challenges to “open data” (a la, Michiner, 2006), namely:</p>
+<ol style="list-style-type: decimal">
+<li>Data dispersion - Decentralized existence across a broad range of databases</li>
+<li>Heterogeneity - Lack of consistency in collection, formatting and reporting</li>
+<li>Provenance - Issues of origin and history</li>
+</ol>
+<p><em>Data dispersion:</em></p>
+<ul>
+<li><em>DataONE</em> - A project designed to provide access to a number of central data repositories (e.g., Dryad) that facilitates data searching and access (also see <em>Global Earth Observation System of Systems (GEOSS)</em>)</li>
+</ul>
+<p><em>Heterogeneity:</em></p>
+<ul>
+<li>Data heterogeneity unlikely to be resolved due to specific research objectives and logistical constraints. Use of structured metadata such as Ecological Metadata Language (EML), however, is efficient at aiding access and reporting of heterogeneous data.</li>
+</ul>
+<p><em>Data provenance:</em></p>
+<ul>
+<li>Need scripted workflows that show quality control, processing and analysis of a dataset, particularly for derived datasets (e.g., meta-analyses or other secondary data objects)</li>
+<li>Unique identifiers (as DataONE) provides can be key for monitoring data provenance</li>
+</ul>
+<p><em>Social considerations:</em> Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.</p>
 </div>
 <div id="wickham-2014" class="section level3">
-<h3><span class="header-section-number">6.2.5</span> Wickham, 2014</h3>
+<h3><span class="header-section-number">6.2.4</span> Wickham, 2014</h3>
+<p><em>“Tidy data”</em> <span class="citation">(Wickham and others <a href="#ref-wickham2014tidy">2014</a>)</span></p>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-williams2006ontologies">
+<p>Williams, Richard J, Neo D Martinez, and Jennifer Golbeck. 2006. “Ontologies for Ecoinformatics.” <em>Web Semantics: Science, Services and Agents on the World Wide Web</em> 4 (4): 237–42. doi:<a href="https://doi.org/10.1016/j.websem.2006.06.002">10.1016/j.websem.2006.06.002</a>.</p>
+</div>
+<div id="ref-madin2008advancing">
+<p>Madin, Joshua S, Shawn Bowers, Mark P Schildhauer, and Matthew B Jones. 2008. “Advancing Ecological Research with Ontologies.” <em>Trends in Ecology &amp; Evolution</em> 23 (3): 159–68. doi:<a href="https://doi.org/10.1016/j.tree.2007.11.007">10.1016/j.tree.2007.11.007</a>.</p>
+</div>
+<div id="ref-reichman2011challenges">
+<p>Reichman, O James, Matthew B Jones, and Mark P Schildhauer. 2011. “Challenges and Opportunities of Open Data in Ecology.” <em>Science</em> 331 (6018): 703–5. doi:<a href="https://doi.org/10.1126/science.1197962">10.1126/science.1197962</a>.</p>
+</div>
+<div id="ref-wickham2014tidy">
+<p>Wickham, Hadley, and others. 2014. “Tidy Data.” <em>Journal of Statistical Software</em> 59 (10): 1–23.</p>
 </div>
 </div>
             </section>
