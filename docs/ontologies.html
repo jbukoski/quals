@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-07">
+<meta name="date" content="2017-10-08">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -314,7 +314,6 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 </ol>
 <p>The authors provide a nice figure that exemplifies the architectural framework of responsible management and archiving of data:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">include_graphics</span>(<span class="kw">rep</span>(<span class="st">&quot;images/madin2008.bmp&quot;</span>))</code></pre></div>
 <p><img src="images/madin2008.bmp" /><!-- --></p>
 </div>
 <div id="reichman2011" class="section level3">
@@ -347,6 +346,18 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="wickham-2014" class="section level3">
 <h3><span class="header-section-number">6.2.4</span> Wickham, 2014</h3>
 <p><em>“Tidy data”</em> <span class="citation">(Wickham and others <a href="#ref-wickham2014tidy">2014</a>)</span></p>
+<p><strong>Key significance:</strong> A formal description of Hadley’s “tidy data” concept. See also this online <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">article</a>, which is a bit more of a code-based explanation of tidy data.</p>
+<p><strong>Key notes: </strong> Tidy data has the following fundamental format: each variable is a column, each observation is a row, and each type of observational unit is a table.</p>
+<p><em>Data tidying</em> - as organizing datasets such to facilitate analysis</p>
+<p>In organizing data, there is a general rule of thumb that it’s easier to describe functional relationships between variables (i.e., linear combinations of columns) rather than relationships between observations (rows); AND it’s easier to compare across groups of observations (rows) relative to between groups of variables (columns)</p>
+<p>There are four basic verbs for data manipulation:</p>
+<ol style="list-style-type: decimal">
+<li><em>Filter</em> - subsetting or removing observations based on a condition</li>
+<li><em>Transform</em> - adding or modifying variables</li>
+<li><em>Aggregate</em> - collapsing multiple values into a single value</li>
+<li><em>Sort</em> - changing the order of observations</li>
+</ol>
+<p>Tidy data is particularly useful for modeling, and is a large part of why it is designed/promoted.</p>
 </div>
 </div>
 <h3>References</h3>

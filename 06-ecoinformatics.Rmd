@@ -246,11 +246,9 @@ The piece by Madin, 2008 (see Section \@ref(madin2008) provides a more comprehen
 
 The authors provide a nice figure that exemplifies the architectural framework of responsible management and archiving of data:
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics(rep("images/madin2008.bmp"))
 ```
-
-
 
 ### Reichman, 2011 {#reichman2011}
 
@@ -288,6 +286,22 @@ They note three major technological challenges to "open data" (a la, Michiner, 2
 
 *"Tidy data"* [@wickham2014tidy]
 
+**Key significance:** A formal description of Hadley's "tidy data" concept. See also this online [article](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html), which is a bit more of a code-based explanation of tidy data.
+
+**Key notes: ** Tidy data has the following fundamental format: each variable is a column, each observation is a row, and each type of observational unit is a table.
+
+*Data tidying* - as organizing datasets such to facilitate analysis
+
+In organizing data, there is a general rule of thumb that it's easier to describe functional relationships between variables (i.e., linear combinations of columns) rather than relationships between observations (rows); AND it's easier to compare across groups of observations (rows) relative to between groups of variables (columns)
+
+There are four basic verbs for data manipulation:
+
+  1. *Filter* - subsetting or removing observations based on a condition
+  2. *Transform* - adding or modifying variables
+  3. *Aggregate* - collapsing multiple values into a single value
+  4. *Sort* - changing the order of observations
+  
+Tidy data is particularly useful for modeling, and is a large part of why it is designed/promoted.
 
 ## Tipping points
 

@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-07">
+<meta name="date" content="2017-10-08">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -226,7 +226,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="6.2" data-path="ontologies.html"><a href="ontologies.html"><i class="fa fa-check"></i><b>6.2</b> Ontologies</a><ul>
 <li class="chapter" data-level="6.2.1" data-path="ontologies.html"><a href="ontologies.html#williams2006"><i class="fa fa-check"></i><b>6.2.1</b> Williams, 2006</a></li>
 <li class="chapter" data-level="6.2.2" data-path="ontologies.html"><a href="ontologies.html#madin2008"><i class="fa fa-check"></i><b>6.2.2</b> Madin, 2008</a></li>
-<li class="chapter" data-level="6.2.3" data-path="ontologies.html"><a href="ontologies.html#reichman-2011"><i class="fa fa-check"></i><b>6.2.3</b> Reichman, 2011</a></li>
+<li class="chapter" data-level="6.2.3" data-path="ontologies.html"><a href="ontologies.html#reichman2011"><i class="fa fa-check"></i><b>6.2.3</b> Reichman, 2011</a></li>
 <li class="chapter" data-level="6.2.4" data-path="ontologies.html"><a href="ontologies.html#wickham-2014"><i class="fa fa-check"></i><b>6.2.4</b> Wickham, 2014</a></li>
 </ul></li>
 <li class="chapter" data-level="6.3" data-path="tipping-points.html"><a href="tipping-points.html"><i class="fa fa-check"></i><b>6.3</b> Tipping points</a><ul>
@@ -295,7 +295,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>**“Ontologies** provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning.”</p>
 <p><strong>The issue:</strong> Lack of critical consideration of “concepts” within ecology complicates interpretation and synthesis of findings, as well as the location and reuse of existing datasets.</p>
 <p><strong>The solution:</strong> Ontologies provide a formal framework for establishing concepts within a discipline, and can resolve some of issues that arise from multiple or nuanced interpretations of the same “concept” within ecology.</p>
-<p>**<a href="Notes:**" class="uri">Notes:**</a> Ontologies within ecology are becoming more common, with three particular trends emerging:</p>
+<p><strong>Notes: </strong> Ontologies within ecology are becoming more common, with three particular trends emerging:</p>
 <ol style="list-style-type: decimal">
 <li>Domain-specific ontologies that focus on capturing terminology used in specialized scientific disciplines or communities, for example:
 <ol style="list-style-type: decimal">
@@ -317,13 +317,48 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">include_graphics</span>(<span class="kw">rep</span>(<span class="st">&quot;images/madin2008.bmp&quot;</span>))</code></pre></div>
 <p><img src="images/madin2008.bmp" /><!-- --></p>
 </div>
-<div id="reichman-2011" class="section level3">
+<div id="reichman2011" class="section level3">
 <h3><span class="header-section-number">6.2.3</span> Reichman, 2011</h3>
 <p><em>“Challenges and opportunities of open data in ecology”</em> <span class="citation">(Reichman, Jones, and Schildhauer <a href="#ref-reichman2011challenges">2011</a>)</span></p>
+<p><strong>Key significance:</strong> This piece focuses on how ecology (in some respects) has moved from a site-scale experimental field to one that is capable of large synthesis studies across broad spatial or temporal scales. They discuss issues of heterogeneity in data format and availability, and how to resolve them in order to perform synthetic analyses.</p>
+<p><strong>Key notes: </strong></p>
+<p>Reichman <em>et al</em> estimate that just 1% of ecological data that has been produced is available after publication of the associated results.</p>
+<p>They note three major technological challenges to “open data” (a la, Michiner, 2006), namely:</p>
+<ol style="list-style-type: decimal">
+<li>Data dispersion - Decentralized existence across a broad range of databases</li>
+<li>Heterogeneity - Lack of consistency in collection, formatting and reporting</li>
+<li>Provenance - Issues of origin and history</li>
+</ol>
+<p><em>Data dispersion:</em></p>
+<ul>
+<li><em>DataONE</em> - A project designed to provide access to a number of central data repositories (e.g., Dryad) that facilitates data searching and access (also see <em>Global Earth Observation System of Systems (GEOSS)</em>)</li>
+</ul>
+<p><em>Heterogeneity:</em></p>
+<ul>
+<li>Data heterogeneity unlikely to be resolved due to specific research objectives and logistical constraints. Use of structured metadata such as Ecological Metadata Language (EML), however, is efficient at aiding access and reporting of heterogeneous data.</li>
+</ul>
+<p><em>Data provenance:</em></p>
+<ul>
+<li>Need scripted workflows that show quality control, processing and analysis of a dataset, particularly for derived datasets (e.g., meta-analyses or other secondary data objects)</li>
+<li>Unique identifiers (as DataONE) provides can be key for monitoring data provenance</li>
+</ul>
+<p><em>Social considerations:</em> Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.</p>
 </div>
 <div id="wickham-2014" class="section level3">
 <h3><span class="header-section-number">6.2.4</span> Wickham, 2014</h3>
 <p><em>“Tidy data”</em> <span class="citation">(Wickham and others <a href="#ref-wickham2014tidy">2014</a>)</span></p>
+<p><strong>Key significance:</strong> A formal description of Hadley’s “tidy data” concept. See also this online <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">article</a>, which is a bit more of a code-based explanation of tidy data.</p>
+<p><strong>Key notes: </strong> Tidy data has the following fundamental format: each variable is a column, each observation is a row, and each type of observational unit is a table.</p>
+<p><em>Data tidying</em> - as organizing datasets such to facilitate analysis</p>
+<p>In organizing data, there is a general rule of thumb that it’s easier to describe functional relationships between variables (i.e., linear combinations of columns) rather than relationships between observations (rows); AND it’s easier to compare across groups of observations (rows) relative to between groups of variables (columns)</p>
+<p>There are four basic verbs for data manipulation:</p>
+<ol style="list-style-type: decimal">
+<li><em>Filter</em> - subsetting or removing observations based on a condition</li>
+<li><em>Transform</em> - adding or modifying variables</li>
+<li><em>Aggregate</em> - collapsing multiple values into a single value</li>
+<li><em>Sort</em> - changing the order of observations</li>
+</ol>
+<p>Tidy data is particularly useful for modeling, and is a large part of why it is designed/promoted.</p>
 </div>
 </div>
 <h3>References</h3>
