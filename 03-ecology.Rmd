@@ -154,6 +154,12 @@ She provides a discussion of the hypothesis as well as links it to several studi
 
 With the exception of *Ceriops tagal*, amount of predation was significantly negatively correlated with conspecific dominance (i.e., low dominance by parent trees led to high predation rates) across the other four species.
 
+### Smith, 1989 {#smith1989}
+
+*"Comparisons of seed predation in tropica, tidal forests from three continents"* [@smith1989comparisons]
+
+
+
 ### Smith, 1992 {#smith1992}
 
 *"Forest structure" (In Robertson and Alongi, 2002)* [@smith1992forest]

@@ -215,29 +215,53 @@ Their results largely showed that remote sensing of species composition is quite
   - LAI was not significantly correlated with species composition, but was significantly correlated with forest height, which indicates that canopy depth expands with increasing canopy height.
 
 
-
-
-
 ### Green, 1998 {#green1998}
 
+*"Remote sensing techniques for mangrove mapping"* [@green1998remote]
+
+
+### Proisy, 2000{#proisy2000}
+
+*"Interpretation of polarimetric radar signatures of mangrove forests"* [@proisy2000interpretation]
 
 
 ### Proisy, 2002 {#proisy2002}
 
+*"On the influence of canopy structure on the radar backscattering mangrove forests"* [@proisy2002influence]
 
 
-### Wang, 2004
+### Mutanga, 2004 {#mutanga2004}
 
-### Vaiphasa, 2005
-
-### Vaiphasa, 2006
-
-### Mutanga, 2010 {#mutanga2010}
+*"Narrow band vegetation indices solve the saturation problem in biomass estimation"* [@mutanga2004narrow]
 
 
+### Wang, 2004a {#wang2004a}
 
-### Dronova, 2012
+*"Comparison of IKONOS and QuickBird images for mapping mangrove species on the Caribbean coast of Panama"* [@wang2004comparison]
 
+
+### Wang, 2004b {#wang2004b}
+
+*"Integration of object-based and pixel-based classification for mapping mangroves with IKONOS imagery"* [@wang2004integration]
+
+
+### Vaiphasa, 2005 {#vaiphasa2005}
+
+*"Tropical mangrove species discrimination using hyperspectral data: A laboratory study"* [@vaiphasa2005tropical]
+
+
+### Vaiphasa, 2006 {#vaiphasa2006}
+
+*"A post-classified for mangrove mapping using ecological data"* [@vaiphasa2006post]
+
+
+### Dronova, 2012 {#dronova2012}
+
+*"Landscape analysis of wetland plant functional types: The effects of image segmentation scale, vegetation classes and classification methods"* [@dronova2012landscape]
+
+### Giri *et al*, 2014 {#giri2014}
+
+*"A study on abundance and distribution of mangrove species in Indian Sundarban using remote sensing technique"* [@giri2014study]
 
 ## Geomorphology {#rs-geomorphology}
 
