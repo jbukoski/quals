@@ -118,7 +118,7 @@ Among most important techniques for postprocessing of LiDAR point clouds for geo
 
 The spectral signature of mangrove leaves are largely a function of age, vitality, phenological props and physiological props. Greater discrimination between species (at least in Vietnam) may be seen in the NIR, but little differentiation seen in VIS:
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics(rep("images/kuenzer2011RemSens.bmp"))
 ```
 
@@ -130,7 +130,7 @@ knitr::include_graphics(rep("images/kuenzer2011RemSens.bmp"))
     2. C-band - 6 cm, plant/soil multiple and volume scattering
     3. L-band - 24 cm, direct backscatter from soil & water
     
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics(rep("images/kuenzer2011RemSensFig4.bmp"))
 ```
   
@@ -194,13 +194,47 @@ Article synopses:
 
 ## Vegetation
 
-### Jensen, 1996
+### Ramsey, 1996 {#jensen1996}
+
+*"Remote sensing of mangrove wetlands: Relating canopy spectra to site-specific data"* [@ramsey1996remote]
+
+**Key significance: ** This is one of the earliest comprehensive attempts to relate multispectral wavelength data to mangrove forest structure characteristics. In particular, the study seeks out to answer two primary questions:
+
+  1. What are the spectral and structural changes within and between mangrove species and community types?
+  2. What are the relationships between the canopy spectral variability at the blue, green, red and NIR wavelength regions and canopy species composition and structural variability?
+  
+Their results largely showed that remote sensing of species composition is quite difficult (no relationships between species composition and spectral indices exist), but LAI and a few other parameters (canopy height) were found to be significantly correlated with some spectral bands/vegetation indices.
+  
+**Research design:** Field structure and species composition data was collected and coupled with remotely sensed spectral data. Regression and other statistical techniques were used to relate the data to the various spectral measures and their arithmetic transforms. Spectral measurements were taken in the lab, from a helicopter platform, and also from SPOT satellite.
+
+**Key notes & results: ** The following results and key conclusion of the study should be noted:
+
+  - LAI was calculated as a transform of canopy closure, which was collected with a hemispherical mirror
+  - Significant correlations of any of the bands with percent species composition was not significant
+    - The strongest correlations between spectral signatures and forest structure data was with LAI
+  - LAI was not significantly correlated with species composition, but was significantly correlated with forest height, which indicates that canopy depth expands with increasing canopy height.
+
+
+
+
+
+### Green, 1998 {#green1998}
+
+
+
+### Proisy, 2002 {#proisy2002}
+
+
 
 ### Wang, 2004
 
 ### Vaiphasa, 2005
 
 ### Vaiphasa, 2006
+
+### Mutanga, 2010 {#mutanga2010}
+
+
 
 ### Dronova, 2012
 
