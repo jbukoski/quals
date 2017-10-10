@@ -236,11 +236,11 @@ The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehe
 
 **Notes: ** Ontologies within ecology are becoming more common, with three particular trends emerging:
 
-  1. Domain-specific ontologies that focus on capturing terminology used in specialized scientific disciplines or communities, for example:
+  1. *Domain-specific ontologies* that focus on capturing terminology used in specialized scientific disciplines or communities, for example:
       1. Ontologies in Web Ontology Language (OWL) for food-web networks that are described in Williams 2006 (see Section \@ref(williams2006)).
       2. *Semantic Web for Earth and Environmental Terminology (SWEET)* - Maintained by NASA JPL, use OWL ontologies to improve data integration and access capabilities.
-  2. Framework ontologies that define general concepts and relationships that others can extend when building domain ontologies, for example:
-      1. *Extensible Observation Ontology (OBOE)* -  component of the SEEK project; basic concepts and relationships for describing observational dataets (e.g., field, experimental, simulation and monitoring data). Compatible with the Ecological Metadata Language, and its core concepts (i.e., "Entity", "Characteristic", and "Measurement Standard") can all be extended with domain-specific ontologies.
+  2. *Framework ontologies* that define general concepts and relationships that others can extend when building domain ontologies, for example:
+      1. *Extensible Observation Ontology (OBOE)* -  component of the SEEK project; basic concepts and relationships for describing observational datasets (e.g., field, experimental, simulation and monitoring data). Compatible with EML, and its core concepts (i.e., "Entity", "Characteristic", and "Measurement Standard") can all be extended with domain-specific ontologies.
       2. *Classes for Environmental Data Exchange (CEDEX)* - formal framework for describing monitoring and experimental data from the European consortium of long-term ecological research stations.
       3. *Observations Data Model (ODM)* or the *Open Geospatial Consortium's Observations and Measurements model OGC O&M* - framework intended to facilitate the sharing and reuse of data within particular domains (hydrology projects for the first, geospatial work for the second); free-form extensibility of OBOE is not present.
   3. Other less formal approaches that identify and describe terms and concepts that are relevant to ecological research
@@ -264,17 +264,17 @@ Reichman *et al* estimate that just 1% of ecological data that has been produced
 
 They note three major technological challenges to "open data" (a la, Michiner, 2006), namely:
 
-  1. Data dispersion - Decentralized existence across a broad range of databases
+  1. Data dispersion - Decentralized existence across a broad range of databases (either local or online)
   2. Heterogeneity - Lack of consistency in collection, formatting and reporting
-  3. Provenance - Issues of origin and history
+  3. Provenance - Issues of origin and history (relevant for datasets, as well as data products)
   
 *Data dispersion:*
   
-  - *DataONE* - A project designed to provide access to a number of central data repositories (e.g., Dryad) that facilitates data searching and access (also see *Global Earth Observation System of Systems (GEOSS)*)
+  - *DataONE* - A project designed to provide access to a number of central data repositories (e.g., Data Dryad) that facilitates data searching and access (also see *Global Earth Observation System of Systems (GEOSS)*)
 
 *Heterogeneity:*
 
-  - Data heterogeneity unlikely to be resolved due to specific research objectives and logistical constraints. Use of structured metadata such as Ecological Metadata Language (EML), however, is efficient at aiding access and reporting of heterogeneous data.
+  - Data heterogeneity unlikely to be resolved due to specific research objectives and logistical constraints. Use of structured metadata such as EML, however, is efficient at aiding access and reporting of heterogeneous data.
 
 *Data provenance:*
 
