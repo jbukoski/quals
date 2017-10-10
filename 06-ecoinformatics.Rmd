@@ -212,9 +212,9 @@ knitr::include_graphics(rep("images/michenerjones2012.bmp"))
   2. A description of what was observed, including identity and traits of the organism
   3. Sampling protocol, including collection procedures and associated experimental manipulations
   
-The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the important of separating "entities" and "traits".
+The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the importance of separating "entities" and "traits".
 
-The piece by Madin, 2008 (see Section \@ref(madin2008) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.
+The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.
 
 
 
@@ -222,22 +222,22 @@ The piece by Madin, 2008 (see Section \@ref(madin2008) provides a more comprehen
 
 *"Advancing ecological research with ontologies"* [@madin2008advancing]
 
-**Key significance:** The article gives an overview of ontologies in ecology, with particular focus on:
+**Key significance:** This article gives an overview of ontologies in ecology, with particular focus on:
 
-  1. What issue they are capable of resolving - i.e., integration of heterogeneous data
+  1. What issue they are capable of resolving -- i.e., integration of heterogeneous data
   2. What ontologies are and the forms they take
   3. Ongoing efforts to advance ontologies within ecology
 
-**"Ontologies** provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning."
+**Ontologies** provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning."
 
 **The issue:** Lack of critical consideration of "concepts" within ecology complicates interpretation and synthesis of findings, as well as the location and reuse of existing datasets.
 
-**The solution:** Ontologies provide a formal framework for establishing concepts within a discipline, and can resolve some of issues that arise from multiple or nuanced interpretations of the same "concept" within ecology.
+**The solution:** Ontologies provide a formal framework for establishing concepts within a discipline, and can resolve some of the issues that arise from multiple or nuanced interpretations of the same "concept" within ecology.
 
 **Notes: ** Ontologies within ecology are becoming more common, with three particular trends emerging:
 
   1. Domain-specific ontologies that focus on capturing terminology used in specialized scientific disciplines or communities, for example:
-      1. Ontologies in OWL for food-web networks that are described in Williams 2006 (see Section \@ref(williams2006)).
+      1. Ontologies in Web Ontology Language (OWL) for food-web networks that are described in Williams 2006 (see Section \@ref(williams2006)).
       2. *Semantic Web for Earth and Environmental Terminology (SWEET)* - Maintained by NASA JPL, use OWL ontologies to improve data integration and access capabilities.
   2. Framework ontologies that define general concepts and relationships that others can extend when building domain ontologies, for example:
       1. *Extensible Observation Ontology (OBOE)* -  component of the SEEK project; basic concepts and relationships for describing observational dataets (e.g., field, experimental, simulation and monitoring data). Compatible with the Ecological Metadata Language, and its core concepts (i.e., "Entity", "Characteristic", and "Measurement Standard") can all be extended with domain-specific ontologies.
