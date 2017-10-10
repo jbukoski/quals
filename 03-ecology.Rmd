@@ -191,7 +191,7 @@ knitr::include_graphics(rep("images/smith1992tab3.bmp"))
 
   1. Chapman 1976 - Extensive review of early literature surrounding mangrove zonation
 
-### Chen & Twilley, 1998
+### Chen & Twilley, 1998 {#chentwilley1998}
 
 *"A gap dynamic model of mangrove forest development along gradients of soil salinity and nutrient resources"* [@chen1998gap]
 
@@ -207,7 +207,7 @@ Key findings from each of the three model explorations are detailed below:
   
 **Research relevance:** Can the same models be employed to look at shifts in forest structure due to sea-level rise?
 
-### Sherman *et al*, 2000
+### Sherman *et al*, 2000 {#sherman2000}
 
 *"Small-scale disturbance and regeneration dynamics in a neotropical mangrove forest"* [@sherman2000small]
 

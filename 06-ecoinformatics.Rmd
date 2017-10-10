@@ -1,7 +1,5 @@
 # Ecoinformatics
 
-Ecoinformatics...
-
 ## Ecoinformatics
 
 ### Michener *et al*, 2001
@@ -12,9 +10,9 @@ Ecoinformatics...
 
   1. Defining biocomplexity
   2. Examining the characteristics of biocomplexity
-  3. Speculating on future of biocomplexity
+  3. Speculating on the future of biocomplexity
   
-*Biocomplexity* - "properties emerging from the interplay of behavioral, biological, chemical, physical, and social interactions that affect, sustain, or are modified by living organisms, including humans" (as defined by [@michener2001defining])
+*Biocomplexity* - "properties emerging from the interplay of behavioral, biological, chemical, physical, and social interactions that affect, sustain, or are modified by living organisms, including humans," as defined by [@michener2001defining]
   
 **Key notes: **
 
@@ -26,27 +24,27 @@ Ecoinformatics...
 
 **Characteristics of "biocomplexity":**
 
-  1. relevant for a wide range of organisms microbial to megafauna [(including humans)]
-  2. relevant for a wide range of environments
-  3. reflected in nonlinear, chaotic, or unpredictable behaviors -- which likely necessitates sophisticated and innovative quantitative procedures
-  4. likely to span many hierarchical levels as well as across multiples scales in space and time
+  1. Relevant for a wide range of organisms; from microbial to megafauna (including humans)
+  2. Relevant for a wide range of environments
+  3. Reflected in nonlinear, chaotic, or unpredictable behaviors -- which likely necessitates sophisticated and innovative quantitative procedures
+  4. Likely to span many hierarchical levels as well as across multiples scales in time and space
     
 **Key research trajectories for ecology (as posed by Thompson 2001):**
 
-  1. "dynamics of coalescence in complex communities" - how do environmental constraints and species availability result in current complex ecological communities
-  2. "ecological memory" - how do past events & conditions influence current ecological structure conditions
-  3. "emergent properties" - examining whether first principles of "hard" sciences can predict composition, structure & function
-  4. "ecological topology" - identifying "rules" that occur over different scales of time and space and examining how they interact to produce ecosystems
+  1. "Dynamics of coalescence in complex communities" - how do environmental constraints and species availability result in current complex ecological communities
+  2. "Ecological memory" - how do past events & conditions influence current ecological structure and conditions
+  3. "Emergent properties" - examining whether the first principles of "hard" sciences can predict composition, structure & function
+  4. "Ecological topology" - identifying "rules" that occur over different scales of time and space, and examining how they interact to produce ecosystems
 
 **Further reading:**
 
-  1. [@thompson2001frontiers] - Frontiers of ecology: As ecological research enters a new era of collaboration, integration, and technological sophistication, four frontiers seem paramount for understanding how biological and physical processes interact over multiple spatial and temporal scales to shape the earth's biodiversity
+  1. [@thompson2001frontiers] - Frontiers of ecology: As ecological research enters a new era of collaboration, integration, and technological sophistication, four frontiers (listed above) seem paramount for understanding how biological and physical processes interact over multiple spatial and temporal scales to shape the Earth's biodiversity
 
 ### Jones *et al*, 2006
 
 *"The new bioinformatics: Integrating ecological data from the gene to the biosphere"* [@jones2006new]
 
-**Key contribution:** This paper makes the case for "locating, accessing and integrating" data within ecology. They provide examples of the successes associated with doing so in alternative fields (genetics), and make a case for the need within ecology. They also outline metadata-drive versus vertically integrated databases (data warehouses), and the relative pros/cons of the two.
+**Key contribution:** This paper makes the case for "locating, accessing and integrating" data within ecology. They provide examples of the successes associated with doing so in alternative fields (genetics), and make a case for the need within ecology. They also outline vertically integrated databases (data warehouses) versus metadata-driven databases (data collections), and the relative pros/cons of the two.
 
 **Examples of metadata and data collections in ecology:**
 
@@ -56,26 +54,26 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 
 **Key notes**: Some relevant points from the article:
 
-  - Focus on "experimental" design and testing of multiple hypotheses makes ecological data inherently heterogeneous.
+  - A focus on "experimental" design and testing of multiple hypotheses makes ecological data inherently heterogeneous.
   - Ecoinformatics importance is housed in ability to "allow a broader perspective over time and space, and across many disciplines, than is possible from on or a few studies," and in allowing data to be reused for questions that may emerge in the future.
+    - Would appear to be well-suited to address questions of biocomplexity
   - Current standard for storing of data is in heterogeneous spreadsheets
-  - *Data warehouses (vertically-integrated)* - databases that coalesce data from many investigators, but focused on one theme and searchable often through an online interface; often represents a "least-common denominator" approach in that they are less complex than original dataset
-    - examples: GenBank, VegBank or TreeBase
-  - *Data collections (metadata-drive)* - collection of datasets that are loosely structured together by well-crafted metadata
-    - advantages:
-      1. data of disparate types can be housed within a single location
-      2. focuses on project-level data and thus is familiar to researchers
-      3. metadata often more detailed
-      4. metadata often more precise and thus can be used in search functions
-  - *metadata standards* - "consistent and rigorous sets of definitions for metadata categories that are broadly adopted by a research community"
-    - Several examples exist within ecology:
+  - *Data warehouses (vertically-integrated)* - databases that coalesce data from many investigators, but focus on one theme and are searchable often through an online interface 
+    - Often represents a "least-common denominator" approach in that they are less complex than original dataset
+    - Examples: GenBank, VegBank or TreeBase
+  - *Data collections (metadata-driven)* - collection of datasets that are loosely structured together by well-crafted metadata. Some advantages are:
+      1. Data of disparate types can be housed within a single location
+      2. Focuses on project-level data and thus is familiar to researchers
+      3. Metadata often more detailed
+      4. Metadata often more precise and thus can be used in search functions
+  - *Metadata standards* - "consistent and rigorous sets of definitions for metadata categories that are broadly adopted by a research community." Several examples exist within ecology:
       1. Ecological Metadata Language (EML)
       2. Biological Data Profile (BDP)
       3. Geographic Markup Language (GML)
-    - the Knowledge Network for Biocomplexity (KNB) is a metadata-drive repo that provides mappings from EML to BDP (but not from BDP to EML as of time of article publication).
-  - *data islands* - data derived from researchers working on disparate, autonomous topics that focus on specific, predetermined hypotheses
-    - often subject to entrenched domain-specific vocabularies and also assumptions
-  - *ontologies* - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as how the terms interrelate
+      4. Knowledge Network for Biocomplexity (KNB) - a metadata-drive repo that provides mappings from EML to BDP (but not from BDP to EML as of time of article publication)
+  - *Data islands* - data derived from researchers working on disparate, autonomous topics that focus on specific, predetermined hypotheses
+    - Often subject to entrenched domain-specific vocabularies and also assumptions; ontologies may be a way of resolving this limitation
+  - *Ontologies* - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as formal mappings of how the terms interrelate
     - *Science Environment for Ecological Knowledge (SEEK)* - one example of a system developing ontologies within ecology
 
 **Further reading:**
@@ -88,31 +86,35 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 *"Meta-information concepts for ecological data management"* [@michener2006meta]
 
 **Definitions:**
-  - *metadata* - "information about data"; higher level descriptions of data
-  - *meta-information* - information derived from subsequent data processing and analyses
+
+  - *Metadata* - information about data, i.e. higher level descriptions of data
+  - *Meta-information* - information derived from subsequent data processing and analyses; are these data products?
 
 **Key contribution:** Michener outlines some of the key criteria, challenges and opportunities for metadata within an ecological context.
 
 **Notes on metadata: **
 
-  - Benefits of metadata
-    1. Longevity of the data is greatly increased
-    2. Reuse of the data both by the original researcher and others is facilitated
-    3. Well-documented data may be used to expand scale of ecological inquiry
-  - Metadata functionality
-    1. Supports data discovery (most basic level)
-    2. Facilitates the acquisition and use of data by humans (requires additional metadata)
-    3. Enables automatic discovery, ingestion and analysis of data (requires more sophisticated metadata), which needs:
-      a. research context (hypothesis, study site, experimental design, etc.)
-      b. status of dataset
-      c. physical structure of dataset
-      d. info to facilitate use and comprehension
+Some benefits of metadata include:
+
+  1. Longevity of the data is greatly increased
+  2. Reuse of the data both by the original researcher and others is facilitated
+  3. Well-documented data may be used to expand scale of ecological inquiry
+  
+The primary functionality of metadata is:
+
+  1. Supports data discovery (most basic level)
+  2. Facilitates the acquisition and use of data by humans (requires additional metadata)
+  3. Enables automatic discovery, ingestion and analysis of data (requires more sophisticated metadata), which needs:
+    - research context (hypothesis, study site, experimental design, etc.)
+    - status of dataset
+    - physical structure of dataset
+    - info to facilitate use and comprehension
       
 **Ecological Metadata Language (EML):**
 
   - EML is a standard for metadata that provides structure that supports automated functions of metadata listed above and is implemented in eXtensible Markup Language (XML)
   - Organized into modules, such as "dataset", "access", "physical", "party coverage", "project", "methods", "datatable", "attribute", and "physical"
-  - additional info at "ecoinformatics.org"
+    - Additional info at [ecoinformatics.org](http://ecoinformatics.org/)
   
 ### Bekker *et al*, 2007
 
@@ -130,7 +132,7 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 
 *"Beyond data management: How ecoinformatics can benefit environmental monitoring programs"* [@hale2009beyond]
 
-**Key contribution: ** This is actually a relatively lackluster study that I added. They describe the relevance of ecoinformatics for environmental monitoring, but do not go much beyond some of the other pieces on ecoinformatics and its relevance for ecology. Some relevant points that stood out to me:
+**Key contribution: ** This is a less seminal study. They describe the relevance of ecoinformatics for environmental monitoring, but do not go much beyond some of the other pieces on ecoinformatics and its relevance for ecology. Some relevant points that stood out to me:
 
   - Standardization of taxonomic classes may be facilitated by ecoinformatics and application of ontologies in ecoinformatics
   - Establishing standards and protocols can help in synthesizing studies and results across time and space
@@ -153,7 +155,7 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
   3. emergent/collective properties of ecosystems & landscapes (e.g., habitat stability & connectivity of ecosystems)
     - perhaps analogous to "services" or "benefits"
     
-They discuss Individual Based Models (IBMs) as useful though limited tools for examining biocomplexity within mangroves, but note that there is relatively little work in this field to date.
+They discuss Individual Based Models (IBMs) as useful though limited tools for examining biocomplexity within mangroves, but note that there is relatively little work in this field to date. See section \@ref(chentwilley1998) for an example of using IBMs within mangroves.
 
 ```{r, echo=FALSE}
 knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
@@ -172,24 +174,24 @@ knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
 
 **Key notes: ** Several key notes from the study are:
 
-  - The authors describe the 'data life cycle', with 8 steps that do not necessarily occur in sequential order and depend upon the analysis research question at hand.
+  - The authors describe the "data life cycle,"" with 8 steps that do not necessarily occur in sequential order and depend upon the analysis and research question at hand.
   - The steps are:
-    1. *plan* - derive a data management plan that is often a living document as needs and uses for data will change over time
-    2. *collect* - highly variable mechanisms under which this occur given the vast amount of data types and collecting methods that exist; standardization in collection procedures is key for synthesizing data at later times
-    3. *assure* - measures taken to ensure data quality both before and after collection of the data; may consist of standardization of codes, units or metadata (e.g., using EML)
-    4. *describe* - sufficiently describing the data via metadata (who, what, when, where, why)
-    5. *preserve* - depositing of data in a repository such that they may be verified, maintained and accessible through time
-    6. *discover* - identifying appropriate data for research question of interest; double-edged sword in that you can get millions of hits or alternatively have tons of distinct data sources that exist only on disparate, local machines
-      - Use of DataONE - sophisticated search tools that drill down into data to identify datasets of actual interest; this is where ontologies come into play
-    7. *integrate* - understanding methodological diffs, transforming to common representations and converting and recoding data to comparable semantics
-    8. *analyze* - reproducibility in analysis, with a particular focus on scientific workflows
+    1. *Plan* - derive a data management plan that is often a living document as needs and uses for data will change over time
+    2. *Collect* - there are highly variable mechanisms under which this occur given the vast amount of data types and collecting methods that exist; standardization in collection procedures is key for synthesizing data at later times
+    3. *Assure* - measures taken to ensure data quality both before and after collection of the data; may consist of standardization of codes, units or metadata (e.g., using EML)
+    4. *Describe* - sufficiently describing the data via metadata (who, what, when, where, why)
+    5. *Preserve* - depositing of data in a repository such that they may be verified, maintained and accessed through time
+    6. *Discover* - identifying appropriate data for research question of interest; double-edged sword in that you can get millions of hits or alternatively have tons of distinct data sources that exist only on disparate, local machines. DataONE is one such tool that drills down into data to identify datasets of actual interest; this is where ontologies come into play
+    7. *Integrate* - understanding methodological differences, transforming to common representations and converting and recoding data to comparable semantics
+    8. *Analyze* - reproducibility in analysis, with a particular focus on scientific workflows
 
 *DataONE:* DataONE is a research platform that seeks to support the entire data life cycle, as well as integrate many different forms of data. There are three principle components:
+
   1. Member Nodes - contribute data, computing resources and services (e.g., data repositories, universities, computing centers)
   2. Coordinating Nodes - support network-wide services such as indexing, replication, and interactability of Member Nodes
   3. Investigator Toolkit - tools for researchers to employ in all steps of the data life cycle
     
-*The data life cycle:*
+**Schematic of the data life cycle:**
 
 ```{r, echo=FALSE}
 knitr::include_graphics(rep("images/michenerjones2012.bmp"))
