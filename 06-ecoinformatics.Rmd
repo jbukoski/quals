@@ -145,17 +145,29 @@ The primary functionality of metadata is:
 
 **Key contribution:** Aim to elucidate the factors playing in at different hierarchical levels in mangrove ecosystems (biocomplexity). They use emergent properties (which they define as "patterns or processes that occur at multiple hierarchical levels within ecosystems") to examine underlying ecological processes within mangroves.
 
+Biocomplexity appears to be thinking of ecology through a hierarchical lens, in which processes that exist at the "hard science" level (physics, chemistry, etc.) result in ecological processes > functions > services.
+
 **Key findings:** The article doesn't differ much from other reviews of controls on mangrove processes, apart from the structure in which they examine:
 
-  1. controls of emergent properties (namely specializations for variable salinity, flooding and nutrient availability)
+  1. Controls of emergent properties (namely specializations for variable salinity, flooding and nutrient availability)
     - e.g., salinity tolerance, flooding tolerance, reproductive traits/regeneration, nutrient availability
-    - perhaps analogous to "processes"
-  2. collective properties of forests (e.g., zonation, productivity, nutrient cycling, food webs)
+    - perhaps analogous to "ecosystem processes"
+  2. Collective properties of forests (e.g., zonation, productivity, nutrient cycling, food webs)
     - perhaps analogous to "functions"
-  3. emergent/collective properties of ecosystems & landscapes (e.g., habitat stability & connectivity of ecosystems)
+  3. Emergent/collective properties of ecosystems & landscapes (e.g., habitat stability & connectivity of ecosystems)
     - perhaps analogous to "services" or "benefits"
-    
-They discuss Individual Based Models (IBMs) as useful though limited tools for examining biocomplexity within mangroves, but note that there is relatively little work in this field to date. See section \@ref(chentwilley1998) for an example of using IBMs within mangroves.
+
+*Emergent properties* - concept that the whole is greater than the sum of its parts when examining ecological phenomena and the underlying processes that drive them. Emergent properties can exist at any scale, and may build upon themselves (e.g., morphology and physico-chemical conditions leading to ecophysiology (emergent property) which then leads to spatial assemblages (2^nd^ emergent property), etc.). It may be helpful to think of different emergent properties at different scales of time and space.
+
+Three primary characteristics of emergent properties exist:
+
+  1. Emergent properties are not simply the sum of their parts
+  2. Emergent properties exist as a type that is different from their underlying components
+  3. They cannot be easily predicted from individual components
+
+Examples of emergent properties within mangroves are ecophysiological traits (as listed above) that emerge from the interaction between biochemical and morphological traits with environmental factors.
+
+Individual Based Models (IBMs) are discussed as useful though limited tools for examining biocomplexity within mangroves, but note that there is relatively little work in this field to date. See section \@ref(chentwilley1998) for an example of using IBMs within mangroves.
 
 ```{r, echo=FALSE}
 knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
