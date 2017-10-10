@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-09">
+<meta name="date" content="2017-10-10">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -89,8 +89,8 @@
 <li class="chapter" data-level="3.1.7" data-path="zonation.html"><a href="zonation.html#smith-1987"><i class="fa fa-check"></i><b>3.1.7</b> Smith, 1987</a></li>
 <li class="chapter" data-level="3.1.8" data-path="zonation.html"><a href="zonation.html#smith1989"><i class="fa fa-check"></i><b>3.1.8</b> Smith, 1989</a></li>
 <li class="chapter" data-level="3.1.9" data-path="zonation.html"><a href="zonation.html#smith1992"><i class="fa fa-check"></i><b>3.1.9</b> Smith, 1992</a></li>
-<li class="chapter" data-level="3.1.10" data-path="zonation.html"><a href="zonation.html#chen-twilley-1998"><i class="fa fa-check"></i><b>3.1.10</b> Chen &amp; Twilley, 1998</a></li>
-<li class="chapter" data-level="3.1.11" data-path="zonation.html"><a href="zonation.html#sherman-et-al-2000"><i class="fa fa-check"></i><b>3.1.11</b> Sherman <em>et al</em>, 2000</a></li>
+<li class="chapter" data-level="3.1.10" data-path="zonation.html"><a href="zonation.html#chentwilley1998"><i class="fa fa-check"></i><b>3.1.10</b> Chen &amp; Twilley, 1998</a></li>
+<li class="chapter" data-level="3.1.11" data-path="zonation.html"><a href="zonation.html#sherman2000"><i class="fa fa-check"></i><b>3.1.11</b> Sherman <em>et al</em>, 2000</a></li>
 <li class="chapter" data-level="3.1.12" data-path="zonation.html"><a href="zonation.html#sousa-et-al-2007"><i class="fa fa-check"></i><b>3.1.12</b> Sousa <em>et al</em>, 2007</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="ecophysiology-establishment.html"><a href="ecophysiology-establishment.html"><i class="fa fa-check"></i><b>3.2</b> Ecophysiology &amp; establishment</a><ul>
@@ -263,6 +263,35 @@
 <div id="green1998" class="section level3">
 <h3><span class="header-section-number">5.2.2</span> Green, 1998</h3>
 <p><em>“Remote sensing techniques for mangrove mapping”</em> <span class="citation">(Green et al. <a href="#ref-green1998remote">1998</a>)</span></p>
+<p><strong>Key significance: </strong> The study reviews common methods of remote sensing for mangrove mapping, with a particular emphasis on the fact that accuracy assessments are rarely performed following classification of RS mangrove imagery. The authors then couple the most commonly used techniques with accuracy assessments using field-based data to examine the relative strengths &amp; weaknesses of the different techniques.</p>
+<p><strong>Research design:</strong> The study employs three spectral image datasets (Landsat 6 TM, SPOT, and Airborne multispectral data at 1 m resolution) for generating of RS imagery of mangroves in the Turks and Caicos Islands. The review of classificatin of spectral imagery for mangroves identifies 5 different methodologies:</p>
+<ol style="list-style-type: decimal">
+<li><em>Visual interpretation</em> - the user classifies areas, though often with a radiometric enhancement applied to the imagery</li>
+<li><em>Vegetation index</em> - different vegetation indices can be employed such as ratio indices (NDVI) or orthogonal indices (tasseled cap transformations); this study uses NDVI with a ISODATA clustering algorithm producing 50 classes that are identified and edited to match mangroves</li>
+<li><em>Unsupervised classification</em> - may or may not involve image enhancement; this study used ISODATA clustering algo on unenhanced imagery</li>
+<li><em>Supervised classification</em> - most common method of mangrove classification and may or may not include image enhancement (e.g., enhancing edges between stands or species types); this study uses 3 x 3 edge enhancement filter applied to imagery, useful in mangroves given linear nature</li>
+<li><em>PCA and band ratios</em> - ratios of different bands can be effective in distinguishing different landscape features; this study uses the ratios of various Landsat and SPOT bands, runs PCA, and then generates an image based on the most significant PCAs (which they then classify)</li>
+</ol>
+<p>Accuracy assessment was performed using three metrics (following Congalton, 1991):</p>
+<ol style="list-style-type: decimal">
+<li>Overall accuracy - overall agreement as sum of correctly labelled sites divided by total number of sites</li>
+<li>User accuracy - probability that a classified pixel actually represents that category on the ground [3. Producer accuracy - how often real features on ground are shown correctly on the map; NOT used in this study]</li>
+<li>Tau coefficient - indicates the percent of pixels classified correctly than would be expected by chance alone</li>
+</ol>
+<p><strong>Key results:</strong></p>
+<p>The authors largely justify the work based on:</p>
+<ol style="list-style-type: decimal">
+<li>A lack of widespread accuracy assessments within the literature</li>
+<li>A discussion of the limitations of climate on spectral RS imagery classification (although their methods only examine spectral datasets; they give SAR a head nod in the review section)</li>
+</ol>
+<p><em>Discrimination of mangrove vs. non-mangrove vegetation:</em></p>
+<p>SPOT XS imagery was not effective at producing accurate classifications of mangrove extent. CASI (airborne) data was highly effective at identifying mangrove vegetation (with all five methods producing overall accuracies greater than 50%), whereas methods performed on Landsat data improved markedly with increased computational sophistication (i.e., method 5).</p>
+<p>Accurate classification of Landsat data required the calculation of PCs and band ratios, rather than processing of just raw band data.</p>
+<p>In general, visual identification and ratio index based classifications are <em>not</em> effective at classifying mangroves.</p>
+<p>Additionally, merging of Landsat TM and SPOT XP (i.e., down-sampling Landsat data) was found to be effective at improving mapping classifications (using both a principle components merge, as well as an intensity-hue-saturation merge).</p>
+<p><em>Discrimination of mangrove habitats:</em></p>
+<p>The results show that the airborne spectral data (CASI) was most effective at accurately classifying 9 different mangrove classes. Reasonable classification accuracies could be achieved with the Landsat data for a reworking of just three mangrove classes (tall Rhizophora, other mangrove, and non-mangrove), but were highly inaccurate for a 9-class map.</p>
+<p><strong>Note: </strong> There is a nice table of other works on mangrove mapping and remote sensing in the introduction. It may be good to review this table again at a later date.</p>
 </div>
 <div id="proisy2000" class="section level3">
 <h3><span class="header-section-number">5.2.3</span> Proisy, 2000</h3>
@@ -292,10 +321,48 @@
 <div id="proisy2002" class="section level3">
 <h3><span class="header-section-number">5.2.4</span> Proisy, 2002</h3>
 <p><em>“On the influence of canopy structure on the radar backscattering mangrove forests”</em> <span class="citation">(Proisy et al. <a href="#ref-proisy2002influence">2002</a>)</span></p>
+<p><strong>Key significance: </strong> One of a series of studies by Proisy <em>et al</em>, this particular study examines two mangrove forest stands of near identical aboveground biomass, but markedly different forest structure. They examine the polarimetric SAR data that they collect from the two plots, and examine them in relation to the two different forest structures.</p>
+<p>The forest structures both contain ~75 Mg biomass/ha, but are structured as:</p>
+<ol style="list-style-type: decimal">
+<li>A pioneer stand of <em>L. racemosa</em> that is extremely dense (~12,000 trees/ha) and has much higher basal area (21.0 m<sup>2</sup>/ha)</li>
+<li>A declining stand with two canopy strata:
+<ul>
+<li><em>A. germinans</em> that are dying off and form an open, tall canopy (250 trees/ha, 4.2 m<sup>2</sup>/ha &amp; 19 m height)</li>
+<li><em>R. mangle</em> that are replacing the <em>A. germinans</em> (31 trees/ha, 0.2 m<sup>2</sup>/ha &amp; 8 m height)</li>
+</ul></li>
+</ol>
+<p><strong>Research design:</strong> The same research methods as <span class="citation">(Proisy et al. <a href="#ref-proisy2000interpretation">2000</a>)</span> (see Section <a href="vegetation.html#proisy2000">5.2.3</a>) were employed, but this particular study focused on an in-depth comparison of two plots with similar aboveground biomass values, but markedly different forest structure characteristics.</p>
+<p><strong>Key results:</strong></p>
+<p>Overall, the backscattering from the open stand was higher than that of the closed (pioneer) stand.</p>
+<p>With the help of a polarimetric scattering model, they found that the three primary contributers to backscattering (volume vs. interaction vs. surface scattering) differed between the two stands for select polarizations.</p>
+<p>Additionally, they note two key concluding remarks:</p>
+<ol style="list-style-type: decimal">
+<li>Use of correlation backscatter to biomass relationships should be restricted to homogeneous closed canopies.</li>
+<li>Distinguishing between stands of different developmental status should be possible via differences in backscaterring coefficients of the different SAR bands and polarizations</li>
+</ol>
+<p>A key figure that shows some of these differences is shown below:</p>
+<p><img src="images/proisy2002.bmp" /><!-- --></p>
 </div>
 <div id="mutanga2004" class="section level3">
 <h3><span class="header-section-number">5.2.5</span> Mutanga, 2004</h3>
 <p><em>“Narrow band vegetation indices solve the saturation problem in biomass estimation”</em> <span class="citation">(Mutanga and Skidmore <a href="#ref-mutanga2004narrow">2004</a>)</span></p>
+<p><strong>Key significance:</strong> This study addresses the issue of vegetation index saturation at high biomass levels, and examines the effectiveness of hyperspectral data for resolving the issue.</p>
+<p>The study is largely motivated given that the “major limitation of using vegetation indices is asymptotic approach of a saturation level after a certain biomass density or LAI”</p>
+<p><em>Red edge</em> - The rise of reflectance at the boundary between chlorophyll absorption in red wavelengths and leaf scattering in NIR wavelengths (680-750 nm).</p>
+<p><em>Red edge position</em> can be defined as the point of maximum slope on the red infrared curve, and can be calculated by identifying the maximum of the first derivative</p>
+<p><strong>Research design:</strong> The study primarily focuses on two approaches to resolving the saturation issue with biomass and vegetation indices:</p>
+<ol style="list-style-type: decimal">
+<li>Use of narrow band vegetation indices, which are simply NDVI, Simple Ratio (SR) and Transformed Vegetation Index (TVI), but for 637 bands of hyperspectral data (350-2500 nm)</li>
+<li>Use of the red edge position</li>
+</ol>
+<p>A grass was grown in a greenhouse with two different nitrogen treatments (and one control group), and hyperspectral signatures were repeatedly taken. The various indices are computed for narrow band vegetation indices as well as indices using the red edge position.</p>
+<p><strong>Key results:</strong></p>
+<p><em>NDVI</em> - The results clearly indicate an improvement in a relationship between biomass and an NDVI index derived from red edge spectral bands rather than standard (NIR and red) bands.</p>
+<p><em>SR</em> - The results from the SR tests are similar to that of NDVI; reconstruction of SR using all possible hyperspectral band combinations indicates that bands from the red edge portion are most sensitive to changes in biomass</p>
+<p><em>TVI</em> - Although distribution of the R2 values for reconstruction of this index differed visually from that of NDVI and SR (which were quite similar), the most efficient TVI was found to be constructed from bands in the red edge portion of the spectrum.</p>
+<p>The green portion of the spectrum also did well (e.g., second “best”) in reconstructing the vegetation indices.</p>
+<p><em>Red edge position</em> - The red edge position was found to have a high correlation coefficient with biomass, indicating there is a significant correlation</p>
+<p>Of the three vegetation indices, SR was found to have the strongest correlation with biomass. Thus, narrow band derivations of SR from the red edge portion of the wavelength spectrum may be most efficient in estimating biomass from spectral data.</p>
 </div>
 <div id="wang2004a" class="section level3">
 <h3><span class="header-section-number">5.2.6</span> Wang, 2004a</h3>

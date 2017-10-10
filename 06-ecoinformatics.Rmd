@@ -209,6 +209,15 @@ knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
 knitr::include_graphics(rep("images/michenerjones2012.bmp"))
 ```
 
+### Soranno, 2014 {#sorrano2014}
+
+*"Cross-scale interactions: Quantifying multi-scaled cause -- effect relationships in macrosystems"* [@soranno2014cross]
+
+
+### Ruegg, 2014 {#ruegg2014}
+
+*"Completing the data life cycle: Using information management in macrosystems ecology research"* [@ruegg2014completing]
+
 
 ## Ontologies
 
@@ -227,6 +236,10 @@ knitr::include_graphics(rep("images/michenerjones2012.bmp"))
 The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the importance of separating "entities" and "traits".
 
 The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.
+
+### Madin, 2007 {#madin2007}
+
+*"An ontology for describing and synthesizing ecological observation data"* [@madin2007ontology]
 
 
 
