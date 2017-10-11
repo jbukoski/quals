@@ -330,6 +330,7 @@ There are four basic verbs for data manipulation:
   
 Tidy data is particularly useful for modeling, and is a large part of why it is designed/promoted.
 
+
 ## Tipping points
 
 ### Scheffer, 2001
@@ -337,6 +338,10 @@ Tidy data is particularly useful for modeling, and is a large part of why it is 
 ### Riggs, 2008
 
 ### Scheffer, 2009
+
+### Boettiger, 2012 {#boettiger2012}
+
+*"Quantifying limits to detection of early warning for critical transitions"* [@boettiger2012quantifying]
 
 
 ## Decision-making

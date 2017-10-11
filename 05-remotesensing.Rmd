@@ -367,25 +367,147 @@ Of the three vegetation indices, SR was found to have the strongest correlation 
 
 *"Comparison of IKONOS and QuickBird images for mapping mangrove species on the Caribbean coast of Panama"* [@wang2004comparison]
 
+**Key contribution:** This study employs high resolution IKONOS (Space Imaging) and QuickBird (DigitalGlobe) imagery for improved mapping of mangrove species at Punta Galeta, Panama. In particular the study seeks to compare the imagery sources across three primary criteria:
+
+  1. Spectral quality using subjective visual inspection and overall spectral statistics
+  2. Classification effectiveness using multispectral bands with and without panchromatic bands
+  3. Classification effectiveness following inclusion of textural information
+  
+**Research design:** IKONOS (4 m multi, 1 m pan) and QuickBird (2.8 m multispec, 0.7 m panchrom) imagery were bought for the region and geometrically corrected. Training and validation plots for the major land cover classes (red, white, and black mangroves, roads, lagoons, and rainforest) were established and data were collected.
+
+MLC was used for classification of imagery using four multispectral bands, as well as a resampled panchromatic band at the resolution of the multispectral band resolution.
+
+Additionally, spectral information using the high resolution data of the imagery were computed and included within the classification algorithms. Two "order" textural layers were derived:
+
+  1. A first order layer that was a simple measure of local variance within different sized rectangular neighborhoods that were coupled with the multispectral bands.
+  2. A second order layer that uses a gray-level co-occurrence matrix to derive three features: contrast, correlation and entropy (see Clausi, 2002)
+  
+Finally, an object-based approach was employed using the second order texture data. The image was segmented into objects, and then classification was applied to the resultant objects.
+
+**Key results:** The results generally show that the high resolution multispectral datasets were effective in accurate classifications of mangrove species. In particular:
+
+  - Standard deviation and entropy of the multispectral data for IKONOS was consistently higher than that of QuickBird, indicating that IKONOS captures richer spectral information than QuickBird
+  - Classification using purely multispectral data was slightly better for IKONOS than QuickBird
+    - Addition of the panchromatic band did not significantly improve accuracies
+  - Inclusion of a first order texture band improved accuracies for the IKONOS image; HOWEVER, accuracies decreased for QuickBird imagery, with the exception of the largest window size
+  - Second order texture data did not produce accurate classifications by themselves
+  - Under the object-based approach (using textural information in panchromatic and multispectral bands), almost equivalent classification accuracies were achieved
+
+It is important to note that the results do not support the expectation that the slightly higher spatial resolution of QuickBird imagery would result in "better" textural information for classification accuracies.
+
+**Further reading:**
+
+  - Textural analyses:
+    - Clausi, 2002 - An analysis of co-occurrence texture statistics as a function of grey level quantization
+    - Haralick *et al*, 1973 - Textural features for image classification
 
 ### Wang, 2004b {#wang2004b}
 
 *"Integration of object-based and pixel-based classification for mapping mangroves with IKONOS imagery"* [@wang2004integration]
 
+**Key significance:** This is a sister study to the study reviewed in Section @\ref(wang2004a). This study sought to examine three different classification methods:
 
+  1. MLC at the pixel level
+  2. Nearest neighbor classification at the pixel level
+  3. A hybrid classification that combines pixel and object based methods (MLCNN)
+  
+The consider the conundrum that with increasing spatial resolution, the number of detectable sub-class elements increases as well and thus classification at the pixel level may deteriorate. Thus, they examine object-based classification as a means of getting around this particular issue.
+
+**Research design:** For the site and imagery description see Section @\ref(wang2004a). The different classification approaches used in this study are described here:
+
+  1. MLC at pixel level - 
+  2. Object-based classification - Used eCognition 3.0 software (region merging technique that uses a homogeneity criteria to detemine whether pixels and regions should be merged).
+    - The merging "breaks off" at a predetermined parameter (small param = small regions, large param = large regions), and there are in principle infinite choices of break-off parameters\*
+  3. The authors develop a joint procedure in which MLC at pixel level is first used, in which spectrally inseparable classes are identified, and all spectrally separable classes are masked out. An object-based classification procedure is then performed on the spectrally inseparable classes.
+    
+\* To deal with the issue of infinate scale parameters, Wang *et al* develop a method to identify an optimal value. They use the training set data from the MLC image, reclassify all other pixels as 0s, and then use the image segmentation approach for several scale parameters. They then derive the pairwise Bhattacharya Distance values for the seven land cover classes at each scale, and select the scale at which BD reaches a maximum.
+  
+**Key results:** In general, the accuracy of the classifications were relatively high for all three methods; however, the mixed pixel and object-based method performed the best. The key results are:
+
+  - The pixel based approach generally did well in correctly classifying the land cover classes (88.9% overall accuracy), with the exception of the red mangroves (71.3% accuracy), black mangroves (81.8%) and rainforest (81%)
+  - The object-based approach improved classification of the rainforest (100%0), red mangroves (77.5%) and black mangroves (89.8%), but greatly misclassified white mangroves (21.9%) due to their existence along edges with red and black and thus being pulled into "objects"; overall accuracy was relatively lower relative to the pixel based approach as a result (80.4%)
+  - The mixed pixel and object-based method performed the best because white mangrove, road, gap and lagoon all were highly separable using MLC, but distinguishing between red mangrove, black mangrove and rainforest benefitted from the object-based method (due to high confusion between these classes)
+    - The mixed method approach achieved overall classification accuracies of 91.4%.
+  
+  
+**Key conclusions:** The following conclusions are of particular note:
+
+  1. The pixel-based method retains the spectral information at a fine spatial scale, but does not excel at distinguishing between spectrally similar classes (rainforest, red & black mangrove)
+  2. The object-based method averages spectral information, but in doing so is able to improve discrimination between spectrally similar regions (the difficult classes mentioned above)
+    - However, you run the risk of averaging unrelated pixels (likely unavoidable)
+    
 ### Vaiphasa, 2005 {#vaiphasa2005}
 
 *"Tropical mangrove species discrimination using hyperspectral data: A laboratory study"* [@vaiphasa2005tropical]
 
+**Key contribution:** At the time this study was written, hyperspectral studies of mangrove species classifications were relatively limited, and fairly inconclusive. This study soeeks to examine whether mangrove canopy leaves have sufficient spectral information to discriminate mangroves at the species level. Sixteen mangrove species were examined.
+
+**Research design:** Canopy leaves from 16 species were collected in Chumphon and hyperspectral signatures at 2151 spectral bands from 400 - 2500 nm were collected in laboratory conditions.
+
+One way ANOVA was used to examine for differences of individual species from one another across all spectral bands, and spectral separability of the species using a Jeffries-Matusita distance analysis metric. Given the issue of a massive feature space (2151 bands), four "optimal" bands for assessing spectral separability were identified using a wrapper feature selection approach.
+
+**Key results:** The results generally show that discrimination between the sixteen species is generally achievable. Some particular key results include:
+
+  - 1941 of the 2151 bands were found to be spectrally dissimilar across all species (ANOVA analysis) at th p < 0.05 level. Of these 1941, 477 bands were significant at the < 0.01 level. The exceptions were primarily at the UV region (350-400 nm) and the shortwave infrared region (1800-2500 nm), where lighting conditions may have played an influential role.
+  - The optimal band combination for classification was found to be:
+    - 720 nm, 1277 nm, 1415 nm and 1644 nm
+    - These results indicate that other properties beyond pigment (which would correspond to the 720 nm band) may play important roles in discrimination, and may be a result of other ecophysiological factors (water content, salinity, sugar, protein, oil, lignin, cellulose, leaf structure, etc.)
+  - Pair-wise separability of mangrove species was possible for many of the species using these four bands and the J-M distance metric, but reduced separability was seen for species of the Rhizophoraceae family. 
+    - There was high confusion both amongst species within Rhizophoraceae, as well as with *S. ovata*, *X. granatum* and *Pluchea indica*.
+    
+**Further reading:**
+
+  - Wayne and Le's study of lab hyperspectral indices: 
+    - Wang *et al*, 2009 - Distinguishing mangrove species with laboratory measurements of hyperspectral leaf reflectance
+
 
 ### Vaiphasa, 2006 {#vaiphasa2006}
 
-*"A post-classified for mangrove mapping using ecological data"* [@vaiphasa2006post]
+*"A post-classifier for mangrove mapping using ecological data"* [@vaiphasa2006post]
 
+**Key contribution:** This is one of the first studies to employ environmental data (pH) to refine classification maps of mangrove species. The study finds that classification accuracies are increased significantly, from 76.04% to 88.21%.
+
+**Research design:** The study coupled an existing mangrove species map produced from classification of ASTER imagery with a map of pH throught Pak Panang mangroves to examine the effectiveness of a post-classifier. In particular, they collected 200 pH measurements distributed throughout the forest, 150 of which were used for interpolation of a salinity profile, and 50 of which were used for validation. They additionall collected species composition and forest structure data at >500 plots of 15 x 15 m^2^ in the forest, and used these for accuracy assessment of the maps.
+
+The post-classifier was based on a Bayesian approach that employed probabilities of species given a pH level, and pH level given a species.
+
+**Key results:** Accuracy of the mangrove species map was improved significantly with the addition of the pH data. In particular:
+
+  - Overall accuracy was improved from 76.04 - 88.21% following inclusion of pH data
+  - Speckling within the original mangrove species map was greatly reduced following inclusion of the pH layer
+  - Confusion between *R. mucronata* and *S. caseolaris* persisted despite the inclusion of the pH data
+  - In reference to the results from Vaiphasa (2005), they found that the addition of the pH data was able to improve the separability of species within the Rhizophoraceae family (which exhibited high confusion following classification of hyperspectral data)
+  
+The authors conclude that the method presented (classification followed by updating with ecological gradient data) may be an efficient means for producing detailed mangrove species maps in areas that are not too large (e.g., < 100 km^2^).
+
+### Wang, 2009 {#wang2009}
+
+*"Distinguishing mangrove species with laboratory measurements of hyperspectral leaf reflectance"* [@wang2009distinguishing]
+
+**Key contribution:** Le and Wayne largely repeat the Vaiphasa, 2005 study (see Section \@ref(vaiphasa2005)) but for the three mangrove species common to central America. In addition, they examine the ability of hyperspectral data to estimate stress conditions in mangrove trees.
+
+**Research design:** They collected leaves from all three species in both stressed and unstressed conditions, and also collected leaves from the top and bottom portions of the canopy. They then subjected each of the leaves to hyperspectral measurements in a laboratory setting before analyzing the data.
+
+To reduce the feature space prior to spectral discrimination, they first used the ANOVA across all spectral bands to remove any bands that were non significant at the p < 0.01 level (*a la* Vaiphasa, 2005). They then use Linear Discriminate Analysis (LDA) to examine for differences amongst the species.
+
+In addition, they use several indices of spectral bands identified by prior work as indices of leaf stress. Chlorophyl a and b contents drop dramatically in stressed leaves, greatly changing the reflectance properties of leaves. Studies have found that ratios are best in identifying stress characteristics, and they use these within ANOVA to compare means of ratios between stressed and unstressed leaves.
+
+**Key results:** The results generally find that hyperspectral data is effective in species discrimination and also identification of stressed mangrove trees. Some particularly key results are as follows:
+
+  - 116 of the 215 bands were significant at the p < 0.01 level for distinguishing between species and were clustered in the 350-510 nm, 610-690 nm, 760-810 nm, 1370-1550 nm, and 1850-2500 nm ranges of the spectrum
+  - Red, white and black mangroves were capable of being discriminated using the hyperspectral data
+  - Use of the ratios for identifying stress in mangrove trees was effective, with different ratios performing better for different species (3/4 for red, 1/4 for white, and 4/4 for black)
+  - The specific band widths identified as significant in this study different from those of Vaiphasa, 2005
+
+**Key conclusions:** Some key, broader-level conclusion from the study are as follows:
+
+  1. Conventional challenges to analysing hyperspectral data are the large number of highly correlated bands available coupled with relatively smaller numbers of training and test samples.
+  2. Wang and Sousa conclude that use of hyperspectral data is effective in overcoming the shortcomings of the multispectral datasets that they use in their 2004 sister studies.
 
 ### Dronova, 2012 {#dronova2012}
 
 *"Landscape analysis of wetland plant functional types: The effects of image segmentation scale, vegetation classes and classification methods"* [@dronova2012landscape]
+
 
 ### Giri *et al*, 2014 {#giri2014}
 
