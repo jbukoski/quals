@@ -504,10 +504,60 @@ In addition, they use several indices of spectral bands identified by prior work
   1. Conventional challenges to analysing hyperspectral data are the large number of highly correlated bands available coupled with relatively smaller numbers of training and test samples.
   2. Wang and Sousa conclude that use of hyperspectral data is effective in overcoming the shortcomings of the multispectral datasets that they use in their 2004 sister studies.
 
+### Kamal, 2011 {#kamal2011}
+
+*"Hyperspectral data for mangrove species mapping: A comparison of pixel-based and object-based approach"* [@kamal2011hyperspectral]
+
+**Key contribution:** This study employs high resolution, hyperspectral data to map mangroves and wetland land classes at a landscape scale in Australia using three different methods. There are relevant points they make but the study feels somewhat lacking in general.
+
+**Research design:** CASI-2 hyperspectral data were used as the imagery (30 bands and 4 m spatial resolution) in this study.
+
+An existing digital map of mangrove species produced via photographic interpretation of aerial imagery, site data, and traverses was used for endmembers selection and accuracy assessments of the classifications.
+
+They use three different classification procedures to produce different maps of the landscape:
+
+  1. Spectral angle mapper -- uses a spectral library representative of different end members (i.e., the 9 targeted wetland classes) and assigns pixel to each based on a similarity measure
+  2. Linear spectral unmixing -- assumes each spectral signature is a linear combination of area weighted sum of reflectance of endmembers; total areas or pixels may then be assigned based on probabilistic basis
+  3. Object-based mapping -- used OBIA to segment the image before applying classification algorithms on the spectral signatures
+  
+**Key results:** Of the three methods examined, OBIA performed the best (overall classification accuracy of 76%). Linear spectral unmixing produced the lowest overall classification accuracy. 
+
+**Conclusion:** The classification accuracy is relatively lower than those found in other studies, and thus the results feel perhaps a bit short-sighted. Other metrics that could have been interesting to explore would have been texture given the high resolution nature of the dataset. Additionally, they do not dig into the hyperspectral bandwidths that are relevant, and thus there is valuable information that is missing from the study.
+
+Additionally, it is not entirely clear to me whether they used the coarse level reference map for their accuracy assessment, or whether field data was collected. If the reference map is of low-quality, their results are rather meaningless.
+
+
 ### Dronova, 2012 {#dronova2012}
 
 *"Landscape analysis of wetland plant functional types: The effects of image segmentation scale, vegetation classes and classification methods"* [@dronova2012landscape]
 
+**Key contribution:** This study examines the classification accuracy of plant functional types (PFTs) under different image segmentation scales and classification algorithms for Poyang Lake in China. The key results generally show that use of a coarser image scale (on average 5-8 Landsat pixels) significantly improved image classification of the different PFTs. Classification between the different algorithms were less significant.
+
+**Research design:** Field data for training and test validation were collected, and Landsat 5 TM data (bands 1-5 & 7) were used for all image classification procedures. Image segmentation was performed at 9 different scales from (2 - 10), and six different classification algorithms were used:
+
+  1. Bayesian
+  2. Logistic
+  3. Neural network
+  4. Decision trees
+  5. K-Nearest neighbors
+  6. Support vector machines
+  
+The image classification procedure was performed under two scenarios, the first being for generalized PFTs (3 classes), and the second being for specific PFTs (6 classes). Water, sand and other development were excluded prior to classification. Cluster analysis was performed on morphological and physiological data of the 51 species within the landscape to identify the different classes.
+
+Additionally, texture metrics within objects were computed and included in the classification procedure to examine their utility.
+
+**Key results:** The results found that OBIA generally improved the results of the classification for both the 3-class and 6-class sets Some specific results include:
+
+  - A scale of 8 was found to produce the highest classification accuracies for both classification sets (i.e., objects of 5-8 Landsat pixels)
+    - However, at the specific PFT level, the optimal scale parameter was found to be variable
+  - Texture metrics were not found to significantly improve classification accuracies, indicating that discrimination between the various classes was primarily spectrally based
+  - Overall classification accuracy was relatively similar for the different classification algorithms
+  
+The authors conclude that smoothing of spectral signatures within objects lends to greater discrimination between PFTs, aiding in overall classification.
+
+Texture metrics may have proven to be insignificant in improving classification accuracies due to the relatively coarse nature of the Landsat data. Most other studies that have found texture to be significant have used high resolution imagery.
+
+Human interference and ecological conditions that produced mixed pixels resulted in reduced classification accuracy, and the authors conclude that mixed approaches (i.e., object-based followed by pixel-based, *a la* [@wang2004integration]) may be an interesting means of resolving this issue. However, propagation of uncertainty has been under-explored and will be important in such scenarios.
 
 ### Giri *et al*, 2014 {#giri2014}
 

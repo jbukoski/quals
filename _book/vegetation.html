@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-11">
+<meta name="date" content="2017-10-12">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -172,8 +172,9 @@
 <li class="chapter" data-level="5.2.8" data-path="vegetation.html"><a href="vegetation.html#vaiphasa2005"><i class="fa fa-check"></i><b>5.2.8</b> Vaiphasa, 2005</a></li>
 <li class="chapter" data-level="5.2.9" data-path="vegetation.html"><a href="vegetation.html#vaiphasa2006"><i class="fa fa-check"></i><b>5.2.9</b> Vaiphasa, 2006</a></li>
 <li class="chapter" data-level="5.2.10" data-path="vegetation.html"><a href="vegetation.html#wang2009"><i class="fa fa-check"></i><b>5.2.10</b> Wang, 2009</a></li>
-<li class="chapter" data-level="5.2.11" data-path="vegetation.html"><a href="vegetation.html#dronova2012"><i class="fa fa-check"></i><b>5.2.11</b> Dronova, 2012</a></li>
-<li class="chapter" data-level="5.2.12" data-path="vegetation.html"><a href="vegetation.html#giri2014"><i class="fa fa-check"></i><b>5.2.12</b> Giri <em>et al</em>, 2014</a></li>
+<li class="chapter" data-level="5.2.11" data-path="vegetation.html"><a href="vegetation.html#kamal2011"><i class="fa fa-check"></i><b>5.2.11</b> Kamal, 2011</a></li>
+<li class="chapter" data-level="5.2.12" data-path="vegetation.html"><a href="vegetation.html#dronova2012"><i class="fa fa-check"></i><b>5.2.12</b> Dronova, 2012</a></li>
+<li class="chapter" data-level="5.2.13" data-path="vegetation.html"><a href="vegetation.html#giri2014"><i class="fa fa-check"></i><b>5.2.13</b> Giri <em>et al</em>, 2014</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html"><i class="fa fa-check"></i><b>5.3</b> Geomorphology</a><ul>
 <li class="chapter" data-level="5.3.1" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#hess-1990"><i class="fa fa-check"></i><b>5.3.1</b> Hess, 1990</a></li>
@@ -507,12 +508,52 @@
 <li>Wang and Sousa conclude that use of hyperspectral data is effective in overcoming the shortcomings of the multispectral datasets that they use in their 2004 sister studies.</li>
 </ol>
 </div>
+<div id="kamal2011" class="section level3">
+<h3><span class="header-section-number">5.2.11</span> Kamal, 2011</h3>
+<p><em>“Hyperspectral data for mangrove species mapping: A comparison of pixel-based and object-based approach”</em> <span class="citation">(Kamal and Phinn <a href="#ref-kamal2011hyperspectral">2011</a>)</span></p>
+<p><strong>Key contribution:</strong> This study employs high resolution, hyperspectral data to map mangroves and wetland land classes at a landscape scale in Australia using three different methods. There are relevant points they make but the study feels somewhat lacking in general.</p>
+<p><strong>Research design:</strong> CASI-2 hyperspectral data were used as the imagery (30 bands and 4 m spatial resolution) in this study.</p>
+<p>An existing digital map of mangrove species produced via photographic interpretation of aerial imagery, site data, and traverses was used for endmembers selection and accuracy assessments of the classifications.</p>
+<p>They use three different classification procedures to produce different maps of the landscape:</p>
+<ol style="list-style-type: decimal">
+<li>Spectral angle mapper – uses a spectral library representative of different end members (i.e., the 9 targeted wetland classes) and assigns pixel to each based on a similarity measure</li>
+<li>Linear spectral unmixing – assumes each spectral signature is a linear combination of area weighted sum of reflectance of endmembers; total areas or pixels may then be assigned based on probabilistic basis</li>
+<li>Object-based mapping – used OBIA to segment the image before applying classification algorithms on the spectral signatures</li>
+</ol>
+<p><strong>Key results:</strong> Of the three methods examined, OBIA performed the best (overall classification accuracy of 76%). Linear spectral unmixing produced the lowest overall classification accuracy.</p>
+<p><strong>Conclusion:</strong> The classification accuracy is relatively lower than those found in other studies, and thus the results feel perhaps a bit short-sighted. Other metrics that could have been interesting to explore would have been texture given the high resolution nature of the dataset. Additionally, they do not dig into the hyperspectral bandwidths that are relevant, and thus there is valuable information that is missing from the study.</p>
+<p>Additionally, it is not entirely clear to me whether they used the coarse level reference map for their accuracy assessment, or whether field data was collected. If the reference map is of low-quality, their results are rather meaningless.</p>
+</div>
 <div id="dronova2012" class="section level3">
-<h3><span class="header-section-number">5.2.11</span> Dronova, 2012</h3>
+<h3><span class="header-section-number">5.2.12</span> Dronova, 2012</h3>
 <p><em>“Landscape analysis of wetland plant functional types: The effects of image segmentation scale, vegetation classes and classification methods”</em> <span class="citation">(Dronova et al. <a href="#ref-dronova2012landscape">2012</a>)</span></p>
+<p><strong>Key contribution:</strong> This study examines the classification accuracy of plant functional types (PFTs) under different image segmentation scales and classification algorithms for Poyang Lake in China. The key results generally show that use of a coarser image scale (on average 5-8 Landsat pixels) significantly improved image classification of the different PFTs. Classification between the different algorithms were less significant.</p>
+<p><strong>Research design:</strong> Field data for training and test validation were collected, and Landsat 5 TM data (bands 1-5 &amp; 7) were used for all image classification procedures. Image segmentation was performed at 9 different scales from (2 - 10), and six different classification algorithms were used:</p>
+<ol style="list-style-type: decimal">
+<li>Bayesian</li>
+<li>Logistic</li>
+<li>Neural network</li>
+<li>Decision trees</li>
+<li>K-Nearest neighbors</li>
+<li>Support vector machines</li>
+</ol>
+<p>The image classification procedure was performed under two scenarios, the first being for generalized PFTs (3 classes), and the second being for specific PFTs (6 classes). Water, sand and other development were excluded prior to classification. Cluster analysis was performed on morphological and physiological data of the 51 species within the landscape to identify the different classes.</p>
+<p>Additionally, texture metrics within objects were computed and included in the classification procedure to examine their utility.</p>
+<p><strong>Key results:</strong> The results found that OBIA generally improved the results of the classification for both the 3-class and 6-class sets Some specific results include:</p>
+<ul>
+<li>A scale of 8 was found to produce the highest classification accuracies for both classification sets (i.e., objects of 5-8 Landsat pixels)
+<ul>
+<li>However, at the specific PFT level, the optimal scale parameter was found to be variable</li>
+</ul></li>
+<li>Texture metrics were not found to significantly improve classification accuracies, indicating that discrimination between the various classes was primarily spectrally based</li>
+<li>Overall classification accuracy was relatively similar for the different classification algorithms</li>
+</ul>
+<p>The authors conclude that smoothing of spectral signatures within objects lends to greater discrimination between PFTs, aiding in overall classification.</p>
+<p>Texture metrics may have proven to be insignificant in improving classification accuracies due to the relatively coarse nature of the Landsat data. Most other studies that have found texture to be significant have used high resolution imagery.</p>
+<p>Human interference and ecological conditions that produced mixed pixels resulted in reduced classification accuracy, and the authors conclude that mixed approaches (i.e., object-based followed by pixel-based, <em>a la</em> <span class="citation">(Wang, Sousa, and Gong <a href="#ref-wang2004integration">2004</a>)</span>) may be an interesting means of resolving this issue. However, propagation of uncertainty has been under-explored and will be important in such scenarios.</p>
 </div>
 <div id="giri2014" class="section level3">
-<h3><span class="header-section-number">5.2.12</span> Giri <em>et al</em>, 2014</h3>
+<h3><span class="header-section-number">5.2.13</span> Giri <em>et al</em>, 2014</h3>
 <p><em>“A study on abundance and distribution of mangrove species in Indian Sundarban using remote sensing technique”</em> <span class="citation">(Giri et al. <a href="#ref-giri2014study">2014</a>)</span></p>
 </div>
 </div>
@@ -547,6 +588,9 @@
 </div>
 <div id="ref-wang2009distinguishing">
 <p>Wang, LE, and Wayne P Sousa. 2009. “Distinguishing Mangrove Species with Laboratory Measurements of Hyperspectral Leaf Reflectance.” <em>International Journal of Remote Sensing</em> 30 (5): 1267–81. doi:<a href="https://doi.org/10.1080/01431160802474014">10.1080/01431160802474014</a>.</p>
+</div>
+<div id="ref-kamal2011hyperspectral">
+<p>Kamal, Muhammad, and Stuart Phinn. 2011. “Hyperspectral Data for Mangrove Species Mapping: A Comparison of Pixel-Based and Object-Based Approach.” <em>Remote Sensing</em> 3 (10): 2222–42. doi:<a href="https://doi.org/10.3390/rs3102222">10.3390/rs3102222</a>.</p>
 </div>
 <div id="ref-dronova2012landscape">
 <p>Dronova, Iryna, Peng Gong, Nicholas E Clinton, Lin Wang, Wei Fu, Shuhua Qi, and Ying Liu. 2012. “Landscape Analysis of Wetland Plant Functional Types: The Effects of Image Segmentation Scale, Vegetation Classes and Classification Methods.” <em>Remote Sensing of Environment</em> 127: 357–69. doi:<a href="https://doi.org/10.1016/j.rse.2012.09.018">10.1016/j.rse.2012.09.018</a>.</p>

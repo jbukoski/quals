@@ -241,7 +241,44 @@ The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehe
 
 *"An ontology for describing and synthesizing ecological observation data"* [@madin2007ontology]
 
+**Key significance:** Madin *et al* present a formal ontological framework within ecology (SEEK's OBOE) that captures the essential semantic information of observational datasets, which will aid discovery and integration of data. The paper is structured:
 
+  1. A discussion of ontologies and their relevance in ecology
+  2. An introduction and overview of SEEK Extensible Observation Ontologies (OBOE)
+  3. Several examples of use of OBOE for i) data discovery, ii) data summary, and iii) data integration
+
+**Notes:** 
+
+*Ontology* - "A representation of the knowledge within a domain of interest, defined via the concepts within the domain as well as the properties and relationships among domain objects"
+
+The work of the authors of the study is founded within the SEEK project. SEEK aims to develop technology to discover, access, integrate and analyze distributed ecological information, primarily through extension of EML to support semantic annotation of ecological datasets. This is done primarily through OWL-DL (description logic) ontologies.
+
+*Extensible Observation Ontology (OBOE)* - aims to provide a core ontology framework for semantically annotating observational data sets. OBOE differs from other ecological ontologies in that it:
+
+  1. Provides a robust framework for describing generic scientific observations
+  2. Facilitates and structures the creation and sharing of domain-specific ontology extensions
+  3. Provides discovery and integration services by semantic annotations to the ontology across variable domains of ecological observation data
+
+The core structure of OBOE is diagrammed below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/madin2007.bmp"))
+```
+
+The five key characteristics of OBOE are:
+
+  1. *Observations* - formal statement that an entity of a particular type was observed
+  2. *Entities* - all *Observations* are composed of exactly one *Entity*
+  3. *Measurements* - *Observations* can be composed of *Measurements*, which represent measurable *Characteristics* of whatever entity is being observed
+    - *Measurements* are always associated with *Observations*
+    - Can have a variety of different characteristics, which are defined via the *ofCharacteristic* property
+  4. *Characteristics* - "qualities" of the entity being observed
+  5. *Measurement standards* - the units, scales, categories, catalogs and lists used when measuring characteristics. Two subclasses of *Measurement standards* exist:
+    1. *Entity naming standard* - defines uniques names for unique identifies (e.g., "California")
+    2. *Entity classification standard* - entities associated with a classification have one or more instances (e.g., "red", "5 m")
+    - Additionally, for ratio or other complex units (e.g., ct / ha), the individual components may be assigned *Measurement standards* such that automatic conversions or data discovery may be performed.
+
+The different classes of the above can be used to describe the data, and facilitate machine-intelligent discovery, data summary and data integration. For example, data searches for density data may be able to identify datasets consisting of explicitly reported "density" data, as well as datasets that report the constituents of "density" (e.g., count & area)
 
 ### Madin, 2008 {#madin2008}
 
@@ -307,7 +344,6 @@ They note three major technological challenges to "open data" (a la, Michiner, 2
   - Unique identifiers (as DataONE) provides can be key for monitoring data provenance
   
 *Social considerations:* Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.
-
 
 ### Wickham, 2014
 
