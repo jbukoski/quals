@@ -1,7 +1,5 @@
 # Mangrove forest ecology
 
-This is just some intro stuff here.
-
 ## Zonation & disturbance {#zonation}
 
 ### Preface

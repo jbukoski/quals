@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-12">
+<meta name="date" content="2017-10-13">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -112,6 +112,7 @@
 <li class="chapter" data-level="4.1" data-path="background.html"><a href="background.html"><i class="fa fa-check"></i><b>4.1</b> Background</a><ul>
 <li class="chapter" data-level="4.1.1" data-path="background.html"><a href="background.html#redox"><i class="fa fa-check"></i><b>4.1.1</b> Redox</a></li>
 <li class="chapter" data-level="4.1.2" data-path="background.html"><a href="background.html#sulfur-cycle"><i class="fa fa-check"></i><b>4.1.2</b> Sulfur cycle</a></li>
+<li class="chapter" data-level="4.1.3" data-path="background.html"><a href="background.html#amundson2014"><i class="fa fa-check"></i><b>4.1.3</b> Amundson, 2014</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="geomorphology-soils.html"><a href="geomorphology-soils.html"><i class="fa fa-check"></i><b>4.2</b> Geomorphology</a><ul>
 <li class="chapter" data-level="4.2.1" data-path="geomorphology-soils.html"><a href="geomorphology-soils.html#thom-1967"><i class="fa fa-check"></i><b>4.2.1</b> Thom, 1967</a></li>
@@ -126,11 +127,12 @@
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html"><i class="fa fa-check"></i><b>4.3</b> Sedimentation and hydrology</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#preface-2"><i class="fa fa-check"></i><b>4.3.1</b> Preface</a></li>
-<li class="chapter" data-level="4.3.2" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#wolanski-1986"><i class="fa fa-check"></i><b>4.3.2</b> Wolanski, 1986</a></li>
-<li class="chapter" data-level="4.3.3" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#wolanski-1992"><i class="fa fa-check"></i><b>4.3.3</b> Wolanski, 1992</a></li>
-<li class="chapter" data-level="4.3.4" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#furukawa-1996"><i class="fa fa-check"></i><b>4.3.4</b> Furukawa, 1996</a></li>
-<li class="chapter" data-level="4.3.5" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#furukawa-1997"><i class="fa fa-check"></i><b>4.3.5</b> Furukawa, 1997</a></li>
-<li class="chapter" data-level="4.3.6" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#van-maren-2013"><i class="fa fa-check"></i><b>4.3.6</b> van Maren, 2013</a></li>
+<li class="chapter" data-level="4.3.2" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#wolanski1980"><i class="fa fa-check"></i><b>4.3.2</b> Wolanski, 1980</a></li>
+<li class="chapter" data-level="4.3.3" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#wolanski1986"><i class="fa fa-check"></i><b>4.3.3</b> Wolanski, 1986</a></li>
+<li class="chapter" data-level="4.3.4" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#wolanski-1992"><i class="fa fa-check"></i><b>4.3.4</b> Wolanski, 1992</a></li>
+<li class="chapter" data-level="4.3.5" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#furukawa-1996"><i class="fa fa-check"></i><b>4.3.5</b> Furukawa, 1996</a></li>
+<li class="chapter" data-level="4.3.6" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#furukawa-1997"><i class="fa fa-check"></i><b>4.3.6</b> Furukawa, 1997</a></li>
+<li class="chapter" data-level="4.3.7" data-path="sedimentation-and-hydrology.html"><a href="sedimentation-and-hydrology.html#van-maren-2013"><i class="fa fa-check"></i><b>4.3.7</b> van Maren, 2013</a></li>
 </ul></li>
 <li class="chapter" data-level="4.4" data-path="soil-formation.html"><a href="soil-formation.html"><i class="fa fa-check"></i><b>4.4</b> Soil formation</a><ul>
 <li class="chapter" data-level="4.4.1" data-path="soil-formation.html"><a href="soil-formation.html#preface-3"><i class="fa fa-check"></i><b>4.4.1</b> Preface</a></li>
@@ -262,6 +264,43 @@
 <div id="madin2007" class="section level3">
 <h3><span class="header-section-number">6.2.2</span> Madin, 2007</h3>
 <p><em>“An ontology for describing and synthesizing ecological observation data”</em> <span class="citation">(Madin et al. <a href="#ref-madin2007ontology">2007</a>)</span></p>
+<p><strong>Key significance:</strong> Madin <em>et al</em> present a formal ontological framework within ecology (SEEK’s OBOE) that captures the essential semantic information of observational datasets, which will aid discovery and integration of data. The paper is structured:</p>
+<ol style="list-style-type: decimal">
+<li>A discussion of ontologies and their relevance in ecology</li>
+<li>An introduction and overview of SEEK Extensible Observation Ontologies (OBOE)</li>
+<li>Several examples of use of OBOE for i) data discovery, ii) data summary, and iii) data integration</li>
+</ol>
+<p>**<a href="Notes:**" class="uri">Notes:**</a></p>
+<p><em>Ontology</em> - “A representation of the knowledge within a domain of interest, defined via the concepts within the domain as well as the properties and relationships among domain objects”</p>
+<p>The work of the authors of the study is founded within the SEEK project. SEEK aims to develop technology to discover, access, integrate and analyze distributed ecological information, primarily through extension of EML to support semantic annotation of ecological datasets. This is done primarily through OWL-DL (description logic) ontologies.</p>
+<p><em>Extensible Observation Ontology (OBOE)</em> - aims to provide a core ontology framework for semantically annotating observational data sets. OBOE differs from other ecological ontologies in that it:</p>
+<ol style="list-style-type: decimal">
+<li>Provides a robust framework for describing generic scientific observations</li>
+<li>Facilitates and structures the creation and sharing of domain-specific ontology extensions</li>
+<li>Provides discovery and integration services by semantic annotations to the ontology across variable domains of ecological observation data</li>
+</ol>
+<p>The core structure of OBOE is diagrammed below:</p>
+<p><img src="images/madin2007.bmp" /><!-- --></p>
+<p>The five key characteristics of OBOE are:</p>
+<ol style="list-style-type: decimal">
+<li><em>Observations</em> - formal statement that an entity of a particular type was observed</li>
+<li><em>Entities</em> - all <em>Observations</em> are composed of exactly one <em>Entity</em></li>
+<li><em>Measurements</em> - <em>Observations</em> can be composed of <em>Measurements</em>, which represent measurable <em>Characteristics</em> of whatever entity is being observed
+<ul>
+<li><em>Measurements</em> are always associated with <em>Observations</em></li>
+<li>Can have a variety of different characteristics, which are defined via the <em>ofCharacteristic</em> property</li>
+</ul></li>
+<li><em>Characteristics</em> - “qualities” of the entity being observed</li>
+<li><em>Measurement standards</em> - the units, scales, categories, catalogs and lists used when measuring characteristics. Two subclasses of <em>Measurement standards</em> exist:
+<ol style="list-style-type: decimal">
+<li><em>Entity naming standard</em> - defines uniques names for unique identifies (e.g., “California”)</li>
+<li><em>Entity classification standard</em> - entities associated with a classification have one or more instances (e.g., “red”, “5 m”)</li>
+</ol>
+<ul>
+<li>Additionally, for ratio or other complex units (e.g., ct / ha), the individual components may be assigned <em>Measurement standards</em> such that automatic conversions or data discovery may be performed.</li>
+</ul></li>
+</ol>
+<p>The different classes of the above can be used to describe the data, and facilitate machine-intelligent discovery, data summary and data integration. For example, data searches for density data may be able to identify datasets consisting of explicitly reported “density” data, as well as datasets that report the constituents of “density” (e.g., count &amp; area)</p>
 </div>
 <div id="madin2008" class="section level3">
 <h3><span class="header-section-number">6.2.3</span> Madin, 2008</h3>

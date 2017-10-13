@@ -37,6 +37,51 @@ The form of particular elements is important because it will change availability
 
 Sulfur is particularly important in wetland ecosystems due to the anaerobic conditions of the soil and thus reliance on sulfur for metabolic activities.
 
+### Jenny, 1941 {#jenny1941}
+
+*"Factors of soil formation: A quantitative system of pedology"* [@jenny1941factors]
+
+**Key contribution:** This is Hans Jenny's seminal work on the factors of soil formation. The most significant contribution of the work is his conceptual model for soil formation, which is shown below:
+
+  $$soils = f(climate, organisms, relief, parent material, time)$$
+The model allows for conceptual investigation of the various factors that influence the formation of a soil "system." Jenny defined soils as "systems" that were largely influenced by initial states (relief, parent material, time) as well as their surroundings (climate, organisms).
+
+### Amundson, 2003 {#amundson2003}
+
+*"Soil formation"* [@amundson2003soil]
+
+### Amundson, 2014 {#amundson2014}
+
+*"Soil formation"* [@amundson2014soil]
+
+**Key contribution:** This is an extensive review on the formation of soil that extends Amundson's earlier work in the first volume of the *Treatise on Geochemistry*.
+
+**Structure:** The chapter is structured as follows:
+
+  1. Overview of what a "soil" is
+  2. Conceptual partitioning of the earth surface
+    1. Stable landforms
+    2. Erosional landscapes
+  3. Human dimensions of soil formation
+  4. Soil chemistry in deserts
+  5. Soil formation on Mars
+
+
+
+**Notes: ** This chapter should be reviewed several times, as it is indicative of Ron's current thinking on soil formation processes.
+
+*Conceptual issue of what constitutes a "soil"* - different views of soil thickness among differing scientific communities. For example:
+
+  1. Earth sciences - primarily concerned with the mobile layer of weathering profile in which material no longer reflects parent rock (often restricts to A horizon as B horizon still has parent material)
+  2. Geochemical perspectices - interested in the whole weathering process and thus interest extends to more considerable depths
+
+Import to consider: What is the depth at which I am interested for mangroves?
+
+*Soil data access* - There are several platforms for which rich data on soils in the US can be collected:
+
+  1. Web soil survey - portal for soil maps and lab data
+  2. Soil-web - accesses same database as Web Soil Survey, but uses a different architecture to interface with key technologies (Google Earth, Maps, & smartphones)
+  3. Digital soil map of the world -- currently under development but needs more effort (see Sanchez, 2009, Science)
 
 
 ## Geomorphology {#geomorphology-soils}
@@ -275,9 +320,42 @@ Focusing on vertical adjustment within a mangrove forests risks missing broader 
 
 ### Preface
 
-### Wolanski, 1986
+### Wolanski, 1980 {#wolanski1980}
 
-"*Tidal mixing and trapping in mangrove swamps"*
+*"Hydrodynamics of a tidal creek-mangrove swamp system"* [@wolanski1980hydrodynamics]
+
+
+### Wolanski, 1986 {#wolanski1986}
+
+"*Tidal mixing and trapping in mangrove swamps"* [@wolanski1986tidal]
+
+**Key contribution:** This study primarily seeks to answer two key questions:
+
+  1. What parameters control export of salt left after evapotranspiration of tidal waters by mangrove trees?
+  2. How do rivers influence the growth of mangroves?
+  
+There is a lot of mathematical hydrological modeling that is over my head in this study, but there are some relevant ecological points that are worth noting.
+
+**Key results:** Some key results from the study include:
+
+  - The "trapping mechanism" is the dominant parameter controlling "longitudinal dispersion" in their study swamp. They conclude that it is likely the dominant mechanism in many swamps in the absence of large buoyancy effects (i.e., dry seasons)
+  - Buoyancy effects are important due to trapping of freshwater in the swamp at high tide and boundary layer that enters the river banks at low tide
+  - Residence time of runoff in mangrove swamps may be quite long with important ecological implications, such as nutrient uptake and settling of fine sediments
+  
+A diagram of the "trapping mechanism" of fresh water in the landward portion of swamps is shown below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/wolanski1986.bmp"))
+```
+  
+**Further reading:** This study led to some questions that may be important for understanding soil formation in mangroves. In particular:
+
+  1. What is the "trapping mechanism" in estuarine hydrodynamics?
+  2. What are the specific processes of tidal mixing and what is the broader relevance for the ecology of mangroves?
+  3. What is longitudinal dispersion in relation to mangroves?
+  4. What are the specific implications of buoyancy effects, and how do they vary between dry and wet seasons?
+
+
 
 ### Wolanski, 1992
 
