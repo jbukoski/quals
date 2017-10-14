@@ -2,42 +2,9 @@
 
 ## Background
 
-### Redox
+### Soil formation
 
-Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electron is transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.
-
-Basic example of respiration in which electrons are derived from an organic molecule:
-
-$$CH_{2}O + H_{2}O = CO_{2} + 4e^-$$
-
-The electrons cannot exist in independent form, and thus are run through metabolic cycles in organisms and dumped onto electron acceptors (e.g., O~2~).
-
-Oxygen is important within soils as it rapidly accepts electrons from other elements, which allows for metabolic processes. Aerobic respiration is performed on O~2~ (oxidize organic carbon) and release energy for metabolic activity.
-
-The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH.
-
-*Oxidizing soils* - accept electrons easily
-*Reducing soils* - donate electrons easily
-
-Standard Eh levels for drained, well-aerated soils is in the 0.4 - 0.7 Volt range, whereas flooded conditions can reduce Eh levels to as low as -0.3 V.
-
-Other electron acceptors besides oxygen are:
-
-  1. Nitrate - accepts 2 electrons when reduced from N(V) to N(III); reduces to N~2~
-  2. Manganese (VI) -> reduces to Mn(II)
-  3. Iron (III) -> reduces to Fe(II)
-  4. Sulfur (from SO~4~^2-^ to S~2~^-^ (reduced))
-  5. Carbon (reduction of CO~2~ produces CH~4~)
-  
-Electron acceptors are typically used up in this order (i.e., sulfur reduction is a process that occurs largely under very anaerobic soils). Anerobic systems result in the build up of reduced species
-
-The form of particular elements is important because it will change availability for uptake by plants (i.e., oxidized vs. reduced states). 
-
-### Sulfur cycle
-
-Sulfur is particularly important in wetland ecosystems due to the anaerobic conditions of the soil and thus reliance on sulfur for metabolic activities.
-
-### Jenny, 1994 {#jenny1994}
+#### Jenny, 1994 {#jenny1994}
 
 *"Factors of soil formation: A quantitative system of pedology"* [@jenny1994factors]
 
@@ -46,14 +13,14 @@ Sulfur is particularly important in wetland ecosystems due to the anaerobic cond
   $$soils = f(climate, organisms, relief, parent material, time)$$
 The model allows for conceptual investigation of the various factors that influence the formation of a soil "system." Jenny defined soils as "systems" that were largely influenced by initial states (relief, parent material, time) as well as their surroundings (climate, organisms).
 
-### Amundson, 2003 {#amundson2003}
+#### Amundson, 2003 {#amundson2003}
 
 *"Soil formation"* [@amundson2003soil]
 
 **Key contribution:** 
 
 
-### Amundson, 2014 {#amundson2014}
+#### Amundson, 2014 {#amundson2014}
 
 *"Soil formation"* [@amundson2014soil]
 
@@ -135,6 +102,144 @@ The effects of mechanical alteration of soils as well as through the addition of
 An important interpretation of this is that C isotope ratios of soil CO~2~ (and thus any carbonate that forms from it) largely reflects the isotope ratio of plant respiration and the concentration of atmospheric CO~2~. Additionally, C isotope ratios are highly variable along the depth profile.
 
 *Soil formation on Mars* - Investigation of soils in the top 10-15 cm of the surface of mars allows for interesting insight into soil formation and development processes in the absence of water; however, the conclusions of existing work conclude that much of the observation were driven by prior existence of liquids on the surface.
+
+### Soil classification
+
+**Key terms: **
+
+*Pedon* - Smallest three-dimensional sampling unit that displays full range of characteristic properties of a particular soil. 
+
+*Polypedon* - A group of closely associated pedons that are commonly found adjacent to another within the field (i.e., slight variations in a one general pedon). Forms a *soil individual*
+
+*Soil series* - A class of soil individuals that exhibit the same properties and horizons, though they may be disjunct in space or time
+
+Classifying a soil includes chemical, physical, and biological properties that may be directly observable in the field or quantifiable via lab analyses. The soil taxonomic name that is associated with a particular soil series is built to reflect each of these characteristics.
+
+*Diagnostic soil horizons* are often associated with precise quantitative measure and are used to resolutely identify a soil as particular series or not.
+
+Diagnostic soil horizons may occur at the surface or below the surface of the soil. Horizons that occur at the surface of the soil are termed *epipedons*. Seven epipedons exist:
+
+  1. *Mollic* - Dark color rich in organic matter
+  2. *Umbric* - Same general characteristics as mollic, but base saturation is much lower
+  3. *Ochric* - Mineral horizon that is too thin and light in color to Mollic or Umbric; may be very hard when dry
+  4. *Melanic* - Black, organic matter rich horizon characteristic of soils derived from volcanic ash
+  5. *Histic* - 20 - 60 cm thick layer of organic soil materials overlaying mineral soil; characteristic of wet areas such as peats
+  6. *Anthropic* - Same limits as Mollic epipedon, but has formed through extensive human use (e.g., agricultural soil)
+  7. *Plaggen* - Human-made surface layer approximately 50 cm thick made from extensive manuring
+
+The *diagnostic subsurface soil horizons* consist of:
+
+  1. *Argillic* - subsurface accumulation of high-activity silicate clays that have either precipitated downwards or formed in place
+  2. *Natric* - silicate clay accumulation but with high exchangeable sodium on the clay complex; common in arid or semi-arid regions
+  3. *Kandic* - accumulation of Fe and Al oxides as well as low-activity clays (kaolinite)
+  4. *Oxic* - highly weathered subsurface horizon very high in Fe and Al, oxides and kaolinite; found in tropics and subtropics
+  5. *Spodic* - illuvial horizon (material displaced by rainwater from one horizon to another) characterized by accumulation of colloidal organic matter and Al oxides; common in highly-leached, sandy cool humid climates (think pine forests)
+  6. *Sombric* - illuvial horizon dark in color due to high OM accumulation; found mostly in cool, moist plateaus and mountains of tropics and subtropics
+  7. *Albic* - light-colored eluvial (formed in place) low in clay and Fe and Al oxides which have been transported downwards
+  8. *Calcic* - accumulation of carbonates (white chalk-like nodules)
+  9. *Gypsic* - accumulation of gypsum
+  10. *Salic* - accumulation of soluble salts
+  
+*Soil moisture regimes*:
+
+  1. *Aquic* - soil saturated with water
+  2. *Udic* - moisture sufficiently high to meet plant needs
+  3. *Ustic* - intermediate moisture between udic and aridic; significant periods of drought may occur
+  4. *Aridic* - soil is dry for at least half of the growing season and moist for less than 90 days (torric indicates the same soils that may be hot in summer but not hot in winter)
+  5. *Xeric* - moisture regime common to Mediterranean climates; cool, moist winters and warm, dry summers
+  
+The *soil temperature regimes* primarily refer to i) frigid (cold), ii) mesic (moderate), and iii) thermic (hot).
+
+*Soil taxonomy*:
+
+  1. Order
+  2. Suborder
+  3. Great group
+  4. Subgroup
+  5. Family - identifies subsets of subgroups that are similar in texture, mineral composition and mean soil temperature at depth of 50 cm
+    - e.g., "Typic Argiaquolls, fine, mixed, mesic, active"
+    - Typic Argiaquoll that is fine in texture, mixed clay mineral content, mesic in temperature (8 - 15 deg C), and with clays active in cation exchange
+  6. Series - named after geographic feature where they were first identified
+  
+There are 12 *soil orders* globally:
+
+  1. *Alfisols* - argillic, natric or kandic horizon; high to medium base saturation (alf)
+  2. *Andisols* - soil formed from volcanic ash (and)
+  3. *Aridisols* - dry soils with ochric epipedon (id)
+  4. *Entisols* - little profile development, ochric epipedon is common (ent)
+  5. *Gelisols* - permafrost; frozen soils (el)
+  6. *Histosols* - peatland or waterlogged soils with > 20% OM (ist)
+  7. *Inceptisols* - embryonic soil with few diagnostic features; ochric or umbric epipedon (ept)
+  8. *Mollisols* - grassland soil rich in organic matter with mollic epipedon (oll)
+  9. *Oxisols* - oxic horizon, highly weathered (ox)
+  10. *Spodosols* - spodic horizon common with Fe and Al oxides (od)
+  11. *Ultisols* - argillic or kandic horizon, low base saturation, very weathered (ult)
+  12. *Vertisols* - high in swelling clays, cracks when dry (ert)
+  
+Mangrove soils are likely to be **Aquents** (frequent saturation with water) or Fluvents (parent material of recent alluvium, more commonly associated with floodplains)
+
+  - likely to be "halic sulphaquents," "sulfic halaquents", or "halic sulphaquepts"
+  
+*Suborders* commonly integrate the moisture regime of the region into the soil order (e.g., Aquent).
+
+More than 400 *Great Groups* exist, defined primarily by presence of diagnostic horizons, which supply formative elements for the names (suphic diagnostic horizon in Sulphaquents, halic diagnostic horizon in Halaquents)
+
+*Subgroups* - central concepts of a Great Group makes up one subgroup (*Typic*). Others introduce secondary diagnostic characteristics that better situate the soil between different Great Groups. (e.g., Sulfic Halaquents as an Aquent with Halic diagnostic properties but also Sulfuric properties).
+
+*Families* - Approximately 8,000 families have been identified; integrate information on the physical and chemical properties affecting the growth of plant roots.
+
+  - Information on particle size, mineralogy, CEC activity, temperature, and depth of soil
+
+### Soil architecture
+
+### Soil hydrology
+
+### Soil aeration
+
+### Soil chemistry
+
+### Soil pH
+
+### Soil organisms
+
+### Soil organic matter
+
+### Soil nutrients
+
+### Redox
+
+Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electron is transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.
+
+Basic example of respiration in which electrons are derived from an organic molecule:
+
+$$CH_{2}O + H_{2}O = CO_{2} + 4e^-$$
+
+The electrons cannot exist in independent form, and thus are run through metabolic cycles in organisms and dumped onto electron acceptors (e.g., O~2~).
+
+Oxygen is important within soils as it rapidly accepts electrons from other elements, which allows for metabolic processes. Aerobic respiration is performed on O~2~ (oxidize organic carbon) and release energy for metabolic activity.
+
+The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH.
+
+*Oxidizing soils* - accept electrons easily
+*Reducing soils* - donate electrons easily
+
+Standard Eh levels for drained, well-aerated soils is in the 0.4 - 0.7 Volt range, whereas flooded conditions can reduce Eh levels to as low as -0.3 V.
+
+Other electron acceptors besides oxygen are:
+
+  1. Nitrate - accepts 2 electrons when reduced from N(V) to N(III); reduces to N~2~
+  2. Manganese (VI) -> reduces to Mn(II)
+  3. Iron (III) -> reduces to Fe(II)
+  4. Sulfur (from SO~4~^2-^ to S~2~^-^ (reduced))
+  5. Carbon (reduction of CO~2~ produces CH~4~)
+  
+Electron acceptors are typically used up in this order (i.e., sulfur reduction is a process that occurs largely under very anaerobic soils). Anerobic systems result in the build up of reduced species
+
+The form of particular elements is important because it will change availability for uptake by plants (i.e., oxidized vs. reduced states). 
+
+### Sulfur cycle
+
+Sulfur is particularly important in wetland ecosystems due to the anaerobic conditions of the soil and thus reliance on sulfur for metabolic activities.
 
 
 
