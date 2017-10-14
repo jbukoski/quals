@@ -37,9 +37,9 @@ The form of particular elements is important because it will change availability
 
 Sulfur is particularly important in wetland ecosystems due to the anaerobic conditions of the soil and thus reliance on sulfur for metabolic activities.
 
-### Jenny, 1941 {#jenny1941}
+### Jenny, 1994 {#jenny1994}
 
-*"Factors of soil formation: A quantitative system of pedology"* [@jenny1941factors]
+*"Factors of soil formation: A quantitative system of pedology"* [@jenny1994factors]
 
 **Key contribution:** This is Hans Jenny's seminal work on the factors of soil formation. The most significant contribution of the work is his conceptual model for soil formation, which is shown below:
 
@@ -49,6 +49,9 @@ The model allows for conceptual investigation of the various factors that influe
 ### Amundson, 2003 {#amundson2003}
 
 *"Soil formation"* [@amundson2003soil]
+
+**Key contribution:** 
+
 
 ### Amundson, 2014 {#amundson2014}
 
@@ -66,8 +69,6 @@ The model allows for conceptual investigation of the various factors that influe
   4. Soil chemistry in deserts
   5. Soil formation on Mars
 
-
-
 **Notes: ** This chapter should be reviewed several times, as it is indicative of Ron's current thinking on soil formation processes.
 
 *Conceptual issue of what constitutes a "soil"* - different views of soil thickness among differing scientific communities. For example:
@@ -82,6 +83,61 @@ Import to consider: What is the depth at which I am interested for mangroves?
   1. Web soil survey - portal for soil maps and lab data
   2. Soil-web - accesses same database as Web Soil Survey, but uses a different architecture to interface with key technologies (Google Earth, Maps, & smartphones)
   3. Digital soil map of the world -- currently under development but needs more effort (see Sanchez, 2009, Science)
+  
+*Soil formation* - Can very abstractly be thought of in three classes:
+
+  1. Stable landforms, where derivative of slope = 0
+  2. Erosional landforms, where derivative of slope is negative
+  3. Depositional landforms, where derivative of slope is positive
+
+**Stable landforms** - Depositional processes can be understood largely through examination of elements relative to that of a parent material. Often this is done by normalizing that element relative to an element that is immobile in the soil weathering environment (Zr, Ti, Nb, etc.).
+
+Often use *chronosequences* to examine changes over time due to inability to perform experiments over extremely long time scales.
+
+Some characteristic steps of soil formation in stable landscapes are outlined:
+
+  - Primary inputs to soil come from organisms; fixing of atmospheric CO~2~ and NO~3~ and NH~4~ bound with amino acids
+  - Biotic mechanisms take place and alter the sedimentary structure of the soil (physical mixing)
+  - Through chemical weathering, accumulation of secondary clay minerals in the B horizon occurs
+  - Clay accumulation and soil thickening occur over long timeframes, volume decreases and bulk density increases resulting in relative "collapse" of soil
+  
+Whether you consider just the A or B horizon depends on discipline and particular viewpoints.
+
+Within San Joaquin Valley, the "mound and swale" topography is due to the relative increase of clay which creates a higher water table and reduces the A horizon of soil placing pressure on gophers. In response, gophers are hypothesized to undertake directional movement of soil to the tops of mounds.
+
+  - Note, this is the state soil of California (San Joaquin soil series)
+  - "Fine, mixed, active, thermic Abruptic Durixeralfs"
+  
+Important point is that rates of mineral dissolution in almost all soils are transport limited in that it is not the resistance of elements or materials that determine rates, but rather flow of liquids.
+
+Thus, the rate of weathering is relatively constant with age and thus may have weathering fronts that exist at very considerable depths.
+
+*Weathering front* - the boundary between the parent rock and either weathered rock or regolith
+
+**Erosional landscapes** - One of the most important conceptual changes in soil formation within last fifteen years is through modeling of soil transport on hillslopes, particularly through coupling of physical processes with geochemical ones (see Dietrich et al., 2003).
+
+*Denudation* - processes causing wearing away of Earth's surface via moving water, ice, wind or waves; leads to reduction in elevation and relief
+
+The chemical weathering rate can be defined as the difference between the total denudation rate and the physical erosion rate.
+
+  $$ Chemical\ weathering = Total\ denudation - Physical\ erosion$$
+
+The position of the weathering front will depend upon the relative balance between the denudatoin rate and the propagation rate of the weathering front. If denudation (soil loss) exceeds that of weathering front propagation rate, then the front cant be expected to be shallow, and vice versa.
+
+Denudation is apparently insensitive to rainfall for vegetated landscapes, where as weathering front propagation rate is highly sensitive to levels of rainfall.
+
+*Human influences* - The scale at which humans are influencing soils is massive. When defining "endangered soils" as those soil series that have lost at least 50% of their extent, considerable portions of soils in the US have been affected (particularly in the mid-West), but also much of the central valley and along the E. coast.
+
+The effects of mechanical alteration of soils as well as through the addition of high amounts of water in arid or semi-arid landscapes greatly accelerates chemical weathering processes (e.g., removal of salts, altering of pH, secondary clay formation, etc. Additional research is needed on the effects of agriculture on undisturbed soils.
+
+*Soil geochemistry in deserts* - Use of isotope research in arid soils reveals that *stable isotopes in soils are rarely conservative tracers of element source* (is this for all soils? what does he mean by this?), but rather reflect complex postdepositional processes caused by aqueous or gaseous transport.
+
+An important interpretation of this is that C isotope ratios of soil CO~2~ (and thus any carbonate that forms from it) largely reflects the isotope ratio of plant respiration and the concentration of atmospheric CO~2~. Additionally, C isotope ratios are highly variable along the depth profile.
+
+*Soil formation on Mars* - Investigation of soils in the top 10-15 cm of the surface of mars allows for interesting insight into soil formation and development processes in the absence of water; however, the conclusions of existing work conclude that much of the observation were driven by prior existence of liquids on the surface.
+
+
+
 
 
 ## Geomorphology {#geomorphology-soils}
