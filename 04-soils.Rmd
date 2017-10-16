@@ -105,17 +105,17 @@ An important interpretation of this is that C isotope ratios of soil CO~2~ (and 
 
 ### Soil classification
 
+Classifying soils includes chemical, physical, and biological properties that may be directly observable in the field or quantifiable via lab analyses. The soil taxonomic name that is associated with a particular soil series is built to reflect each of these characteristics.
+
 **Key terms: **
 
-*Pedon* - Smallest three-dimensional sampling unit that displays full range of characteristic properties of a particular soil. 
+*Pedon* - Smallest three-dimensional sampling unit that displays the full range of characteristic properties of a particular soil
 
-*Polypedon* - A group of closely associated pedons that are commonly found adjacent to another within the field (i.e., slight variations in a one general pedon). Forms a *soil individual*
+*Polypedon* - A group of closely associated pedons that are commonly found adjacent to another within the field (i.e., slight variations in a one general pedon). A polypedon forms a *soil individual*.
 
 *Soil series* - A class of soil individuals that exhibit the same properties and horizons, though they may be disjunct in space or time
 
-Classifying a soil includes chemical, physical, and biological properties that may be directly observable in the field or quantifiable via lab analyses. The soil taxonomic name that is associated with a particular soil series is built to reflect each of these characteristics.
-
-*Diagnostic soil horizons* are often associated with precise quantitative measure and are used to resolutely identify a soil as particular series or not.
+*Diagnostic soil horizons* are often associated with precise quantitative measures and are used to resolutely identify a soil as particular series or not
 
 Diagnostic soil horizons may occur at the surface or below the surface of the soil. Horizons that occur at the surface of the soil are termed *epipedons*. Seven epipedons exist:
 
@@ -148,14 +148,18 @@ The *diagnostic subsurface soil horizons* consist of:
   4. *Aridic* - soil is dry for at least half of the growing season and moist for less than 90 days (torric indicates the same soils that may be hot in summer but not hot in winter)
   5. *Xeric* - moisture regime common to Mediterranean climates; cool, moist winters and warm, dry summers
   
-The *soil temperature regimes* primarily refer to i) frigid (cold), ii) mesic (moderate), and iii) thermic (hot).
+The *soil temperature regimes* primarily refer to:
 
-*Soil taxonomy*:
+  1. Frigid (cold)
+  2. Mesic (moderate) 
+  3. Thermic (hot)
 
-  1. Order
-  2. Suborder
-  3. Great group
-  4. Subgroup
+**Soil taxonomy:**
+
+  1. Order - Defined as one of 12 orders
+  2. Suborder - Often integrate the moisture regime of the region (e.g., Aquent)
+  3. Great group - Often indicate presence of a diagnostic horizon (e.g., Sulphaquent)
+  4. Subgroup - Further define diagnostic horizon to add nuance to the classification (e.g., Halic Sulphaquent)
   5. Family - identifies subsets of subgroups that are similar in texture, mineral composition and mean soil temperature at depth of 50 cm
     - e.g., "Typic Argiaquolls, fine, mixed, mesic, active"
     - Typic Argiaquoll that is fine in texture, mixed clay mineral content, mesic in temperature (8 - 15 deg C), and with clays active in cation exchange
@@ -176,7 +180,7 @@ There are 12 *soil orders* globally:
   11. *Ultisols* - argillic or kandic horizon, low base saturation, very weathered (ult)
   12. *Vertisols* - high in swelling clays, cracks when dry (ert)
   
-Mangrove soils are likely to be **Aquents** (frequent saturation with water) or Fluvents (parent material of recent alluvium, more commonly associated with floodplains)
+Mangrove soils are likely to be *Aquents* (frequent saturation with water) or Fluvents (parent material of recent alluvium, more commonly associated with floodplains)
 
   - likely to be "halic sulphaquents," "sulfic halaquents", or "halic sulphaquepts"
   
@@ -191,6 +195,64 @@ More than 400 *Great Groups* exist, defined primarily by presence of diagnostic 
   - Information on particle size, mineralogy, CEC activity, temperature, and depth of soil
 
 ### Soil architecture
+
+**Soil color:** Soil color is classified using the Munsell charts and is a function of:
+
+  1. Hue - Redness or yellowness
+  2. Chroma - Lightness or darkness
+  3. Saturation - Intensity of brightness of the color
+  
+Soil color is indicative of many properties of the soil, including presence of organic matter, moisture content, or presence of Fe or Mn oxides.
+
+*Gleying* refers to reduction of Fe or Fe depletion from the soil and is indicated by a gray soil color.
+
+**Soil texture:** Soil texture ranges greatly (e.g., from clay to boulders), but often we refer to the fine-earth fraction (sand, silt & clay) in referring to soil texture.
+
+  1. *Sand* - Smaller than 2 mm in size but greater than 0.05 mm; most common material constituent is quartz (SiO~2~), or other silicate materials
+  2. *Silt* - Between 0.05 mm and 0.002 mm; Similar in shape and mineral composition to sand but much smaller in size and thus drains water more slowly
+  3. *Clay* - Less than 0.002 mm; Extremely large surface areas which results in great propensity to hold water
+    - The finest sizes of clays act as colloids (i.e., where particles suspended in a liquid do not readily settle out)
+    - More commonly flat and plate-like than round which further inhibits passing of liquids and gasses
+
+*Textural classes* - Soils exist on a continuum of texture, but can classified generally given their relative percent composition of sand, silt or clay
+
+Central concept of a *loam* is defined as a mixture of sand, silt and clay that exhibits properties of those separates in approximately equal proportions.
+
+Adding peat or compost to soils does not technically change the texture, as the texture criteria is only referring to the mineral particles.
+
+**Soil structure:** Soil particles aggregate together to form *peds* or *aggregates*, which greatly influence the structure and functioning of the soil.
+
+*Peds* may vary in size from 1 mm to 1 m; Commonly used to refer to the whole structure of the soil (as aggregates exist at different scales), but is synonymous with "aggregate". Peds often vary depending on the horizon in which they are found. The principal ped shapes are:
+
+  1. Spheroidal
+  2. Platy
+  3. Prismlike
+  4. Blocklike
+  
+Soil aggregates consist of macroaggregates that are a combination of microaggregates. Both biological and physical-chemical processes are important in their formation, though PC processes matter primarily for microaggregates whereas biological processes are more critical for macroaggregates.
+
+*Flocculation* is the mutual attraction between clay and organic molecules, and is key for formation of microaggregates (particularly for sedimentation in mangroves).
+
+  - Form through a covalent bond in which positive charged ions compressed against one another attract negative charges on the opposites platelet.
+  
+Organisms (e.g., earthworms) and plant roots are also important in forming of casts through consumption of soil as well as production of sticky substances (glomulin) that are important in forming aggregates.
+
+**Soil density:** There is a key distinction between particle density and bulk density that should be noted. In particular:
+
+  - Particle density is defined as the mass of the soil particles per unit volume of *soil solids* (i.e., no pore space is considered)
+    - Particle densities vary little and are typically between 2.6 - 2.75 Mg/m^3^
+  - Bulk density  is the mass of the soil particles per unit volume of soil (including the pore spaces)
+    - Bulk density values vary to a much larger degree
+    
+One of the key reasons for measuring bulk density is for the calculation of *total porosity* (i.e., through comparison of particle density and bulk density). Provides a measure of total pores, but pores are comprised of both *macropores* (> 0.08 mm) as well as *micropores* (< 0.08 mm).
+
+  - *Macropores* readily allow movement of gas and water within the soil, as well as growth of plant roots and movements of soil organisms.
+  - "Micropores" are typically filled with water. Even when not filled with water, they are small enough to restrict passage of gasses. Water in these pores is restricted to plants
+  
+
+
+
+
 
 ### Soil hydrology
 
