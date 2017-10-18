@@ -248,13 +248,80 @@ One of the key reasons for measuring bulk density is for the calculation of *tot
 
   - *Macropores* readily allow movement of gas and water within the soil, as well as growth of plant roots and movements of soil organisms.
   - "Micropores" are typically filled with water. Even when not filled with water, they are small enough to restrict passage of gasses. Water in these pores is restricted to plants
-  
-
-
-
-
 
 ### Soil hydrology
+
+**Key notes**:
+
+*Properties of water molecules* - Ability of water to influence soil processes is largely due to the structure of water. In particular:
+
+  - Polarity - The H atoms of water line up in a V-shape of 105 degrees which induces a polarity to the molecule.
+  - Hydrogen bonding - Hydrogen atom of one water molecule is attracted to the H of another water molecule forming a low-energy bond that results in polymerization of water. Hydrogen bonding thus accounts for the following behaviors of water
+    - Cohesion - Adherence of water molecules to one another
+    - Adhesion - Adherence of water molecules to the surfaces of solid particles
+    - Tension - Results from greater attraction of water molecules to one another than to gases, which results in tight bonding of water molecules at the air/water interface
+    
+Capillary action is important for the movement of water within soils. Capillary action occurs through the dual action of adhesion and cohesion.
+
+*Soil water energy concepts* - Various forces come into play in determining movements of water in the soil.
+
+Water transfers from states of high energy to low energy, and various forces that determine the potential energy of water are important:
+
+  - Matric forces -- forces caused by adhesion that are responsible for adsorption and capillarity.
+  - Osmostic forces -- forces driven by differences in ion concentrations in solutes
+  - Gravity -- self explanatory; constant downwards force on water
+  
+*Water potential* is determined as the difference in potential energy between water within a given soil at a particular location with water at a reference location at standard pressure and temperature with no effects of soil.
+
+Total soil water potential is a function of:
+
+  1. Gravitational potential
+  2. Matric potential -- extremely important for supply of water to plant roots
+  3. Hydrostatic potential -- pressures from the weight of water in saturated soils
+  4. Osmotic potential 
+    - Important for mangroves
+  5. Other more minor potentials...
+  
+Matric and hydrostatic potentials are part of the "pressure potential," whereas gravitational and osmotic are considered alone.
+
+*Soil water content and water potential* - An inverse relationship exsists between the water content of soils and how strongly water is held within soils.
+
+In describing water content of soil, need to describe both i) the water content as well as ii) the water potential. Behavior of water in soil is typically determined primarily by water potential rather than water content.
+
+"Water content" is defined as a volume of water per volume soil. Typically measured as difference between wet and dry weights of soil.
+
+"Water potential" can be measured in different ways; Matric potential can be measured via a tensiometer, which is a semi-porous rod filled with water that allows water to flow out of the rod and creates a vacuum within the rod. Tensiometers are useful over a range of 0 to -85 kPa.
+
+*Flow of water* - Flow can be broken into three primary types:
+
+  1. Saturated flows - Saturated flow occurs when soil pores are completely filled. Hydrostatic potentials play a part here and the hydraulic conductivity is largely determined by macropore spaces
+    - Flow rates are proportional to the fourth power of the radius, and thus macropore space greatly determine flows during saturated flow.
+    - Preferential flow is the faster flow of water through biopores (e.g., pores and channels created by organisms) or large cracks
+  2. Unsaturated flows - Large pores are free of water but smaller pores hold water
+    - Primary driver of water flow is "matric potential gradient"
+    - Soil texture is highly important as clays will moderate flows whereas sandy loams are more "flashy"
+  3. Vapor movements - Result of vapor pressure differences in relatively dry soils
+  
+*Infiltration and percolation* - Texture of soil and in particular presence of macropores are critical here.
+
+*Qualitative descriptions of soil wetness* - Several classes of soil wetness can be described:
+
+  1. Maximum retentive capacity - all pore spaces are filled, matric potential is close to zero and gravitational forces dominate
+  2. Field capacity - soil will drain via gravitational forces within 1 - 3 days, and matric forces will dominate (generally a range of -10 to -30 kPa). Field capacity is an important condition given:
+    1. Maximum level of water available to plants is present
+    2. Soil is at optimal "pliability" in that below field capacity it will begin to crumble and above that it will easily turn to mud
+    3. Sufficient pore space is available to allow aeration for microbial activity and plant growth
+  3. Plant available water - from 10 - 30 kPa to 1500 kPa - water potentials at which water is largely available to plants
+  4. Permanent wilting percentage - point at which plants wilt during both day and night due to inability to extract water from soil (<1500 kPa)
+  5. Hygroscopic coefficient - point at which water is only available in vapor form due to extreme aridity
+
+The amount of organic matter within a soil can influence the amount of plant available water greatly. Organic matter has a high water-holding capacity, particularly relative to mineral soils.
+
+"Least limiting water range" - Saturation of soil may produce anoxic conditions which restrict root growth. Often times this is the point at which only 10% of pore space is filled with air. Additionally, soils may become too dry for plant roots to push through them during growth (2000 kPa)
+
+*Relevance for mangroves* - My own interpretation of how this might matter for mangroves is as follows:
+
+For mangroves, matric potentials and osmotic potentials likely drive water flows within mangroves. Given the extremely find sediment of many mangrove forests, there is likely very little pore space for which water and air may enter the soil. Water flushing and aeration may only exist within top 15-20 cm of soil.
 
 ### Soil aeration
 
@@ -548,6 +615,7 @@ Focusing on vertical adjustment within a mangrove forests risks missing broader 
 *"Hydrodynamics of a tidal creek-mangrove swamp system"* [@wolanski1980hydrodynamics]
 
 
+
 ### Wolanski, 1986 {#wolanski1986}
 
 "*Tidal mixing and trapping in mangrove swamps"* [@wolanski1986tidal]
@@ -578,38 +646,79 @@ knitr::include_graphics(rep("images/wolanski1986.bmp"))
   3. What is longitudinal dispersion in relation to mangroves?
   4. What are the specific implications of buoyancy effects, and how do they vary between dry and wet seasons?
 
-
-
 ### Wolanski, 1992
 
 *"Mangrove hydrodynamics"* (In Robertson and Alongi, 1992)
 
-### Furukawa, 1996
+### Furukawa, 1996 {#furukawa1996}
 
-*"Sedimentation in mangroves"*
+*"Sedimentation in mangrove forests"* [@furukawa1996sedimentation]
 
-### Furukawa, 1997
+**Key significance:** Furukawa and Wolanski show through an empirical study that a sediment pump from coastal waters to the mangrove interior does exist.
 
-*"Currents and sediment transport in mangrove forests"*
+They find that the presence of a tidal pump is largely due to:
+
+  1. High turbulence that maintains entrainment of fine sediments during flood tide.
+  2. Settlement of flocculated sediment during slack high tide in which turbulence is reduced.
+  3. Insufficient ebb tide velocities to resuspend settled sediment.
+
+**Key notes:**
+
+Water velocity of tidal flooding in a mangrove forest can be described as:
+
+$$ u = 1/n\ *\ h^{2/3}\ *\ I^{1/2}  $$
+
+Where:
+
+  - u: water velocity
+  - n: Mannings friction coefficient
+  - h: water depth
+  - I: water surface slope
+
+Typical values for the Mannings friction coefficient for sandy channels are in the range of 0.025-0.035, whereas empirical studies by Wolanski have found values as high as 0.2 - 0.4 for areas with mangrove vegetation. Thus, mangrove vegetation increases the Mannings friction coefficient by several orders of magnitude.
+
+This results in a failure to resuspend fine sediments that are deposited during slack high tide and thus promotes build-up of sediment.
+
+Consideration of floc size is important for sedimentation studies within mangroves. In calculating the settling velocity (via Stoke's law) for both individual particles of clay and silt, as well as that of mean floc size measured within the tidal water, settlement of flocs was found to be approximately 100 times larger than for individual particles (0.005 m/s).
+
+Empirical measurements in the field showed that for tree species with complex matrices of aboveground roots, turbulence was intense enough to maintain flocs in suspension. For single stemmed trees without root systems (e.g., Bruguiera or Ceriops), both turbulence and flow velocity are reduced.
+
+
+### Furukawa, 1997 {#furukawa1997}
+
+*"Currents and sediment transport in mangrove forests"* [@furukawa1997currents]
+
+**Key contribution:** A sister study to [@furukawa1996sedimentation], this study describes the empirical data collected to investigate current flows and suspended sediment characteristics of a mangrove in Australia.
+
+**Research design:** Water level, currents, sedimentation (via sediment traps and Analite nephelometers (upward looking cameras)), suspended sediment levels (via water samples), and concentration of flocs (via microscopic slides with wells) were measured along a transect in the forest, at varying distances from a tidal creek.
+
+The data were compared against three hydrological models to investigate the accuracy of mathematical modelling of hydrodynamics and sedimentation in mangroves, as well as analyze the empirical data for the site. The models were:
+
+  1. 2DSWAMP - flow model based on primitive equations of motion
+  2. LAKE - a lake model that assumes flat water surface and determines flow rate
+  3. VORTEX - a discrete vortex model that provides information on turbulence
+
+**Key findings:**
+
+The LAKE model performed poorly and was not used within in the subsequent analyses (unrealistic assumption that the surface water is flat).
+
+Suspended sediment concentration showed strong asymmetry in that concentration was higher at flood tibe and much lower at ebb tide. This is indicative of net inwelling of sediment into the mangrove.
+
+Sedimentation rates decreased with distance from the tidal creek. In calculating the sedimentation velocity, the median floc size (90 micrometers) was approximately 4 times that of size of solid minerals (24 micrometers) given high porosity of flocs. Visual investigation of suspended sediment reveals that much of the flocs had settled out of the water column following slack high tide.
+
+Vegetation greatly increased turbulence and created a complex set of hydrological effects (eddies, stagnant regions, and jets).
+
+DOC was found to vary inversely with tidal depth, with the lowest DOC concentration present during slack high tide. Furthermore DOC in the forest was found to be greater than coastal waters, indicating that both creek and mangrove waters are significant sources of DOC. 
+
+The findings suggest a net inwelling of DOC in the forest (greater DOC concentration during flood tide than ebb tide), but this does not corroborate with other analyses.
 
 ### van Maren, 2013
 
 *"The role of flow asymmetry and mud properties on tidal flat sedimentation"*
 
 
-## Soil formation
-
-### Preface
-
-### Amundson, 2003
-
-### Amundson, 2014
-
 
 ## Soil carbon processes
-
-### Preface
-
 
 ### Amundson, 2001
 
