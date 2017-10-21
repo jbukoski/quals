@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-10-17">
+<meta name="date" content="2017-10-20">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -49,6 +49,43 @@
 
 
 
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -542,9 +579,166 @@
 </div>
 <div id="soil-aeration" class="section level3">
 <h3><span class="header-section-number">4.1.5</span> Soil aeration</h3>
+<p>Aeration is the process of soil ventilation, with gases moving both into and out of the soil. Requires both the supply of oxygen as well as the removal of CO<sub>2</sub> from the soil.</p>
+<p>Three primary processes control the availability of oxygen within soils:</p>
+<ol style="list-style-type: decimal">
+<li>Soil macroporosity</li>
+<li>Soil water content</li>
+<li>O<sub>2</sub> consumption</li>
+</ol>
+<p>Plants that have adapted to waterlogged soils (i.e., in wetlands) are <em>hydrophytes</em>, and have <em>aerenchyma</em> which are hollow tissues used for the transport of oxygen to the roots.</p>
+<p>Aeration of soil occurs through two primary mechanisms:</p>
+<ol style="list-style-type: decimal">
+<li>Mass flow – much less significant on total exchange of gases</li>
+<li>Diffusion – most significant process; gases moving in response to their partial pressures
+<ul>
+<li>partial pressures is the pressure a particular gas in a gas mixture will exert</li>
+<li>O<sub>2</sub> will generally move into soil whereas water vapor and CO<sub>2</sub> will typically move from soil to the atmosphere</li>
+</ul></li>
+</ol>
+<p>There are three primary ways of characterizing aeration of soil:</p>
+<ol style="list-style-type: decimal">
+<li>Directly describing the gas constituents in the soil</li>
+<li>Air-filled soil porosity (i.e., percentage of soil pores that are filled with air)</li>
+<li>Redox potential as a measure of the oxidation and reduction of different elements (i.e., a measure of aerobic metabolism by organisms)</li>
+</ol>
+<p>Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electron is transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.</p>
+<p>Basic example of respiration in which electrons are derived from an organic molecule:</p>
+<p><span class="math display">\[CH_{2}O + H_{2}O = CO_{2} + 4e^-\]</span></p>
+<p>The electrons cannot exist in independent form, and thus are run through metabolic cycles in organisms and dumped onto electron acceptors (e.g., O<sub>2</sub>).</p>
+<p>Oxygen is important within soils as it rapidly accepts electrons from other elements, which allows for metabolic processes. Aerobic respiration is performed on O<sub>2</sub> (oxidize organic carbon) and release energy for metabolic activity.</p>
+<p>The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH. Redox potential typically decreases as the pH increases.</p>
+<p><em>Oxidizing soils</em> - accept electrons easily <em>Reducing soils</em> - donate electrons easily</p>
+<p>Standard Eh levels for drained, well-aerated soils is in the 0.4 - 0.7 Volt range, whereas flooded conditions can reduce Eh levels to as low as -0.3 V.</p>
+<p>Other electron acceptors besides oxygen are:</p>
+<ol style="list-style-type: decimal">
+<li>Nitrate - accepts 2 electrons when reduced from N(V) to N(III); reduces to N<sub>2</sub></li>
+<li>Manganese (VI) -&gt; reduces to Mn(II)</li>
+<li>Iron (III) -&gt; reduces to Fe(II)</li>
+<li>Sulfur (from SO<sub>4</sub><sup>2-</sup> to S<sub>2</sub><sup>-</sup> (reduced))</li>
+<li>Carbon (reduction of CO<sub>2</sub> produces CH<sub>4</sub>)</li>
+</ol>
+<p>Electron acceptors are typically used up in this order (i.e., sulfur reduction is a process that occurs largely under very anaerobic soils). Anerobic systems result in the build up of reduced species</p>
+<p>The form of particular elements is important because it will change availability for uptake by plants (i.e., oxidized vs. reduced states).</p>
+<p><em>Factors that affect soil aeration:</em></p>
+<ul>
+<li>Presence of macropores – most important factor in well-drained soils; function of soil texture, bulk density, aggregate stability, OM content, and biopore formation</li>
+<li>Microbial activity – rates of respiration in the soil will greatly influence gas composition, and is dependent upon availability of organic matter</li>
+<li>Soil heterogeneity – lower oxygen concentrations in subsoils; often due to slow diffusion, reduced pore space (from compaction), and greater proportion of pore space filled by water
+<ul>
+<li>plant roots may reduce or increase O<sub>2</sub> content (diffusion of O<sub>2</sub> from root aerenchyma)</li>
+</ul></li>
+<li>Seasonal differences
+<ul>
+<li>Changes in precipitation patterns or temperature</li>
+</ul></li>
+</ul>
+<p><em>Ecological effects of soil aeration:</em></p>
+<ul>
+<li>Nature and rates of microbial activity are determined largely by O<sub>2</sub> concentrations</li>
+<li>Redox of elements:
+<ul>
+<li>Determines form and thus availability of elements, which may be beneficial or toxic</li>
+<li>Methane production, which occurs at Redox potentials of approximately -0.2</li>
+</ul></li>
+<li>Activities of higher plants:
+<ul>
+<li>Root growth may be curtailed</li>
+<li>Absorption of water and nutrients may be decreased</li>
+<li>Formation of certain inorganic compounds may occur</li>
+</ul></li>
+</ul>
+<p><em>Soil temperature</em></p>
+<p>Growth rates of plants are more strongly controlled by soil temperature than the air temperature. Biological zero is 5 deg Celcius, in which microbial activity virtually ceases.</p>
+<p>Impacts of frost-heave and fire on soils can be significant. Effects of fire typically limited to the top 1-2 centimeters, but can be intense enough to alter organic matter, soil conditions, and kill soil organisms.</p>
+<p>Temperature of soil in the field is largely dependent upon three factors:</p>
+<ol style="list-style-type: decimal">
+<li>Net amount of heat energy the soil absorbs</li>
+<li>Heat energy required to bring change in the soil temperature</li>
+<li>The energy required for processes such as evaporation, which occur primarily near soil surface</li>
+</ol>
+<p>Only approximately 10% of solar incidence is actually transferred to soil. Majority is intercepted within atmosphere, by vegetation, or is loss in the evaporation of soil water.</p>
+<p>Dark soils do not necessarily warm faster than light soils due to the fact that dark soils may often be very moist and thus solar incidence is lost through evaporation of soil moisture.</p>
+<p><em>Thermal properties of soils</em></p>
+<p>The specific heat (energy required to raise the temperature of a given mass of something by 1 degree C) is much higher for water than for mineral soil solids. Thus, evaporation of water requires a very large amount of energy (2.257 MJ per kg of water).</p>
+<p>Thermal conductivity refers to the rate at which heat is tranferred through soil, and is dependent primarily on:</p>
+<ol style="list-style-type: decimal">
+<li>Soil moisture content - heat passes through water much faster than through air</li>
+<li>Degree of soil compaction - heat passes through mineral particles even faster than through water, thus when compaction and particle-to-particle contact is high, heat is transferred quickly</li>
+</ol>
+<p>Wet compact soils are the poorest insulators (i.e., best conductors of heat)</p>
+<p>Given seasonal and daily variation in temperatures and the low thermal conductance of soils, there is a temporal lag between the soil temperature and atmospheric temperatures</p>
 </div>
 <div id="soil-chemistry" class="section level3">
 <h3><span class="header-section-number">4.1.6</span> Soil chemistry</h3>
+<p>The soil colloids are arguably the most important component of soil chemistry, as they control the majority of exchange of cations and anions within the soil.</p>
+<p>The colloidal fraction of soil refers to the clays and humus particles in soil because of their extremely small size (&lt; 1 micrometer) and colloid-like behavior.</p>
+<p>The very large surface area to volume ratio of soil colloids is due to the platelike structure, and the present of internal surfaces within clays. The majority of soil colloids primarily carry more negative electrostatic charges than positive charges.</p>
+<p><em>Absorption of cations and anions:</em></p>
+<p>Colloids attract thousands of Al<sup>3+</sup>, Ca<sup>2+</sup>, Mg<sup>2+</sup>, K<sup>+</sup>, <sup>H+</sup>, and Na<sup>+</sup>, which are loosely bound to the surface of the colloid, often in a hydrated state in moist soils.</p>
+<p>“Cation exchange” is the process in which one cation breaks free from the colloid, is released into solution, and a different cation takes its place. The ions that are readily lost from the colloid surface are referred to as “exchangeable ions”.</p>
+<p>The ionic composition of soil solution (i.e., the water) resembles that of the adsorbed ions (those bound to the colloid) due to the constant exchange between the two.</p>
+<p>Exchangeable anions are also present in the soil solution, and will exchange with soil colloids with positive charges on their surfaces.</p>
+<p><em>Types of soil colloids:</em></p>
+<ul>
+<li>Crystalline silicate clays – dominant in most soils; layered structure like pages in a book; predominantly negatively charged; different silicate clay minerals vary widely in particle shape, however, which influences intensity of charge, plasticity, swelling behavior, etc.
+<ul>
+<li>Examples: smectite, vermiculite, fine mica, chlorite, kaolinite (1:1 silicate)</li>
+</ul></li>
+<li>Noncrystalline silicate clays – tithgly bonded silicon, aluminum and oxygen atoms, but do not exhibit crystalline sheets; high amounts of positive and negative charge, and capable of holding large amounts of water, but exhibit little stickiness
+<ul>
+<li>Principle types: allophane and imogolite (both form from volcanic ash)</li>
+</ul></li>
+<li>Iron and aluminum oxides – found widely but are most important in weathered soils of sub-/tropics; slightly negative to moderately positive and are relatively low in plasticity and stickiness
+<ul>
+<li>Examples: gibbsite (Al-oxide) and goethite (Fe-oxide) which form crystalline sheets; others are noncrystalline</li>
+</ul></li>
+<li>Organic (humus) – convoluted chains and rings of carbon atoms bonded to H, O, and N; very high capacities to hold water, but little to no plasticity and stickiness</li>
+</ul>
+<p>A summary of the major colloids and their properties is shown below:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr::<span class="kw">include_graphics</span>(<span class="kw">rep</span>(<span class="st">&quot;images/colloids.bmp&quot;</span>))</code></pre></div>
+<p><img src="images/colloids.bmp" /><!-- --></p>
+<p><em>Layer silicate clay structure:</em></p>
+<p>Silicon tetrahedral and Aluminum-Magnesium octahedral sheets:</p>
+<ul>
+<li>Silicon tetrahedral sheets are comprised of a silicon ion surrounded by four oxygen atoms</li>
+<li>Al-Mg octahedral sheets are comprised of an Al or Mg ion surrounded by 8 oxygen-hydroxy planes</li>
+</ul>
+<p>Two to four of the tetrahedral and octahedral sheets will bind together by sharing some of the same oxygen atoms, which results in extremely tight bonds and forms a “layer”. The layers then are bound together via adsorbed ions and water, which forms the clay “crystal”.</p>
+<p>The nature and combination of sheets in the layers vary, and thus produce the differences in types of clays (ant thus their resultant physical and chemical properties).</p>
+<p>“Isomorphous substitution” is the process by which cations of comparable size to Si, Al, or Mg are substituted for the center of one of the tetrahedrons or octahedrons without significantly changing the structure of the crystal. This is the key process that induces variability in nature of silicate clays.</p>
+<p>Isomorphous substitution is the primary cause of charge imbalances in colloids (e.g., through the substituion of a Mg<sup>2+</sup> for a Al<sup>3+</sup> ion).</p>
+<p>Key difference is between 1:1 and 2:1 silicate clays:</p>
+<ol style="list-style-type: decimal">
+<li>1:1 silicate clays contain one tetrahedral and one octahedral sheet each in their layers</li>
+<li>2:1 silicate clays contain one octahedral sheet in between two tetrahedral sheets within each layer</li>
+</ol>
+<p>Kaolinite is the classic example of 1:1 silicate clays. Bonding between layers (1 tetra and 1 octa) is via hydrogen bonding, which prevents expansion when the clay is wet. Cations and H<sub>2</sub>O typically do not enter the structural layers of a 1:1 mineral particle and thus effective surface of kaolinite is primarily the external surface area.</p>
+<p>Expanding 2:1 type silicate clays are formed via one octahedral sheet in between two tetrahedral sheets (e.g., smectite and vermiculite). Fine micas and chlorite, on the other hand, are relatively nonexpanding.</p>
+<p>Smectite - predominantly have negative charges resulting from isomorphous substitution. Layers are bound via an oxygen-oxygen surface and thus the bond is weak allowing for cations and water to enter the spaces in between.</p>
+<p>Vermiculite – tetrahedral sheets have large amounts of Al substitution for the silicon position, which produces a CEC higher than other silicate clays</p>
+<p>Fine-grained micas (e.g., illite and glauconite) – very weathered micas with substitution of Al<sup>3+</sup> for Si<sup>4+</sup> in the tetrahedral sheets. The negative charge attracts K<sup>+</sup> ions which strengthens bond between the layers and making the fine-grained micas nonexpansive.</p>
+<p>Chlorites – Fe or Mg primarily occupies the place of Al in the octahedral sheets. Mg dominated octahedral sheets commonly sandwiched between two 2:1 layers, thus often said to have a 2:1:1 structure.</p>
+<p><em>Non-silicate colloids</em></p>
+<p>Fe and Al oxides are motified octahedral sheets with Fe or Al in the cation positions, and no tetrahedral sheets or silicon in their structures.</p>
+<p>Humus is noncrystalline and is formed of large organic molecules of varied chemical composition. Negative or positive charges on humus colloid are a result of loss or gain of H<sup>+</sup> ions; a very large net negative charge is associated with humus, though sites of both positive and negative charges may exist</p>
+<p><em>Formation of colloids</em></p>
+<p>Humus is primarily formed through the breakdown or organic matter (mostly plant matter) by microorganisms and the resynthesis of this material into stable organic compounds.</p>
+<p>Silicate clays develop through:</p>
+<ol style="list-style-type: decimal">
+<li>Physical and chemical alteration of primary minerals</li>
+<li>Decomposition of primary minerals with recrystallization of products into silicate clays</li>
+</ol>
+<p>Kaolinites and Fe and Al oxides are found primarily in warm, humid regions (e.g., tropics), whereas smectite, vermiculite and fine-grained micas are primarily in regions where weathering is less intense.</p>
+<p><em>Sources of charges on soil colloids</em></p>
+<p>Two major sources of charge imbalances:</p>
+<ol style="list-style-type: decimal">
+<li>Hydroxyls and other functional groups on surfaces of colloids releasing or accepting H<sup>+</sup> ions</li>
+<li>Charge imbalances as a result of isomorphous substitutions</li>
+</ol>
+<p>Charges of all colloids are affected to a certain degree by OH<sup>-</sup> groups, which are largely pH dependent. The charges of Al and Fe oxides, 1:1 type clays, allophane and humus are primarily determined by OH<sup>-</sup> groups.</p>
+<p>For 2:1 clays, surface charges are complemented by isomorphouos substitutions of cations. Charges from isomorphous substitution are not dependent upon pH, and thus are considered “permanent”</p>
+<p><em>Cation exchange reactions:</em></p>
 </div>
 <div id="soil-ph" class="section level3">
 <h3><span class="header-section-number">4.1.7</span> Soil pH</h3>
@@ -560,24 +754,6 @@
 </div>
 <div id="redox" class="section level3">
 <h3><span class="header-section-number">4.1.11</span> Redox</h3>
-<p>Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electron is transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.</p>
-<p>Basic example of respiration in which electrons are derived from an organic molecule:</p>
-<p><span class="math display">\[CH_{2}O + H_{2}O = CO_{2} + 4e^-\]</span></p>
-<p>The electrons cannot exist in independent form, and thus are run through metabolic cycles in organisms and dumped onto electron acceptors (e.g., O<sub>2</sub>).</p>
-<p>Oxygen is important within soils as it rapidly accepts electrons from other elements, which allows for metabolic processes. Aerobic respiration is performed on O<sub>2</sub> (oxidize organic carbon) and release energy for metabolic activity.</p>
-<p>The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH.</p>
-<p><em>Oxidizing soils</em> - accept electrons easily <em>Reducing soils</em> - donate electrons easily</p>
-<p>Standard Eh levels for drained, well-aerated soils is in the 0.4 - 0.7 Volt range, whereas flooded conditions can reduce Eh levels to as low as -0.3 V.</p>
-<p>Other electron acceptors besides oxygen are:</p>
-<ol style="list-style-type: decimal">
-<li>Nitrate - accepts 2 electrons when reduced from N(V) to N(III); reduces to N<sub>2</sub></li>
-<li>Manganese (VI) -&gt; reduces to Mn(II)</li>
-<li>Iron (III) -&gt; reduces to Fe(II)</li>
-<li>Sulfur (from SO<sub>4</sub><sup>2-</sup> to S<sub>2</sub><sup>-</sup> (reduced))</li>
-<li>Carbon (reduction of CO<sub>2</sub> produces CH<sub>4</sub>)</li>
-</ol>
-<p>Electron acceptors are typically used up in this order (i.e., sulfur reduction is a process that occurs largely under very anaerobic soils). Anerobic systems result in the build up of reduced species</p>
-<p>The form of particular elements is important because it will change availability for uptake by plants (i.e., oxidized vs. reduced states).</p>
 </div>
 <div id="sulfur-cycle" class="section level3">
 <h3><span class="header-section-number">4.1.12</span> Sulfur cycle</h3>

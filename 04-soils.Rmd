@@ -325,18 +325,29 @@ For mangroves, matric potentials and osmotic potentials likely drive water flows
 
 ### Soil aeration
 
-### Soil chemistry
+Aeration is the process of soil ventilation, with gases moving both into and out of the soil. Requires both the supply of oxygen as well as the removal of CO~2~ from the soil.
 
-### Soil pH
+Three primary processes control the availability of oxygen within soils:
 
-### Soil organisms
+  1. Soil macroporosity
+  2. Soil water content
+  3. O~2~ consumption
 
-### Soil organic matter
+Plants that have adapted to waterlogged soils (i.e., in wetlands) are *hydrophytes*, and have *aerenchyma* which are hollow tissues used for the transport of oxygen to the roots.
 
-### Soil nutrients
+Aeration of soil occurs through two primary mechanisms:
 
-### Redox
+  1. Mass flow -- much less significant on total exchange of gases
+  2. Diffusion -- most significant process; gases moving in response to their partial pressures
+    - partial pressures is the pressure a particular gas in a gas mixture will exert
+    - O~2~ will generally move into soil whereas water vapor and CO~2~ will typically move from soil to the atmosphere
+    
+There are three primary ways of characterizing aeration of soil:
 
+  1. Directly describing the gas constituents in the soil
+  2. Air-filled soil porosity (i.e., percentage of soil pores that are filled with air)
+  3. Redox potential as a measure of the oxidation and reduction of different elements (i.e., a measure of aerobic metabolism by organisms)
+  
 Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electron is transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.
 
 Basic example of respiration in which electrons are derived from an organic molecule:
@@ -347,7 +358,7 @@ The electrons cannot exist in independent form, and thus are run through metabol
 
 Oxygen is important within soils as it rapidly accepts electrons from other elements, which allows for metabolic processes. Aerobic respiration is performed on O~2~ (oxidize organic carbon) and release energy for metabolic activity.
 
-The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH.
+The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH. Redox potential typically decreases as the pH increases.
 
 *Oxidizing soils* - accept electrons easily
 *Reducing soils* - donate electrons easily
@@ -365,6 +376,164 @@ Other electron acceptors besides oxygen are:
 Electron acceptors are typically used up in this order (i.e., sulfur reduction is a process that occurs largely under very anaerobic soils). Anerobic systems result in the build up of reduced species
 
 The form of particular elements is important because it will change availability for uptake by plants (i.e., oxidized vs. reduced states). 
+
+*Factors that affect soil aeration:*
+
+  - Presence of macropores -- most important factor in well-drained soils; function of soil texture, bulk density, aggregate stability, OM content, and biopore formation
+  - Microbial activity -- rates of respiration in the soil will greatly influence gas composition, and is dependent upon availability of organic matter
+  - Soil heterogeneity -- lower oxygen concentrations in subsoils; often due to slow diffusion, reduced pore space (from compaction), and greater proportion of pore space filled by water
+    - plant roots may reduce or increase O~2~ content (diffusion of O~2~ from root aerenchyma)
+  - Seasonal differences
+    - Changes in precipitation patterns or temperature
+    
+*Ecological effects of soil aeration:*
+
+  - Nature and rates of microbial activity are determined largely by O~2~ concentrations
+  - Redox of elements:
+    - Determines form and thus availability of elements, which may be beneficial or toxic
+    - Methane production, which occurs at Redox potentials of approximately -0.2
+  - Activities of higher plants:
+    - Root growth may be curtailed
+    - Absorption of water and nutrients may be decreased
+    - Formation of certain inorganic compounds may occur
+  
+*Soil temperature*
+
+Growth rates of plants are more strongly controlled by soil temperature than the air temperature. Biological zero is 5 deg Celcius, in which microbial activity virtually ceases.
+
+Impacts of frost-heave and fire on soils can be significant. Effects of fire typically limited to the top 1-2 centimeters, but can be intense enough to alter organic matter, soil conditions, and kill soil organisms.
+
+Temperature of soil in the field is largely dependent upon three factors:
+
+  1. Net amount of heat energy the soil absorbs
+  2. Heat energy required to bring change in the soil temperature
+  3. The energy required for processes such as evaporation, which occur primarily near soil surface
+  
+Only approximately 10% of solar incidence is actually transferred to soil. Majority is intercepted within atmosphere, by vegetation, or is loss in the evaporation of soil water.
+
+Dark soils do not necessarily warm faster than light soils due to the fact that dark soils may often be very moist and thus solar incidence is lost through evaporation of soil moisture.
+
+*Thermal properties of soils*
+
+The specific heat (energy required to raise the temperature of a given mass of something by 1 degree C) is much higher for water than for mineral soil solids. Thus, evaporation of water requires a very large amount of energy (2.257 MJ per kg of water).
+
+Thermal conductivity refers to the rate at which heat is tranferred through soil, and is dependent primarily on:
+
+  1. Soil moisture content - heat passes through water much faster than through air
+  2. Degree of soil compaction - heat passes through mineral particles even faster than through water, thus when compaction and particle-to-particle contact is high, heat is transferred quickly
+  
+Wet compact soils are the poorest insulators (i.e., best conductors of heat)
+
+Given seasonal and daily variation in temperatures and the low thermal conductance of soils, there is a temporal lag between the soil temperature and atmospheric temperatures 
+
+### Soil chemistry
+
+The soil colloids are arguably the most important component of soil chemistry, as they control the majority of exchange of cations and anions within the soil.
+
+The colloidal fraction of soil refers to the clays and humus particles in soil because of their extremely small size (< 1 micrometer) and colloid-like behavior.
+
+The very large surface area to volume ratio of soil colloids is due to the platelike structure, and the present of internal surfaces within clays. The majority of soil colloids primarily carry more negative electrostatic charges than positive charges.
+
+*Absorption of cations and anions:*
+
+Colloids attract thousands of Al^3+^, Ca^2+^, Mg^2+^, K^+^, ^H+^, and Na^+^, which are loosely bound to the surface of the colloid, often in a hydrated state in moist soils.
+
+"Cation exchange" is the process in which one cation breaks free from the colloid, is released into solution, and a different cation takes its place. The ions that are readily lost from the colloid surface are referred to as "exchangeable ions".
+
+The ionic composition of soil solution (i.e., the water) resembles that of the adsorbed ions (those bound to the colloid) due to the constant exchange between the two.
+
+Exchangeable anions are also present in the soil solution, and will exchange with soil colloids with positive charges on their surfaces.
+
+*Types of soil colloids:*
+
+  - Crystalline silicate clays -- dominant in most soils; layered structure like pages in a book; predominantly negatively charged; different silicate clay minerals vary widely in particle shape, however, which influences intensity of charge, plasticity, swelling behavior, etc. 
+    - Examples: smectite, vermiculite, fine mica, chlorite, kaolinite (1:1 silicate)
+  - Noncrystalline silicate clays -- tithgly bonded silicon, aluminum and oxygen atoms, but do not exhibit crystalline sheets; high amounts of positive and negative charge, and capable of holding large amounts of water, but exhibit little stickiness
+    - Principle types: allophane and imogolite (both form from volcanic ash)
+  - Iron and aluminum oxides -- found widely but are most important in weathered soils of sub-/tropics; slightly negative to moderately positive and are relatively low in plasticity and stickiness
+    - Examples: gibbsite (Al-oxide) and goethite (Fe-oxide) which form crystalline sheets; others are noncrystalline
+  - Organic (humus) -- convoluted chains and rings of carbon atoms bonded to H, O, and N; very high capacities to hold water, but little to no plasticity and stickiness
+  
+A summary of the major colloids and their properties is shown below:
+
+```{r}
+knitr::include_graphics(rep("images/colloids.bmp"))
+```
+
+*Layer silicate clay structure:* 
+
+Silicon tetrahedral and Aluminum-Magnesium octahedral sheets:
+
+  - Silicon tetrahedral sheets are comprised of a silicon ion surrounded by four oxygen atoms
+  - Al-Mg octahedral sheets are comprised of an Al or Mg ion surrounded by 8 oxygen-hydroxy planes
+  
+Two to four of the tetrahedral and octahedral sheets will bind together by sharing some of the same oxygen atoms, which results in extremely tight bonds and forms a "layer". The layers then are bound together via adsorbed ions and water, which forms the clay "crystal".
+
+The nature and combination of sheets in the layers vary, and thus produce the differences in types of clays (ant thus their resultant physical and chemical properties).
+
+"Isomorphous substitution" is the process by which cations of comparable size to Si, Al, or Mg are substituted for the center of one of the tetrahedrons or octahedrons without significantly changing the structure of the crystal. This is the key process that induces variability in nature of silicate clays.
+
+Isomorphous substitution is the primary cause of charge imbalances in colloids (e.g., through the substituion of a Mg^2+^ for a Al^3+^ ion).
+
+Key difference is between 1:1 and 2:1 silicate clays:
+
+  1. 1:1 silicate clays contain one tetrahedral and one octahedral sheet each in their layers
+  2. 2:1 silicate clays contain one octahedral sheet in between two tetrahedral sheets within each layer
+
+Kaolinite is the classic example of 1:1 silicate clays. Bonding between layers (1 tetra and 1 octa) is via hydrogen bonding, which prevents expansion when the clay is wet. Cations and H~2~O typically do not enter the structural layers of a 1:1 mineral particle and thus effective surface of kaolinite is primarily the external surface area.
+
+Expanding 2:1 type silicate clays are formed via one octahedral sheet in between two tetrahedral sheets (e.g., smectite and vermiculite). Fine micas and chlorite, on the other hand, are relatively nonexpanding.
+
+Smectite - predominantly have negative charges resulting from isomorphous substitution. Layers are bound via an oxygen-oxygen surface and thus the bond is weak allowing for cations and water to enter the spaces in between.
+
+Vermiculite -- tetrahedral sheets have large amounts of Al substitution for the silicon position, which produces a CEC higher than other silicate clays
+
+Fine-grained micas (e.g., illite and glauconite) -- very weathered micas with substitution of Al^3+^ for Si^4+^ in the tetrahedral sheets. The negative charge attracts K^+^ ions which strengthens bond between the layers and making the fine-grained micas nonexpansive. 
+
+Chlorites -- Fe or Mg primarily occupies the place of Al in the octahedral sheets. Mg dominated octahedral sheets commonly sandwiched between two 2:1 layers, thus often said to have a 2:1:1 structure.
+
+*Non-silicate colloids*
+
+Fe and Al oxides are motified octahedral sheets with Fe or Al in the cation positions, and no tetrahedral sheets or silicon in their structures. 
+
+Humus is noncrystalline and is formed of large organic molecules of varied chemical composition. Negative or positive charges on humus colloid are a result of loss or gain of H^+^ ions; a very large net negative charge is associated with humus, though sites of both positive and negative charges may exist
+
+*Formation of colloids*
+
+Humus is primarily formed through the breakdown or organic matter (mostly plant matter) by microorganisms and the resynthesis of this material into stable organic compounds.
+
+Silicate clays develop through:
+
+  1. Physical and chemical alteration of primary minerals
+  2. Decomposition of primary minerals with recrystallization of products into silicate clays
+  
+Kaolinites and Fe and Al oxides are found primarily in warm, humid regions (e.g., tropics), whereas smectite, vermiculite and fine-grained micas are primarily in regions where weathering is less intense.
+
+*Sources of charges on soil colloids*
+
+Two major sources of charge imbalances:
+
+  1. Hydroxyls and other functional groups on surfaces of colloids releasing or accepting H^+^ ions
+  2. Charge imbalances as a result of isomorphous substitutions
+  
+Charges of all colloids are affected to a certain degree by OH^-^ groups, which are largely pH dependent. The charges of Al and Fe oxides, 1:1 type clays, allophane and humus are primarily determined by OH^-^ groups.
+
+For 2:1 clays, surface charges are complemented by isomorphouos substitutions of cations. Charges from isomorphous substitution are not dependent upon pH, and thus are considered "permanent"
+
+*Cation exchange reactions:*
+
+
+### Soil pH
+
+### Soil organisms
+
+### Soil organic matter
+
+### Soil nutrients
+
+### Redox
+
+
 
 ### Sulfur cycle
 
