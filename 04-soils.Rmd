@@ -522,8 +522,175 @@ For 2:1 clays, surface charges are complemented by isomorphouos substitutions of
 
 *Cation exchange reactions:*
 
+Ions held to external surface of clays via electrostatic attraction, which is relatively weak and thus ions are in constant motion. There are points at which ions are closer versus slightly further away from the colloid. If an ion in soil solution enters space closer to the colloid, the ions "exchange".
+
+Cation exchange reactions are reversible in that the cations can easily revert back to their original places.
+
+Cation exchange reactions occur on charge to charge basis (i.e., 2 H^+^ for 1 Ca^2+^).
+
+Ratios of cations within soil solution will match those of cations bound to colloids at equilibrium.
+
+"Mass action" in soil influences the direction at which reactions may occur. If cations released from a colloid *precipitate*, *volatilize*, or *strongly associate* with other element in the solution (e.g., the C and O atoms of a CaCO~3~ molecule), then they will not exchange back to the colloid.
+
+Different cations are held at different strengths to the colloid. Al^3+^ is held most strongly, whereas Li^+^ is held the weakest.
+
+The likelihood of a given cation being replaced is dependent upon the neighboring cations and the strength of bond (i.e., a Mg^2+^ in between 2 Al^3+^ ions is more likely to be replaced than Al).
+
+*Cation Exchance Capacity (CEC)* - Number of centimoles of positive charge that can be adsorbed per unit mass; measure is on a charge for charge rather than ion for ion basis.
+
+Measurement of CEC via pH buffered solutions will yield measures of the *potential* or *maximum* CEC, whereas measures taken at the pH of the soil will only measure the *effective CEC*, which corresponds to the exchangeable cations.
+
+*Exchangeable cations in field soils* - Varies depending on the environmental conditions of the site.
+
+In humid regions, Ca^2+^, Al^3+^, aluminum hydroxy ions and H^+^ are most prominent, whereas Ca^2+^, Mg^2+^, and Na^+^ dominated in more arid regions.
+
+"Saturation percentage" refers to the percent of the exchange complex held by a particular ion. Useful in identifying acid percentage saturation (H^+^ and Al^3+^) versus nonacid (base) saturation percentage.
+
+Exchangeable cations influences the fertility of the soil, as many of the cations are common micronutrients for plants. Percent saturation of a given cation will describe its ready availability within the soil for plants to a certain degree.
+
+*Anion exchange* - Anions are held by colloids in two primary ways:
+
+  1. Held by anion adsorption mechanisms similar to those of cation adsorption
+  2. Reactions with surface oxides or hydroxides, which forms inner-spere complexes
+  
+Positive charges associated with kaolinite surfaces attract anions such as SO~4~^2-^ and NO~3~^-^. Adsorption exchanges typically decrease with increasing pH for anions.
+
+Inner-sphere complexes form when an anion replaces part of a hydroxyl group that is adsorbed by a cation on a colloid.
+
+Anion exchange is important as it determines the mobility of certain important anions within the soil.
 
 ### Soil pH
+
+Principle processes that determine soil acidification are:
+
+  1. Production of H+ ions
+  2. Washing away of cations by percolating water
+  
+Both processes are facilitated by volumes of water that percolate through soil, and thus acidity is closely related to amounts of precipitation within the region.
+
+H^+^ ions are produced through dissociation of carbonic acid, which forms through CO~2~ dissolving in H~2~O.
+
+$$ CO_{2}\ +\ H_2O\ \to\ H_2CO_3\ \iff\ HCO_3^{-}\ +\ H^+$$
+
+Production of H^+ from H~2~CO^3^ is only significant for pH levels greater than 5.
+
+In addition, several biological processes can affect the acidity of the soil:
+
+  1. Plant balancing of cations - when excess of certain cations are taken up by roots, H^+^ often released into soil solution so maintain charge balance
+  2. Accumulation of OM - cations can form soluble complexes with nonacid nutrient cations (e.g., Ca^2+^ and Mg^2+^), which may result in leaching; nonacid cations may be replaced with acid cations
+  3. Oxidation of nitrogen (Nitrification) - reaction of ammonium (NH~4~^+^) with oxygen releases H^+^ ions.
+  4. Oxidation of sulfur - oxidation of sulfur yields H~2~SO~4~, which is a strong acid
+  
+*Alkalizing processes* - Reduction of H^+^ or production of OH^-^ in the soil alkalizes the soil. Several pathways of alkalizing processes exist:
+
+  1. Weathering of nonacid cations from minerals -- weathering of parent material may result in bonding of H^+^ and release of nonacid cations, such as Ca^2+^
+  2. Accumulation of nonacid cations -- nonacid cations from weathering may accumulate in areas of low precipitation (Ca^2+^, Mh^2+^m K^+^, and Na^+^)
+  3. Production of base-producing anions -- basic, hydroxyl generating anions are carbonate (CO~3~^2-^) and bicarbonate (HCO~3~^-^); these react with water to form Oh^-^ and raise pH (important for *soil buffering*)
+    - The direction of carbonate reactions depends largely on the presence of CO~2~ in the soil, with greater amounts of CO~2~ acidifying the soil
+  4. Excess anion uptake by roots -- roots excude bicarbonate when excess of anions are taken up by roots
+  
+*Role of aluminum*
+
+Aluminum may have a strong acidifying effect on soil, largely due to its tendency to hydrolyze (split water into H^+^ and OH^-^) ions.
+
+*Pools of soil acidity* - There are three major pools of acidity within soils:
+
+  1. Active acidity - amount of H^+^ ion in the soil solution 
+    - very small relative to other two pools
+    - determines solubility of substances and provides solution environment for organisms
+  2. Exchangeable acidity - associated with exchangeable Al^3+^ and H^+^ ions present in large quantities in acid soils 
+    - can be released by cation exchange with unbuffered salts and thus is sometimes referred as salt-replaceable acidity
+  3. Residual acidity - hydrogen and aluminum ions bound in nonexchangeable forms by organic matter and clays 
+    - will dissociate with increase in pH
+    - largest pool of acidity (10 - 100 thousand times greater than active acidity)
+    - the amount of bound hydrogen and aluminum ions is much higher for soils rich in OM and clays
+
+The relative amounts of exchangeable versus bound acid and nonacid cations within the soil is largely dependent upon pH. Exchangeable nonacid cations increases as pH increases.
+
+Percent saturation of acid vs. nonacid cations refers to the relative charge percentage accounted for by acid vs. nonacid cations.
+
+"Potential" CEC is the CEC at high pH values, whereas "effective" CEC is the CEC at the pH of the soil.
+
+*Soil buffering* - The ability of a soil to resists changes in pH
+
+Mechanisms of buffering are largely explained by the equilibrium between the different pools of soil acidity: active, salt replaceable and residual. Largely as a result of uptake or release of acid ions on the exchangeable complex of colloids.
+
+In general, the higher the CEC, the higher the buffering capacity of the soil.
+
+*Human influences on soil acidification* - Although humans may influence soil pH in many ways, three primary types exist:
+
+  1. Nitrogen amendments - H^+^ is released upon oxidation of ammonium; often need to counter-balance additions of OM with additions of lime
+  2. Acid precipitation - effects of acid rain due to combustion of fossil fuels
+    - addition of strong acid anions (SO~4~^2-^ and NO~3~^-^) will bond with nonacid cations and allow for their leaching from soil; aluminum and hydrogen then become dominant on exchange complex
+  3. Exposure of potential acid sulfate soils - disturbance of soils (and thus introduction of O~2~) into soils with high concentrations of sulfur can produce large amounts of acidity
+    - common in wetland soils in which constant supply of sulfur is available
+    - commonly contain high amounts of pyrite (FeS~2~), iron monosulfides (FeS), and elemental sulfur (S)
+    - pH may be neutral but quickly shift to extremely acidic a few days after oxidation
+    
+*Biological toxicity* - Acidic soil conditions can create toxic environments for plants and microbes:
+
+Aluminum is the most significant toxicity for plants, which is taken up in roots and restricts growth and functioning. Aluminum is only toxic at pH levels below 5.3
+
+Manganese may also become toxic under acidic conditions as it is increasingly soluble and taken up in excess quantities. Mg is an essential micronutrient but becomes toxic in excess quantities
+
+Nutrient availability in general is greatly influenced due to varying degrees of availability that depend upon pH. Several key macronutrients may be greatly limited under acidic conditions
+
+Fungi do well across a broad range of pH values, and thus tend to dominate in acidic soils (whereas bacteria play a larger role in more neutral soils)
+
+*Liming of soil* - Majority of liming materials raise the pH of the soil by adding oxide, hydroxide, or carbonate that reacts with carbon dioxide and water to yield calcium (or Mg) and bicarbonate. The abundance of CO~2~ in soils is typically enough to drive this reaction.
+
+The calcium will exchange with acid cations on the exchangeable complex, which bind to hydroxides from the bicarbonate and thus reduces the percent acid saturation.
+
+*Alternative methods to deal with acid soils* - In some cases, application of liming material is not efficient (cost restrictions, acidic soil is below surface horizon, etc.) and alternative options of dealing with ill effects of soil acidity are needed:
+
+  1. Gypsum - ameliorates aluminum toxicity without increasing soil pH
+  2. Organic matter - application of organic wastes, cover crops, or mulching helps to:
+    1. humified OM may bind with Al ions
+    2. organic acids can form soluble complexes with Al ions that are nontoxic to plants and microbes
+    3. substantial amounts of Ca may be available that can raise pH levels and also precipitate easily down the soil profile
+  3. Selecting adapted plants
+
+*Lowering soil pH* -- Acidifying soil can be done through additions or organic or inorganic acid-forming materials. Materials from trees common to spodosols (e.g., pine needles or pine sawdust) may be effective at raising the soil pH. Additionally, inorganic chemicals may be used.
+
+**Saline soils** - A large section exists in the chapter on saline soils, but is mostly related to agriculture and thus may not be of particular relevance here.
+
+Measuring salinity in soils:
+
+*Electrical conductivity* - water is a poor conductor, but salt improves its conductance; can measure conductance as an indirect measure of salinity (units: deciSiemens per meter)
+
+*Exchangeable sodium percentage (ESP)* - the degree by which the exchangeable complex is saturated with sodium.
+
+*Sodium adsorption ratio (SAR)* - concentration of sodium relative to calcium and magnesium
+
+Classes of salt-affected soils include *saline, saline-sodic* and *sodic*. 
+
+  - saline soils -- have an ESP less than 15 or EC values greater than 4 dS/m
+  - saline-sodic soils -- EC greater than 4 dS/m AND ESP greater than 15 (intermediate conditions between saline and sodic)
+  - sodic -- EC less than 4 dS/m, ESP greater than 15, and SAR greater than 13
+    - most problematic of saline soils
+    - extremely poor soil physical conditions and slow permeability of water and air
+
+Physical degradation of sodic soils can be significant, and is largely measured in terms of ready movement of water (saturated hydraulic conductivity). In some sodic soils, K~sat~ may be reduced almost to 0 and puddles form on the soils surface.
+
+Low permeability related to sodic conditions is due to:
+
+  1. exchangeable sodium increases tendency of aggregates and floccules to break up when wet
+  2. some expanding-type clays become highly Na+ saturated, which increases swelling capability
+  3. sodic conditions may lead to soil dispersion, which is caused by:
+    1. high sodium - have single charge and large hydrated size, which means they are held loosely and at far distances from soil colloids
+    2. low salt concentration - low presence of ions in solution causes exchangeable ions to be spread out over greater distance and thus weakens bonds (anions are found closer to colloids)
+    
+In general, low salt concentrations and weakly attracted ions encourage soil dispersion and puddling, whereas high salt concentrations and strongly associated ions (calcium) promote clay flocculation and soil permeability.
+
+
+
+
+
+
+
+
+
+
 
 ### Soil organisms
 
