@@ -127,6 +127,21 @@ She provides a discussion of the hypothesis as well as links it to several studi
   1. Rabinowitz, 1978 - "Dispersal properties of mangrove propagules"
   2. Sousa et al, 2007
   
+### Ball, 1980 {#ball1980}
+
+*"Patterns of secondary succession in a mangrove forests of Southern Florida"* [@ball1980patterns]
+
+**Key contribution:** This study examines secondary succession in Biscayne Bay, FL and attributes differences in species composition within the two dominant forest stands (below and above mean tidal reach) as a result of competition between *R. mangle* and *L. racemosa*.
+
+**Study design:** The authors coupled study of aerial photography of the region with field based surveys of the relative importance of seedlings, saplings, and live and dead trees within:
+
+  1. A "historical"" forest stand
+  2. Three induced forest stands
+  
+**Key results:** Their result found that *R. mangle* was dominant in stands below mean tidal range, whereas *L. racemosa* was dominant (though sparse and stunted) in areas upland of the mean tidal range. Ball concludes that the spatial patterning is a result of competitive dominance of *R. mangle* in the low intertidal, given that seedlings and saplings of both *R. mangle* and *L. racemosa* are both present in the stand.
+
+Ball hypothesizes that both species likely established at an early time, and *L. racemosa* was able to establish due to shade intolerance and faster growth rates. As presence of *R. mangle* has increased and overtopped *L. racemosa*, a shift in community composition is occurring.
+  
 ### Putz & Chan, 1986
 
 *"Tree growth dynamics and productivity in a mature mangrove forest in Malaysia"* [@putz1986tree]
@@ -139,24 +154,6 @@ She provides a discussion of the hypothesis as well as links it to several studi
   - Gap openings were largely caused by termites and fungus killing trees, which would fall against neighboring trees, damage roots and bark and allow termites to transfer trees. Putz and Chan describe the disturbance dynamics as "domino-like," but also note it is unlikley to be "normal" disturbance dynamics.
   - Based on growth-rates and age-class distributions, Putz and Chan conclude that self-thinning did occur within the forest, particularly for *R. apiculata*.
   - Total biomass was relatively high, with "stable" biomass estimated at 350-400 Mg/Ha.
-
-### Smith, 1987
-
-*"Seed predation in relation to tree dominance and distribution in mangrove forests"* [@smith1987seed]
-
-**Key contribution: ** This is one of the earliest examinations of the effects of predation (by grapsid crabs) on propagule survival for different species. They found significant relationships between propagule predation and nutritional content, as well as location within the intertidal floor. The results led them to conclude that propagule predation is a significant factor in defining zonation in mangrove forests.
-
-**Experimental design: ** Propagules were tethered to twine strings and monitored over 18 days in 5 replicate plots in each of three forest types (high, intermediate and low conspecific dominance) for each of the five species. Additionally, propagules of each of the five species were analyzed for nutritional content and related to predation patterns using PCA.
-
-**Key results: ** The findings show that differential predation for certain species does occur. In particular, predation on *A. marina* in the mid intertidal was found to explain the relative absence of parent *A. marina* trees in the mid-intertidal section of the forest. Rates of predation of *A. marina* were found to be higher than in the low or high intertidal regions.
-
-With the exception of *Ceriops tagal*, amount of predation was significantly negatively correlated with conspecific dominance (i.e., low dominance by parent trees led to high predation rates) across the other four species.
-
-### Smith, 1989 {#smith1989}
-
-*"Comparisons of seed predation in tropica, tidal forests from three continents"* [@smith1989comparisons]
-
-
 
 ### Smith, 1992 {#smith1992}
 
@@ -547,11 +544,27 @@ Additionally they can play important roles as ecosystem engineers, aerating soil
 
 
 
-
-
-
-
 ## Trophic interactions
+
+### Smith, 1987
+
+*"Seed predation in relation to tree dominance and distribution in mangrove forests"* [@smith1987seed]
+
+**Key contribution: ** This is one of the earliest examinations of the effects of predation (by grapsid crabs) on propagule survival for different species. They found significant relationships between propagule predation and nutritional content, as well as location within the intertidal floor. The results led them to conclude that propagule predation is a significant factor in defining zonation in mangrove forests.
+
+**Experimental design: ** Propagules were tethered to twine strings and monitored over 18 days in 5 replicate plots in each of three forest types (high, intermediate and low conspecific dominance) for each of the five species. Additionally, propagules of each of the five species were analyzed for nutritional content and related to predation patterns using PCA.
+
+**Key results: ** The findings show that differential predation for certain species does occur. In particular, predation on *A. marina* in the mid intertidal was found to explain the relative absence of parent *A. marina* trees in the mid-intertidal section of the forest. Rates of predation of *A. marina* were found to be higher than in the low or high intertidal regions.
+
+With the exception of *Ceriops tagal*, amount of predation was significantly negatively correlated with conspecific dominance (i.e., low dominance by parent trees led to high predation rates) across the other four species.
+
+### Smith *et al*, 1989 {#smith1989}
+
+*"Comparisons of seed predation in tropical, tidal forests from three continents"* [@smith1989comparisons]
+
+**Key contribution:**
+
+
 
 ## Sea level rise & biogeography
 
