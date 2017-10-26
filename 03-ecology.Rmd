@@ -710,6 +710,16 @@ Little is known about the functional groups and diversity of fungi in mangroves,
 
 ## Sea level rise & biogeography
 
+### Mckee & Faulkner, 2000 {#mckee2000}
+
+*"Mangrove peat analysis and reconstruction of vegetation history at the Pelican Cays, Belize"* 
+
+**Key contribution:** This study examines the historical development of peat formation in the Pelican Cays in Belize. This work is a precursor to [@mckee2007caribbean] which studied the formation of peat deposits in the Belize cays in depth.
+
+**Study design:** A transect across Pelican Cays was laid out that spanned *Rhizophora* fringe, *Avicennia* basin/woodlands, a treeless area with standing water, and the same pattern to the other coast. Peat cores to 0.5 m and 2 m were taken and soil and peat characteristics were described.
+
+**Key results:** Upon identifying roots, shoots and leaf peat fragments to species type, the authors were able to infer the successional process of the forest. In stands that are currently *Avicennia* dominated, *Rhizophora* roots make up the majority of the deep peat, indicating they once dominated that stand. In addition, root biomass was found to make up the majority (~80%) of the peat biomass.
+
 ### Valiela *et al*, 2001 {#valiela2001}
 
 *"Mangrove forests: One of the world's threatened major tropical environments"* [@valiela2001mangrove]
