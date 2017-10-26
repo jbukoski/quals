@@ -186,6 +186,22 @@ knitr::include_graphics(rep("images/smith1992tab3.bmp"))
 
   1. Chapman 1976 - Extensive review of early literature surrounding mangrove zonation
 
+### Bunt, 1996 {#bunt1996}
+
+*"Mangrove zonation: An examination of data from seventeen riverine estuaries in tropical Australia"* [@bunt1996mangrove]
+
+**Key significance:** This study compiles species occurrence data from 17 rivers in northern Australia to test hypotheses of zonation. This study is a precursor to Ellison 2000 (see Section \@ref(ellison2000)), and employs an attempt at quantitatively assessing zonation in mangroves.
+
+**Study design:** They use a methodology developed by Williams *et al* 1991 that scores species distributions between 0 and 1, with 0 indicating presence at the water edge and 1 indicating presence in the landward limit of the mangrove. In addition, a standard deviation is calculated which is a measure of how widely it is distributed across the transect with respect to its most probably location.
+
+Transects were laid normal to the water at three different locations along each river (downstream, midstream and upstream) and were extended until the landward limit of the mangrove forest.
+
+**Key results:** The study results show that species-specific patterns of zonation across the various rivers do not exist. Although some zonation trends appear across transects within rivers, the dataset as a whole is highly variable.
+
+In particular, the centers of distribution are not consistent from river to river, and furthermore orderings are not consistent even within transects along a river.
+
+Bunt attributes the variation in distribution of species to abiotic and biotic controls that vary largely at fine scales. For future investigations of spatial distributions of mangroves, they recommend a site-specific approach as regional trends are unlikely to exist.
+
 ### Chen & Twilley, 1998 {#chentwilley1998}
 
 *"A gap dynamic model of mangrove forest development along gradients of soil salinity and nutrient resources"* [@chen1998gap]
@@ -201,6 +217,22 @@ Key findings from each of the three model explorations are detailed below:
   3. *succession* - long-term succession was found to be sensitive to recruitment rates for each species. The degree of shade tolerance/intolerance of the different species was concluded to be significant in long-term succession dynamics.
   
 **Research relevance:** Can the same models be employed to look at shifts in forest structure due to sea-level rise?
+
+### Ellison, 2000 {#ellison2000}
+
+*"Testing patterns of zonation in mangroves: Scale dependence and environmental correlates in the Sundarbans of Bangladesh"* [@ellison2000testing]
+
+**Key contribution:** This is one of the first statistically rigid accounts of testing zonation in mangroves. The authors employ a variety of statistical techniques to test the hypothesis that mangrove species correlate with surface elevation (i.e., tidal zone) and edaphic characteristics in mangroves.
+
+**Study design:** Eleven blocks with three transects 200 m in length (20 adjacent 10 x 10 m plots) running from the shoreward to landward sections of the forest were established in the Sundarbans. Density, frequency and basal area were measured for all species within each plot, as well as edaphic characteristics such as salinity, field capacity (moisture), CEC, soil texture, and nutrient availability.
+
+The data were tested across different scales (within transect, within block, across blocks) to test for mangrove zonation at different scales.
+
+**Key results:** The results did not find any evidence of statistically robust zonation at any of the scales tested. Canonical correspondence analysis did show low amounts of variation in species composition explained by edaphic conditions (24%), but relationships were unclear for the majority of the species that dominate the forest.
+
+The authors conclude that patterns of mangroves are likely more complex than is generally thought in the literature, and may be due to complex interactions between edaphic conditions across space as well as species-specific adaptation to those specific conditions. Additionally, they suggest that interspecific competition or propagule dispersal may be important in determining size and abundance of co-occuring species.
+
+The results of the study match those of others that have attempted to explain zonation patterns through statistical tests (see Section \@ref(bunt1996). 
 
 ### Sherman *et al*, 2000 {#sherman2000}
 
