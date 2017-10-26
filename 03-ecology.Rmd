@@ -546,7 +546,7 @@ Additionally they can play important roles as ecosystem engineers, aerating soil
 
 ## Trophic interactions
 
-### Smith, 1987
+### Smith, 1987 {#smith1987}
 
 *"Seed predation in relation to tree dominance and distribution in mangrove forests"* [@smith1987seed]
 
@@ -562,10 +562,262 @@ With the exception of *Ceriops tagal*, amount of predation was significantly neg
 
 *"Comparisons of seed predation in tropical, tidal forests from three continents"* [@smith1989comparisons]
 
-**Key contribution:**
+**Key contribution:** This study extends [@smith1987seed] to examine patterns of propagule predation in four distinct localities: Florida, Panama, Australia and Malaysia. Smith *et al* conclude that propagule predation has a significant influence on spatial patterning of mangrove species, though to varying degrees depending on propagule species and also species of predator.
+
+Smith *et al* term the hypothesis that spatial assemblages are a result of predation as the "dominance-predation" model.
+
+**Study design:** Following the methods of [@smith1987seed], replicate plots with secured propagules were established in stands with dominance of propagule parent trees and absence of propagule parent trees. The seedlings were monitored for 4 days to identify predation such that they are incapable of establishing (i.e., 50% mass consumed, taken down hole, or radicle and hypocotyl consumed).
+
+**Key results:** The study confirms the prior work in that species of *Avicennia* were completely consumed in stands in which their parent trees were rare or absent, but not consumed in stands where they were abundant.
+
+The findings for *Rhizophora* species were a bit more mixed, with the "dominance-predation" model holding true in Malaysia and Australia, but failing in the North American sites. In Florida, no *Rhizophora* propagules were consumed. In Panama, more propagules were consumed in the *Rhizophora*-dominated site relative to the *Avicennia*-dominated site.
+
+More *Bruguiera* propagules were consumed where it was rare than it was common in Malaysia, and the reverse held true for Australia.
+
+Differences in predator distribution may explain some of the variability. In particular, grapsid crabs do not exist in Florida, which may explain lack of consumption of *Rhizophora*. In forests with only snail consumers, only *Avicennia* were consumed.
+
+This may be a result of the feeding mechanisms of crabs versus snails, and the physical structure of *Rhizophora* vs. *Avicennia* propagules.
+
+### Cannicci *et al*, 2008 {#cannicci2008}
+
+*"Faunal impact on vegetation structure and ecosystem function in mangrove forests: A review"* [@cannicci2008faunal]
+
+**Key contribution:** This is a well-written review on faunal impacts on forest structure and ecosystem function within mangroves. It does not necessarily relate to purely herbivory (which many of the studies related to mangrove predation do), but also considers some of the community ecology aspects important for ecosytem functioning.
+
+**Key notes: **
+
+*Insects* - Most common forms of insect herbivory are:
+
+  1. Leaf-feeding - can be very significant and produce massive leaf-loss events
+  2. Wood-boring - very limited evidence (Feller in Belize), but has found to produce leaf-loss as great or greater than direct leaf herbivory. Insects bore wood on branches and leaves along the branch are subsequently lost.
+  3. Flower/fruit/seed-feeding - may be a result of reduced biomass allocation to reproductive tissues following leaf herbivory or other damage; or may be a result of direct feeding on propagules
+  
+The costs of leaf herbivory and stress on the plant are a function of both the direct impacts, as well as the additional biomass and resources needed to be put into regenerating leaves or building defensive mechanisms. Toxins (*E. allagocha*), tannins or thicker leaves may require resource inputs that could otherwise be allocated towards growth.
+
+Ants are the most dominant insects in mangroves, both numerically and energetically, despite the difficult floor conditions in which many require. Comprise of both terrestrial species as well as those endemic to mangroves.
+
+Although data is limited, studies have shown that ants in mangroves can significantly reduce the presence of herbivorous pests (note that this is decoupled from improving plant "performance" per se).
+
+*Crabs* - Feeding patterns of crabs vary by species within mangrove. Some predominantly feed on leaf litter, whereas others have adopted arborial life style and feed largely on green leaves. They scrape the leaves which likely has similar impacts on tree fitness as other herbivores.
+
+Crabs understood as main agents of high leaf litter turnover in mangroves. In particular, sesarmid crabs in Southeast Asia are main consumers of leaf litter, though magnitude of influence is highly variable.
+
+In Neotropics, ocypodidae crabs are found to be most influential on leaf litter dynamics.
+
+In general, however, feeding behavior of crabs is poorly understood within mangroves.
+
+Biomass cycling of crabs:
+
+  1. Low assimilation rates of leaf litter (<50%)
+  2. Additionally, approximately 60% of dry weight is defecated
+    - crab fecal matter may be of higher nutritional content than leaf litter, acting as food source for benthic organisms
+    - shredding of leaves occurs, and bacterial diversity on crab fecal matter found to be 70x greater than that of raw leaf litter
+    
+"Reduced competition from crabs" - Several mechanisms have been proposed for reductions in seedling/sapling competition due to propagule predation:
+
+  1. *Predation-dependence model* - inverse relationship between rate of predation and dominance of particular species
+    - Smith has found support for it, whereas a number of other studies have concluded on alternative mechanisms.
+  2. *Canopy-gap mediated model* - hypothesizes that predation is more intence under closed canopies than in light gaps
+    - Has led some to propose a "mutualism" between sesarmid crabs and mangrove trees in that crabs reduce competition and allow established saplings to compete while mangroves provide food
+  3. *Flooding regime model* - time for terrestrial foragers is limited due to variation in exposure of the forest floor
+    - Sousa found otherwise
+  
+"Bioturbation of soil" - Impacts of crabs as ecosystem engineers may have strong implications for soil quality within mangroves:
+
+  - Sesarmid crabs were found to significantly reduce aluminum and sulfur contents of soil
+  - Fiddler crabs may increase depth of iron reduction
+  - Burrowing which allows water penetration and thus may flush out accumulated salts, particularly within rhizospheres
+  
+*Molluscs* - Most well represented taxon along with decapod crustaceans, however their ecological role is poorly understood.
+
+  - Snails can be significant feeders of leaf-litter, feeding during both low and high tides in which they chemically sense leaves underwater
+  - Sponges may play a role in inducing growth of adventitious rootlets that absorb ammonium and other nitrogenous compounds
+  - Oysters and barnacles may have negative effects on root growth, and may also result in breaking of roots due to harvesting by humans
+
+### Sousa, 2011 {#sousa2011}
+
+*"Trophic interactions in coastal and estuarine mangrove forest ecosystems"* [@sousa2011trophic]
+
+**Key contribution:** This is an extensive review on trophic interactions in mangroves.
+
+**Productivity** - Mangroves have been found to have higher aboveground net primary productivity rates (mean ~14 Mg DW / ha) than terrestrial tropical forests (mean 5 Mg DW / ha).
+
+Methods of measuring NPP are varied and inaccurate, and thus the estimates provided within the literature are likely to be quite coarse. Little research has examined the productivity of phytoplanton in tidal waters or cyanobacteria on aboveground root systems, though some studies have shown this to be half or more of ecosystem productivity.
+
+**Herbivory** - Primary component of energy flow through ecosystem, yet relatively unstudied within mangrove ecosystems.
+
+*Insect herbivory* - General consensus is that insect herbivory is not a significant consideration, although this is likely founded on little evidence. Methodological issues constrain our current estimates of the degree of leaf herbivory by insects.
+
+Of the studies that exist, rates of leaf removal are relatively low at 7.6% for *Avicennia* spps and 5% for *Rhizophora* spps. Longitudinal studies that have followed leaf herbivory through the duration of its development (from bud to the end of the study period) have found herbivory rates to be much higher (10-30%).
+
+Additionally, occasional mass herbivory events due to emergence of lepidopterans can defoliate massive expanses of trees. Caterpillars emerge and within 3 months trees have lost > 75% of foliage.
+
+*Crab herbivory* - Majority of crabs forage on forest floor, but some have adopted arborial lifestyles. Some are found in both terrestrial and low tree canopies, whereas four species of sesarmid crabs are purely arboreal (come to floor rarely if ever).
+
+  1. *A pisonii* - Atlantic/Caribbean/Eastern Pacific; feeds on young leaves largely from *R mangle*
+  2. *Parasesarma leptosoma* - Indo-West Pacific; feeds on young leaves
+  3. *Armases elegans* - West Africa, feeds on young leaves
+  4. *Selatium brockii* - feeds on algae growing on tree trunks
+  
+*Stem boring* - wood-eating beetles and moths can have significant impacts on forest structure, particularly through the opening of small gaps within the forest via death of branches.
+
+*Coccotrypes rhizophorae* - *Rhizophora* specialist beetle that bores roots, wood and propagules; can change morphology of root systems (Atlantic/Caribbean/Eastern Pacific)
+
+*Coccotrypes fallax* - the congener to *C rhizophorae* in the Indo-West Pacific
+
+*Propagule predation* - Propagule predation may occur before or after dispersal
+
+"Predispersal predation" occurs when propagules are still on parent trees. Often have boring insects (e.g., *C. rhizophorae*) which may ultimately cause premature dropping of propagules, their death, or reduced growth rates of seedlings following establishment. *C. rhizophorae*lay eggs in *Rhizophora* propagules and can greatly damage the propagules.
+
+"Postdispersal predation" - a relative boom in research following Smith's tethered propagules studies. Although findings corroborate with his conclusions per *Avicennia* propagules in some cases, other studies have shown the predation-dependence model to not hold true.
+
+**Detrivory and decomposition:**
+
+*Outwelling hypothesis* - idea that substantial amounts of organic matter are exported to adjacent estuaries, which supports dense populations of detritivores and secondary and tertiary consumers
+
+Odum and Heald's work in Florida exemplified the process by which outwelling of organic matter in mangroves may occur:
+
+  1. Mangrove leaf litter drops and undergoes decomposition by bacteria, fungi and protozoa
+  2. Crabs and other detritivores further consume leaf litter, breaking it up into finer pieces
+  3. Organic matter in fine, processed form is exported via tidal flows
+  4. Exported OM fuels marine and detritus-based food chains (postulated)
+
+The importance of this particular pathway has since been questioned, as supporting evidence has been circumstantial the large contribution of DOC has become more clear.
+
+Outwelling of OM likely occurs in most tidally inundated and riverine forests, though the degree to which it happens depends on site, season and years.
+
+Different patterns of outwelling exist for basin forests separated by berms, in which only highest tides flush the system, versus riverine or fringe forests that undergo more periodic flushing.
+
+*Retention and recycling of carbon and nitrogen* - export of organic matter and nutrients is also greatly controlled by recycling of nutrients within the system.
+
+*Detritus-feeding crustaceans* - A review of studies finds that, on average, 57% of detritus is either consumed or buried by crabs.
+
+Studies have found a strong preference by crabs for older, more decomposed leaf litter in which C:N ratios are much lower, and tannin content and toughness of the leaf are much reduced. Nevertheless, the C:N ratio is still quite high and thus crabs likely need to look for additional N sources. Studies have suggested that this may come from grazing on algae or predation of animal tissue (crustaceans, mollusks, annelids, insects and fish).
+
+*Detritus-feeding mollusks* - consumption of detritus by mollusks can be significant in addition to that of crustaceans.
+
+*Deposit-feeding crabs* - largely comprise of fiddler crabs; feed on bacteria, microalgae and detrital material (often bacteria, smaller diatoms and protozoa); assimilation efficiency is much higher for bacteria than microalgae
+
+*Litter decomposition* - the nutritional content of leaves from different species varies, but in general decomposition improves the nutritional quality over time. Tannins are high but are leached from the leaf quite rapidly; following leaching of soluble compounds, lignocellulose is primary component; bacteria digest lignocellulose at a much faster rate than other decomposters, and animals cannot digest ligoncellulose
+
+*Wood and root decomposition* - a higher proportion of lignocellulose exists in wood and roots, thus decomposition is much slower than for leaves.
+
+Little is known about the functional groups and diversity of fungi in mangroves, but they may play a significant role in decomposition of wood and roots. Additionally, wood-boring insects with mutualistic relationships with bacteria that can process lignocellulose may be important for decomposition of woody biomass (e.g., termintes).
+
+*Predation* - In addition, the review provides a discussion of predator-prey interactions but I have not included notes here as it is beyond the direct scope of the qualifying exam.
 
 
 
 ## Sea level rise & biogeography
+
+### Valiela *et al*, 2001 {#valiela2001}
+
+*"Mangrove forests: One of the world's threatened major tropical environments"* [@valiela2001mangrove]
+
+**Key contribution:** Following widespread recognition of the loss of other tropical ecosystems (rain forests and coral reefs), this paper makes the argument that mangroves are under-appreciated but perhaps even more threatened than these other ecosystems.
+
+**Study design:** They compile data on the global status of mangroves from the literature, and assess to what degree human activities have contributed to their loss.
+
+They use the Global Mangrove Atlas coupled with estimates of status and extent of mangroves across different countries to look at rates of loss for different continents and globally.
+
+**Key results:** The study estimates that approximately 35% of mangroves have been lost from their "original" extent (i.e., the earliest year in which data could be found; 1920s for some data from Africa and Asia).
+
+Global mean rates of loss were approximately 2% per year, with continent specific rates ranging from 1 to 3.6% (3.6 was for the Americas).
+
+They attribute approximately two-thirds of the loss of mangroves directly to human related activities.
+
+Furthermore, they delve into the importance of mariculture for mangrove habitat losses. Conversion of mangroves to shrimp ponds is the dominant driver of deforestation, and has additional impacts for example decrease in offshore stocks due to need for juveniles as well as impacts on offshore fisheries which are used as feed.
+
+### Alongi 2002 {#alongi2002}
+
+*"Present state and future of the world's mangrove forests"* [@alongi2002present]
+
+### Krauss *et al*, 2014 {#krauss2014}
+
+*"How mangrove forests adjust to rising sea level"* [@krauss2014mangrove]
+
+**Key contribution:** This review differs from others in that it focuses on the role that vegetation plays in maintaining soil surface elevations in mangroves.
+
+**Key notes:**
+
+As of 2010, current rate of mean sea level rise is 3.2 +/- 0.4 mm per yr (based on satellite altimetry), though these rates likely vary locally.
+
+"Relative sea level rise" refers to the rate of sea level rise in conjunction with subsidence or vertical accretion of coastal areas.
+
+Surface elevation change are a result of both biotic and abiotic processes. Abiotic processes include:
+
+  1. Inorganic sedimentation
+  2. Groundwater influx
+  3. Deep land movements
+  
+Whereas biological processes include:
+
+  1. Plant litter and woody debris deposition
+  2. Root accumulation
+  3. Sediment trapping by vegetative structures
+  4. Algal mat development on soil surface
+
+Other processes include acute deposition from storm events, or feedback processes between vegetation systems and degree of inundation.
+
+*Aerial roots and sedimentation* - Different functional root types will influence sedimentation rates differently, and through different processes. Pneumatophores are believed to retain deposited soil better than other types, whereas stilt roots may result in greater deposition of sediment.
+
+*Litter and woody debris accumulation* - In absence of tidal flushing as well as crabs and other organisms responsible for turnover of organic matter, accumulation of OM may be significant.
+
+*Benthic mat formation* - Intact algal mats may bind sediments and resist erosion. 
+
+*Subsurface root accumulation* - May be the most important biological contributor to surface elevation change in some settings. Can be significant enough to affect the direction and rate of change in surface elevation. 
+
+  - Refractory nature and existence within anaerobic environment are prone to slow rates of decomposition
+  - Rates of SEC were correlated with both fine and coarse root production
+  - "Specific root length" is a measure of the length of root per unit mass; mangroves have more dense roots than tropical species, which is likely due to anoxic conditions
+
+Influence of roots on surface elevation is bidirectional; death of roots can result in collapse of roots under weight of soil
+
+*Factor affecting root contributions to soil accretion* - In general, the influence or roots on SEC is a relative function of production and decomposition of roots.
+
+  - Salinity - response of root growth to salinity is species dependent, but root growth only slightly reduced with increasing salinity; increases in root to shoot ratio may actually be a result of increased aboveground biomass rather than increased root biomass
+  - Nutrients - in general do not see an increase in root production, but rather increases in biomass production aboveground; in some settings may even see decrease in elevation due to release of nutrient-limited microbial communities
+  - Flooding - effect of flooding on root-production is hard to identify, and may occur in both directions depending on setting (increasing root-production in basin type settings, decreasing root production in others)
+  - Soil texture - high bulk density decreases root growth due to more difficult conditions of growing
+  - Disturbance - may be biotic or abiotic: 
+    - Largely hypothesized that organisms may influence root production, though the mechanisms and degree to which this occurs is unknown
+    - Acute deposition of sediments from storm events may kill trees, or may provide much needed substrate for subsiding forests; root zone expansion following deposition of sediment may further increase surface elevations
+    - Lightning may kill trees, causing root collapse and alter microhabitat hydrology
+
+*Climatic and environmental feedbacks*:
+
+  1. Precipitation -- seasonal or storm based variability in rainfall can cause swelling or subsidence of peat layers or water table
+  2. Elevated CO~2~ - likely that increases in CO~2~ concentrations will improve biomass growth, though most of this is likely to occur in the aboveground systems
+  3. Feedbacks related to SLR - growth rates may increase sharply for a short period of time, but eventually fall off under prolonged inundation
+
+### Sasmito *et al* 2016 {#sasmito2016}
+
+*"Can mangroves keep pace with contemporary sea level rise? A global data review"* [@sasmito2016can]
+
+**Key contribution:** This study systematically reviews data on surface elevation change (SEC) and surface accretion rate (SAR) in mangroves to examine their ability to keep pace with projections of sea level rise globally.
+
+Of critical importance is:
+
+  1. Surface accretion rate (SAR) -- process of sediment accumulation on the surface of the forest floor
+  2. Surface elevation change (SEC) -- a function of biotic and abiotic processes, such as growth of roots or compaction or subsidence due to OM decomposition
+  3. Sub-surface change (SSC) -- the difference between SAR and SEC
+  
+The data review examines studies that use Rod Surface Elevation Table and Marker Horizon methods to examine elevation change.
+
+**Key results** Only 19 studies with data from some 74 sites were found through the literature review. Running different models of the influence of geomorphological setting and management type (restored, plantation, natural, etc.) on SAR, SEC and SSC found them to be influential.
+
+In particular, basin mangroves may be better able to adapt to SLR than fringe mangroves or those on islands with shallow tidal ranges (and thus little sedimentation).
+
+The study nods to the importance of belowground processes in conjunction with geomorphological setting and management practices for SEC.
+
+Extrapolation of SAR and SEC rates with projected SLR shows that mangroves may be able to keep pace with low (RCP 2.6) emissions trajectories, but are unlikely to cope with high emissions pathways (RCP 8.5) regardless of geomorphological setting or management regime.
+
+Additionally, there is more systematic monitoring of SEC using RSET-MH in Indonesia, the Philippines, Singapore, SW Thailand and Vietnam underway. This data will better inform the ability of mangroves to respond to sea level rise.
+
+  - Additional thought -- how can this be worked into my research trajectory?
+  
+
+**Relevance for research:** Interesting in that they call for standardized global monitoring of surface elevation data. Could potentially work into remote sensing of geomorphology in mangroves.
+
 
 ## Carbon & other
