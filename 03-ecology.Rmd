@@ -741,6 +741,23 @@ Little is known about the functional groups and diversity of fungi in mangroves,
 
 ## Sea level rise & biogeography
 
+### Ellison *et al*, 1999 {#ellison1999}
+
+*"Origins of mangrove ecosystems and the mangrove biodiversity anomaly"* [@ellison1999origins]
+
+**Key significance:**
+
+**Key notes: **
+
+Two primary hypotheses for the global distribution of mangrove species diversity exist:
+
+  1. "Center of origin" hypothesis - holds that mangrove taxa originated in the IWP and then dispersed to other parts of the world
+  2. "Vicariance hypothesis" - taxa evolved around the Tethys Sea and regional species diversity has results from in situ diversification after continential drift
+  
+**Research design:** The authors consider primarily five lines of evidence to determine 
+
+**Key results:** Ellison *et al* conclude that the lines of evidence provides support for the vicariance hypothesis. 
+
 ### Mckee & Faulkner, 2000 {#mckee2000}
 
 *"Mangrove peat analysis and reconstruction of vegetation history at the Pelican Cays, Belize"* 
@@ -749,7 +766,7 @@ Little is known about the functional groups and diversity of fungi in mangroves,
 
 **Study design:** A transect across Pelican Cays was laid out that spanned *Rhizophora* fringe, *Avicennia* basin/woodlands, a treeless area with standing water, and the same pattern to the other coast. Peat cores to 0.5 m and 2 m were taken and soil and peat characteristics were described.
 
-**Key results:** Upon identifying roots, shoots and leaf peat fragments to species type, the authors were able to infer the successional process of the forest. In stands that are currently *Avicennia* dominated, *Rhizophora* roots make up the majority of the deep peat, indicating they once dominated that stand. In addition, root biomass was found to make up the majority (~80%) of the peat biomass.
+**Key results:** Upon identifying roots, shoots and leaf fragments within the peat to species type, the authors were able to infer the successional process of the forest. In stands that are currently *Avicennia* dominated, *Rhizophora* roots make up the majority of the deep peat, indicating they once dominated that stand. In addition, root biomass was found to make up the majority (~80%) of the peat biomass.
 
 ### Valiela *et al*, 2001 {#valiela2001}
 
@@ -761,13 +778,18 @@ Little is known about the functional groups and diversity of fungi in mangroves,
 
 They use the Global Mangrove Atlas coupled with estimates of status and extent of mangroves across different countries to look at rates of loss for different continents and globally.
 
+They assess the human-based impacts on mangrove extent by correlating lost mangrove extent with GDP and also coastal population density.
+
 **Key results:** The study estimates that approximately 35% of mangroves have been lost from their "original" extent (i.e., the earliest year in which data could be found; 1920s for some data from Africa and Asia).
 
-Global mean rates of loss were approximately 2% per year, with continent specific rates ranging from 1 to 3.6% (3.6 was for the Americas).
+Global mean rates of loss were approximately 2% per year, with continent specific rates ranging from 1 to 3.6% (3.6% was for the Americas).
 
-They attribute approximately two-thirds of the loss of mangroves directly to human related activities.
+They attribute approximately two-thirds of the loss of mangroves directly to human related activities. The correlation between GDP and loss of mangrove extent is significant, whereas little correlation between loss of mangroves and coastal population density is found.
 
-Furthermore, they delve into the importance of mariculture for mangrove habitat losses. Conversion of mangroves to shrimp ponds is the dominant driver of deforestation, and has additional impacts for example decrease in offshore stocks due to need for juveniles as well as impacts on offshore fisheries which are used as feed.
+Furthermore, Valiela *et al* delve into the importance of mariculture for mangrove habitat losses. Conversion of mangroves to shrimp ponds is the dominant driver of deforestation, and has additional indirect impacts on the environment such as:
+
+  - Reductions in offshore shrimp stocks due to need for juveniles
+  - Impacts on offshore fisheries that are used as feed within the shrimp ponds
 
 ### Alongi 2002 {#alongi2002}
 
@@ -779,16 +801,16 @@ Furthermore, they delve into the importance of mariculture for mangrove habitat 
 
 **Key contribution:** This review differs from others in that it focuses on the role that vegetation plays in maintaining soil surface elevations in mangroves.
 
-**Key notes:**
+**Key notes: **
 
-As of 2010, current rate of mean sea level rise is 3.2 +/- 0.4 mm per yr (based on satellite altimetry), though these rates likely vary locally.
+As of 2010, current rate of mean sea level rise is 3.2 +/- 0.4 mm per yr (based on satellite altimetry), though these rates likely vary locally. IPCC projections (AR5) estimate SLR rates of 3 - 5 mm / yr over the next 100 years.
 
-"Relative sea level rise" refers to the rate of sea level rise in conjunction with subsidence or vertical accretion of coastal areas.
+"Relative sea level rise" refers to the rate of sea level rise in conjunction with subsidence or vertical accretion of coastal areas (i.e., consideration of both eustatic SLR as well as changes in the mangrove surface elevation).
 
-Surface elevation change are a result of both biotic and abiotic processes. Abiotic processes include:
+Surface elevation changes are a result of both biotic and abiotic processes. Abiotic processes include:
 
   1. Inorganic sedimentation
-  2. Groundwater influx
+  2. Groundwater fluxes (anthropogenic depletion of groundwater reservoirs may be significant)
   3. Deep land movements
   
 Whereas biological processes include:
@@ -806,24 +828,26 @@ Other processes include acute deposition from storm events, or feedback processe
 
 *Benthic mat formation* - Intact algal mats may bind sediments and resist erosion. 
 
-*Subsurface root accumulation* - May be the most important biological contributor to surface elevation change in some settings. Can be significant enough to affect the direction and rate of change in surface elevation. 
+*Subsurface root accumulation* - May be the most important biological contributor to surface elevation change in some settings (carbonate settings or other settings with limited mineral sediment input). Can be significant enough to affect the direction and rate of change in surface elevation.
 
-  - Refractory nature and existence within anaerobic environment are prone to slow rates of decomposition
+  - Refractory nature of root tissues and existence within anaerobic environment are prone to slow rates of decomposition
   - Rates of SEC were correlated with both fine and coarse root production
   - "Specific root length" is a measure of the length of root per unit mass; mangroves have more dense roots than tropical species, which is likely due to anoxic conditions
 
 Influence of roots on surface elevation is bidirectional; death of roots can result in collapse of roots under weight of soil
 
-*Factor affecting root contributions to soil accretion* - In general, the influence or roots on SEC is a relative function of production and decomposition of roots.
+*Factors affecting root contributions to soil accretion*: 
 
-  - Salinity - response of root growth to salinity is species dependent, but root growth only slightly reduced with increasing salinity; increases in root to shoot ratio may actually be a result of increased aboveground biomass rather than increased root biomass
-  - Nutrients - in general do not see an increase in root production, but rather increases in biomass production aboveground; in some settings may even see decrease in elevation due to release of nutrient-limited microbial communities
+In general, the influence or roots on SEC is a relative function of production and decomposition of roots.
+
+  - Salinity - response of root growth to salinity is species dependent, but root growth only slightly reduced with increasing salinity; increases in root to shoot ratio may actually be a result of increased aboveground biomass rather than increased root biomass (for example through nutrient release)
+  - Nutrients - in general do not see an increase in root production, but rather increases in biomass production aboveground; in some settings may even see decrease in elevation due to release of nutrient-limited microbial communities and thus decomposition of belowground organic matter
   - Flooding - effect of flooding on root-production is hard to identify, and may occur in both directions depending on setting (increasing root-production in basin type settings, decreasing root production in others)
   - Soil texture - high bulk density decreases root growth due to more difficult conditions of growing
   - Disturbance - may be biotic or abiotic: 
     - Largely hypothesized that organisms may influence root production, though the mechanisms and degree to which this occurs is unknown
-    - Acute deposition of sediments from storm events may kill trees, or may provide much needed substrate for subsiding forests; root zone expansion following deposition of sediment may further increase surface elevations
-    - Lightning may kill trees, causing root collapse and alter microhabitat hydrology
+    - Acute deposition of sediments from storm events may kill trees, or may provide much needed substrate for subsiding forests; root zone expansion following deposition of sediment may be significant and may further increase surface elevations
+    - Lightning may kill trees, causing root collapse and alter microhabitat hydrology (Sherman, 2000)
 
 *Climatic and environmental feedbacks*:
 
@@ -835,9 +859,9 @@ Influence of roots on surface elevation is bidirectional; death of roots can res
 
 *"Threats to mangroves from climate change and adaptation options: A review"* [@gilman2008threats]
 
-**Key significance:** The paper reviews the dominant threats to mangroves from climate change related impacts. 
+**Key significance:** The paper reviews the dominant threats to mangroves from climate change related impacts. In addition, they provide several suggestions for measures that can be taken to potentially bolster mangrove resilience to climate change related pressures.
 
-**Key notes:** The key threats to mangroves from climate change as identified by the paper are:
+**Key notes: ** The key threats to mangroves from climate change as identified by the paper are:
 
 *Sea level rise* - relative sea level rise is a key threat, and is relatively difficult to measure as tidal gauges may not accurately reflect sea level conditions within the actual forest of interest. 
 
@@ -913,4 +937,4 @@ Additionally, there is more systematic monitoring of SEC using RSET-MH in Indone
 **Relevance for research:** Interesting in that they call for standardized global monitoring of surface elevation data. Could potentially work into remote sensing of geomorphology in mangroves.
 
 
-## Carbon & other
+## Carbon

@@ -683,16 +683,92 @@ Low permeability related to sodic conditions is due to:
 In general, low salt concentrations and weakly attracted ions encourage soil dispersion and puddling, whereas high salt concentrations and strongly associated ions (calcium) promote clay flocculation and soil permeability.
 
 
+### Soil organisms {#soilorganisms}
+
+Soil organisms range from macrofauna to microfauna, and tend to aggregate in zones of favorable conditions rather than be spread out evenly through the soil.
+
+A range of different classifications for soil organisms, but often consider trophic level (primary producer, primary consumer, etc.) or feeding patterns (fungivore, herbivore, autotrophic, etc.).
+
+*Primary consumers* - A variety of primary consumers exist within the soil environment:
+
+  - herbivores - feed directly on living plant tissue, for example rodents or larvae feeding on plant roots
+  - detritivores - vast majority of soil organisms; feed on dead decaying tissues of plants on soil surface and within soil pores
+    - "shredders" - those organisms that actually feed on organisms on decaying material (e.g., bacteria) rather than the material itself; important for shredding & processing of detritus
+  - saprophytic - feeding on dead tissues by fungi and bacteria (microflora); accounts for majority of decomposition of dead plant and animal debris
+
+*Secondary consumers* - Include microflora as well as carnivores
+
+  - carnivores -- may include centipedes, mites, insects, nematodes, spiders, snails, etc.
+    - feed on microflora and thus are important for processing of litter
+    
+*Tertiary consumers* - Ants, bird, or other organisms that consume the soil organisms
+
+*Abundance of soil organisms*:
+
+In general, the ratios of soil OM to detritus to microbial biomass to faunal biomass is 1000:100:10:1.
+
+Total living biomass is generally well-correlated with the dry-weight or organic matter, oftentimes approximately 1-5% of the dry weight of organic matter.
+
+Majority of activity in soils is by microorganisms (estimated at ~80% of total soil metabolism). Nematodes and protozoa play important roles in preying on bacteria and fungi, whereas earthworms can be significant and play an important role as ecosystem engineers.
+
+*Plant roots* - Typically occupy approximately 1% of soil volume and may also be responsible for 25% - 33% of the respiration occuring in the soil.
+
+Rhizosphere extends approximately 2 mm out from the root surface. Soil conditions within the rhizosphere can be significantly different from that of the surrounding soil.
+
+*Fungi*:
+
+Most versatile and persistent of any group of OM decomposers within soils. Extremely efficient nutrient cycling, with up to 50% incorporation into fungal tissue (vs 20% for bacteria). Thus, largely important for soil fertility.
+
+Mycorrhizae - "root fungus" or an association of certain species of fungus with plant roots that greatly expands the plants ability to take up nutrients (up to 10 times); helps provides access to nutrients that are relatively inaccessible (phosphorus)
+
+Ectomycorrhizae - primarily associated with temperate or semiarid-regions trees and plants; fungi penetrate plant roots but do not penetrate cortex cell walls (hence ecto-)
+
+Endomycorrhizae - (arbuscular mycorrhizae are most important group); penetrate cortex cell walls and form "arbuscules," which transfer mineral nutrients to plant, and sugars from the plant to the fungus
+
+*Soil prokaryotes* - Bacteria and archaea; cells lack nucleus surrounded by a membrane
+
+Prokaryotes may be round, rod-shaped, or spiral; but in soils the rod-shaped prokaryotes appear to dominate.
+
+Prokaryotes have enormous diversity (handful of soil may hold as many species as fauna in the amazon), and consist of both autotrophs and heterotrophs.
+
+Perform important functions within the soil:
+
+  - Break down of toxins (for example archae processing hydrocarbons, i.e., oil products)
+  - Oxidation and reduction of particular elements (e.g., Iron and Mn)
+    - Nitrogen fixation
+
+*Controls on soil microorganism growth*:
+
+  - Organic matter - almost any addition of OM will boost microbial activity and growth
+    - additions of certain nutrients will prompt growth from different microorganism types
+    - for example, bacteria respond well to starch and sugars whereas fungi and actinomycetes have heavier influence with additions of cellulose or other resistant material
+  - Oxygen, moisture and temperature - increasing availability of oxygen, moisture and higher temperatures all promote microorganism activity
+  - Exchangeable cations and pH - 
+  
+*Benefits to plants of soil organisms*:
+
+  - Nutrient availability - primary benefit is the role in processing organic matter and increasing availability of key nutrients for plants
+  - Breakdown of toxic compounds - can breakdown and process toxins that would otherwise accumulate within the soil profile
+  - Inorganic transformations - can determine the availability of key micronutrients for plants
+    - N, S, P, Fe, Mn...
+    - May also determine the toxicity of particular elements (Se or Cr)
+  - Nitrogen fixation - fixing of N~2~ gas by microbes which makes it available to plants
+    - Cyanobacteria are important in wetlands and other anaerobic environments for fixing N; commonly occurs in root nodules or other associations with plants
+
+*Soil organisms and damage to higher plants*:
+
+  - Competition for nutrients
+  - Herbivory - rodents, slugs, or snails. Nematodes and insect larvae are the most damaging/extensive; fungal diseases
+
+Can control diseases or impacts on plants through management:
+
+  - Maintaining particular pH levels - raising or lowering the pH may be able to rid the soil of particular diseases or fungal infections
+  - Soil physical properties - allowing good structure and heating of soils can help to aerate soils or kill pathogens that may induce more significant problems
+  
 
 
 
 
-
-
-
-
-
-### Soil organisms
 
 ### Soil organic matter
 
