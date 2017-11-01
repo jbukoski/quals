@@ -1052,9 +1052,59 @@ knitr::include_graphics(rep("images/wolanski1986.bmp"))
   3. What is longitudinal dispersion in relation to mangroves?
   4. What are the specific implications of buoyancy effects, and how do they vary between dry and wet seasons?
 
-### Wolanski, 1992
+### Wolanski *et al*, 1992 {#wolanski1992}
 
-*"Mangrove hydrodynamics"* (In Robertson and Alongi, 1992)
+*"Mangrove hydrodynamics"* (In Robertson and Alongi, 1992) [@wolanski1992mangrove]
+
+**Key contribution:** This is a comprehensive review of hydrodynamics in mangroves, that comes from the Robertson and Alongi book.
+
+**Key notes: ** 
+
+Of the 5 (6) different Lugo and Snedaker geomorphic setting classifications, hydrodynamics in the riverine forest type has been studied the most extensively.
+
+*Tidal circulation* - Tidal circulation is often the dominant cause of water movement.
+
+Ebb tides are shorter than flood tides, but have slightly stronger water flows.
+
+Water movements within tidal creeks are frequently greater than 1 m/s, however water flows within the forest itself are rarely greater than 0.1 m/s.
+
+Mathematical models of hydrodynamics in mangroves have largely focused on two components:
+
+  1. Tidal creeks - where acceleration, sea level gradients, friction and inertia are all important
+  2. Forest flood - where inertial effects can largely be neglected
+  
+*Tidal assymetry* - Currents in tidal creeks are strong during ebb flow relative to flood flow.
+
+The key to understanding this is that friction within the bed of the creek as well as the forest floor produces a time lag between the time of high tide at the head of the creek, versus the time of high tide at the mouth of the creek. The higher water level at the head of the creek accelerates flows back towards the mouth of the estuary.
+
+The stronger ebb flow relative to the flood flow is important in maintaining channels and also export of suspended matter from the mangrove; reductions in forest extent will impact ebb flow as the difference in water height between shoreward and landward zones is a function of the distance and is greatly reduced.
+
+The creek will then silt rapidly until balance is reachieved in which scouring action can reoccur.
+
+*Exchange with the nearshore zone* - The presence of salinity within any given location in the forest and the intermixing of coastal, tidal and freshwater flows depends on the tide, season and relative amount of each within the system.
+
+Bounds between freshwater and saline water may exist in the uppertidal reaches following a flushing of the estuary by freshwater (e.g., heavy rain event and low tide), which is produced by influx of high tide and limited mixing with the freshwater. May take several weeks for freshwater to be flushed from the system.
+
+*Transverse circulation* - Secondary circulation phenomena exist due to primary tidal circulation and net downstream transport of freshwater.
+
+Longitudinal circulation - caused by saltwater inflow at creek bottom and freshwater flow at surface from density effects.
+
+Transverse flows produce linear aggregations of leaf litter and propagules and, though understudied, are likely formed through similar processes as linear oceanographic features near coral reefs.
+
+*Tidal currents and sediment fluxes* - At the time of this article, there were key knowledge gaps in reference to tidal currents and sediment fluxes. See the Fukukara pieces for more precise information on sedimentation rates within the forest (Sections \@ref(furukawa1996) and \@ref(furukawa1997)).
+
+In general, flow rates are not sufficient to reentrain sediment in the water column, particularly during flood tides. This provides support of the importance of ebb flows in scouring process for maintaining channel depths.
+
+*Groundwater flow* - Flows of groundwater are important but are poorly understood. During initial flooding of forest floor, water may first be seen through bubbling out of crab holes which is an important mechanism for maintaining lower salt concentrations.
+
+*Climatic and tidal influences* - Amount and periodicity of precipitation greatly influence the hydrodynamics of a given site. Balance between rainfall and evaporation, when coupled with tidal variations, is a key factor that determines salinity status of various portions of the mangrove.
+
+A diagram of physical, biological and chemical processes as they relate to mangrove hydrology is shown below:
+
+```{r, echo = FALSE}
+knitr::include_graphics(rep("images/wolanski1992.bmp"))
+```
+
 
 ### Furukawa, 1996 {#furukawa1996}
 
@@ -1076,10 +1126,10 @@ $$ u = 1/n\ *\ h^{2/3}\ *\ I^{1/2}  $$
 
 Where:
 
-  - u: water velocity
-  - n: Mannings friction coefficient
-  - h: water depth
-  - I: water surface slope
+  - *u*: water velocity
+  - *n*: Mannings friction coefficient
+  - *h*: water depth
+  - *I*: water surface slope
 
 Typical values for the Mannings friction coefficient for sandy channels are in the range of 0.025-0.035, whereas empirical studies by Wolanski have found values as high as 0.2 - 0.4 for areas with mangrove vegetation. Thus, mangrove vegetation increases the Mannings friction coefficient by several orders of magnitude.
 
@@ -1139,10 +1189,12 @@ Marker horizons (50% feldspar clay, 50% sand) were laid and 5 100 cm pins were i
 
 Furthermore, found that surface elevation change in Avicennia pneumatophores was highest, and the authors conclude that organic matter contribution is thus significant -- might have implications for research questions.
 
+### Adame, 2010 {#adame2010}
 
-### van Maren, 2013
+*"Sedimentation within and among mangrove forests along a gradient of geomorphological settings"* [@adame2010sedimentation]
 
-*"The role of flow asymmetry and mud properties on tidal flat sedimentation"*
+**Key contribution:** 
+
 
 
 
