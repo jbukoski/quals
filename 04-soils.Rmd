@@ -1024,7 +1024,7 @@ Focusing on vertical adjustment within a mangrove forests risks missing broader 
 
 ### Wolanski, 1986 {#wolanski1986}
 
-"*Tidal mixing and trapping in mangrove swamps"* [@wolanski1986tidal]
+*"Tidal mixing and trapping in mangrove swamps"* [@wolanski1986tidal]
 
 **Key contribution:** This study primarily seeks to answer two key questions:
 
@@ -1068,7 +1068,7 @@ They find that the presence of a tidal pump is largely due to:
   2. Settlement of flocculated sediment during slack high tide in which turbulence is reduced.
   3. Insufficient ebb tide velocities to resuspend settled sediment.
 
-**Key notes:**
+**Key notes: **
 
 Water velocity of tidal flooding in a mangrove forest can be described as:
 
