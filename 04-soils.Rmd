@@ -767,15 +767,9 @@ Can control diseases or impacts on plants through management:
   
 
 
-
-
-
 ### Soil organic matter
 
 ### Soil nutrients
-
-### Redox
-
 
 
 ### Sulfur cycle
@@ -1123,6 +1117,28 @@ Vegetation greatly increased turbulence and created a complex set of hydrologica
 DOC was found to vary inversely with tidal depth, with the lowest DOC concentration present during slack high tide. Furthermore DOC in the forest was found to be greater than coastal waters, indicating that both creek and mangrove waters are significant sources of DOC. 
 
 The findings suggest a net inwelling of DOC in the forest (greater DOC concentration during flood tide than ebb tide), but this does not corroborate with other analyses.
+
+### Krauss *et al*, 2003 {#krauss2003}
+
+*"Differential rates of vertical accretion and elevation change among aerial root types in Micronesian mangrove forests"* [@krauss2003differential]
+
+**Key contribution:** Understanding of sedimentation and hydrology in mangroves has largely been theoretical and model based, and thus this study represents one of the only studies to investigate the differential effects of different root morphologies on sedimentation in mangroves empirically.
+
+**Study design:** Rates of sediment accretion and elevation change for three different root types were examined in three different river basins in the Federated States of Micronesia. Experimental plots of 25 m in radius were established within the fringe, riverine and interior sections of each of the river basins, and three 1 m^2^ plots were established in the plots in each of the three root types (Rhizophora prop; Avicennia pneumatophore; and Bruguiera knee) as well as a control.
+
+Marker horizons (50% feldspar clay, 50% sand) were laid and 5 100 cm pins were inserted 70 cms into the soil to estimate sediment accretion and surface elevation changes, respectively. Additionally, root basal areas were calculated at a height of 4 cm for comparison of root biomass to sedimentation characteristics. Fine root fraction estimates were taken via soil cores and washing of mineral soil and particulate OC to achieve just the fine root fraction, which was compared with surface elevation data.
+
+**Key results:** The results provided several key findings:
+
+  - The results showed that Rhizophora roots had significantly higher rates of sediment accretion relative to the others.
+    - The authors attribute it to increased turbulence and thus flocculation of suspended sediment, reduction in flow which traps it within the root complex, and thus higher rates of sediment accretion during slack flows
+  - No significant differences among functional root types for elevation change were found across all basins, but root type x river basin interactions were found to be significant (control plots or pneumatophores having higher rates of positive sediment surface elevation change).
+    - Elevation chane rates were found to occur through series of "pulses" rather than steady through time
+    - Lower rate of surface elevation change in Rhizophora was suggested to potentially having to do with the lower ratio of lignin:Nitrogen in the fine root fraction, which may have been more decomposible and thus result in elevation decreases.
+  - Root area and root density did not have significant influence on monthly rates of vertical accretion.
+
+Furthermore, found that surface elevation change in Avicennia pneumatophores was highest, and the authors conclude that organic matter contribution is thus significant -- might have implications for research questions.
+
 
 ### van Maren, 2013
 
