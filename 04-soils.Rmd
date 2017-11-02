@@ -1016,12 +1016,6 @@ Focusing on vertical adjustment within a mangrove forests risks missing broader 
 
 ### Preface
 
-### Wolanski, 1980 {#wolanski1980}
-
-*"Hydrodynamics of a tidal creek-mangrove swamp system"* [@wolanski1980hydrodynamics]
-
-
-
 ### Wolanski, 1986 {#wolanski1986}
 
 *"Tidal mixing and trapping in mangrove swamps"* [@wolanski1986tidal]
@@ -1115,8 +1109,8 @@ knitr::include_graphics(rep("images/wolanski1992.bmp"))
 They find that the presence of a tidal pump is largely due to:
 
   1. High turbulence that maintains entrainment of fine sediments during flood tide.
-  2. Settlement of flocculated sediment during slack high tide in which turbulence is reduced.
-  3. Insufficient ebb tide velocities to resuspend settled sediment.
+  2. Settlement of flocculated sediment during slack high tide in which turbulence is reduced, and increased flocculation which results in order of magnitude increase in size.
+  3. Insufficient ebb tide velocities to resuspend settled sediment (of now larger size).
 
 **Key notes: **
 
@@ -1189,14 +1183,44 @@ Marker horizons (50% feldspar clay, 50% sand) were laid and 5 100 cm pins were i
 
 Furthermore, found that surface elevation change in Avicennia pneumatophores was highest, and the authors conclude that organic matter contribution is thus significant -- might have implications for research questions.
 
-### Adame, 2010 {#adame2010}
+### Adame *et al*, 2010 {#adame2010}
 
 *"Sedimentation within and among mangrove forests along a gradient of geomorphological settings"* [@adame2010sedimentation]
 
-**Key contribution:** 
+**Key contribution:** This is one of the few studies that empirically tests for differences in sedimentation rates amongst different geomorphological settings and different forest types (fringe vs. scrub vs. algal mats) within the different geomorphological settings.
 
+**Study design:** The study primarily employs petri dishes held to the forest floor as well as water samples to example differences in total suspended sediment, sediment accretion and the presence of glomalin (a secretion produced by terrestrial arbuscular mycorrhizal fungi) across forest types/settings.
 
+Glomalin was used as an indicator of terrestrially versus other derived sediments, as AMF largely do not exist in mangroves and thus this would be indicative of terrestrially derived sediments.
 
+Replicates plots in the fringe, scrub, and upper-tidal (algal mats) portions of six different sites, which were a variation of river-dominated vs. tide-dominated geomorphological settings, were established. Samples from the water column and sediment deposition on petri dishes were taken to investigate variation in deposition patterns.
+
+Interestingly, the study also used PCA of several environmental variables to establish a quantitative measure of the geomorphic setting. Among the environmental variables included were:
+
+  1. Salinity
+  2. Catchment area (km^2^) - unsure specifically what this is
+  3. DIstance to sea (km) - unsure as to how this measure was taken
+  4. Entrance section area (m^2^) - unsure as to what this is
+  
+**Key results:** Their results found that sedimentation patterns varied between geomorphic types, as well as environmental settings within the river-dominated vs. tide-dominated settings.
+
+*Export of total suspended sediment*:
+
+No relationship between sediment retention and geomorphological setting was found. For those sites that did show retention of total suspended sediment (TSS), retention was found during the ebb tide in the fringe and scrub zones.
+
+*Sedimentation*:
+
+The fringe zone was found to have the highest sedimentation rates, which the authors attribute to the greater density of vegetation (and thus AG root complexes? though they do not specify tree species).
+
+A relationship between sedimentation rate and geomorphological setting was not found.
+
+In general, sedimentation was evenly distributed in riverine dominated geomorphological settings, whereas tidal mangroves found majority of sedimentation to occur in the fringe zone.
+
+*Glomalin*:
+
+The amount of glomalin was correlated to its age (determined via *immunoreactivity*), and riverine sites were found to have much higher and younger amounts of glomalin than tidal sites in the TSS.
+
+In the deposited sediments, glomalin did not correlate with geomorphological setting, but did exhibit differences between intertidal zones within riverine and tidal settings. The majority of glomalin deposited in riverine settings occurred in the scrub zone, whereas the majority in tidal settings occured in the fringe zone.
 
 ## Soil carbon processes
 
