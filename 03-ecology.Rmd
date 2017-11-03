@@ -745,7 +745,7 @@ Little is known about the functional groups and diversity of fungi in mangroves,
 
 *"Origins of mangrove ecosystems and the mangrove biodiversity anomaly"* [@ellison1999origins]
 
-**Key significance:**
+**Key significance:** This study examines two separate hypotheses for the distribution of mangrove diversity globally. In essence, they seek to understand the stark decreases in species diversity in the ACEP region relative to IWP.
 
 **Key notes: **
 
@@ -754,9 +754,19 @@ Two primary hypotheses for the global distribution of mangrove species diversity
   1. "Center of origin" hypothesis - holds that mangrove taxa originated in the IWP and then dispersed to other parts of the world
   2. "Vicariance hypothesis" - taxa evolved around the Tethys Sea and regional species diversity has results from in situ diversification after continential drift
   
-**Research design:** The authors consider primarily five lines of evidence to determine 
+**Research design:** The authors consider primarily five lines of evidence to parse whether the Center of Origin versus Vicariance Hypothesis is more likely to explain current patterns of species diversity. The five lines of evidence they use are:
+
+  1. Fossil records - distribution of fossils all around Tethys would support vicariance, whereas fossils in Eastern Tethys (IWP) would support Center of Origin.
+  2. Available area:
+    - Center of origin - species richness negatively correlated with distance from center of origin rather than available area
+    - Vicarance - species richness should be correlated with availble area
+  3. Distributions of fauna - Would expect to see similarities in diversity anomaly between mangrove tree species and the fauna that inhabit the forests
+  4. Geographical nestedness - geographical nestedness may occur through colonization of far-reaching areas by select species, or by extinction of taxa following vicariance.
+  5. Nestedness of entire communities - nestedness of mangroves and all gastropods as described above
 
 **Key results:** Ellison *et al* conclude that the lines of evidence provides support for the vicariance hypothesis. 
+
+In particular, strong species-area relationships were found, evidence in the fossil record, and a unimodality in the distribution of gastropod genera were found to be convinving evidence in support of the vicariance hypothesis.
 
 ### Mckee & Faulkner, 2000 {#mckee2000}
 
@@ -790,10 +800,6 @@ Furthermore, Valiela *et al* delve into the importance of mariculture for mangro
 
   - Reductions in offshore shrimp stocks due to need for juveniles
   - Impacts on offshore fisheries that are used as feed within the shrimp ponds
-
-### Alongi 2002 {#alongi2002}
-
-*"Present state and future of the world's mangrove forests"* [@alongi2002present]
 
 ### Krauss *et al*, 2014 {#krauss2014}
 

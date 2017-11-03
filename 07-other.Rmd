@@ -1,0 +1,33 @@
+# Other studies
+
+## Mangrove biocomplexity
+
+### Farnsworth, 1998 {#farnsworth1998}
+
+*"Issues of spatial, taxonomic, and temporal scale in delineating links between mangrove diversity and ecosystem function"* [@farnsworth1998issues]
+
+**Key contribution:** This review examines the linkages between species diversity and ecosystem functioning at different spatial and temporal scales, and discussing the implications on appropriate research designs & approaches.
+
+**Key notes: ** There are a number of relevant points in the paper, but of particular interest is the section entitled "Heterogeneity among mangrove communities -- variation over tens of kilometres".
+
+In particular, this section has relevance for the RSE paper with Iryna, as the author discusses analyses of spatial geometry for better understanding processes and functioning within mangrove systems. She cites several studies that may be of interest for looking into further:
+
+  - MacArthur & Wilson, 1967 - The theory of island biogeography
+  - Burrough, 1983 - Multiscale sources of spatial variation in soil. I. Application of fractal concepts to nested levels of soil variation
+  - Krummel *et al* 1987 - Landscape patterns in a disturbed environment
+  - Kolasa, 1989 - Ecological systems in hierarchical perspective: Breaks in community structure and other consequences
+  - Holling, 1992 - Cross-scale morphology, geometry, and dynamics of ecosystems ***
+  
+Furthermore, the author notes that mangrove are particularly well-suited to such analyses, as component species are easily distinguished and mapped at multiple scales, and "islands of a wide range of sizes, shapes, and species composition are available for study."
+
+A nice conceptual diagram of different ecosystem processes in mangroves across different scales is provided:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/farnsworth1998.bmp"))
+```
+
+Much of the paper focuses on different spatial scales, but they also note the importance of temporal scales at the end, with particular emphasis on the importance of defining the appropriate boundaries for the study of interest at a given time.
+
+## Pseudoreplication
+
+### Hurlbert, 1982

@@ -765,9 +765,103 @@ Can control diseases or impacts on plants through management:
   - Maintaining particular pH levels - raising or lowering the pH may be able to rid the soil of particular diseases or fungal infections
   - Soil physical properties - allowing good structure and heating of soils can help to aerate soils or kill pathogens that may induce more significant problems
   
-
-
 ### Soil organic matter
+
+Soil organic matter is critical to soil systems for a variety of reasons, but in particular for their increases in CEC, water holding capacity, and also importance to global carbon cycles.
+
+Inorganic carbon may also form a substantial role of C pool in the ecosystem, and is formed largely through reaction of CO~2~ to produce carbonic acid as well as carbonates and bicarbonates of Ca, K, Mg, and Na. 
+
+Nearly half of organic carbon in soils globally is found in histosols, gelisols, and inceptisols.
+
+*Process of decomposition*:
+
+Dry weight plant matter is approximately 90-95% comprised of C, H, & O.
+
+Four broad classes of organic compounds in plant tissue:
+
+  1. Carbohydrates - range in complexity from simple sugars and starches to cellulose
+  2. Lignins and polyphenols - difficult to decompose
+  4. Proteins - contain ~16% N and decompose easily
+  
+Decompositional process primarily consists of three steps:
+
+  1. enzymatic oxidation of organic compounds - releases CO~2~, energy, water and biomass
+  2. Nutrient specific release and/or immobilization
+  3. Formation of resistant compounds either through microbial activity or modification of the compounds
+  
+*Mineralization* - process that releases elements from organic compounds to produce inorganic forms
+
+Within a soil system, both r-strategist and k-strategist organisms exist in regards to OM decomposition.
+
+  - r-strategists - "rate" organisms that decompose easily digestible OM at very fast rates
+  - k-strategists - "constant" organisms that feed primarily on the more retractible OM found in the soil system
+  
+With addition of OM to a system, a sharp spike in populations of r-strategists will occur, and massive amounts of decomposition will occur. As OM levels are reduced, the r-strategists begin to die-off, which provides additional nutrients for surviving r-strateigists as well as k-strategists. Eventually r-strategists die-off to quiescence.
+
+Some OM is physically protected during process, and some is left over as humus, which is a dark-colored, heterogeneous, mostly colloidal mixture of modified lignin and newly synthesized organic compounds. Oftentimes this accumulation is offset by k-strategist decomposition and thus there's little change in OM from year to year.
+
+The factors that control rates of decomposition are primarily:
+
+  1. Environmental conditions of the soil, for example:
+    - sufficient moisture
+    - sufficient aeration
+    - warm temperatures (25 - 35 deg C)
+  2. Quality of the added residues
+    - location of the residue - soil surface vs. within the system; affects physical accessibility as well as temperature and moisture content of feedstock
+    - size of particles - surface area to volume ratios are important
+    - C:N ratio - can vary from 10:1 to 600:1 (sawdust)
+    
+Nitrogen is important in all organism for synthesis of amino acids, enzymes and DNA.
+
+On average, soil microbes require a C:N ratio of 8:1 for synthesis of own organic compounds; only one third of C is assimilated into own tissues and thus they require C:N ratios of approximately 24:1.
+
+Depending on the C:N ratio of the soil, availability of N for plant communities can be greatly influenced. A *nitrate depression period* is when OM of high C:N is added to the soil and microbial communities use up all available N. Until microbial communities consume all OM and N and begin to die-off, N will not be available for plants. The C:N ratio will slowly decrease as CO~2~ is lost via respiration whereas N is kept within biomass.
+
+Consumption of microbial community by earthworms, nematodes or protozoa can result in release of NH~4~^+^ in the soil, as the macrofauna consume more N than they can consume.
+
+**Genesis and nature of SOM and humus**:
+
+SOM comprises of living as well as dead biomass (both recognizable and unrecognizable). The unrecognizable dead biomass is known as "humus". Humic substances are resistant to decomposition, whereas nonhumic substances are more easily degraded.
+
+Humic substances are often ~60-80% of soil organic matter. Their complexity makes them resistant to decomposition and also induces their dark, black colors as they absorb light at many wavelengths.
+
+Nonhumic substances contain definite chemical and physical properties and thus are more readily decomposed. 
+
+**Influence of OM on plant growth and soils**:
+
+Benefits of OM to plants occur largely indirectly, but some direct benefits exist:
+
+  - Uptake of N or P as soluble organic compounds
+  - Allelopathy - most allelochemicals can be included within the nonhumic OM of soil
+  
+Other direct effects relate to the effect of OM on soil properties:
+
+  - Physical properties - humic fractions reduce plasticity & stickiness of clay soils; water-infiltration is improved; nonhumic substances can improve granulation and aggregate stability
+  - Chemical properties:
+    - Humus often accounts for 50 - 90% of cation-adsorbing power of mineral surface soils
+    - Provides much of the pH buffering capacity through CEC and acid & base functional groups
+    - Humic acids accelerate decomposition of soil minerals, which releases essential nutrients as exchangeable cations
+  - Biological properties:
+    - Provides food for much of the heterotrophic soil organism community
+
+**Pools of organic matter**:
+
+Depending on quality and availability, different "pools" of OM can be considered:
+
+  - Active pool - easily decomposible OM with half-lives of days to a few years (~10-20% of OM)
+    - e.g., living biomass, pieces of detritus, most of polysaccharides, other nonhumic substances
+    - Can be readily enhanced through additions, but is also readily lost
+  - Slow pool - finest fractions of particulate OM that is high in lignin, as well as other slowly decomposable or chemically resistant components
+  - Passive pool - primarily material protected within clay-humus complexes; remains in soil for hundreds to thousands of years (~60-90% of OM)
+    - closely associated with colloidal properties of soil and thus most responsible for CEC and water holding capabilities
+
+**Other**:
+
+Contributions to OM by plants in grasslands is often higher and more efficient than forests, given grasses greater biomass contribution roots and their greater resistance to decay.
+
+This is interesting in that mangroves might have more significant root biomass than previously believed and thus the contributions from root biomass to SOC may be significant.
+
+*Methane emissions* - methane emissions from salt wetlands are much lower than freshwater emissions, largely because levels of sulfate in sea water allow for sulfur-reducing prokaryotes to out-compete methanogens for organic matter within the ecosystem.
 
 ### Soil nutrients
 
