@@ -28,6 +28,72 @@ knitr::include_graphics(rep("images/farnsworth1998.bmp"))
 
 Much of the paper focuses on different spatial scales, but they also note the importance of temporal scales at the end, with particular emphasis on the importance of defining the appropriate boundaries for the study of interest at a given time.
 
+### Alongi et al, 1992 {#alongi1992}
+
+*"Nitrogen and phosphorus cycles"* 
+
+**Key contribution** - This chapter is an overview of N and P cycles in mangroves from the Tropical Mangrove Ecosystems book.
+
+**Nitrogen**
+
+The various pools of N in mangroves are characterized as follows:
+
+  - Waters - Dissolved organic N (DON) is primary form of N in mangrove ecosystems. Dissolved inorganic N is relatively low, with most of the inorganic form represented by ammonium and lesser amounts of nitrate and nitrite. Relatively little temporal and spatial variation in DON due to refractory nature of DON.
+  - Sediments - Dissolved inorganic N is low in mangrove sediments, whereas DON is high; In general rates of ammonium uptake by mangrove trees exceeds regeneration rates.
+    - Adsorption of ammonium to sediments has been shown to be low in silt-dominated sites
+    - Concentrations of total extractable N vary with sediment type and are correlate with distributions of fine roots (often highest at 20-40 cm interval)
+
+*Transformation of N*
+
+Bacterioplankton activities are believed to be major pathway of organic N transformation to ammonium, but as of 1992 the process had not been quantified.
+
+Immobilization (reincorporation of N into biomass) is primarily driven by the C:N ratio of decomposing organic matter. Given the relatively high C:N ratio of mangrove tree litter biomass, likely have significant rates of N immobilization within sediments.
+
+Nitrification - occurs close to sediment-water interface in oxidized linings of animal burrows or the rhizosphere. Performed by microorganisms; Nitrate is relatively short-lived in soil environment as it is taken up by plants or involved in other chemical reactions.
+
+Dissimilatory nitrate reduction - process in which nitrate serves as the electron accepter in respiration of anaerobic bacteria (reduced to nitrite). The reduction of nitrate to nitrite in mangroves is significant, and an additional step that results in reduction of nitrite to ammonium occurs (see Fernandes 2012).
+
+Denitrification - conversion of nitrate to N~2~ and N~2~O gases occurs, but may be most prominent in polluted sites.
+
+N fixation - carried out by bacteria and cyanobacteria; cyanobacterial mats on exposed sediments or associated with AG roots are primary location of N-fixing activity. Rates of fixation largely related to abundance of cyanobacteria
+
+**Phosphorus**
+
+*Pools of P*
+
+Waters - dissolved organic and inorganic P are low in mangroves; dissolved inorganic P exists primarily as a salt HPO~4~^2-^. Availability of P in waters may be either dissolved in water column or bound to sediments in highly depositional settings.
+
+Sediments - Limited data as of 1992, but results indicate low dissolved P availability; total concentrations are relatively high however given high organic matter contents. 
+  - although organic P is largest pool, inorganic P is most readily available pool; most is bound in form of Ca, Al, or Fe phosphates
+  - organic pools represent influence of roots whereas inorganic pools (mostly Fe-P) increase with depth as result of anoxia
+  
+*Transformation*
+
+Transformation of P can be described primarily as biotic (assimilation, excretion, hydrolysis) or abiotic pathways (precipitation, adsorption and chemisorption, and dissolution and desorption)
+
+Kaolite clays are particularly efficient at absorbing phosphates and thus precipitation of phosphates with Ca, Fe, Al, or clays results in large removal of soluble phosphates to the mineral pool.
+
+A diagram of the Phosphurus cycle in mangroves is shown below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/alongi1992Pcycle.bmp"))
+```
+
+Uptake by organisms - bacteria, algae, and higher plants take up dissolved orthophosphate or organic phosphates (which may alternatively be hydrolyzed first)
+
+**Sediment/water exchange of P & N**
+
+Little empirical work has been performed on this as of 1992, but data indicate that fluxes from the sediment (benthos) to water (pelagic) systems is small.
+
+**Detritus decomposition**
+
+Majority of detritus in mangroves is from within the system. Important considerations for decomposition of mangrove detritus are:
+
+  1. High content of lignocellulose results in relatively slow decomposition
+  2. Avicennia litter decomposes quite quickly as it is more nutritionally available
+  3. Nitrogen is almost entirely conserved (100% concentration) of original litter during decomposition
+  4. Occurs through different phases: loss of water-soluble compounds, microbial colonization and utilization, and mechanical fragmentation
+
 ## Pseudoreplication
 
 ### Hurlbert, 1982
