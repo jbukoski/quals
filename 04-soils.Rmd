@@ -865,12 +865,221 @@ This is interesting in that mangroves might have more significant root biomass t
 
 ### Soil nutrients
 
+**Key notes:**
 
-### Sulfur cycle
+Nitrogen is in general the most widely occurring nutritional limit on plant growth globally.
 
-Sulfur is particularly important in wetland ecosystems due to the anaerobic conditions of the soil and thus reliance on sulfur for metabolic activities.
+Phosphorus is generally the second most widespread nutritional limit.
+
+**Nitrogen** - A major part of all proteins, nucleic acids, chlorophyll, etc.
+
+Plants take up N as nitrate (NO~3~^-^) or ammonium (NH~4~^+^). Atmospheric N~2~ is abundant, but is not directly available given strong triple bond between N atoms. Microbial fixation or lightning is required to break the triple bond and make N available for plants.
+
+Ammonium and nitrates account for the most important forms of inorganic N in the soil environment. Majority of N is found within soil OM, which is typically approximately 5% N.
+
+N in ammonium is subject to five different fates:
+
+  1. Immobilization - occurs via microoganisms
+  2. Removal - uptake by plants
+  3. Fixation - can be fixed within the layers of certain 2:1 clay minerals
+  4. Volatilization - emission to atmosphere after being transformed into ammonia gas
+  5. Nitrification - process in which is is oxidized to nitrite and subsequently to nitrate
+  
+N in nitrate is subject to five fates, some of which overlap:
+
+  1. Immobilization -- occurs via microorganisms
+  2. Removal - uptake by plants
+  3. Leaching - loss to groundwater via percolation
+  4. Volatilization - loss to atmosphere as several N-containing gases formed by denitrification
+  5. Conversion to ammonium - dissimilatory (nitrate) reduction to NDRA by anaerobic organisms
+  
+*Immobilization and mineralization*
+
+Much of N is protected in OM, but is eventually released as NH~4~^+^ through decomposition (mineralization).
+
+Conversion of inorganic N to biological forms is termed immobilization, and is the opposite process of mineralization. May take place through either biological or nonbiological processes.
+
+  - biological pathway occurs when microorganisms consume OM high in C relative to N, and thus scavenge nitrates and ammonium to account for deficiency from the soil; often removes mineral N from the soil (nitrogen depression period)
+  - abiotic pathway is through rapid chemical reactions with high C/N ratio soil OM
+
+Soluble organic N compounds are available for plant uptake and leaching losses; however the chemical constituents of SON are poorly known at present.
+
+*Ammonium fixation by clays* 
+
+Ammonium are attracted to negative surfaces of clays and humus, where they're held in exchangeable forms & are available for plant uptake. May become more permanently fixed in pockets within the crystalline structure of particular 2:1 clay types.
+
+Although this can help preserve mineral N in the soil environment, it may also not be available to plants at rates at which it is needed.
+
+*Ammonia volatilization*
+
+Volatilization is conversion of NH~4~^+^ to NH~3~^+^ by reaction of ammonium with OH^-^. Given the dependence of the reaction on OH^-^, ammonia volatilization is much greater in soils of higher pH.
+
+Ammonia volatilization in wetland soils can be quite significant, particularly during warm days when warm weather promotes photosynthetic algae consumption of dissolved CO~2~ and thus loss of carbonic acid results in increase in pH.
+
+*Nitrification*
+
+Conversion of ammonium to nitrates in a two-step reaction (NH~4~^+^ to NO~2~^-^ to NO~3~^-^). When ammonium is released into the soil, it is commonly rapidly converted to nitrate.
+
+Nitrification may be reversed be several bacterial processes, some of which occur in anaerobic environments:
+
+  - denitrification - heterotrophic bacteria reduce nitrate to NO, N~2~O or N~2~ gases
+  - dissimilatory nitrate reduction to ammonia (DNRA) - reduces NO3- to NO~2~^-^ and then to NH~4~^+^
+  
+*Nitrate leaching* 
+
+Nitrates readily move downwards with free water and thus are easily leached from the soil. This can result in toxicity problems for humans, livestock or other ecosystems if there is a large build up of nitrates.
+
+*Gaseous loss by denitrification*
+
+Denitrification of nitrates may produce NO, N~2~O and N~2~. NO (nitric oxide) and N~2~O (nitrous oxide) can be particularly environmentally damaging in at least four ways:
+
+  - Form nitric acid, which is one of the principle components of acid rain
+  - May react with volatile organic pollutants to form ground-level ozone
+  - Very potent (but shortlived) greenhouse gases
+  - N~2~O destructs ozone
+  
+May be extremely high in wetlands due to periods of wetting (denitrification) and drying (nitrates produced).
+
+May be seen as an ecosystem service of natural wetlands in that they protect estuaries and lakes from eutrophication
+  
+*Biological N fixation*
+
+Conversion of atmospheric N~2~ to forms usable by organisms by limited number of bacteria (rhizobium, actinomycetes, cyanobacteria).
+
+Key component is the enzyme *nitrogenase*, which catalyzes reduction of N~2~ to NH~3~^+^. The ammonia is then used to form amino acids and subsequently proteins.
+
+Nitrogenase is destroyed by O~2~, and thus the enzyme needs to be protected from exposure to O~2~. The molecule that protects nitrogenase (leghemoglobin) is virtually the same as hemoglobin that gives blood red color when oxygenated, hence root nodules on legumes are red.
+
+Additionally, fixation of N~2~ is very energy intensive, and thus mutual relationships between N-fixing bacteria and plants occur. Host plant supplies bacteria with carbohydrates as energy sources, whereas bacteria provide the plant with reactive-nitrogen compounds.
+
+**Sulfur**
+
+Important as key constituent of essential amino acids, vitamins, enzymes & aromatic oils. Sulfur has three primary "natural" sources:
+
+  1. Organic matter - microorganisms break down organic sulfur compounds to soluble forms analogous to release of ammonium and nitrate
+  2. Soil minerals - inorganic forms are primarily sulfates and sulfides. Sulfates directly available to plants whereas sulfides must be oxidized to sulfate form before they may be taken up by plants
+  3. Sulfur gases in the atmosphere - primarily COS, H~2~S, and S~O~2 are produced from volcanos, ocean spray, biomass fires and fossil fuel burning. These are eventually oxidized to sulfates which form sulfuric acid and result in acid rain.
+  
+*Sulfur cycle* -- There are four major forms of S that occur:
+
+  1. Sulfides
+  2. Sulfates
+  3. Organic sulfur
+  4. Elemental sulfur
+
+Similar to N cycle, atmosphere is an important source and much of the S in the system is held within organic matter, which is subject to microbial oxidation and reduction.
+  
+For systems in which S uptaken by plants is eventually returned to the soil, the above three sources are typically sufficient. In agricultural systems in which biomass is removed, significant deficiencies in S may occur.
+
+*Sulfur cycle*
+
+  - Mineralization - Largely occurs through same pathway as N. Organic sulfur is decomposed and sulfates are released into the soil.
+  - Immobilization - occurs when low-sulfur, C-rich organic forms are added; microbes will scavenge for mineral S to facilitate uptake of organic matter; temporary in that the inorganic sulfate will reappear in soil solution
+  
+*Sulfur oxidation and reduction*
+
+Sulfuric acid (H~2~SO~4~) is produced through oxidation of H~2~S or S, which occurs at a wide range of soil conditions.
+
+Sulfate ions tend to be unstable within anaerobic environments, and are reduced to sulfide ions by bacteria in two genera. THe sulfide ion will react almost immediately with reduced soluble Fe or Mn to form insoluble sulfides in anaerobic soils. 
+
+Sulfide ions also undergo hydrolysis to form gaseous hydrogen sulfide, which gives swamps rotten-egg smell.
 
 
+**Phosphorus** - Critical for ATP, DNA and RNA
+
+Phosphorus is generally unavailable in soils due to three reasons:
+
+  1. Total concentrations are typically low
+  2. Compounds in soil often unavailable for plant uptake due to insolubility
+  3. Soluble sources of P (fertilizers, etc.) are often fixed upon addition to soil
+  
+*Phosphorus cycle*
+
+  - Plants absorb P typically as phosphate ions that are dissolved in soil solution. The P typically is slow moving within the soil system, and thus growth of roots or mycorrhizal connections are important in facilitating uptake of P
+  - Decomposition of OM - microorganisms temporaily hold P as part of biomass, but will eventually release it through mineralization; portions of it will enter active and passive fractions of soil OM
+  - Chemical forms - little P is lost due to volatilization or leaching, but rather limits of P are due to insolubility and fixation that makes it functionally unavailable. Primarily three general groups of compounds:
+    1. organic phosphorus
+    2. calcium-bound inorganic phosphorus - stable and insoluble at high pHs, more soluble at low pH
+    3. Fe- or Al-bound inorganic phosphorus - opposite solubility of Ca-bound P
+  - Gains and losses - losses are primarily due to biomass removal, erosion of P-bound soil particles, or P dissolved in surface runoff or leaching to groundwater; primary additions are through atmosphere, which is often sufficient in natural environments
+
+*P availability*
+
+Generally 20-80% of P is held in OM in soil systems.
+
+For inorganic P, two primary controls on its availability exist: i) solubility of P-containing minerals, and ii) fixation or adsorption of P ions on surface of soil particles.
+
+Phosphorus can precipitate with Fe, Al or Mn ions, which forms insoluble hydroxy phosphate precipitates. In very acidic soils, enough Al, Fe, or Mn typically present to precipitate all dissolved H~2~PO~4~^-^ ions.
+
+Fixation of inorganic P with Fe- and Al- oxides and also 1:1 clays can be large given their large presence within many soils. Can fix P over very long term by additional precipitation of other Fe- and Al- oxides on top of the oxide bound P (termed "occluded" Phosphorus).
+
+Iron reduction under wet conditions - anaerobic conditions can reduce Fe in complexes from Fe^3+^ to Fe^2+^, which makes the iron-phosphate complex more soluble and allows release of phosphorus into solution.
+
+Big take-away is that P is generally present but is not available and thus there are high P limitations.
+
+**Potassium**
+
+Only present in soil solution as cation, and behavior in soil is thus largely effected soil cation exchange properties and mineral weathering.
+
+Key role in organisms is as an activator of particular enzymes. Important in metabolic processes in mangroves and important in balancing Na^+^ levels.
+
+*Potassium cycle*
+
+Majority of K+ is in primary minerals and nonexchangeable forms. May be fixed within 2:1 clays, but overtime will become available through the exchangeable complex. 
+
+Potassium is susceptible to leaching, but some plants with deep roots may mine K^+^ and act as "nutrient pumps" in that they move K^+^ to leaves and then return it to the soil surface upon loss of leaves. Plants take up large quantities of K^+^.
+
+*Potassium availability*
+
+Three factors shape availability of K^+^ within a soil system:
+
+  - Small proportion readily available - Total presence of K^+^ is high, but the amount available through exchangeable complex at any given time may be quite small.
+  - Leaching losses - quite susceptible to leaching (more than P, less than N); somewhat moderated by attraction of positive charge to negative surfaces of clays and humus
+  - Luxury consumption - removal by plants is high, even without proportional increases in growth
+  
+Total amount of K^+^ available is largely a function of the kinds of clays present in a soil. Soils with 2:1 clays typically have more potassium whereas those with kaolinite tend to have the least.
+
+**Calcium**
+
+Calcium is a major component of cell walls, as well as cell elongation and division, membrane permeability, and activation of enzymes.
+
+Deficiencies of calcium for plants is rare, except in acid soils.
+
+Calcium is found primarily in three pools within the soil system:
+
+  1. Ca contianing minerals
+  2. Ca complexed with soil humus
+  3. Ca held by CEC on clay and humus colloids
+  
+Much of Ca source within a soil system is through dry deposition (i.e., coal burning or wind erosion of calcareous desert soils)
+
+**Magnesium**
+
+Intimately involved with photosynthesis, and is taken up in relatively small quantities by plants.
+
+Primary source of Mg is the exchangeable Mg on colloidal clay-humus complex, which is replaced by mineral weathering following depletion by leaching or plant uptake. 
+
+**Micronutrients**
+
+For macronutrients, the range at which nutrients can be uptaken and be used without being toxic is quite large. For micronutrients the range is quite narrow, however, and thus particular elements can become toxic for plant growth.
+
+Micronutrients play a variety of roles in plants, though many are involved in enzyme systems. Different micronutrients are needed in different concentrations in plants.
+
+Common micronutrients: Fe, Mn, Zn, B, Cu, Mo, Ni
+
+*Availability of micronutrients* 
+
+Inavailability of micronutrients may be due to lack of total concentration in soil, but is more commonly a result of unavailability of the particular nutrient.
+
+Chemical forms of the various nutrients are important (e.g., oxides)
+
+Factors that affect the availability of micronutrient cations include:
+
+  - soil pH - increases in soil pH result in decrease in availability of micronutrient cations as they move to hydroxy ion forms and subsequently to hydroxide or oxide forms (insoluble)
+    - general desirability of mildly acidic soil is to promote availability of micronutrients
+  - oxidation state and pH - interaction of soil acidity and drainage important in determining micronutrient availability; Fe, Mn, and Cu generally more available in flooded soils
+  - organic matter - decomposition of OM can result in slow release of micronutrients; additionally, binding of micronutrients to OM can protect micronutrients from binding to mineral complexes which makes them relatively more insoluble than when bound with OM
+  mycorrhizae -- can be important in facilitating uptake of micronutrients
 
 
 
