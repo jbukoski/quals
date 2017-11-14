@@ -96,4 +96,65 @@ Majority of detritus in mangroves is from within the system. Important considera
 
 ## Pseudoreplication
 
-### Hurlbert, 1982
+### Hurlbert, 1984 {#hurlbert1984}
+
+*"Pseudoreplication and the design of ecological field experiments"* [@hurlbert1984pseudoreplication]
+
+**Key significance:** This seminal article outlines the risks of pseudoreplication in ecology, with specific examples from the literature. 
+
+**Key notes: ** The five key steps of the research process are:
+
+  1. Hypothesis formulation
+  2. Experimental design
+  3. Experimental execution
+  4. Statistical analysis
+  5. Interpretation
+
+Experimental execution is highly prone to induced errors from systematic bias, and are an important component of assessing the validity and quality of an experiment.
+
+Experimental design is defined as the "logical structure of the experiment". 
+
+Hurlbert outlines two different classes of experiments:
+
+  1. Mensurative experiments - involve making measurements at one or more points in space and time, and thus "space" or "time" is the only "experimental" variable or "treatment".
+    - Assuring replicate samples or measurements are dispersed in space (or time) in a manner appropriate to specific hypothesis is most critical aspect od design of a mensurative experiment
+    - Pseudoreplication often a consequence of actual physical space over which samples are taken being smaller or more restricted than inference space implicit in the hypothesis being tested.
+  2. Manipulative experiments - always involves two or more treatments, and has as its goal the making of one or more comparisons. Different experimental units receive different treatments and assignment of treatments to experimental units is or can be randomized.
+    - Pseudoreplication most commonly results from inferential statistics on experimental design in which treatments are not replicated, or replicates are not statistically independent.
+    
+Pseudoreplication as Hurlbert defines it is "the testing for treatment effects with an error term inappropriate to the hypothesis being considered." Thus, it is a combination of experimental design as well as analysis that results in the issues (improper design and analysis pairing).
+
+*Critical features of controlled experiments*
+
+Hurlbert outlines 6 potential sources of confusion in controlled experiments:
+
+  1. Temporal change
+  2. Procedure effects
+  3. Experimenter bias
+  4. Experimenter-generated variability (random error)
+  5. Initial or inherent variability among experimental units
+  6. Intrusion - either potentially foreseen or chance events that impinge upon an experiment in progress; chance events occur in all experiments and add to "noise"
+    - replication and interspersion of treatments provide the best insurance against chance events
+  
+Primarily four critical features of experimental design reduce the influence of these sources of confusion: controls, replication, randomization and interspersion.
+
+*Randomized block design*
+
+Allows for insurance against non-demonic intrusion as the block design explicitly introduces a certain degree of interspersion. Block designs may look like 4 different blocks with two plots in each block, and one of two treatments assigned randomly to one plot in each block.
+
+*Systematic design*
+
+May be helpful in mandating interspersion so long as cyclical variation in environmental variables does not co-occur with the systematic layout.
+
+*Randomization vs. interspersion*
+
+Argument largely held by Fisher and Gossett over randomized versus systematic layouts within experimental designs. Fisher maintained that interspersion was a secondary concern and should never be pursued at expense of exact knowledge of alpha.
+
+Prelayout alpha - probability, averaged over all possible layouts of a given experiment, of making a type I error (false positive)
+Layout-specific alpha - probability of making a type I error if a particular layout is used
+
+The issue is that the layout-specific alpha is of primary concern given the presence of only one experimental design in most cases, and yet it is never exactly known or specified.
+
+Depending on the degree of interspersion and environmental gradients, layout-specific alpha will relate to the prelayout alpha in a predictable manner (less dispersion, LS alpha > PL alpha; more dispersion, LS alpha < PL alpha). Typically want PL alpha (the specified criteria) to act as an upper bound on LS alpha.
+
+*to be continued...*
