@@ -157,4 +157,8 @@ The issue is that the layout-specific alpha is of primary concern given the pres
 
 Depending on the degree of interspersion and environmental gradients, layout-specific alpha will relate to the prelayout alpha in a predictable manner (less dispersion, LS alpha > PL alpha; more dispersion, LS alpha < PL alpha). Typically want PL alpha (the specified criteria) to act as an upper bound on LS alpha.
 
-*to be continued...*
+*Statistical consequences*
+
+Simple pseudoreplication is the most fundamental form of pseudoreplication and refers to the case in which replicates are considered within experimental units rather than as individual experimental units.
+
+In using replicates from within an experimental unit, one erroneously increases the degrees of freedom and reduces the variance (as additional samples from within a unit will come to more fully represent that unit) of statistical analyses. This makes it much easier to falsely reject the true null hypothesis (Type I error; false positive).

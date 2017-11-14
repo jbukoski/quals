@@ -944,3 +944,61 @@ Additionally, there is more systematic monitoring of SEC using RSET-MH in Indone
 
 
 ## Carbon
+
+### Alongi, 2014 {#alongi2014}
+
+*"Carbon cycling and storage in mangrove forests"* [@alongi2014carbon]
+
+**Key significance:** This ARMS review paper covers carbon dynamics in mangroves with a focus on both mechanistic processes as well as mean ecosystem and global budgets. The paper is an excellent overview of the state of knowledge on C dynamics in mangroves.
+
+**Key notes: **
+
+The primary sources of carbon within mangroves are:
+
+  1. Trees that fix atmospheric carbon via photosynthesis
+  2. Macroalgae colonizing aboveground roots and the forest floor
+  3. Transport and deposition of materials from adjacent ecosystems
+  
+Although the relative contributions depend upon site location and geomorphological conditions, most C is produced in sit and stored belowground.
+
+*NPP*
+
+Mangroves have high NPP, typically higher than that of other coastal systems, but relatively equivalent to coral reefs. Mangrove NPP rates are approximately equivalent to both humid tropical forests as well as peat swamp forests.
+
+Although inconclusive, there is evidence that disturbance may prolong maturation of forests and thus have long-term production and sequestration of C in mangroves (photosynthetic rate increases rapidly in first 20 years, but levels off without declining for up to 80 years).
+
+*Sedimentation*
+
+Mass balance approaches in mangroves determined to be highly inaccurate.
+
+Frequency of tidal inundation is primarily control on sedimentation rates, i.e., forests further from the sea experience less sedimentation.
+
+Size, shape and distribution patterns of trees are critical in sedimentation in mangroves.
+
+Burial rates of carbon in soils are estimated by difference between carbon losses (export, consumption and mineralization) and annual accumulation rates (rest is presumed to be preserved).
+
+Global estimate for soil C burial rate in mangroves is approximately 24 Tg C per yr. Relatively small on global scale, but is significant given their occupation of a relatively small amount of global coastal ocean area ~0.5%.
+
+Some estimates place deforestation of mangroves at comprising approximately 2-10% of global CO~2~ emissions from deforestation.
+
+*Losing carbon*
+
+Key losses of carbon are due to respiration and tidal export. Majority of respiration is from trees.
+
+Tidal export is a key process that is relatively poorly understood. May occur as:
+
+  1. Particulate organic carbon - export of particulate organic matter (leaves, bark, branches, etc.); accounts for approximately 10-11% of terrestrial carbon input to ocean
+  2. Dissolved organic carbon - organic carbon that is able to pass through a filter
+  3. Dissolved inorganic carbon - mangrove contribution of DIC to ocean is disproportionate to areas of waterways and creeks; tidal pumping from forest floor is likely significant
+    - microbial metabolism in deep soil results in CO~2~ production, which dissolves in interstitial waters and is exported to coastal ocean (aerobic respiration and sulfate reduction are usually major pathways, though Fe and Mn reduction may also be important)
+    
+*Global carbon budget*
+
+A schematic of the global carbon budget in mangroves is displayed below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/alongi2014.bmp"))
+```
+
+Of key significance is that approximately 24 Tg C per yr is buried globally, and approximately 60% of mangrove NPP is estimates to be exported as dissolved and particular carbon to coastal ocean (~129 Tg C per yr).
+
