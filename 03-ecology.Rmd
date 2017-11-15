@@ -1018,6 +1018,45 @@ The influence of OM exported from mangroves is likely limited to within a km or 
   
 Export of carbon to nearshore ecosystem is significant in mangroves and thus loss of mangrove globally may have had significant implications for DOC to the ocean.
 
+### Alongi, 2011 {#alongi2011}
+
+*"Carbon payments for mangrove conservation: Ecosystem constraints and uncertainties of sequestration potential"* [@alongi2011carbon]
+
+**Key significance: ** This articles addresses the discrepancy between ecosystem services expected from mangroves versus the thermodynamic constraints that exist within mangroves. In particular, the author discusses C sequestration in reference to forest type and time-scales.
+
+**Key notes: **
+
+Woodroffe, 2002 outlines six ways in which mangroves develop in relation to sea-level:
+
+  1. Static conditions - surface accretes asymptotically until sediment raises forest floor above tidal range
+  2. Constantly rising sea level - floor accretes at pace similar to SLR
+  3. Fluctuation SLR rates - forest floor accretes with time above tidal range
+  4. Stable SL but episodic subsidence - floor accretes back to tidal range
+  5. Rising SL and episodic subsidence - response is complex but overall pattern is net accretion
+  6. Rising SL but no episodic subsidence or change in sediment volume - floor is set back or abandoned
+
+Sites are heterogeneous in sediment accumulation, and thus short-term or small-scale studies have a difficult time providing an accurate picture of actual sedimentation patterns.
+
+*C fluxes: young vs. old, monospecific vs. mixed forests*
+
+Mangroves are suitable for REDD+ schemes, but lack a common "mature" successional phase given repeated disturbance, which must be incorporated into understanding of C dynamics.
+
+Relationship between forest age and NPP shows prolonged maturity or arrested progression occurs under disturbance.
+
+Although photosynthesis asymptotes, contributions of organic C to soil components proceed over very long periods of time.
+
+In *R. apiculata* forests, there is considerable evidence that MSY is obtained from 30 year-old forests given maximum photosynthetic rates that occur.
+
+Studies in mangrove plantations show that mangroves generally adhere to the -3/2 self-thinning law. This would indicate that C payments after 30 years will begin to decrease, and thus these must be incorporated into long-term conservation plans.
+
+-3/2 self-thinning law is the regression slope of tree density vs tree diameter.
+
+*Issue of uncertainty*
+
+Net ecosystem productivity in mangroves has been estimated at 112 Tg C per yr (Bouillon 2008) and 155 Tg C per yr (Alongi, 2009).
+
+Many processes in mangroves are non-linear, which must be accounted for in PES schemes and management plans.
+
 ### Alongi, 2012 {#alongi2012}
 
 *"Carbon sequestration in mangrove forests"* [@alongi2012carbon]
@@ -1053,6 +1092,30 @@ Deforestation of mangroves results in collapse of peat soils and may result in s
 *Global significance*
 
 Mangroves account for approximately 3% of C sequestration though they occupy <1% of total area of tropical forests.
+
+### Asner, 2013 {#asner2013}
+
+*"High-fidelity national carbon mapping for resource management and REDD+"* [@asner2013high]
+
+**Key significance: ** This is Asner's mapping of Carbon in Panama that exemplifies a scaling approach of plot-based to airborne lidar to satellite imagery. A key aspect of the study is that they also produce maps of uncertainty around C stocks for the entire country.
+
+*Key notes: *
+
+The study used lidar data top-of-canopy height (TCH) to scale allometric estimates of biomass, and then subsequently plugged that into a quantitative model at the national level that employed lidar and satellite based data of elevation, slope, climate and fractional canopy cover to carbon storage patterns.
+
+The process achieved uncertainties of ~10%, which they note is within the bounds of uncertainty for plot-based estimates of AGC.
+
+The plot based and lidar based data was scaled to the national level using two different techniques: a) a RandomForest algorithm, and b) stratification of satellite input variables into 2039 unique classes.
+
+Interestingly, the study also notes the cost of plot-based vs. RS field work on a per ha scale. While 1-ha plot-based measurements of AGC cost 3-5k USD, 1-ha of lidar data collection is estimated at 1 USD. Although the total cost of flying lidar for Panama was large, the cost at a per ha scale was rather affordable.
+
+The uncertainty in regions in which they flew lidar is extremely low relative to other regions.
+
+*Key criticisms* - Wayne's key criticism is how they used the Chave generic allometric equation for all trees in the country, although I somewhat can understand the rationale here.
+
+
+
+
 
 ### Alongi, 2014 {#alongi2014}
 
