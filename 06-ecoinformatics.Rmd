@@ -448,9 +448,50 @@ Critically, invisible impacts, for example anthropogenic effects, may not induce
 
 Resilience often depends on variables that change slowly over time, and thus may be more easily "managed". Sharp perturbations are less predictable and thus are more difficult to manage. Thus, maintaining resilience is likely the most pragmatic means of managing ecosystems.
 
-### Riggs, 2008
+### Riggs, 2008 {#riggs2008}
 
-### Scheffer, 2009
+
+
+
+
+### Scheffer, 2009 {#scheffer2009}
+
+*"Early-warning signals for critical transitions"* [@scheffer2009early]
+
+**Key contribution: ** This paper follows up on Scheffer 2001 in that it addresses the issue of actually identifying early warning signals. The key issue here is predicting critical transitions, which is no easy task, may be facilitated by certain generic symptoms that occur as a system approaches a critical point.
+
+**Key notes: ** 
+
+*Bifurcations* 
+
+Catastrophic bifurcations - once a threshold is exceeded, a positive feedback propels system through phase of directional change towards contrasting state.
+
+Other important bifrucations include those that mark transitions from stable equilibrium to cyclic or chaotic attractor.
+
+*Theory*
+
+"Critical slowing down and its symptoms" - recovery rate of the system as it approaches a critical bifurcation can be used as an indicator of how close the system is to said bifurcation point. The *rate* of change is the criteria (approaches 0 with increasing proximity to critical bifurcation), and thus there is not risk of pushing a system into an alt stable state. Key symptoms are:
+
+  1. Slowing down leads to increase in autocorrelation in resulting pattern of fluctuations
+  2. Slowing down causes intrinsic rates of change to decrease, thus state of system increasingly resembles previous state (i.e., memory of system; can be seen through lag-1 autocorrelation)
+  3. Increased variance in pattern of fluctuations; given lagged response time, the effects of shocks become additive, increasing variance.
+
+Can use presence of natural perturbations to examine recovery rate.
+
+"Skewness and flickering":
+
+  - Skewness - asymmetry of fluctuations; characterized by the state existing in the unstable side of a bifurcation point longer than the stable side (refers to directionality of approach to bifurcation point)
+  - Flickering - occurs when stochastic forcing pushes the state back and forth between the basins of attraction; considered early warning because system may permanently shift to alternative stable state
+
+"Cyclic and chaotic systems" - may have transitions from stable systems to oscillatory systems; signaled by critical slowing down characterized by long transient oscillations
+
+"Spatial patterns as warning signals" - may have increased cross-correlation or spatial coherence among units before a critical event (e.g., presence of species in adjacent patch habitats)
+
+*Examples*
+
+Climate is one of most commonly examined as a messy "real-world" system. Analyses indicate that EWS may exist for abrupt shifts in climate (from tropical to ice-age). For example, increases in autocorrelation have been found, as well as flicking prior to Younger Dryas cold period.
+
+
 
 ### Boettiger, 2012 {#boettiger2012}
 
