@@ -406,7 +406,47 @@ Tidy data is particularly useful for modeling, and is a large part of why it is 
 
 ## Tipping points
 
-### Scheffer, 2001
+### Scheffer, 2001 {#scheffer2001}
+
+*"Catastrophic shifts in ecosystems"* [@scheffer2001catastrophic]
+
+**Key contribution: ** This article focuses on observed large-scale shifts in major ecosystems and their explanations. They provide both theoretical framework as well as overview of results from different ecosystems and highlight different patterns as well as implications for management.
+
+**Key notes: **
+
+*Theoretical framework*
+
+Catastrophic shifts occur abruptly, and thus "early-warning signals" of approaching catastrophic change are difficult to gather.
+
+"Hysteresis" - memory of the system; the path back to a pre-existing state is not simply achieved through reversing the changes that brought about the shifts in states. 
+
+"Resilience" - as defined by Holling is the size of the valley, or basin of attraction around a state, which corresponds to maximum perturbation that can be taken without causing a shift to an alt stable state.
+
+Gradually shifting environmental parameters may not induce a change in state, but may greatly impact the "resilience" of a particular basin of attraction.
+
+*Examples*
+
+Lakes - One of the most common examples is loss of water clarity and vegetation due to eutrophication in shallow lakes. A threshold appears to exist in which below that, nutrients have no effect but above it they induce stark state shifts.
+
+Hysteresis can be exemplified here as reduction in nutrient concentrations is not sufficient to reduce vegetation and return clarity to lake water.
+
+Desertification - Presence of desert vs vegetated landscapes may be conceived of as alt stable states. May occur through time as vegetation promotes more moist conditions and lack of vegetation promotes drier conditions. May have feedbacks with the climate in the Sahel region that produce alternating stable states.
+
+*Emerging patterns*
+
+Strongest cast for extistence of alt stable states is based on combinations of approaches, e.g., observations of repeated shifts, feedback mechanisms that maintain different states, or models showing mechanisms plausibly explain field data.
+
+Contrast in ecosystem states commonly seen by shift in dominance of organisms with different life forms.
+
+State shifts often induced by stochastic events.
+
+Feedbacks that stabilize states involve biological, physical, and chemical mechanisms.
+
+Critically, invisible impacts, for example anthropogenic effects, may not induce state shifts but may greatly impact the resilience of particular alternative stable states.
+
+*Management implications*
+
+Resilience often depends on variables that change slowly over time, and thus may be more easily "managed". Sharp perturbations are less predictable and thus are more difficult to manage. Thus, maintaining resilience is likely the most pragmatic means of managing ecosystems.
 
 ### Riggs, 2008
 
@@ -415,6 +455,12 @@ Tidy data is particularly useful for modeling, and is a large part of why it is 
 ### Boettiger, 2012 {#boettiger2012}
 
 *"Quantifying limits to detection of early warning for critical transitions"* [@boettiger2012quantifying]
+
+### Moffett, 2015 {#moffett2015}
+
+*"Multiple stable states and catastrophic shifts in coastal wetlands: Progress, challenges, and opportunities in validating theory using remote sensing and other methods"* [@moffett2015multiple]
+
+
 
 
 ## Decision-making
