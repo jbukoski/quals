@@ -558,6 +558,33 @@ Climate is one of most commonly examined as a messy "real-world" system. Analyse
 
 *"Quantifying limits to detection of early warning for critical transitions"* [@boettiger2012quantifying]
 
+**Key significance: ** This paper discusses the uncertainty and failures of simple statistical means of EWS in alternative stable state theory. They make the case for a model-based approach, which can help alleviate many of the shortcoming of a purely statistical approach.
+
+**Key notes: **
+
+Summary statistics approach commonly employs increasing trend in summary stats such as variance, autocorrelation, skew, or spectral ratio.
+
+*Shortcomings of summary stats approaches*
+
+There are many hidden assumptions that occur with use of summary statistics. Variance may increase for reasons that do not signal approaching transition.
+
+Approaches based on increasing trends in summary stats assume a changing parameter has brough system closer to a bifurcation. This assumption excludes at least three alternative explanations:
+
+  1. A large perturbation of the system state has moved system to alternative basin of attraction
+    - this perturbation is exogenous to system and thus would not be expected to be predicted
+  2. Purely noise-induced transition, chance fluctuation that happens to carry system across the boundary
+    - studies have shown it's unlikely EWS are able to detect these
+  3. System may pass through saddle-node bifurcation, but in rapid or highly nonlinear way making detection of gradual trends impossible.
+  
+Given that we do not have replicate systems in which to examine EWS or regime shifts, often use shifting window applied to single replicate over time. This is an issue as selection of the window size and whether or how much to overlap are arbitrary decsisions.
+
+Quantitative measures of early warning patterns do not exist.
+
+*Model-based approach*
+
+Read once through, but confused by math... need to go back and read a second time.
+
+
 ### Moffett, 2015 {#moffett2015}
 
 *"Multiple stable states and catastrophic shifts in coastal wetlands: Progress, challenges, and opportunities in validating theory using remote sensing and other methods"* [@moffett2015multiple]
