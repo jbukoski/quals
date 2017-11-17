@@ -552,8 +552,6 @@ Can use presence of natural perturbations to examine recovery rate.
 
 Climate is one of most commonly examined as a messy "real-world" system. Analyses indicate that EWS may exist for abrupt shifts in climate (from tropical to ice-age). For example, increases in autocorrelation have been found, as well as flicking prior to Younger Dryas cold period.
 
-
-
 ### Boettiger, 2012 {#boettiger2012}
 
 *"Quantifying limits to detection of early warning for critical transitions"* [@boettiger2012quantifying]
@@ -589,9 +587,37 @@ Read once through, but confused by math... need to go back and read a second tim
 
 *"Multiple stable states and catastrophic shifts in coastal wetlands: Progress, challenges, and opportunities in validating theory using remote sensing and other methods"* [@moffett2015multiple]
 
+**Key contribution: ** This provides an overview of using remote sensing to examine different alternative stable states in coastal ecosystems. The article is potentially worth a second read, particular the examples section in which they provide some details on systems outside of mangroves.
+
+**Key notes: **
+
+*Applying multiple stable state theory*
 
 
+"Multiple stable ecosystem states are created by coupled positive and negative feedbacks that link the ecological, hydrological and geomorphological processes in the coastal wetland environment in a self-reinforcing and relatively resilient manner"
 
+*Alt stable states in observation and management*
+
+Several characteristics of alternative stable states make them difficult to observe:
+
+  1. Impossible to uniquely define state of system with single observation points in time, but rather need knowledge of history of the system as well
+  2. Practical issue of scale in a system with potential alternative stable states; thus, need observations that span both time and space
+  
+Alternative stable states should give rise to two important and related phenomena:
+
+  1. Tendency for contrasting states to persist simultaneously along sharp boundary despite gradual change in underlying environmental conditions ("self-organized ecosystem patterning")
+    - May be induced by scale-dependent feedbacks
+  2. Ability of system to rapidly and wholly switch from one broad ecosystem state to another ("catastrophic ecosystem shift")
+
+*Alternative stable states in mangroves*
+
+"Runaway sedimentation" - One mechanism of forming alternative stable states in mangrove systems; as mangroves expand, they induce sedimentation that may eventually limit their expansion, and thus may reach a new stable state wherein the shoreline is no longer prograding
+
+Notion of alternative stable states may differ depending upon scale:
+
+  - At ecosystem scale may be cosnidered as mangroves vs. other coastal vegetated ecosystems
+  - Alternatively may also consider patch occurrence of different mangrove species or zonation
+  
 ## Decision-making
 
 ### Fischer, 2009
