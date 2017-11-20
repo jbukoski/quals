@@ -177,7 +177,6 @@ knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
 
   1. Are IBMs relevant for research questions at hand?
 
-
 ### Michener & Jones, 2012
 
 *"Ecoinformatics: Supporting ecology as a data intensive science"* [@michener2012ecoinformatics]
@@ -284,7 +283,7 @@ The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehe
   2. An introduction and overview of SEEK Extensible Observation Ontologies (OBOE)
   3. Several examples of use of OBOE for i) data discovery, ii) data summary, and iii) data integration
 
-**Notes:** 
+**Notes: ** 
 
 *Ontology* - "A representation of the knowledge within a domain of interest, defined via the concepts within the domain as well as the properties and relationships among domain objects"
 
@@ -682,6 +681,54 @@ Social factors can complicate things that may otherwise appear straightforward t
 *"Resilience thinking: Integrating resilience, adaptability and transformability"* [@folke2010resilience]
 
 **Key significance: **
+
+**Key notes: **
+
+"Resilience" as applied to ecological systems original came from Holling, 1973 and was related to capacity of a system to respond to stressors and yet retain underlying function, structure and characteristics.
+
+"Regime shifts"" become "critical transitions" when a system passes to a different stable domain. 
+
+One of main limitations of dynamical systems theory is that they do not account for fact that underlying nature of systems may change with time. Thus, understanding of social-ecological systems requires other concepts.
+
+*Adaptability and transformability*
+
+"Adaptability" - "capacity of actors in a system to influence resilience"
+
+"Transformability" - defined as capacity to create a fundamentally new structure when ecological, economic or social structures make existing system untenable
+
+Interface between the two and resilience is complex. Strategies that increase adaptability for socially desirable qualities may increase vulnerability of social-ecological systems to undesirable states.
+
+*Specified vs. general resilience*
+
+"Specified resilience" - resilience in reference to particular aspects or components of a system that may respond to a particular set of sources or shocks; "resilience of what, to what?"
+
+"General resilience" - resilience in reference to all sorts of shocks; coping with uncertainty in all ways
+
+Important to consider both, as often times one things in terms of specified resilience and thus may not be considering important or unexpected shocks.
+
+*Tranformability and resilience at multiple scales*
+
+Transformability may occur slowly as a result of underlying factors, or may be deliberately induced by social actions.
+
+Oftentimes, large-scale transformations of a system are too complex or expensive to perform, but sequential actions can allow for feedbacks that move a system towards another, as well as learning processes as decisions are made.
+
+Case studies of social ecological systems suggest transformations occur through three phases:
+
+  1. Being prepared for or even preparing the social ecological system for change
+  2. Navigating transition by making use of crisis as a window of opportunity for change
+  3. Building resilience of new social-ecological regime
+  
+
+
+*Questions for consideration*:
+
+  1. Are there deeper, slower variables in social systems, such as identity, core values, and worldviews that constrain adaptability?
+  2. What are the features of agency, actor groups, social learning, networks, organizations, institutions, governance structures, incentives, political and power relations or ethics that enhance or undermine social ecological resilience?
+  3. How can we assess social ecological thresholds and regime shifts and what governance challenges do they imply?
+  
+
+
+
 
 
 
