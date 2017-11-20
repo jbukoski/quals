@@ -676,6 +676,9 @@ Social factors can complicate things that may otherwise appear straightforward t
 
 *"Ecosystem stewardship: Sustainability strategies for a rapidly changing planet"* [@chapin2009ecosystem]
 
+
+
+
 ### Folke *et al*, 2010 {#folke2010}
 
 *"Resilience thinking: Integrating resilience, adaptability and transformability"* [@folke2010resilience]
@@ -726,11 +729,6 @@ Case studies of social ecological systems suggest transformations occur through 
   2. What are the features of agency, actor groups, social learning, networks, organizations, institutions, governance structures, incentives, political and power relations or ethics that enhance or undermine social ecological resilience?
   3. How can we assess social ecological thresholds and regime shifts and what governance challenges do they imply?
   
-
-
-
-
-
 
 ### Polasky *et al*, 2011 {#polasky2011}
 
@@ -798,7 +796,28 @@ Decision-making around global change may be thought of as two phases with contin
 
 ## Mangrove thresholds
 
-### Cavanaugh, 2014
+### Cavanaugh, 2014 {#cavanaugh2014}
+
+*"Poleward expansion of mangroves is a threshold response to decreased frequency of extreme cold events"* [@cavanaugh2014poleward]
+
+**Key contribution: ** This paper provides evidence for a threshold response of mangroves in terms of latitudinal limits, in which frequency of days colder than -4 deg C is key for mangrove presence.
+
+**Key notes: **
+
+Distribution modeling has informed hypotheses that mangroves and salt marshes exist due to thresholds at northern limits of mangrove range as a result of climatic variables.
+
+The study employs long-term satellite data coupled with historical temperature data spanning the coast of Florida to examine growth in extent of mangrove forest.
+
+**Key results: **
+
+Mangrove area within the band at the upper range of its limits (29 - 29.75 deg N) doubled over the 28 year period.
+
+Latitude 26.75 deg N existed as a breakpoint, in which areas north of that experience significant expansion and areas south of that did not experience significant expansion in extent.
+
+Expansion of mangroves, however, was not significantly associated with changes in mean annual or mean winter temperatures.
+
+It is unclear to me how exactly they distinguished between mangrove and other vegetation. They simply assume photosynthetic vegetation is mangroves but its possible it may have been another ecosystem type...
+
 
 ### Eslami-Andergoli, 2015
 
