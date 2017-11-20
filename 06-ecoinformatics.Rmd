@@ -485,7 +485,6 @@ Given that the "landscape" changes, not all potential alternative stable states 
 *Hysteresis* - the dependence of the state of a system on its history (i.e., memory); "hysteresis is revealed if the return trajectory of the equilibrium point differs from that adopted during its outward journey" <- here the outward journey is influencing the system (i.e., it "remembers" its return) and thus it exhibits a different return trajectory.
 
 
-
 ### Biggs, 2009 {#riggs2009}
 
 *"Turning back from the brink: Detecting an impending regime shift in time to avert it"* [@biggs2009turning]
@@ -512,7 +511,6 @@ Key finding is that within environmental management, there are key windows in wh
 In managing ecosystems, likely have variables that can be altered both quickly as well as those that change more slowly with time. Thus, may be able to "buy time" in altering the more reactive variables while progress is made on the slower-moving variables.
 
 Their findings show that some of the EWS indicators from Scheffer, 2009 might not be effective from a time-perspective. They use a spectral density ratio, which can be expressed in absolute terms and may be effective in identifying switches in attractors.
-
 
 
 ### Scheffer, 2009 {#scheffer2009}
@@ -551,6 +549,7 @@ Can use presence of natural perturbations to examine recovery rate.
 *Examples*
 
 Climate is one of most commonly examined as a messy "real-world" system. Analyses indicate that EWS may exist for abrupt shifts in climate (from tropical to ice-age). For example, increases in autocorrelation have been found, as well as flicking prior to Younger Dryas cold period.
+
 
 ### Boettiger, 2012 {#boettiger2012}
 
@@ -618,13 +617,73 @@ Notion of alternative stable states may differ depending upon scale:
   - At ecosystem scale may be cosnidered as mangroves vs. other coastal vegetated ecosystems
   - Alternatively may also consider patch occurrence of different mangrove species or zonation
   
+
 ## Decision-making
 
-### Fischer, 2009
+### Fischer *et al*, 2009 {#fischer2009}
 
-### Chapin, 2010
+*"Integrating resilience thinking and optimisation for conservation"* [@fischer2009integrating]
 
-### Folke, 2010
+**Key contribution: ** This article discusses the interface between resilience thinking (a perspective that embraces complexity and nonlinearities) with optimization (explicity acknowledgement of resource constraints on decision making), which are too voluminous literatures that are only beginning to become integrated.
+
+**Key notes: **
+
+"Resilience thinking" (perspective): 
+
+  - provides integrated perspective for analysis that emphasizes nonlinearities within a system as well as interdependency of social and ecological systems
+  - emphasizes interface of gradual changes with punctuated disturbances, feedbacks, alternative stable states, cross-scale relationships & regime shifts
+
+"Resilience" - capacity of a system to absorb disturbance and reorganize under change such that it restores its fundamental function, structure, identity and feedbacks
+
+"Optimisation for conservation" (tool): 
+
+  - An "outcome-oriented tool" that functions under resource scarcity to promote rational and transparent decision making
+
+Integrating the two:
+
+  - Given that one is a perspective and the other is a tool, this implies they may be relevant at different stages of a project or research program and thus may be integrated relatively efficiently
+  - Resilience thinking may be particularly useful in defining boundaries of a system (spatial and temporal scales as well as key actors or variables in a system)
+    - particular importance is involvement of key actors due to focus on social-ecological system
+    - thresholds are unknown thus may be seen as working hypotheses that are updated with new information
+  - Thus, optimal solution is an interative process and may potentially change given new insights
+
+The authors identify three themes worth particular attention:
+
+  1. Addressing social issues
+  2. Addressing uncertainties and interface with decision-making
+  3. Avoiding undesirable states that constrain reversibility
+
+*Social issues*
+
+Optimization may be well suited to handle some social issues (e.g., easily quantified finances), but less so for factors that are not easily quantified (human values, cultural practices). Can use optimization as part of social or political framework and analyze for lessons learned to understand these less-easily quantified factors, however.
+
+*Uncertainties*
+
+Uncertainties are common within social ecological systems and greatly complicate optimization techniques. 
+
+"Novel ecosystems" or co-occurrence of two or more species in a single place and time represents one such uncertainty-laden situation. Resilience thinking may help promote more effective science and management around such situations, for example focusing on "drivers" rather than "patterns".
+
+*Avoiding undesirable states*
+
+Key challenge is to maintain desirable states and avoid undesirable ones that are difficult to get out of.
+
+Social factors can complicate things that may otherwise appear straightforward to optimize. For example: 
+
+  - Protection of reserves may appear straight forward at first, but may not respond to climate change or other shifting environmental parameters
+  - Use of corridors or other connectivity networks thus may be important, but ultimately may not account for social, economic or political factors that impact the efficacy of connectivity plans
+  - Ultimately need to consider conservation efforts both inside as well as outside the reserves, as well as the key social factors that impact them
+
+### Chapin *et al*, 2009 {#chapin2010}
+
+*"Ecosystem stewardship: Sustainability strategies for a rapidly changing planet"* [@chapin2009ecosystem]
+
+### Folke *et al*, 2010 {#folke2010}
+
+*"Resilience thinking: Integrating resilience, adaptability and transformability"* [@folke2010resilience]
+
+**Key significance: **
+
+
 
 ### Polasky *et al*, 2011 {#polasky2011}
 
