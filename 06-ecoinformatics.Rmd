@@ -819,7 +819,42 @@ Expansion of mangroves, however, was not significantly associated with changes i
 It is unclear to me how exactly they distinguished between mangrove and other vegetation. They simply assume photosynthetic vegetation is mangroves but its possible it may have been another ecosystem type...
 
 
-### Eslami-Andergoli, 2015
+### Eslami-Andergoli, 2015 {#eslamiandergoli2015}
+
+*"Approaching tipping points: A focussed review of indicators and relevance to managing intertidal ecosystems"* [@eslami2015approaching]
+
+**Key contribution: ** This article reviews alternative stable state theory and early warning signals, with a particular focus on how it relates to intertidal ecosystems. They note the potential relevance of remote sensing as well as paleoecology & soil stratigraphy for understanding long-term shifts in regime over time.
+
+**Key notes: **
+
+The authors suggest three primary ways in which alternative stable state theory can be examined within intertidal systems:
+
+  1. Retrofitting data from long-term studies (i.e., coupling with external data sets to examine perturbations, shifts in state variables, and regime shifts)
+  2. Using remote sensing to predict regime shifts
+  3. Use paleoecological data to reconstruct developmental history of intertidal wetlands
+  
+They focus largely on gradually changing state variables rather than sharp perturbations, as slow changes are most relevant for management practices.
+
+They note the potential relevance of spatial datasets for understanding tipping points, as they may help identify autocorrelation or state changes. For example, Dale and Dale 2002 use transition matrix to examine shifts in salt marsh plant communities over time, with permanent shifts potentially indicative of a tipping point.
+
+In identifying EWS in intertidal systems, the scale at which one is considering things is important. Role of vegetation versus shifts in hydrology or sedimentation may have different impacts at different scales.
+
+Often may consider shifting expanse of mangroves and loss of sea grass habitat.
+
+*Challenges for indicators*
+
+The authors identify several key limitations for using indicators to indicate impending transitions:
+
+  1. Insufficient data or resolution within the data
+  2. Inaccurate or imprecise observation
+  3. Occurrence of large perturbation without any indication of EWS
+  4. Interactions of multiple tresholds and correlated process errors may obscure EWS
+  5. Systematic change in external perturbation regime over period leading to a shift
+  6. Uncertainty involved in identifying and modelling dynamic processes
+  7. Proposed EWS might not be detectable in some types of transition
+  8. Underlying stochasticity that is always present in a system, even given shifts in state variables
+  
+They make a call for long term monitoring, both from a field perspective as well as leverating remote sensing.
 
 ### Ellison, 2015
 
