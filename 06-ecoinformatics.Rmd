@@ -208,13 +208,28 @@ knitr::include_graphics(rep("images/feller2010ARMS.bmp"))
 knitr::include_graphics(rep("images/michenerjones2012.bmp"))
 ```
 
+### Ruegg, 2014 {#ruegg2014}
+
+*"Completing the data life cycle: Using information management in macrosystems ecology research"* [@ruegg2014completing]
+
+**Key contribution:** This article promotes the premise that macrosystem ecology requires integrated information management at its inception. In calling for "completing the data cycle," they refer to well-documenting datasets such that data may be re-used to answer new and different questions from those that are conceived by those involved in the original projects.
+
+The article is largely an extension of Michener and Jones (2012), and argues largely for extensive documentation of datasets to enhance longevity.
+
+**Notes: ** The study notes several key areas within the data life cycle:
+
+  1. Data collection: Incorporating information management early within the data collection process; critical to consider the structure and longevity of the dataset prior to collection such that it may be built upon and reused in the future
+  2. Data integration (1): Integrating data from many sources. Currently integration is not possible through an automated manner, though tools exist to help in data integration
+  3. Data integration (2): Integrating data from local observations to models and back requires unique considerations. Must understand spatial resolution of different datasets (e.g., field and RS data). Spatial and temporal issues exist for interpolation of field (e.g., point) datasets.
+  4. "Completing the data cycle": Documenting well and sharing facilitate analysis. Tools that show full data provenance and work flow can be effective in showing the full analysis and collection of a particular dataset.
+
 ### Soranno, 2014 {#sorrano2014}
 
 *"Cross-scale interactions: Quantifying multi-scaled cause -- effect relationships in macrosystems"* [@soranno2014cross]
 
 **Key significance:** This study calls for a need for more explicit investigation of cross scale interactions (CSIs) both in time and space. They lay out a framework for investigating CSIs that consists of i) conceptual mapping, ii) construction of an appropriate database (ecoinformatics), and iii) modeling strategies that specifically investigate interactions (e.g., interaction terms in hierarchical modeling).
 
-**Notes:** 
+**Notes: ** 
 
 The authors define two primary types of *cross scale interactions* (CSIs).
 
@@ -239,21 +254,6 @@ The authors explicitly model the interaction using Bayesian hierarchical models 
 The authors exemplify these steps in examining P nutrient additions in lake ecosystems in the US. Specifically, they encounter the issue in that wetland cover surrounding lakes leads to *both* increases and decreases in concentrations of P. They hypothesize that there are interactive effects between agricultural presence and wetland presence on lake P, and model the cross spatial scale interactivity between the two as an interaction term.
 
 The results are significant and lead the authors to additional hypotheses. The particular case study is facilitated by standardization of lake environmental quality data.
-
-### Ruegg, 2014 {#ruegg2014}
-
-*"Completing the data life cycle: Using information management in macrosystems ecology research"* [@ruegg2014completing]
-
-**Key contribution:** This article promotes the premise that macrosystem ecology requires integrated information management at its inception. In calling for "completing the data cycle," they refer to well-documenting datasets such that data may be re-used to answer new and different questions from those that are conceived by those involved in the original projects.
-
-The article is largely an extension of Michener and Jones (2012), and argues largely for extensive documentation of datasets to enhance longevity.
-
-**Notes: ** The study notes several key areas within the data life cycle:
-
-  1. Data collection: Incorporating information management early within the data collection process; critical to consider the structure and longevity of the dataset prior to collection such that it may be built upon and reused in the future
-  2. Data integration (1): Integrating data from many sources. Currently integration is not possible through an automated manner, though tools exist to help in data integration
-  3. Data integration (2): Integrating data from local observations to models and back requires unique considerations. Must understand spatial resolution of different datasets (e.g., field and RS data). Spatial and temporal issues exist for interpolation of field (e.g., point) datasets.
-  4. "Completing the data cycle": Documenting well and sharing facilitate analysis. Tools that show full data provenance and work flow can be effective in showing the full analysis and collection of a particular dataset.
 
 ## Ontologies
 
