@@ -1525,7 +1525,11 @@ The amount of glomalin was correlated to its age (determined via *immunoreactivi
 
 In the deposited sediments, glomalin did not correlate with geomorphological setting, but did exhibit differences between intertidal zones within riverine and tidal settings. The majority of glomalin deposited in riverine settings occurred in the scrub zone, whereas the majority in tidal settings occured in the fringe zone.
 
-## Soil carbon processes
+## Mangrove SOC
+
+### Lacerda, 1995
+
+*"Biogeochemistry of mangrove soil organic matter: A comparison between Rhizophora and Avicennia soils in southeastern Brazil"*
 
 ### Amundson, 2001
 
@@ -1551,20 +1555,28 @@ In the deposited sediments, glomalin did not correlate with geomorphological set
 
 *"Soil carbon stocks and accumulation in young mangrove forests"*
 
+### Atwood, 2017 {#atwood2017}
 
+*"Global patterns in mangrove soil carbon stocks and losses"* [@atwood2017global]
 
-## SOC spatial patterns
+**Key contribution: ** The study provides an updated estimate of SOC patterns globally, through the lens of national scales. 
 
-### Preface
+**Key notes: ** They describe the data quality (relatively poor) for SOC, although their database is likely less extensive than that of the ERL paper. They note the widespread prevalence of pedotransfer functions to estimate bulk density, as well as a common lack of SOC estimates deeper than 50 cm.
 
-### Twilley, 1992
+*National and global trends:*
 
-*"Carbon sinks in mangroves and their implications to carbon budget of tropical coastal ecosystems"*
+Found a pattern in mean SOC per ha across latitudinal bands, but did not find total SOC to correlate with latitudinal change.
 
-### Lacerda, 1995
+Found mixed species stands to have higher SOC than monospecific stands; stands with 5 genera had 70-90% higher soil C stocks than other richness levels. There are implications here, particularly for restoration efforts which typically focus on Rhizophora or Avicennia species.
 
-*"Biogeochemistry of mangrove soil organic matter: A comparison between Rhizophora and Avicennia soils in southeastern Brazil"*
+Almost all variation at national level was explained by extent of mangroves, which points to the need for improved methods for estimating and mapping mangrove area.
 
-### Atwood, 2017
+Data did not exist for 44 countries in which mangroves occur.
 
-*"Global patterns in mangrove soil carbon stocks and losses"*
+They did not examine variation in mean SOC density across nations or global scales.
+
+Indonesia, Malaysia, USA, and Brazil have the highest potential C emissions from deforestation, accounting for a total of approximately 86% of stocks. 
+
+Other countries with very high density (higher than these four) currently have low rates of deforestation, and thus may constrain total C emissions from mangroves. Prioritizing conservation of mangroves in these countries may be critical.
+
+Myanmar may be a highly significant country in terms of C emissions and deforestation.
