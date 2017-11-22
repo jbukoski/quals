@@ -1105,9 +1105,6 @@ The uncertainty in regions in which they flew lidar is extremely low relative to
 *Key criticisms* - Wayne's key criticism is how they used the Chave generic allometric equation for all trees in the country, although I somewhat can understand the rationale here.
 
 
-
-
-
 ### Alongi, 2014 {#alongi2014}
 
 *"Carbon cycling and storage in mangrove forests"* [@alongi2014carbon]

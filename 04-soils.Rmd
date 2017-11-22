@@ -1520,10 +1520,6 @@ In the deposited sediments, glomalin did not correlate with geomorphological set
 
 ## Mangrove SOC
 
-### Lacerda, 1995
-
-*"Biogeochemistry of mangrove soil organic matter: A comparison between Rhizophora and Avicennia soils in southeastern Brazil"*
-
 ### Amundson, 2001
 
 *"The carbon budget in soils"*
@@ -1582,19 +1578,63 @@ Carbon isotopes allow for understanding of primary production sources in an ecos
 
 ### Krauss, 2003
 
-*"Differential rates of vertical accretion and elevation change among aerial root types in Micronesian mangrove forests"*
+*"Differential rates of vertical accretion and elevation change among aerial root types in Micronesian mangrove forests"* [@krauss2003differential]
 
-### Lovelock, 2008
+**Key contribution: ** This study examines the differential effects of different root morphologies on sedimentation in mangroves. The study is summarized in Section \@ref(krauss2003).
 
-*"Soil respiration and belowground carbon allocation in mangrove forests"*
+### Lovelock, 2008 {#lovelock2008}
 
-### Breithaupt, 2012
+*"Soil respiration and belowground carbon allocation in mangrove forests"* [@lovelock2008soil]
+
+**Key contribution: ** Cath sought to examine variation in mangrove soil respiration as a result of forest structure and temperature at seven different sites, from 27 deg N to 37 deg S.
+
+Key findings were that soil respiration approximated that of terrestrial forests, and correlated with leaf area index and aboveground net primary production.
+
+**Key notes: **
+
+Lovelock examines soil respiration across a range of stands that represent a wide variety of forest structure, ANPP and climate. In doing so, she seeks to primarily answer:
+
+  1. Whether soil respiration is higher in taller forests compared to dwarf forests, reflecting differences in aboveground productivity
+  2. Whether total belowground carbon allocation (TBCA) in mangrove forests is related to ANPP with a similar relationship as that which exists in terrestrial forests
+  3. Whether dwarf mangroves, which are nutrient limited, have proportionally higher TBCA than taller forests
+  
+*Study design*
+
+Soil respiration was measured in conjunction with soil temperature at 2 cm depth, leaf area index, and tree height.
+
+In addition, TBCA was calculated using a mass balance approach:
+
+ $$ TBCA = F_{soil\ efflux} - F_{AG\ litter\ production} + F_{export} + F_{stored}$$
+ 
+ Assuming that export and storage are low relative to inputs and respiration,  the mass balance is simply:
+ 
+$$ TBCA = F_{soil\ efflux} - F_{AG\ litter\ production} $$
+
+$F_{soil\ efflux}$ was estimated via extrapolation of soil respiration measurements.
+
+*Key results*
+
+Soil respiration was similar for both dwarf forests and taller forests, and was approximately equivalent to terrestrial forests (though slightly on the lower end).
+
+Soil respiration also varied with forest LAI and soil temperature. Soil respiration increased to soil temperatures of approximately 25-27 deg C, and then decreased with further increases in temperature.
+
+*Key findings*
+
+Lovelock notes that the direct links between above- and below-ground processes facilitates scaling CO~2~ exchange measurements.
+
+The correlation between LAI and soil respiration could be a result of variation in allocation of biomass to fine root components, or due to variation in heterotrophic component of respiration across sites.
+
+LAI may be useful for estimating soil respiration over large spatial scales as it can be remotely sensed.
+
+High rates of soil respiration in dwarf forests relative to taller forests are unlikely to be due to respiration of live roots as live root densities, root growth rates and root respiration rates are low in dwarf forests. Rather, may be due to high rates of C exudation and high levels of heterotrophic respiration.
+
+### Breithaupt, 2012 {#breithaupt2012}
 
 *"Organic carbon burial rates in mangrove sediments: Strengthening the global budget"*
 
-### Lunstrum, 2014
+### Lunstrum, 2014 {#lunstrum2014}
 
-*"Soil carbon stocks and accumulation in young mangrove forests"*
+*"Soil carbon stocks and accumulation in young mangrove forests"* 
 
 ### Atwood, 2017 {#atwood2017}
 
