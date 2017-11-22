@@ -923,6 +923,43 @@ The authors identify several key limitations for using indicators to indicate im
   
 They make a call for long term monitoring, both from a field perspective as well as leverating remote sensing.
 
-### Ellison, 2015
+### Ellison, 2015 {#ellison2015}
+
+*"Vulnerability assessment of mangroves to climate change and sea-level rise impacts"* [@ellison2015vulnerability]
+
+**Key significance: ** The study reviews vulnerability of mangroves to climate change, and in particular sea level rise, and performs a study in which they seek to assess and measure vulnerabilities across mangrove sites in the Pacific with an end-goal of informing management of these systems.
+
+**Key notes: **
+
+Vulnerability as defined by Ellison has three components:
+
+  1. Exposure to stress
+  2. Associated sensitivity
+  3. Related adaptive capacity
+
+For mangroves, exposure to stress is dependent upon different hydrogeomorphological setting, but is perhaps most broadly impacted by sea level rise. Exposure is largely related to shifts in external influences that impinge upon the health of the system.
+
+Sensitivity relates more to the resilience of the system and is a function of characteristics of species or the system as a whole. Vulnerability may be shown by decline in condition, productivity, biodiversity or increase in mortality.
+
+Adaptive capacity may be expressed in mangroves by retreat inland. If sediment accretion rates cannot keep up with sea level rise, then migration is key adaptation response and is dependent upon suitable topography and available areas.
+
+*Vulnerability rankings*
+
+Studies have tried to rank vulnerabilities of different ecosystems and the factors that drive them, and mangrove and unconsolidated sedimentary shores or coastal wetlands have been ranked as having high vulnerability.
+
+*Assessing vulnerability of multiple mangrove sites globally*
+
+The study examined mangrove sites in Eastern Africa, Western Africa, and the Pacific Islands to attain measurements of vulnerability and inform management.
+
+The vulnerability assessment methodology seeks to identify aspects that may already be experience climate change impacts and may also be more susceptible to future impacts.
+
+The assessments considers range of metrics within the exposure, sensitivity and adaptive capacity categories. In distributing vulnerabilities amongst each of these categories, appropriate management options (a la Johnson, 2017) that are effective may be identified. Sea level rise, for example, may not be able to be controlled whereas barriers to forests migrating inland may be removed via land planning.
+
+The framework is generalized and allows for application at a broad range of sites. It incorporates both quantitative and qualitative metrics of vulnerability for the various sites.
+
 
 ### Sasmito, 2016
+
+*"Can mangroves keep pace with sea level rise? A global data review"* [@sasmito2016can]
+
+**Key contribution: ** This is a well-written study that looks at data of relative sea level rise and accretion rates in mangroves and assesses the abundance of empirical evidence indicating whether or not mangroves may keep pace with sea level rise. The article is summarized in section \@ref(#sasmito2016).
