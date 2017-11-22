@@ -358,8 +358,6 @@ Some researchers have considered mangroves as xerophytic systems (i.e., arid sys
 
 *Carbon assimilation* - The information provided here is cursory and simply points to a lack of information. Marilyn Ball has done much more work on this topic, particularly in relation to PWUE, and her articles should be referred to here.
 
-### Chapman, 1976, Ch. 10 {#chapman1976ch10}
-
 ### Ball, 1988 {#ball1988}
 
 *"Ecophysiology of mangroves"* [@ball1988ecophysiology]
@@ -568,13 +566,6 @@ Prolonged inundation, for example through sea level rise, reduces growth rates w
 **Biota** - Interacting effects of microconditions within the forest and biota, particularly insects or crabs that are predators of mangroves trees may be significant in establishement of seedlings.
 
 Additionally they can play important roles as ecosystem engineers, aerating soil, changing microtopography, or altering the texture of the soil.
-
-
-### Dangremond, 2015 {#dangremond2015}
-
-*"Environmental tolerances of rare and common mangroves along light and salinity gradients"* [@dangremond2015environmental]
-
-
 
 ## Trophic interactions
 

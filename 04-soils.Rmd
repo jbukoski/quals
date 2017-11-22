@@ -682,7 +682,6 @@ Low permeability related to sodic conditions is due to:
     
 In general, low salt concentrations and weakly attracted ions encourage soil dispersion and puddling, whereas high salt concentrations and strongly associated ions (calcium) promote clay flocculation and soil permeability.
 
-
 ### Soil organisms {#soilorganisms}
 
 Soil organisms range from macrofauna to microfauna, and tend to aggregate in zones of favorable conditions rather than be spread out evenly through the soil.
@@ -1081,8 +1080,6 @@ Factors that affect the availability of micronutrient cations include:
   - organic matter - decomposition of OM can result in slow release of micronutrients; additionally, binding of micronutrients to OM can protect micronutrients from binding to mineral complexes which makes them relatively more insoluble than when bound with OM
   mycorrhizae -- can be important in facilitating uptake of micronutrients
 
-
-
 ## Geomorphology {#geomorphology-soils}
 
 ### Thom, 1967
@@ -1150,7 +1147,6 @@ Additionally, Thom notes that his five suggested geomorphig settings *are not co
 knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 
 ```
-
 
 ### Thom, 1984 {#thom1984}
 
@@ -1248,7 +1244,6 @@ knitr::include_graphics(rep("images/thom1984.bmp"))
 
 *Note: * This is a key study that would be good to review again later.
 
-
 ### McKee, 2007
 
 *"Caribbean mangroves adjust to rising sea level through biotic controls on change in soil elevation"* [@mckee2007caribbean]
@@ -1316,8 +1311,6 @@ Focusing on vertical adjustment within a mangrove forests risks missing broader 
 
 
 ## Sedimentation and hydrology
-
-### Preface
 
 ### Wolanski, 1986 {#wolanski1986}
 
@@ -1535,9 +1528,57 @@ In the deposited sediments, glomalin did not correlate with geomorphological set
 
 *"The carbon budget in soils"*
 
-### Bouillon, 2003
+### Bouillon, 2003 {#bouillon2003}
 
-*"Sources of organic carbon in mangrove sediments: Variability and possible ecological implications"*
+*"Sources of organic carbon in mangrove sediments: Variability and possible ecological implications"* [@bouillon2003sources]
+
+**Key contribution: ** This study examines soil organic carbon at three different sites (one in India, two in Sri Lanka) and investigates various soil related parameters that may shed light on sourcing of organic carbon. The authors find high variability across the sites, and conclude that while at some sites mangrove contributions to SOC are very high, others may be dominated primarily by organic matter of marine origin.
+
+This is one of the first studies to examine sources of organic matter in mangrove sediments.
+
+**Key notes: **
+
+Concentrations of organic carbon, total nitrogen, elemental ratios (C/N) and carbon stable isotopes were taken from soil samples to 5 cm depth, as well as from leaf litter in each of the sites. The geomorphology and species compositions of each of the sites were different.
+
+C/N ratios of suspended particulate organic matter are typically much lower that those of mangrove litter and thus may act as an important source of N in sediment food webs.
+
+*Study design*
+
+They sampled soil and leaf litter as well as compose mixing models to investigate the relative contributions of mangrove derived organic matter versus marine derived organic matter.
+
+Mixing models are a way of modeling relative contributions (often two end-members) to a system. In this case, it is the contribution of mangrove derived versus marine derived organic matter to total sediment organic matter.
+
+*Key results*
+
+Sediments underneath Rhizophora were found to have higher OC concentrations than Avicennia and Excoecaria species at two of the sites.
+
+Lower OC concentrations coincided with lower C/N ratios and less negative C-13 isotope values, whereas soils with rich OC concentrations had higher C/N ratios and C-13 values closer to those of the mangrove leaf litter.
+
+Appears there is an inverse relationship between OC content and C-13 values.
+
+Although they note that organic C in mangrove sediment may originate entirely from mangrove-derived organic matter, they note that this is likely to be not the norm.
+
+From the Coringa site, they find that suspended OM in the water column is significant and likely derived from phytoplankton-derived matter.
+
+They describe the differences as "flow-through" systems versus "accumulation" systems, which may largely be a result of tidal amplitude (flushing) of system.
+
+Mangrove litter has relatively high C/N ratio, and thus the influx of marine organic matter may be significant for provisioning of N rich material to microbial communities.
+
+**Notes on stable isotopes**
+
+Stable isotopes can be used for sourcing of organic matter and are commonly used in marine ecosystems.
+
+Stable isotope compositions are typically expressed in "parts per thousand differences from a standard." I.e.:
+
+$$\delta X = [(R_{sample}/R_{standard})-1]*10^{3} $$
+Where:
+
+  - X represents the isotope of interest (i.e., ^13^C)
+  - R represents ratio of isotope of interest and its standard form (^13^C to ^12^C).
+  
+Higher values (less negative) represent increases in concentrations of the isotope of interest relative to the standard, whereas lower values represent decreases in isotope of interest relative to standard.
+
+Carbon isotopes allow for understanding of primary production sources in an ecosystem. Transfer of ^13^C through trophic levels is relatively the same, except for slight increase (<1 ppt) in concentration.
 
 ### Krauss, 2003
 
