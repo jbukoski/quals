@@ -711,7 +711,7 @@ Social factors can complicate things that may otherwise appear straightforward t
 
 *"Resilience thinking: Integrating resilience, adaptability and transformability"* [@folke2010resilience]
 
-**Key significance: **
+**Key significance: ** This study reviews resilience thinking and describes the concepts of "resilience", "adaptability", and "transformability" as they relate to it. Prompted largely by the issue in that dynamical systems theory doesn't necessarily account for inherent dynamism in systems in that they change naturally over time.
 
 **Key notes: **
 
@@ -885,7 +885,6 @@ Latitude 26.75 deg N existed as a breakpoint, in which areas north of that exper
 Expansion of mangroves, however, was not significantly associated with changes in mean annual or mean winter temperatures.
 
 It is unclear to me how exactly they distinguished between mangrove and other vegetation. They simply assume photosynthetic vegetation is mangroves but its possible it may have been another ecosystem type...
-
 
 ### Eslami-Andergoli, 2015 {#eslami2015}
 
