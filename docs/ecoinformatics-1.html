@@ -273,13 +273,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 <li class="chapter" data-level="6.4" data-path="decision-making.html"><a href="decision-making.html"><i class="fa fa-check"></i><b>6.4</b> Decision-making</a><ul>
 <li class="chapter" data-level="6.4.1" data-path="decision-making.html"><a href="decision-making.html#fischer2009"><i class="fa fa-check"></i><b>6.4.1</b> Fischer <em>et al</em>, 2009</a></li>
-<li class="chapter" data-level="6.4.2" data-path="decision-making.html"><a href="decision-making.html#chapin2010"><i class="fa fa-check"></i><b>6.4.2</b> Chapin <em>et al</em>, 2009</a></li>
-<li class="chapter" data-level="6.4.3" data-path="decision-making.html"><a href="decision-making.html#folke2010"><i class="fa fa-check"></i><b>6.4.3</b> Folke <em>et al</em>, 2010</a></li>
-<li class="chapter" data-level="6.4.4" data-path="decision-making.html"><a href="decision-making.html#polasky2011"><i class="fa fa-check"></i><b>6.4.4</b> Polasky <em>et al</em>, 2011</a></li>
+<li class="chapter" data-level="6.4.2" data-path="decision-making.html"><a href="decision-making.html#folke2010"><i class="fa fa-check"></i><b>6.4.2</b> Folke <em>et al</em>, 2010</a></li>
+<li class="chapter" data-level="6.4.3" data-path="decision-making.html"><a href="decision-making.html#polasky2011"><i class="fa fa-check"></i><b>6.4.3</b> Polasky <em>et al</em>, 2011</a></li>
+<li class="chapter" data-level="6.4.4" data-path="decision-making.html"><a href="decision-making.html#johnson2017"><i class="fa fa-check"></i><b>6.4.4</b> Johnson <em>et al</em>, 2017</a></li>
 </ul></li>
 <li class="chapter" data-level="6.5" data-path="mangrove-thresholds.html"><a href="mangrove-thresholds.html"><i class="fa fa-check"></i><b>6.5</b> Mangrove thresholds</a><ul>
 <li class="chapter" data-level="6.5.1" data-path="mangrove-thresholds.html"><a href="mangrove-thresholds.html#cavanaugh2014"><i class="fa fa-check"></i><b>6.5.1</b> Cavanaugh, 2014</a></li>
-<li class="chapter" data-level="6.5.2" data-path="mangrove-thresholds.html"><a href="mangrove-thresholds.html#eslamiandergoli2015"><i class="fa fa-check"></i><b>6.5.2</b> Eslami-Andergoli, 2015</a></li>
+<li class="chapter" data-level="6.5.2" data-path="mangrove-thresholds.html"><a href="mangrove-thresholds.html#eslami2015"><i class="fa fa-check"></i><b>6.5.2</b> Eslami-Andergoli, 2015</a></li>
 <li class="chapter" data-level="6.5.3" data-path="mangrove-thresholds.html"><a href="mangrove-thresholds.html#ellison-2015"><i class="fa fa-check"></i><b>6.5.3</b> Ellison, 2015</a></li>
 <li class="chapter" data-level="6.5.4" data-path="mangrove-thresholds.html"><a href="mangrove-thresholds.html#sasmito-2016"><i class="fa fa-check"></i><b>6.5.4</b> Sasmito, 2016</a></li>
 </ul></li>
@@ -366,7 +366,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p><strong>Key notes</strong>: Some relevant points from the article:</p>
 <p>A focus on “experimental” design and testing of multiple hypotheses makes ecological data inherently heterogeneous.</p>
 <p>Ecoinformatics importance is housed in ability to “allow a broader perspective over time and space, and across many disciplines, than is possible from on or a few studies,” and in allowing data to be reused for questions that may emerge in the future (thus may fit well with “biocomplex” framework).</p>
-<p>Current standard for storing of data is in heterogeneous spreadsheets.</p>
+<p>Current standard for storing of data is in heterogeneous spreadsheets, which are termed “data islands”.</p>
+<p>The response of ecoinformatics to resolving issues related to data islands are largely:</p>
 <ul>
 <li><em>Data warehouses (vertically-integrated)</em> - databases that coalesce data from many investigators, but focus on one theme and are searchable often through an online interface
 <ul>
@@ -387,13 +388,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Geographic Markup Language (GML)</li>
 <li>Knowledge Network for Biocomplexity (KNB) - a metadata-drive repo that provides mappings from EML to BDP (but not from BDP to EML as of time of article publication)</li>
 </ol></li>
-<li><em>Data islands</em> - data derived from researchers working on disparate, autonomous topics that focus on specific, predetermined hypotheses</li>
 </ul>
 <p>Databasing and development of meta data is often subject to entrenched domain-specific vocabularies and also assumptions; ontologies may be a way of resolving this limitation</p>
 <p>“Ontologies”*&quot; - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as formal mappings of how the terms interrelate</p>
 <ul>
 <li>“Science Environment for Ecological Knowledge (SEEK)” - one example of a system developing ontologies within ecology</li>
-<li>“DarwinCore”- another provider of ontologies, particularly for evolution related concepts.</li>
+<li>“Darwin Core”- another provider of ontologies, particularly for evolution related concepts; extension of Dublin Core for biodiversity informatics (GBIF uses it)</li>
 </ul>
 <p><strong>Further reading:</strong></p>
 <ol style="list-style-type: decimal">
@@ -479,7 +479,11 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>perhaps analogous to “services” or “benefits”</li>
 </ul></li>
 </ol>
-<p><em>Emergent properties</em> - concept that the whole is greater than the sum of its parts when examining ecological phenomena and the underlying processes that drive them. Emergent properties can exist at any scale, and may build upon themselves (e.g., morphology and physico-chemical conditions leading to ecophysiology (emergent property) which then leads to spatial assemblages (2<sup>nd</sup> emergent property), etc.). It may be helpful to think of different emergent properties at different scales of time and space.</p>
+<p><em>Emergent properties</em> - concept that the whole is greater than the sum of its parts when examining ecological phenomena and the underlying processes that drive them. Emergent properties can exist at any scale, and may build upon themselves</p>
+<ul>
+<li>e.g., morphology and physico-chemical conditions leading to ecophysiology (emergent property) which then leads to spatial assemblages (2<sup>nd</sup> emergent property), etc.).</li>
+<li>it may be helpful to think of different emergent properties at different scales of time and space.</li>
+</ul>
 <p>Three primary characteristics of emergent properties exist:</p>
 <ol style="list-style-type: decimal">
 <li>Emergent properties are not simply the sum of their parts</li>
@@ -489,19 +493,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>Examples of emergent properties within mangroves are ecophysiological traits (as listed above) that emerge from the interaction between biochemical and morphological traits with environmental factors.</p>
 <p>Individual Based Models (IBMs) are discussed as useful though limited tools for examining biocomplexity within mangroves, but note that there is relatively little work in this field to date. See section <a href="zonation.html#chentwilley1998">3.1.10</a> for an example of using IBMs within mangroves.</p>
 <p><img src="images/feller2010ARMS.bmp" /><!-- --></p>
-<p><strong>Relevance to research:</strong></p>
-<ol style="list-style-type: decimal">
-<li>Are IBMs relevant for research questions at hand?</li>
-</ol>
 </div>
 <div id="michener-jones-2012" class="section level3">
 <h3><span class="header-section-number">6.1.7</span> Michener &amp; Jones, 2012</h3>
 <p><em>“Ecoinformatics: Supporting ecology as a data intensive science”</em> <span class="citation">(Michener and Jones <a href="#ref-michener2012ecoinformatics">2012</a>)</span></p>
 <p><strong>Key contribution: </strong> This is a seminal study on the relevance of ecoinformatics written by two of the leading thinkers in the field.</p>
 <p><strong>Key notes: </strong> Several key notes from the study are:</p>
-<ul>
-<li>The authors describe the “data life cycle,”&quot; with 8 steps that do not necessarily occur in sequential order and depend upon the analysis and research question at hand.</li>
-<li>The steps are:
+<p>The authors describe the “data life cycle,”&quot; with 8 steps that do not necessarily occur in sequential order and depend upon the analysis and research question at hand:</p>
 <ol style="list-style-type: decimal">
 <li><em>Plan</em> - derive a data management plan that is often a living document as needs and uses for data will change over time</li>
 <li><em>Collect</em> - there are highly variable mechanisms under which this occur given the vast amount of data types and collecting methods that exist; standardization in collection procedures is key for synthesizing data at later times</li>
@@ -511,34 +509,42 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><em>Discover</em> - identifying appropriate data for research question of interest; double-edged sword in that you can get millions of hits or alternatively have tons of distinct data sources that exist only on disparate, local machines. DataONE is one such tool that drills down into data to identify datasets of actual interest; this is where ontologies come into play</li>
 <li><em>Integrate</em> - understanding methodological differences, transforming to common representations and converting and recoding data to comparable semantics</li>
 <li><em>Analyze</em> - reproducibility in analysis, with a particular focus on scientific workflows</li>
-</ol></li>
-</ul>
+</ol>
+<p>A schematic of the data life cycle that the authors provide is:</p>
+<p><img src="images/michenerjones2012.bmp" /><!-- --></p>
 <p><em>DataONE:</em> DataONE is a research platform that seeks to support the entire data life cycle, as well as integrate many different forms of data. There are three principle components:</p>
 <ol style="list-style-type: decimal">
 <li>Member Nodes - contribute data, computing resources and services (e.g., data repositories, universities, computing centers)</li>
 <li>Coordinating Nodes - support network-wide services such as indexing, replication, and interactability of Member Nodes</li>
 <li>Investigator Toolkit - tools for researchers to employ in all steps of the data life cycle</li>
 </ol>
-<p><strong>Schematic of the data life cycle:</strong></p>
-<p><img src="images/michenerjones2012.bmp" /><!-- --></p>
 </div>
 <div id="ruegg2014" class="section level3">
 <h3><span class="header-section-number">6.1.8</span> Ruegg, 2014</h3>
 <p><em>“Completing the data life cycle: Using information management in macrosystems ecology research”</em> <span class="citation">(Rüegg et al. <a href="#ref-ruegg2014completing">2014</a>)</span></p>
 <p><strong>Key contribution:</strong> This article promotes the premise that macrosystem ecology requires integrated information management at its inception. In calling for “completing the data cycle,” they refer to well-documenting datasets such that data may be re-used to answer new and different questions from those that are conceived by those involved in the original projects.</p>
 <p>The article is largely an extension of Michener and Jones (2012), and argues largely for extensive documentation of datasets to enhance longevity.</p>
-<p><strong>Notes: </strong> The study notes several key areas within the data life cycle:</p>
+<p><strong>Key notes: </strong> The study notes several key areas within the data life cycle:</p>
 <ol style="list-style-type: decimal">
 <li>Data collection: Incorporating information management early within the data collection process; critical to consider the structure and longevity of the dataset prior to collection such that it may be built upon and reused in the future</li>
 <li>Data integration (1): Integrating data from many sources. Currently integration is not possible through an automated manner, though tools exist to help in data integration</li>
-<li>Data integration (2): Integrating data from local observations to models and back requires unique considerations. Must understand spatial resolution of different datasets (e.g., field and RS data). Spatial and temporal issues exist for interpolation of field (e.g., point) datasets.</li>
+<li>Data integration (2): Integrating data from local observations to models and back requires unique considerations
+<ul>
+<li>Must understand spatial resolution of different datasets (e.g., field and RS data).</li>
+<li>Spatial and temporal issues exist for interpolation of field (e.g., point) datasets.</li>
+</ul></li>
 <li>“Completing the data cycle”: Documenting well and sharing facilitate analysis. Tools that show full data provenance and work flow can be effective in showing the full analysis and collection of a particular dataset.</li>
 </ol>
 </div>
 <div id="sorrano2014" class="section level3">
 <h3><span class="header-section-number">6.1.9</span> Soranno, 2014</h3>
 <p><em>“Cross-scale interactions: Quantifying multi-scaled cause – effect relationships in macrosystems”</em> <span class="citation">(Soranno et al. <a href="#ref-soranno2014cross">2014</a>)</span></p>
-<p><strong>Key significance:</strong> This study calls for a need for more explicit investigation of cross scale interactions (CSIs) both in time and space. They lay out a framework for investigating CSIs that consists of i) conceptual mapping, ii) construction of an appropriate database (ecoinformatics), and iii) modeling strategies that specifically investigate interactions (e.g., interaction terms in hierarchical modeling).</p>
+<p><strong>Key significance:</strong> This study calls for a need for more explicit investigation of cross scale interactions (CSIs) both in time and space. They lay out a framework for investigating CSIs that consists of:</p>
+<ol style="list-style-type: decimal">
+<li>Conceptual mapping</li>
+<li>Construction of an appropriate database (ecoinformatics)</li>
+<li>Modeling strategies that specifically investigate interactions (e.g., interaction terms in hierarchical modeling).</li>
+</ol>
 <p><strong>Notes: </strong></p>
 <p>The authors define two primary types of <em>cross scale interactions</em> (CSIs).</p>
 <ol style="list-style-type: decimal">
@@ -558,12 +564,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Compilation of multi-scaled, multi-themed databases
 <ul>
 <li>Summarize independent variables at multiple scales</li>
-<li>Resolve differences in data resolution</li>
-<li>This is where ecoinformatics is worked in</li>
+<li>Resolve differences in data resolution (ecoinformatics helpful here)</li>
 </ul></li>
-<li>Test for CSI as interaction term using Bayesian hierarchical models</li>
+<li>Test for CSI as interaction term using hierarchical models</li>
 </ol>
-<p>The authors exemplify these steps in examining P nutrient additions in lake ecosystems in the US. Specifically, they encounter the issue in that wetland cover surrounding lakes leads to <em>both</em> increases and decreases in concentrations of P. They hypothesize that there are interactive effects between agricultural presence and wetland presence on lake P, and model the cross spatial scale interactivity between the two as an interaction term.</p>
+<p><em>Example provided by authors</em></p>
+<p>The authors exemplify these steps in examining P nutrient additions in lake ecosystems in the US.</p>
+<p>Specifically, they encounter the issue in that wetland cover surrounding lakes leads to <em>both</em> increases and decreases in concentrations of P. They hypothesize that there are interactive effects between agricultural presence and wetland presence on lake P, and model the cross spatial scale interactivity between the two as an interaction term.</p>
 <p>The results are significant and lead the authors to additional hypotheses. The particular case study is facilitated by standardization of lake environmental quality data.</p>
 </div>
 </div>
