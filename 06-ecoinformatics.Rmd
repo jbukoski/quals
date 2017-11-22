@@ -962,4 +962,4 @@ The framework is generalized and allows for application at a broad range of site
 
 *"Can mangroves keep pace with sea level rise? A global data review"* [@sasmito2016can]
 
-**Key contribution: ** This is a well-written study that looks at data of relative sea level rise and accretion rates in mangroves and assesses the abundance of empirical evidence indicating whether or not mangroves may keep pace with sea level rise. The article is summarized in section \@ref(#sasmito2016).
+**Key contribution: ** This is a well-written study that looks at data of relative sea level rise and accretion rates in mangroves and assesses the abundance of empirical evidence indicating whether or not mangroves may keep pace with sea level rise. The article is summarized in section \@ref(sasmito2016).
