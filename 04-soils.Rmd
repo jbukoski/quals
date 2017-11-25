@@ -1592,6 +1592,9 @@ Several key questions exist per understanding the role of SOC in the global CO~2
     - Fractional loss of C is controlled by climate.
   3. How quickly will soils recover C if reverted to original flora?
     - Initial rates are quite high, but drop off exponentially with time. Often times, inputs of OM to the soil system are limited by N availability.
+    - Production and transport of N fertilizers can be greenhouse gas intensive and may reduce the GHG reduction potential of SOC inputs from both reverting ecosystems to native flora as well as enhanced agricultural management practices.
+  4. How will global SOC change with increasing temperatures?
+    - Only a fraction of SOC is cycled on time scales relevant for climate change, however it is expected that SOC emissions will increase with increasing temperature, and may be a significant positive feedback response for climate change.
 
 ### Bouillon, 2003 {#bouillon2003}
 
