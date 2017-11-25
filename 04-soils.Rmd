@@ -1520,9 +1520,78 @@ In the deposited sediments, glomalin did not correlate with geomorphological set
 
 ## Mangrove SOC
 
-### Amundson, 2001
+### Amundson, 2001 {#amundson2001}
 
-*"The carbon budget in soils"*
+*"The carbon budget in soils"* [@amundson2001carbon]
+
+**Key contribution:**
+
+**Key notes: ** This article provides a review of the interface between soils and the global carbon budget. Discussion of its significance, different methods for estimating global SOC stocks, and the impacts of human activities on it.
+
+*Soil organic matter:*
+
+Soil organic matter is defined as organic remains of plants and animals that is either recognizable or has decomposed to the point in which it is no longer recognizable (humus). SOM may be living or non-living, and microbial communities form a key component that is primarily responsible for the cycling of OM.
+
+*Global soil C reservoir*
+
+Two primary approaches to estimating it:
+
+  1. Soil taxonomy - mean SOC values by soil taxon are extrapolated to their areal coverage globally via soil maps
+  2. Ecosystem-based approaches - based on observation that SOC and plant communities are both largely a function of temperature and precipitation, and thus use the Holdridge ecological life biomes. Mean SOC values are estimated by biome, and extrapolated to the total areal coverage
+  
+Estimates as of 2001 estimated total SOC within the top meter of soil to be approximately 1,500 Gt C
+
+*Controls of SOC*
+
+State factors of soil formation + human activity (Climate, Organisms, Parent material, Topography, Time, Humans).
+
+Different pools of SOC exist, which have varying degrees of susceptibility to being cycled:
+
+  1. Fast (10^0^ years) - e.g., fresh plants and roots
+  2. Slow (10^1-2^ years)
+  3. Passive (10^3-4^ years) - physically or chemically protected OM
+  
+Change in SOC with time can be expressed as:
+
+  $$ dC/dt = I -kC$$
+
+Where I is the SOC input, k is the fraction of C lost as CO~2~ each year, and C is the mass of C per soil volume.
+
+*Variation of SOC with time*
+
+Two general approaches exist for determining rates of SOC accumulation and cycling over time:
+
+  1. Chronosequences - which monitor SOC in soils of different ages but with similar environments and bedrock
+  2. Mass balance approach - C cycling rates are inferred for soils near or at steady state
+  
+In using chronosequences, need to constrain time period in which one looks because of the importance of climate on SOC cycling. Most chronosequences of SOC are constrained to the Holocene period.
+
+Understanding of SOC dynamics from using chronosequences includes:
+
+  1. C accumulates in soils for thousands of years (perhaps as long as 10,000 years)
+  2. Accumulation rates decrease with time, eventually approaching 0 as steady state is reached
+  3. Steady-state C is related to climate and other environmental factors
+  4. Rates of C accumulation in young soils are likely controlled by N availability in ecosystem
+  
+Understandin of SOC dynamics from mass balance approach:
+
+At steady state, inputs can be assumed to equate to the decay of C present, thus: $I = kC$. For soils at or near steady state, total C and either losses or inputs can be measured to derive the decay constant.
+
+*Soils in global CO~2~ cycle*
+
+Several key questions exist per understanding the role of SOC in the global CO~2~ cycle:
+
+  1. Are undisturbed soils sequestering atmospheric CO~2~?
+    - They may be. Particularly for young soils that are not at steady state and may not be newly exposed to increasing temperatures and OM inputs (i.e., northern Canadian soils that were priorly glaciated).
+  2. What is the effect of cultivation on SOC storage and atmospheric CO~2~?
+    - Several key points are provided:
+    - Soils initially low in C often will gain C upon cultivation.
+    - At global scales, cultivation reduces SOC content by approximately 30%.
+    - Rate of C loss is a function of climate
+    - Agricultural soils approach new C steady states in approximately 100 years.
+    - Fractional loss of C is controlled by climate.
+  3. How quickly will soils recover C if reverted to original flora?
+    - Initial rates are quite high, but drop off exponentially with time. Often times, inputs of OM to the soil system are limited by N availability.
 
 ### Bouillon, 2003 {#bouillon2003}
 
@@ -1635,6 +1704,8 @@ High rates of soil respiration in dwarf forests relative to taller forests are u
 ### Lunstrum, 2014 {#lunstrum2014}
 
 *"Soil carbon stocks and accumulation in young mangrove forests"* 
+
+
 
 ### Atwood, 2017 {#atwood2017}
 
