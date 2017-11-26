@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-11-24">
+<meta name="date" content="2017-11-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -228,8 +228,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.2.13" data-path="vegetation.html"><a href="vegetation.html#giri2014"><i class="fa fa-check"></i><b>5.2.13</b> Giri <em>et al</em>, 2014</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html"><i class="fa fa-check"></i><b>5.3</b> Geomorphology</a><ul>
-<li class="chapter" data-level="5.3.1" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#hess-1990"><i class="fa fa-check"></i><b>5.3.1</b> Hess, 1990</a></li>
-<li class="chapter" data-level="5.3.2" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#imhoff-1990"><i class="fa fa-check"></i><b>5.3.2</b> Imhoff, 1990</a></li>
+<li class="chapter" data-level="5.3.1" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#hess1990"><i class="fa fa-check"></i><b>5.3.1</b> Hess <em>et al</em>, 1990</a></li>
+<li class="chapter" data-level="5.3.2" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#imhoff1990"><i class="fa fa-check"></i><b>5.3.2</b> Imhoff, 1990</a></li>
 <li class="chapter" data-level="5.3.3" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#souza-filho-2003"><i class="fa fa-check"></i><b>5.3.3</b> Souza-Filho, 2003</a></li>
 </ul></li>
 <li class="chapter" data-level="5.4" data-path="monitoring.html"><a href="monitoring.html"><i class="fa fa-check"></i><b>5.4</b> Monitoring</a><ul>
@@ -308,14 +308,58 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
             <section class="normal" id="section-">
 <div id="rs-geomorphology" class="section level2">
 <h2><span class="header-section-number">5.3</span> Geomorphology</h2>
-<div id="hess-1990" class="section level3">
-<h3><span class="header-section-number">5.3.1</span> Hess, 1990</h3>
+<div id="hess1990" class="section level3">
+<h3><span class="header-section-number">5.3.1</span> Hess <em>et al</em>, 1990</h3>
+<p><em>“Radar detection of flooding beneath the forest canopy: A review”</em> <span class="citation">(Hess, Melack, and Simonett <a href="#ref-hess1990radar">1990</a>)</span></p>
+<p><strong>Key significance: </strong> This reviews many of the earliest studies that employ SAR imagery for mapping of inundated versus non-inundated forest types.</p>
+<p><strong>Key notes: </strong></p>
+<p>Of key importance for mapping of flooded vs. non-flooded forests is the fact that SAR imagery has a much more intense return off of water versus dry soil or trunks. Thus, the “double-bounce” effect off of a water surface is much stronger than that from soil &amp; then tree.</p>
+<p>An excellent schematic of this effect is shown below:</p>
+<p><img src="images/hess1990.bmp" /><!-- --></p>
+<p><em>Accuracy of flood detection</em></p>
+<p>Some have found an issue in that canopy that is too dense may attenuate the signal at too great of a degree, and thus the difference between the more intense return from flooded forests may not be apparent (L-band).</p>
+<p>Additionally, presence of herbaceous vegetation (e.g., salt marshes) adjacent to flooded forests may erroneously appear as “flooded” forest using L-band. The bright return may be a result of the fleshy, vertically-oriented leaf stalks. These areas are still flooded, however, and thus it may still be effective for mapping of flooding extent, perhaps just not between flooded forest vs. flooded non-forest.</p>
+<p><em>Magnitude of enhancement</em></p>
+<p>Enhancement from flooded forest may range from approximately 2 - 10 dB.</p>
+<p><em>Effect of radar parameters</em></p>
+<p>Of primary importance are three considerations:</p>
+<ol style="list-style-type: decimal">
+<li>Incidence angle - angles at which imagery is collected vary greatly, and may be an important parameter for efficacy of detecting flooding
+<ul>
+<li>The most effective angle may depend on the ecosystem type. Flooded forests verses swamps may exhibit different dominant backscattering mechanisms.</li>
+</ul></li>
+<li>Polarization - the polarization of the radar may effect the efficacy of the return in identifying inundated landscapes
+<ul>
+<li>Majority of studies have used HH polarization (Seasat, SIR-A, SIR-B)</li>
+<li>Qualitative assessments are consistent in findings that like-polarized scenes (HH or VV) are more effective at identifying flooded forests via L-band</li>
+</ul></li>
+<li>Frequency - use of P-, L-, or X-band may have different dominant backscattering mechanisms, and thus may influence detection of inundation.
+<ul>
+<li>L-band commonly used due to ability to penetrate dense canopies, however may have have some limitations</li>
+<li>P-band may be promising for mapping of inundated forests in forests that are very tall or with very dense canopies</li>
+</ul></li>
+</ol>
+<p><em>Applications in flooded forest research</em></p>
+<p>Critical to examine the temporal and spatial variability of water cover. An important component is availability of ground data on extent and time of flooding at the time of imaging, particularly tricky for tidally inundated forests.</p>
+<p>Additionally, for forests with aboveground root structures (i.e., mangroves), scattering of the signal by aboveground roots may reduce the signal and reduce ability to identify inundated forests.</p>
 </div>
-<div id="imhoff-1990" class="section level3">
+<div id="imhoff1990" class="section level3">
 <h3><span class="header-section-number">5.3.2</span> Imhoff, 1990</h3>
+<p><em>“The derivation of a sub-canopy digital terrain model of a flooded forest using synthetic aperture radar”</em> <span class="citation">(Imhoff and Gesch <a href="#ref-imhoff1990derivation">1990</a>)</span></p>
+<p><strong>Key significance: </strong> This is one of the earliest uses of SAR imagery to map digital terrain models and understand tidal inundation in a mangrove forest. The study couples both SAR imagery as well as field measurements of tidal inundation in a novel manner, and provides discussion of syncing the timing of imagery acquisition with hydrological records.</p>
+<p><strong>Key notes: </strong></p>
 </div>
 <div id="souza-filho-2003" class="section level3">
 <h3><span class="header-section-number">5.3.3</span> Souza-Filho, 2003</h3>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-hess1990radar">
+<p>Hess, Laura L, John M Melack, and David S Simonett. 1990. “Radar Detection of Flooding Beneath the Forest Canopy: A Review.” <em>International Journal of Remote Sensing</em> 11 (7): 1313–25.</p>
+</div>
+<div id="ref-imhoff1990derivation">
+<p>Imhoff, Marc Lee, and Dean B Gesch. 1990. “The Derivation of a Sub-Canopy Digital Terrain Model of a Flooded Forest Using Synthetic Aperture Radar.” <em>Photogrammetric Engineering and Remote Sensing</em> 56 (8): 1155–62.</p>
 </div>
 </div>
             </section>

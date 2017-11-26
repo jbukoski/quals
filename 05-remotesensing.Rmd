@@ -569,9 +569,58 @@ Human interference and ecological conditions that produced mixed pixels resulted
 
 ## Geomorphology {#rs-geomorphology}
 
-### Hess, 1990
+### Hess *et al*, 1990 {#hess1990}
 
-### Imhoff, 1990
+*"Radar detection of flooding beneath the forest canopy: A review"* [@hess1990radar]
+
+**Key significance: ** This reviews many of the earliest studies that employ SAR imagery for mapping of inundated versus non-inundated forest types.
+
+**Key notes: **
+
+Of key importance for mapping of flooded vs. non-flooded forests is the fact that SAR imagery has a much more intense return off of water versus dry soil or trunks. Thus, the "double-bounce" effect off of a water surface is much stronger than that from soil & then tree.
+
+An excellent schematic of this effect is shown below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/hess1990.bmp"))
+```
+
+*Accuracy of flood detection*
+
+Some have found an issue in that canopy that is too dense may attenuate the signal at too great of a degree, and thus the difference between the more intense return from flooded forests may not be apparent (L-band).
+
+Additionally, presence of herbaceous vegetation (e.g., salt marshes) adjacent to flooded forests may erroneously appear as "flooded" forest using L-band. The bright return may be a result of the fleshy, vertically-oriented leaf stalks. These areas are still flooded, however, and thus it may still be effective for mapping of flooding extent, perhaps just not between flooded forest vs. flooded non-forest.
+
+*Magnitude of enhancement*
+
+Enhancement from flooded forest may range from approximately 2 - 10 dB.
+
+*Effect of radar parameters*
+
+Of primary importance are three considerations:
+
+  1. Incidence angle - angles at which imagery is collected vary greatly, and may be an important parameter for efficacy of detecting flooding
+    - The most effective angle may depend on the ecosystem type. Flooded forests verses swamps may exhibit different dominant backscattering mechanisms.
+  2. Polarization - the polarization of the radar may effect the efficacy of the return in identifying inundated landscapes 
+    - Majority of studies have used HH polarization (Seasat, SIR-A, SIR-B)
+    - Qualitative assessments are consistent in findings that like-polarized scenes (HH or VV) are more effective at identifying flooded forests via L-band
+  3. Frequency - use of P-, L-, or X-band may have different dominant backscattering mechanisms, and thus may influence detection of inundation.
+    - L-band commonly used due to ability to penetrate dense canopies, however may have have some limitations
+    - P-band may be promising for mapping of inundated forests in forests that are very tall or with very dense canopies
+
+*Applications in flooded forest research*
+
+Critical to examine the temporal and spatial variability of water cover. An important component is availability of ground data on extent and time of flooding at the time of imaging, particularly tricky for tidally inundated forests.
+
+Additionally, for forests with aboveground root structures (i.e., mangroves), scattering of the signal by aboveground roots may reduce the signal and reduce ability to identify inundated forests.
+
+### Imhoff, 1990 {#imhoff1990}
+
+*"The derivation of a sub-canopy digital terrain model of a flooded forest using synthetic aperture radar"* [@imhoff1990derivation]
+
+**Key significance: ** This is one of the earliest uses of SAR imagery to map digital terrain models and understand tidal inundation in a mangrove forest. The study couples both SAR imagery as well as field measurements of tidal inundation in a novel manner, and provides discussion of syncing the timing of imagery acquisition with hydrological records.
+
+**Key notes: **
 
 ### Souza-Filho, 2003
 
