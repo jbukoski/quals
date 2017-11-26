@@ -648,11 +648,29 @@ The authors then discuss various sources of error, which include resolution issu
 
 *"Recognition of the main geobotanical features along the Bragan{\c{c}}a mangrove coast (Brazilian Amazon Region) from Landsat TM and RADARSAT-1 data"* [@souza2002recognition]
 
-**Key contribution: **
+**Key contribution: ** This study exemplifies integration of Landsat and SAR data for mapping of different ecosystem types and successional classes along the Bragan{\c{c}}a coastline at a landscape scale. Incorporation of landsat and SAR data enables mapping of not only different ecosystem types, but also successional classes (e.g., young vs. mature intertidal mangroves, degraded and renegerated mangroves, etc.).
 
 **Key notes: **
 
+The authors process Landsat TM and RADARSAT-1 SAR data, and built a composite product using a "Intensity, Hue and Saturation" transform. The transform uses a RGB/IHS transform that incorporates channels formed from PCA of Landsat bands 1, 3 & 3; bands 5 & 7; band 4; as well as a intensity band from the RADARSAT-1 data (described in Harris et al., 1994, Paradella et al, 1998, Pohl, 1998).
 
+The resulting map incorporates the spectral data as well as the intensity data corresponding to SAR topography, with an array of colors and values across the landscape. Using field data and prior knowledge, the authors then visually interpret the map into a variety of different land features.
+
+*Key criticism* - they do not provide a full accuracy assessment and thus it is unclear how accurate their results are. The map provides much more information (colors) than is interpreted, and thus it is unclear how legible the map necessarily is (classifications may be too fine scale).
+
+They produce a map with 19 classes of the landscape, but it is unclear how they arrive at this point. Assuming that they used the integrated product and supervised classification.
+
+Nevertheless, if we take the procedure for granted, they are able to distinguish between a variety of geobotanical features, including: channels, open water, mudflats, coastal dunes, young intertidal mangroves, intertidal mangroves, supratidal mangroves, degraded mangroves, outer salt marshes, and urban areas.
+
+The final map classification as they provide it is shown below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/filho2002.bmp"))
+```
+
+*Conclusion*
+
+The methods are a little black-boxey and may require digging into the associated PhD thesis (in Portuguese), but the map is an interesting approach to pulling information from both spectral (Landsat TM) as well as radar-based (RADARSAT-1) information.
 
 ### Souza-Filho, 2003 {#souzafilho2003}
 
