@@ -6,106 +6,67 @@ output:
 ---
 # Prospectus
 
-## Project 1
+## Introduction
 
-**Working title:** *"Remote sensing of mangrove geomorphology: A review of existing opportunities and challenges"*
+Conserving mangrove ecosystems is critical to sustaining and securing growing tropical coastal communities in an era of global change. Mangrove ecosystems provide a diverse array of ecosystem services, such as protection from coastal storms, shoreline stabilization, sequestration of organic carbon, and support of coastal fisheries, but they are also among the most threatened by coastal development and climate change driven sea level rise. 
 
-**Overview:** This chapter will be a review of technological developments in remote sensing, and their potential benefit in the future for remote sensing and better quantification of mangrove geomorphology. The crux of the idea here is that mangrove geomorphology in an applied sense exists largely through nominal definitions, when in actuality there is high heterogeneity within many of the various classes. I will review the literature surrounding mangrove geomorphology from a historical perspective, identify key factors to be quantified or monitored, and look at potential remote sensing applications that exist today, or will be coming online in the next 5 to 10 years. 
+Due to their existence within the intertidal zone, the ecosystem processes and factors that shape mangroves are spatially and temporally complex. Hydrological and sedimentary processes are known to strongly influence the character and health of mangrove forests. Unfortunately, we lack a comprehensive across-site explanation of how these factors control mangrove spatial ecology, which in part precludes effective mangrove conservation. However, the recent widespread production of in situ mangrove soil conditions and forest structure data, as well as unexploited advances in remote sensing, allow for novel approaches to address this complex problem. 
 
-**Target journal: ** Remote Sensing of Environment
+Thus, the overarching goal of my doctoral research is to elucidate how hydrological and sedimentary (hydrogeomorphological) processes shape mangrove communities. I will do this by constructing a transparent database of field-based measurements of mangrove forest structure and soil conditions as well as employing remote sensing to quantify and monitor landscape-scale hydrogeomorphological processes in mangroves. Taken together, these two approaches will allow me to understand how both site specific and landscape scale processes shape mangrove communities. 
 
-**Coauthors: **
+As outlined below, my research is centered around four key objectives. First, I will identify key opportunities and challenges for mapping of mangrove hydrogeomorphology via remote sensing. Second, I will compile a global database of in situ data on mangrove species composition, forest structure and soil conditions. Third, I will couple remotely sensed metrics of hydrogeomorphology with in situ forest structure data to explain variation in ecosystem carbon stocks as well as mangrove stand dynamics. Finally, I will leverage both field sampling and remote sensing to investigate die-off of mangroves in Pak Phanang, Thailand, which may be experiencing shifting environmental conditions that exemplify future pressures from sea level rise.
 
-  1. Iryna Dronova (UCB LAEP); 
-  2. Marc Simard (NASA JPL)??
-  3. MDP
+## Background
 
-**Research questions: **
+Understanding of spatial ecology and stand dynamics in mangroves is critical to assessing ecosystem resilience to pressures such as sea level rise, yet has eluded ecologists for the past century. Mangroves were first believed to establish on land that they “built” by trapping sediments in dense aboveground root complexes, effectively prograding the shoreline. Later studies showed that mangroves did not build land per se, but rather came to understand hydrogeomorphological setting as a key control on mangrove establishment. Mangrove colonization as purported by these studies was found to be “opportunistic” in hospitable micro-environments.
 
-  1. What are the existing applications of remote sensing data to hydrology and sedimentary processes in mangrove ecosystems to date?
-  2. Given new RS data types and their applications in fields outside of mangrove ecology, what opportunities for mapping and better-understanding mangrove geomorphology exist?
-  3. Given new RS data types and their applications..., what challenges for mapping and better-understanding mangrove geomorphology exist?
+Following this recognition, a series of classifications of functionally different hydrogeomorphological settings were established for systems with autochthonous (within the system) versus allochthonous (external to the system) sedimentation patterns. These classifications have served well to frame conceptual understanding of the dominant hydrogeomorphological processes that characterize mangroves to date, with recent studies reshaping them for specific initiatives such as restoration.
 
-**Abstract:** *For mangrove restoration and conservation projects, it is critical to understand the relationships between mangrove tree species and the geomorphological conditions in which they exist, as well as how they vary over time. While remote sensing of mangrove vegetation is commonplace within the academic literature, fewer studies employ remote sensing to study mangrove geomorphology. The use of remote sensing offers a valuable means to understand mangrove geomorphology at various temporal and spatial scales, as field studies of mangrove hydrology and sedimentary processes are complex and difficult. Given the rapid development of remote sensing technology, a thorough examination of the existing techniques and best practices for better understanding mangrove geomorphology is warranted. Thus, we present here a review of remote sensing of geomorphological processes in mangroves. Our review shows that use of remote sensing to monitor mangrove geomorphology has largely been limited to studies of shoreline erosion and progradation over the past few decades. Increasingly available new data sources such as Light Detection and Ranging (LiDAR) and hyperspectral datasets, however, are providing access to novel and informative data layers, such as topography at fine resolutions and total suspended sediment. Leveraging future advances in remote sensing to better monitor mangrove geomorphology will be important for conserving these ecosystems, particularly given increasing global pressures from coastal development and sea level rise.*
+Spatial aggregations of mangrove tree species, however, are not fully explained by hydrogeomorphological characteristics and yet are visually apparent at many sites. Seminal work has identified environmental settings that help map forest type to dominant hydrogeomorphological processes; however, significant variation across sites exists. Many sites exhibit zonation in tree species, which is the species-specific assemblage of trees in bands parallel to the coast. Zonation in mangrove species has been among the most well-studied ecological phenomena in mangroves, with a variety of hypotheses proposed to explain it: hydrogeomorphological setting, tidal sorting of propagules, ecophysiology, differential predation, and competition among tree species. 
 
-**Relevant literature sections:**
+Understanding zonation in mangroves will be critical for managing ecosystem resilience, as shifting hydrogeomorphological processes may have disproportionate effects on particular species. Furthermore, zonation may be important for ecosystem services as variation in aboveground root system morphology has been shown to have differential effects on sedimentation, and different zones of mangrove tree species may have different carbon sequestration potentials.
 
-  1. Zonation & Disturbance - Section \@ref(zonation)
-  2. Geomorphology - Section \@ref(geomorphology-soils)
-  3. Remote Sensing of Geomorphology - Section \@ref(rs-geomorphology)
+Although few studies of succession in mangroves exist, mangroves are not thought to conform to classical succession regimes. Rather, cyclical patterns of forest development may occur due to both the dynamism of the intertidal zone as well as frequent and varied disturbance regimes. At present, it is unclear how such systems may respond to shifting baseline environmental parameters, as mangroves may exist at or near environmental thresholds such as time of inundation or salinity levels. 
 
+Finally, from a methodologically perspective, while in situ data provides critical understanding of mangrove stand dynamics, it is limited in understanding dynamic processes due to commonly being attained at a single point in time. Remote sensing, on the other hand, conveniently provides an efficient means to monitor the time-dependent nature of environmental processes. Recent studies have noted the value of remote sensing for examining existence of multiple stable states and catastrophic shifts in coastal ecosystems, as well as for mapping of coastal hydrogeomorphology more generally. Nevertheless, remote sensing of mangrove hydrogeomorphology is extremely limited and represents a key knowledge gap within the field.
 
-## Project 2
+## Objective 1
 
-**Working title:** *"Leveraging ecoinformatics to understand biocomplexity in mangroves"* 
+**Identify appropriate remote sensing data and applications for mapping of mangrove hydrogeomorphology**
 
-**Overview:** This will be a continuation of the PLoS One work that seeks to couple field data of forest structure and soil characteristics. I currently envisage this as testing for correlations between soil organic carbon stocks and forest biomass, structure, and species composition properties. I am working on building a database for mangroves of the Americas with a URAP student that parallels the one I built for Southeast Asia during my master's work, and am interested in testing the same models on the new dataset. I am also considering getting another URAP student to begin compiling a database for Africa / the middle East, which is the other major region for mangroves. One valuable product would be a comprehensive database of mangrove forest structure and soil characteristics data, with checks on how comparable the different sampling methodologies, datasets, etc. are.
+*Hypothesis: Remote sensing applications for mapping of mangrove hydrogeomorphology exist, but are not yet being employed to understand mangrove stand dynamics*
 
-**Target journal:** TBD
+**Rationale:** Although the academic literature reflects a long history of classifying mangrove hydrogeomorphology, limited quantification of mechanistic hydrogeomorphological processes has been undertaken. Quantification of hydrogeomorphological processes is critical for mangrove conservation in the face of global change, and may be performed effectively through remote sensing. While remote sensing of mangrove ecosystems is common, it has largely been limited to mappings of vegetation. Given the critical importance of sedimentary and hydrological conditions for mangrove ecosystem health, the lack of research on remote sensing of mangrove hydrogeomorphology represents a key knowledge gap that I seek to fill. Furthermore, many of the ecosystem services provided by mangroves relate directly to hydrogeomorphological processes – for example, shoreline stabilization or promotion of sediment accretion. To better monitor shifts in key hydrogeomorphological processes and their impacts on mangrove health, it is important to assess the potential opportunities and limitations of remote sensing applications as they exist today. 
 
-**Coauthors:** TBD
-
-**Research questions:**
-
-  1. Basal area and latitude were found to be significant predictors of soil organic carbon in mangroves of Southeast Asia when controlling for site-specific effects (e.g., geomorphology). Are the results reproducible in the Americas, a mangrove region that is floristically less diverse than Southeast Asia? Same for Africa / Mid East.
-
-**Note:** If I am successful in constructing a database of forest structure, species, etc. from the literature, there are many other research questions that can be explored, such as:
-
-  1. Examining effects of sea level rise or tidal range on mangrove structure & species assemblages.
-  2. RS studies such as discrimination of mangrove species or looking at geomorphology (RS data permitting)
-  
-This might be difficult, though, as authors may not be forthcoming with data.
+**Methods:** This chapter reviews the present state of knowledge in employing remote sensing to quantify and monitor hydrogeomorphological processes in mangroves. Should the literature be sparse, I will examine the use of remote sensing to understand hydrogeomorphology in wetland ecosystems more broadly. In doing so, I will identify key components of mangrove hydrogeomorphology that may be quantified or monitored, as well as look at potential remote sensing applications that exist today as well as those that will be available in the near-term future.
 
 
+## Objective 2
 
-## Project 3
+**Identify region-specific correlations between aboveground and belowground organic carbon stocks in mangroves**
 
-**Working title:** *Variation in forest structure, species and carbon stocks at two equi-latitude deltaic mangroves*
+*Hypothesis: After controlling for site-specific effects, mangrove species composition and forest structure will act as key predictors of belowground soil organic carbon stocks across regions*
 
-**Overview:** This chapter will focus on elucidating the differences within two “deltaic” forests in terms of carbon stocks, forest structure, and species diversity. I am sitting on datasets from my time at Yale for two sites on the west and east coasts of peninsular Thailand, that are at relatively equal latitudes. The sites, however, are markedly different in their formation and may have significant differences in terms of topography, morphology, etc. that would make for a nice case study. Preliminary analysis shows that at one site (Krabi) the SOC is exteremely heterogeneous over space, whereas at the other (Pak Panang) SOC is markedly homogeneous. This is likely due to Krabi  Potentially collect data on soil texture to couple with dataset and couple with soil organic carbon.
+**Rationale:** Several predictive models of aboveground and belowground carbon stocks in mangroves have emerged within the last five years. The prior work that informs this chapter developed a site-specific predictive model of ecosystem carbon stocks for mangroves of the Indo-West Pacific (IWP) region. This modeling effort was implemented under the premise that global models may lose accuracy at small scales, yet small expanses of mangroves are still ecologically and socioeconomically relevant for conservation. Following external interest in parameterization of the model for regions outside of the IWP, the proposed chapter will repeat the study in the remaining regions of the world where mangroves predominate. The study will allow for cross regional comparisons of correlations found between forest structure and belowground soil organic carbon (SOC) density, which were found to be significant after controlling for site-specific effects in the IWP. 
 
-Krabi Estuary, Krabi (Andaman Coast)
+**Methods:** Building upon the database compiled for the IWP, I will compile plot-level data of forest structure as well as species composition and soil conditions from the published literature. All data will be georeferenced by country, site, and plot, which will allow for investigation of spatial patterning and correlations in aboveground and belowground carbon stocks at multiple spatial scales. Compilation of the database will facilitate additional efforts, such as refining estimates of carbon stocks and losses at the national or regional levels. The study will be a valuable exercise in research reproducibility, and will also provide a fundamental database of in situ measurements of forest structure, species assemblage, and soil conditions that may be employed in other studies.
 
-  - marked by three major fluvial inputs as well as numerous distributaries and intertidal basins
-  
-```{r, echo=FALSE}
-knitr::include_graphics(rep("images/krabi.bmp"))
-```
+## Objective 3
 
-Pak Panang, Nakorn Si Thammarat (Gulf of Thailand)
+**Examine biotic versus abiotic controls of mangrove soil organic carbon in allochthonous hydrogeomorphological settings**
 
-  - deltaic formation from single active tributary
-  - deposited sediments are reworked by wave action perpendicular to coast to form a chenier upon which a mudflat has formed over time
-  - likely agricultural sediments given upland land use
+*Hypothesis: Remotely sensed metrics of hydrogeomorphology at the landscape scale will explain across-site variation in soil organic carbon stocks for mangroves in allochthonous settings*
 
-```{r, echo=FALSE}
-knitr::include_graphics(rep("images/pakpanang.bmp"))
-```
+**Rationale:** Mangroves are known to stock vast amounts of organic carbon in their deep, anaerobic soils. Studies have shown that in low-energy environments (i.e., environments characterized by low wave and tidal energy), mangroves exhibit autochthonous sedimentary patterns and are capable of accreting peat to adjust surface elevation relative to sea level rise. In these sites, SOC stocks are vast given that up to 80% of the soil may comprise of organic matter. However, for allochthonous settings the mechanistic processes of accretion of SOC are less well understood. Recent studies have found that SOC density is lower in allochthonous settings, but these sites account for the majority of mangroves globally, as well as the largest extents of forests (e.g., the Sundarbans). 
 
+**Methods:** This study will couple field-based datasets from my second research objective with remotely sensed metrics of hydrogeomorphology identified through my first research objective to examine correlations between biological versus hydrogeomorphological contributions to SOC. Areas of interest for which comprehensive field data of forest structure, species composition and SOC exists at multiple sites will be identified. Remotely sensed metrics of hydrogeomorphology such as near-shore total suspended sediment, upland watershed size, extent of tidal flooding, or geometric analyses of forest fractionation (to distinguish between dominant geomorphological settings) will be derived for each of the sites. Models will be used to examine correlations between the biological (i.e., vegetative) and hydrogeomorphological components of the forests.
 
-**Target journal: ** TBD
+## Objective 4
 
-**Coauthors: ** TBD
+**Examine tree mortality and patch dynamics in a mangrove forest with shifting hydrological and sedimentary conditions**
 
-**Research questions: **
+*Hypothesis: Installation of a hydroelectric dam upstream of the Pak Phanang mangrove ecosystem has shifted hydrological conditions at the site, inducing species-specific die-off of mangrove trees*
 
-  1. How do species composition, forest structure and carbon stocks (AG & BG) vary between equilatitude forests of differing geomorphic position?
-  2. How much carbon exists within the Krabi River Estuary and Pak Panang mangrove forests (simple C quantification)?
+**Rationale:** Shifts in sedimentary or hydrological processes from climate change or human activities may induce profound stresses on mangroves, but may occur at the landscape scale and thus be difficult to monitor or measure. This study will examine the influence of a hydroelectric dam built upland of the mangrove forest in Pak Panang, Thailand. Prior fieldwork identified large die-off in the forest interior, with sequential loss of specific species likely due to shifts in hydrogeomorphology. Locals from the area attributed mangrove tree mortality to the construction of the hydroelectric dam, which may have diverted sediment or freshwater flows away from the site.  Understanding of species-specific die-off is critical for management of mangroves, as it may inform mangrove succession in response to shifting hydrology and sedimentation, which are key concerns given global sea level rise.
 
-**Notes: ** 
-
-  - write-up of data from Yale
-  - look at hydrological models in landscape to support geomorphology characterization (landscape level)
-
-
-## Project 4
-
-**Working title:** *Patch dynamics and regeneration in an estuarine mangrove forest due to upland shifts in hydrology*
-
-**Overview:** This study will examine the influence of a hydroelectric dam built upland of the mangrove forest in Pak Panang, Thailand. There are patches of mangrove die-off, which locals in the forest attribute to the construction of a hydroelectric dam several years prior. I am interested in monitoring the gap dynamics (through RS work), regeneration dynamics within these patches, as well as the emissions of soil C due to the loss of vegetation cover. Most studies have examined direct conversion of mangrove and the resultant soil C losses, but few (if any) have examined shifts in forest structure and extent due to upland shifts in hydrology:
-
-**Target journal: ** TBD
-
-**Coauthors: ** TBD
-
-**Research questions: ** Will suss out later...
+**Methods:** To understand this human-induced impact on the forest, I will couple remote sensing and field sampling to monitor stand dynamics in these patches. Using a time series of Landsat data, I will first investigate the patch dynamics of the Pak Phanang mangrove. In doing so, I will assess temporal correlation of mangrove tree die-off with the construction of the hydroelectric dam on the Pak Phanang river, as well as rates and extent of forest die-off. Following the time-series analysis of the forest, I will establish long-term monitoring plots of soil conditions, tree mortality, and regeneration in the patches, as well as examine remotely sensed metrics of hydrogeomorphology. In examining both datasets, a more comprehensive picture of the effects of global change on mangrove health will be elucidated.
