@@ -33,7 +33,7 @@
   
   
 <link rel="prev" href="vegetation.html">
-<link rel="next" href="monitoring.html">
+<link rel="next" href="ecoinformatics.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -230,10 +230,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.3" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html"><i class="fa fa-check"></i><b>5.3</b> Geomorphology</a><ul>
 <li class="chapter" data-level="5.3.1" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#hess1990"><i class="fa fa-check"></i><b>5.3.1</b> Hess <em>et al</em>, 1990</a></li>
 <li class="chapter" data-level="5.3.2" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#imhoff1990"><i class="fa fa-check"></i><b>5.3.2</b> Imhoff, 1990</a></li>
-<li class="chapter" data-level="5.3.3" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#souza-filho-2003"><i class="fa fa-check"></i><b>5.3.3</b> Souza-Filho, 2003</a></li>
-</ul></li>
-<li class="chapter" data-level="5.4" data-path="monitoring.html"><a href="monitoring.html"><i class="fa fa-check"></i><b>5.4</b> Monitoring</a><ul>
-<li class="chapter" data-level="5.4.1" data-path="monitoring.html"><a href="monitoring.html#lucas-2014"><i class="fa fa-check"></i><b>5.4.1</b> Lucas, 2014</a></li>
+<li class="chapter" data-level="5.3.3" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#souzafilho2002"><i class="fa fa-check"></i><b>5.3.3</b> Souza-Filho &amp; Paradella, 2002</a></li>
+<li class="chapter" data-level="5.3.4" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#souzafilho2003"><i class="fa fa-check"></i><b>5.3.4</b> Souza-Filho, 2003</a></li>
+<li class="chapter" data-level="5.3.5" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#lucas2014"><i class="fa fa-check"></i><b>5.3.5</b> Lucas, 2014</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="ecoinformatics.html"><a href="ecoinformatics.html"><i class="fa fa-check"></i><b>6</b> Ecoinformatics</a><ul>
@@ -348,11 +347,37 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p><em>“The derivation of a sub-canopy digital terrain model of a flooded forest using synthetic aperture radar”</em> <span class="citation">(Imhoff and Gesch <a href="#ref-imhoff1990derivation">1990</a>)</span></p>
 <p><strong>Key significance: </strong> This is one of the earliest uses of SAR imagery to map digital terrain models and understand tidal inundation in a mangrove forest. The study couples both SAR imagery as well as field measurements of tidal inundation in a novel manner, and provides discussion of syncing the timing of imagery acquisition with hydrological records.</p>
 <p><strong>Key notes: </strong></p>
+<p>The study employed data from both the SIR-B mission as well as tide surface information to create a digital terrain model in southern Bangladesh.</p>
+<p>They note the importance of hydrology and geomorphology on mangrove health, citing Lugo and Snedaker’s discussion in which they note that “tidal dynamics” and “water chemistry” are the two most important factors on mangrove health.</p>
+<p>The radar data used for the study consisted of three HH polarized L-band radar images, acquired at 26, 46 and 58 degree angles of incidence.</p>
+<p>The field data comprised of tide gauge data from give stations throughout the region slightly larger than the survey area, a 1200 m topographic survey transect, and test plots in the forest that were visited during the radar data acquisition period.</p>
+<p>DN counterparts to mean backscatter coefficients were used to select break points fro classifying flooded versus non-flooded forests.</p>
+<p><em>Results</em></p>
+<p>All three datasets were coregistered, and field data were used to train a model on flooded vs. non-flooded forest areas.</p>
+<p>A spatial filter by a 5 by 5 and then 11 by 11 median filter to remove speckling. The processed image allowed for better discriminating between classes at a spatial frequency appropriate to the formation.</p>
+<p>The 58 and 46 deg images were combined to produce an inundation map (the 26 deg data had issues during time of collection, but was used for validation of land edge boundaries), and subsequently into a topographic map.</p>
+<p>In doing so they produced numbers along the inundation boundaries, which took on values of elevation level relative to mean sea level. The values of the pixels were used as points and an interpolation procedure was used to produce a continuous DTM.</p>
+<p>The authors then discuss various sources of error, which include resolution issues, measurement error, as well as imprecise measures of “flooded” vs “non-flooded” forest recognition by the L-band SAR imagery.</p>
 </div>
-<div id="souza-filho-2003" class="section level3">
-<h3><span class="header-section-number">5.3.3</span> Souza-Filho, 2003</h3>
+<div id="souzafilho2002" class="section level3">
+<h3><span class="header-section-number">5.3.3</span> Souza-Filho &amp; Paradella, 2002</h3>
+<p><em>“Recognition of the main geobotanical features along the Bragan{}a mangrove coast (Brazilian Amazon Region) from Landsat TM and RADARSAT-1 data”</em> <span class="citation">(Souza-Filho and Paradella <a href="#ref-souza2002recognition">2002</a>)</span></p>
+<p><strong>Key contribution: </strong></p>
+<p><strong>Key notes: </strong></p>
+</div>
+<div id="souzafilho2003" class="section level3">
+<h3><span class="header-section-number">5.3.4</span> Souza-Filho, 2003</h3>
+<p><em>“Use of synthetic aperture radar for recognition of coastal geomorphological features, land-use assessment and shoreline changes in Bragan{}a coast, Para, Northern Brazil”</em> <span class="citation">(Souza-Filho and Paradella <a href="#ref-souza2003use">2003</a>)</span></p>
+<p><strong>Key contribution: </strong></p>
+<p><strong>Key use: </strong></p>
+</div>
+<div id="lucas2014" class="section level3">
+<h3><span class="header-section-number">5.3.5</span> Lucas, 2014</h3>
+<p><em>“Contribution of L-band SAR to systematic global mangrove monitoring”</em> <span class="citation">(Lucas et al. <a href="#ref-lucas2014contribution">2014</a>)</span></p>
+
 </div>
 </div>
+<!-- </div> -->
 <h3>References</h3>
 <div id="refs" class="references">
 <div id="ref-hess1990radar">
@@ -361,6 +386,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="ref-imhoff1990derivation">
 <p>Imhoff, Marc Lee, and Dean B Gesch. 1990. “The Derivation of a Sub-Canopy Digital Terrain Model of a Flooded Forest Using Synthetic Aperture Radar.” <em>Photogrammetric Engineering and Remote Sensing</em> 56 (8): 1155–62.</p>
 </div>
+<div id="ref-souza2002recognition">
+<p>Souza-Filho, Pedro Walfir Martins, and Waldir Renato Paradella. 2002. “Recognition of the main geobotanical features along the Bragança mangrove coast (Brazilian Amazon Region) from Landsat TM and RADARSAT-1 data.” <em>Wetlands Ecology and Management</em> 10: 123–32. doi:<a href="https://doi.org/10.1023/a:1016527528919">10.1023/a:1016527528919</a>.</p>
+</div>
+<div id="ref-souza2003use">
+<p>Souza-Filho, P W M, and W R Paradella. 2003. “Use of synthetic aperture radar for recognition of Coastal Geomorphological Features, land-use assessment and shoreline changes in Bragança coast, Para, Northern Brazil.” <em>Anais Da Academia Brasileira De Ciencias</em> 75 (3): 341–56. doi:<a href="https://doi.org/10.1590/S0001-37652003000300007">10.1590/S0001-37652003000300007</a>.</p>
+</div>
+<div id="ref-lucas2014contribution">
+<p>Lucas, Richard, Lisa Maria Rebelo, Lola Fatoyinbo, Ake Rosenqvist, Takuya Itoh, Masanobu Shimada, Marc Simard, et al. 2014. “Contribution of L-band SAR to systematic global mangrove monitoring.” <em>Marine and Freshwater Research</em> 65 (7): 589–603. doi:<a href="https://doi.org/10.1071/MF13177">10.1071/MF13177</a>.</p>
+</div>
 </div>
             </section>
 
@@ -368,7 +402,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
         </div>
       </div>
 <a href="vegetation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="monitoring.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="ecoinformatics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

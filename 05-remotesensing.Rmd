@@ -622,9 +622,46 @@ Additionally, for forests with aboveground root structures (i.e., mangroves), sc
 
 **Key notes: **
 
-### Souza-Filho, 2003
+The study employed data from both the SIR-B mission as well as tide surface information to create a digital terrain model in southern Bangladesh.
+
+They note the importance of hydrology and geomorphology on mangrove health, citing Lugo and Snedaker's discussion in which they note that "tidal dynamics" and "water chemistry" are the two most important factors on mangrove health.
+
+The radar data used for the study consisted of three HH polarized L-band radar images, acquired at 26, 46 and 58 degree angles of incidence.
+
+The field data comprised of tide gauge data from give stations throughout the region slightly larger than the survey area, a 1200 m topographic survey transect, and test plots in the forest that were visited during the radar data acquisition period.
+
+DN counterparts to mean backscatter coefficients were used to select break points fro classifying flooded versus non-flooded forests.
+
+*Results*
+
+All three datasets were coregistered, and field data were used to train a model on flooded vs. non-flooded forest areas.
+
+A spatial filter by a 5 by 5 and then 11 by 11 median filter to remove speckling. The processed image allowed for better discriminating between classes at a spatial frequency appropriate to the formation.
+
+The 58 and 46 deg images were combined to produce an inundation map (the 26 deg data had issues during time of collection, but was used for validation of land edge boundaries), and subsequently into a topographic map.
+
+In doing so they produced numbers along the inundation boundaries, which took on values of elevation level relative to mean sea level. The values of the pixels were used as points and an interpolation procedure was used to produce a continuous DTM.
+
+The authors then discuss various sources of error, which include resolution issues, measurement error, as well as imprecise measures of "flooded" vs "non-flooded" forest recognition by the L-band SAR imagery.
+
+### Souza-Filho & Paradella, 2002 {#souzafilho2002}
+
+*"Recognition of the main geobotanical features along the Bragan{\c{c}}a mangrove coast (Brazilian Amazon Region) from Landsat TM and RADARSAT-1 data"* [@souza2002recognition]
+
+**Key contribution: **
+
+**Key notes: **
 
 
-## Monitoring
 
-### Lucas, 2014
+### Souza-Filho, 2003 {#souzafilho2003}
+
+*"Use of synthetic aperture radar for recognition of coastal geomorphological features, land-use assessment and shoreline changes in Bragan{\c{c}}a coast, Para, Northern Brazil"* [@souza2003use]
+
+**Key contribution: **
+
+**Key use: **
+
+### Lucas, 2014 {#lucas2014}
+
+*"Contribution of L-band SAR to systematic global mangrove monitoring"* [@lucas2014contribution] 
