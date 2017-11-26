@@ -18,10 +18,6 @@ Establishment of monospecific stands of mangrove trees in zones parallel to shor
 
   - One of the more commonly examined hypotheses for examining species zonation and investigated by a wide range of researchers. Watson's "inundation classes" and discussion of salinity may be one of the earliest, well-cited references to environmental gradients. The hypothesis holds that mangrove species have adapted to establish or compete in microenvironments that exist along environmental gradients. Given the dynamic nature of mangrove ecosystems, it is unlikely that mangrove species specialize to unique microenvironments, but more likely exhibit tolerance to a wide range of conditions. However, some may preferentially outcompete others in environments towards the ends of gradient spectrums, and thus ecophysiology may play an important role in competition and survival or growth *following* establishment. [Supported, for particular considerations]
 
-*Zonation as result of interspecific competition - Clarke and Hannon, 1970:*
-
-  - 
-
 *Zonation due to tidal sorting of propagules - Rabinowitz, 1978:*
 
   - Upon investigating no significant difference in survival and growth rates of *Avicennia, Rhizophora, Laguncularia,* and *Pelliciera* tree individuals planted in monospecific stands in Panama, Rabinowitz concluded that mangrove zonation is not primarily controlled by physiological variables. In response, she hypothesized that the zonation of species may be due to differences in propagule size and weight between species. The hypothesis posits that differences in size and weight have enabled species to establish in areas with different tidal regimes (smaller propagules in shoreward zones, larger propagules in landward zones). Rabinowitz provides a discussion of the hypothesis and identifies several other studies that may support the hypothesis. [Partially supported - directionality NOT supported whereas tidal depth supported]

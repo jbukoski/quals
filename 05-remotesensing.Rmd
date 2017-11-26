@@ -652,6 +652,9 @@ The methods are a little black-boxey and may require digging into the associated
 
 **Key contribution: **
 
+
+
+
 ### Smith, 2009 {#smith2009}
 
 *"Applications of remote sensing in geomorphology"* [@smith2009applications]
