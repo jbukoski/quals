@@ -1,38 +1,6 @@
 # Remote sensing
 
-## Overview
-
-### Smith, 2009
-
-*"Applications of remote sensing in geomorphology"* [@smith2009applications]
-
-**Key contribution:** A review of the use of remote sensing for geomorphology, without a particular focus on mangroves. The article reviews the current platforms and data types, and maps them to their relevant uses within geomorphology.
-
-**Of particular note:**
-
-Remote sensing particularly well placed to aid studies of geomorphology in:
-
-  1. location and distribution of landforms
-  2. land surface elevation
-  3. land surface composition
-  4. subsurface characterization
-
-```{r echo=FALSE}
-knitr::include_graphics(rep("images/smith2009ProgPhysGeog.bmp"))
-```
-
-The authors remark consistently on the added value of digital elevation models (both as products, as well as automatic classification by sensors) for geomorphology.
-
-Among most important techniques for postprocessing of LiDAR point clouds for geomorphologists is removing "surface clutter" to extract actual ground surface.
-
-**Note:**
-
-  - Look further into mangrove sites on [OpenTopography](http://opentopo.sdsc.edu/datasets)
-
-**Further reading:**
-
-  1. Clark, 1999 - Spectroscopy of rocks and minerals, and principles of spectroscopy
-  2. Sithole and Vosselman, 2004 - Experimental comparison of filter algorithms for bare-Earth extraction from airborne laser scanning point clouds
+## Mangrove RS reviews
 
 ### Adam, 2010
 
@@ -680,6 +648,46 @@ The methods are a little black-boxey and may require digging into the associated
 
 **Key use: **
 
+### Smith, 2009
+
+*"Applications of remote sensing in geomorphology"* [@smith2009applications]
+
+**Key contribution:** A review of the use of remote sensing for geomorphology, without a particular focus on mangroves. The article reviews the current platforms and data types, and maps them to their relevant uses within geomorphology.
+
+**Of particular note:**
+
+Remote sensing particularly well placed to aid studies of geomorphology in:
+
+  1. location and distribution of landforms
+  2. land surface elevation
+  3. land surface composition
+  4. subsurface characterization
+
+```{r echo=FALSE}
+knitr::include_graphics(rep("images/smith2009ProgPhysGeog.bmp"))
+```
+
+The authors remark consistently on the added value of digital elevation models (both as products, as well as automatic classification by sensors) for geomorphology.
+
+Among most important techniques for postprocessing of LiDAR point clouds for geomorphologists is removing "surface clutter" to extract actual ground surface.
+
+**Note:**
+
+  - Look further into mangrove sites on [OpenTopography](http://opentopo.sdsc.edu/datasets)
+
+**Further reading:**
+
+  1. Clark, 1999 - Spectroscopy of rocks and minerals, and principles of spectroscopy
+  2. Sithole and Vosselman, 2004 - Experimental comparison of filter algorithms for bare-Earth extraction from airborne laser scanning point clouds
+
+
 ### Lucas, 2014 {#lucas2014}
 
-*"Contribution of L-band SAR to systematic global mangrove monitoring"* [@lucas2014contribution] 
+*"Contribution of L-band SAR to systematic global mangrove monitoring"* [@lucas2014contribution]
+
+## Other
+
+The following studies provide key information on use of remote sensing as it relates to wetlands, but do not necessarily fit into the mangrove-specific studies of mapping "vegetation" or "geomorphology".
+
+
+

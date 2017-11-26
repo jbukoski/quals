@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="project-1.html">
-<link rel="next" href="project-3.html">
+<link rel="prev" href="remote-sensing.html">
+<link rel="next" href="vegetation.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -306,30 +306,201 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="project-2" class="section level2">
-<h2><span class="header-section-number">2.2</span> Project 2</h2>
-<p><strong>Working title:</strong> <em>“Leveraging ecoinformatics to understand biocomplexity in mangroves”</em></p>
-<p><strong>Overview:</strong> This will be a continuation of the PLoS One work that seeks to couple field data of forest structure and soil characteristics. I currently envisage this as testing for correlations between soil organic carbon stocks and forest biomass, structure, and species composition properties. I am working on building a database for mangroves of the Americas with a URAP student that parallels the one I built for Southeast Asia during my master’s work, and am interested in testing the same models on the new dataset. I am also considering getting another URAP student to begin compiling a database for Africa / the middle East, which is the other major region for mangroves. One valuable product would be a comprehensive database of mangrove forest structure and soil characteristics data, with checks on how comparable the different sampling methodologies, datasets, etc. are.</p>
-<p><strong>Target journal:</strong> TBD</p>
-<p><strong>Coauthors:</strong> TBD</p>
-<p><strong>Research questions:</strong></p>
+<div id="mangrove-rs-reviews" class="section level2">
+<h2><span class="header-section-number">5.1</span> Mangrove RS reviews</h2>
+<div id="adam-2010" class="section level3">
+<h3><span class="header-section-number">5.1.1</span> Adam, 2010</h3>
+<p><em>“Multispectral and hyperspectral remote sensing for identification and mapping of wetland vegetation: A review”</em> <span class="citation">(Adam, Mutanga, and Rugege <a href="#ref-adam2010multispectral">2010</a>)</span></p>
+<p><strong>Key contribution: </strong> This review examines the status quo of mapping wetland vegetation using spectral (multi and hyper) imagery, with a particular focus on discriminating wetland vegetation as well as monitoring biophysical and biochemical characteristics.</p>
+<p><strong>Key findings: </strong></p>
+<ul>
+<li>the spectral and spatial composition of mangrove species and vegetation assemblages has complicated use of multispectral (broadband) imagery; hyperspectral (narrowband) imagery is promising but more difficult to access
+<ul>
+<li>spectral signatures of different wetland veg are often similar, and are “muddied” by spectral reflectance from soil, hydrologic regime or atmospheric conditions</li>
+</ul></li>
+<li>spectral signatures affected most strongly by biochemical and biophysical properties of leaves, which vary greatly across species</li>
+<li>discrimination of wetland species from Landsat TM or SPOT imagery has generally been insufficient due to:
 <ol style="list-style-type: decimal">
-<li>Basal area and latitude were found to be significant predictors of soil organic carbon in mangroves of Southeast Asia when controlling for site-specific effects (e.g., geomorphology). Are the results reproducible in the Americas, a mangrove region that is floristically less diverse than Southeast Asia? Same for Africa / Mid East.</li>
-</ol>
-<p><strong>Note:</strong> If I am successful in constructing a database of forest structure, species, etc. from the literature, there are many other research questions that can be explored, such as:</p>
+<li>lack of fine, ecological divisions between vegetation species</li>
+<li>broad nature of spectral wavebands</li>
+<li>lack of high spectral and spatial resolution to detect subcanopy vegetation types</li>
+</ol></li>
+<li>ANNs and fuzzy classification techniques have shown promise in better classifying mixed species pixels</li>
+<li>most important biochemical and biophysical properties characterizing wetland species are:
 <ol style="list-style-type: decimal">
-<li>Examining effects of sea level rise or tidal range on mangrove structure &amp; species assemblages.</li>
-<li>RS studies such as discrimination of mangrove species or looking at geomorphology (RS data permitting)</li>
+<li>chlorophyll - green pigment</li>
+<li>biomass concentration - biophysical prop</li>
+<li>leaf water content</li>
+</ol></li>
+<li>major issue of using vegetation indices (e.g., NDVI) to estimate biomass is the saturation problem
+<ul>
+<li>Mutanga and Skidmore (2004) propose one mechanism to resolve saturation problem</li>
+</ul></li>
+<li>building spectral libraries via hyperspectral sensors is critical for discriminating wetland species, but also needs investigation at different sites &amp; scales as reflectance within species may vary depending on environmental conditions</li>
+</ul>
+<p><strong>Research ideas:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Spectral imagery can be effective in monitoring plant water content, which may vary significantly across mangrove species due to differing water use efficiencies</li>
 </ol>
-<p>This might be difficult, though, as authors may not be forthcoming with data.</p>
+<p><strong>Further reading:</strong></p>
+</div>
+<div id="heumann-2011" class="section level3">
+<h3><span class="header-section-number">5.1.2</span> Heumann, 2011</h3>
+<p><em>“Satellite remote sensing of mangrove forests: Recent advances and future opportunities”</em> <span class="citation">(Heumann <a href="#ref-heumann2011satellite">2011</a>)</span></p>
+<p><strong>Key contribution: </strong> One of several reviews of mangroves and remote sensing techniques that focuses primarily (i.e., solely) on vegetation mapping.</p>
+<p><strong>Key findings: </strong></p>
+<ul>
+<li>Spectral discrimination of different species not successful using multispectral (broadband) imagery (Ramsey and Jensen, 1996).
+<ul>
+<li>Mixed pixels also an issue for discriminating species as well as estimating canopy structure</li>
+</ul></li>
+<li>Spectral saturation at high biomass values is a particular problem for mapping biomass and volumes</li>
+<li>Very high resolution imagery effective at reducing mixed pixels just due to smaller size</li>
+<li>OBIA has typically been applied to species discrimination rather than extent of mangrove mappings</li>
+<li>Quickbird and IKONOS sensors are most common for very high resolution imagery due to long-term archiving of data
+<ul>
+<li>multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels</li>
+</ul></li>
+<li>Use of spectral data only is often insufficient for discrimination of species
+<ul>
+<li>Classification accuracies are greatly improved when other image properties are considered, such as texture</li>
+<li>Texture analaysis has been applied to species discrimination, but has not been investigated (as of 2011) for other forest characteristics</li>
+</ul></li>
+<li>C-band PolSAR has lowest ability to parse forest structure of SAR bands</li>
+</ul>
+<p><em>Mangrove biomass specific findings:</em></p>
+<ul>
+<li>Canopy height and biomass have been shown to be strongly correlated in mangroves (e.g., Fromard et al., 1998; Smith and Whelan, 2006)
+<ul>
+<li>must studies of height and biomass have employed SAR data</li>
+<li>different polarizations (based on wavelength) interact differently with different components of the forest</li>
+<li>trunks and soils may produce single or double bounce interactions</li>
+<li>signal may scatter within canopy
+<ul>
+<li>P-band POLSAR or HV polarization of L-band SAR perform best in mapping aboveground biomass</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><em>Very-high resolution satellites:</em></p>
+<ul>
+<li>The IKONOS and Quickbird are most commonly used, due to archiving of data and plans for long-term consistency
+<ol style="list-style-type: decimal">
+<li>IKONOS &gt; GeoEye-1 (successor) (multispect @ 1.65 m and panchrom @ 0.41 m)</li>
+<li>Quickbird &gt; Worldview-2 (successor) (&lt;2m multi, &lt;0.5 m panchrom)</li>
+</ol>
+<ul>
+<li>note that Worldview-2 has 8 multispectral channels, including those in yellow and red edge ranges designed for veg studies</li>
+</ul></li>
+</ul>
+<p><strong>Research ideas:</strong></p>
+<ul>
+<li>Coupling of species mapping with species-specific allometry equations for better estimates of mangrove biomass
+<ul>
+<li>Might make sense in Americas where just three species exist (easier!)</li>
+</ul></li>
+</ul>
+</div>
+<div id="kuenzer-2011" class="section level3">
+<h3><span class="header-section-number">5.1.3</span> Kuenzer, 2011</h3>
+<p><em>“Remote sensing of mangrove ecosystems: A review”</em> <span class="citation">(Kuenzer et al. <a href="#ref-kuenzer2011remote">2011</a>)</span></p>
+<p><strong>Key contribution: </strong> This is a very extensive review of remote sensing and mangroves.</p>
+<p><strong>Notes: </strong></p>
+<p><em>Optical imagery: </em></p>
+<p>The spectral signature of mangrove leaves are largely a function of age, vitality, phenological props and physiological props. Greater discrimination between species (at least in Vietnam) may be seen in the NIR, but little differentiation seen in VIS:</p>
+<p><img src="images/kuenzer2011RemSens.bmp" /><!-- --></p>
+<p><em>Radar imagery: </em></p>
+<ul>
+<li>SAR imagery provides intensity values of the “backscatter coefficient”. Given different polarizations and wavelengths of SAR scanning, different interactions with mangrove landscape occur.</li>
+<li>The different SAR bands are as follows:
+<ol style="list-style-type: decimal">
+<li>X-band - 3 cm wavelength, effective for direct backscatter from canopy</li>
+<li>C-band - 6 cm, plant/soil multiple and volume scattering</li>
+<li>L-band - 24 cm, direct backscatter from soil &amp; water</li>
+</ol></li>
+</ul>
+<p><img src="images/kuenzer2011RemSensFig4.bmp" /><!-- --></p>
+<p><em>Sensors:</em></p>
+<ul>
+<li>See Table 2 in the study for an extensive list of sensors used within remote sensing of mangrove studies</li>
+<li>Aerial imagery is limited in that it cannot be scaled beyond immediate site/locality, but has value in that it can provide high-resolution data particularly for hard to access sites without field data.</li>
+<li>High spatial resolution data (IKONOS &amp; Quickbird)
+<ul>
+<li>Ultimate goal is to map mangroves at the species level</li>
+<li>A comparison of IKONOS and QuickBird found IKONOS (4 m) to be more effective at discriminating in species because of the higher spectral resolution. QuickBird has higher spatial resolution (1 m) but was less useful in this particular investigation (Greg’s paper).</li>
+</ul></li>
+<li>Hyperspectral imagery
+<ul>
+<li>identifying relevant bands is a time intensive process and many bands are highly correlated</li>
+</ul></li>
+<li>EnMAP sensor
+<ul>
+<li>satellite hyperspectral data that will provide more access to hyperspectral datasets globally</li>
+<li>is this online? I’m not sure yet.</li>
+</ul></li>
+</ul>
+<p>Several tables are given in the paper that describe the various data sensors and platforms and their relative benefits and limitations for remote sensing of mangroves.</p>
+<p><em>Needs within RS of mangroves space:</em></p>
+<p>The authors call for several needs within the remote sensing of mangrove space:</p>
+<ol style="list-style-type: decimal">
+<li>Need for homogenized classification schemes - ontologies, e.g., what is a sparse versus dense mangrove</li>
+<li>Need for standardized data-processing models - standardiziing preprocessing, processing and post processing such that enhanced comparability of studies is enabled</li>
+<li>Need for homogenized transparent accuracy assessment - self explanatory</li>
+<li>Need for further investigations of synergistic data use - coupling of new, novel and disparate RS datasets to investigate novel research questions</li>
+<li>Need for ecosystem service assessments</li>
+<li>Need for interdisciplinary and well-networked research teams</li>
+</ol>
+</div>
+<div id="giri-2016" class="section level3">
+<h3><span class="header-section-number">5.1.4</span> Giri, 2016</h3>
+<p><em>“Observation and monitoring of mangrove forests using remote sensing: Opportunities and challenges”</em> <span class="citation">(Giri <a href="#ref-giri2016observation">2016</a>)</span></p>
+<p><strong>Key contribution:</strong> This is an introductory piece to a special issue on monitoring mangroves using RS. There are potentially interesting pieces in the special issue but most are focused on vegetation dynamics rather than geomorphology.</p>
+<p>Giri is one of the key researchers working on mapping of mangrove forests using RS data, and offers some succint advice on steps for classifying mangrove forests:</p>
+<ol style="list-style-type: decimal">
+<li>identify clear and concise objective</li>
+<li>develop classification system and legend</li>
+<li>satellite and secondary data acquisition</li>
+<li>data pre-processing</li>
+<li>training data collection</li>
+<li>image classification</li>
+<li>results validation</li>
+<li>dissemination of results</li>
+<li>application of classification results</li>
+</ol>
+<p>*Random <a href="notes:*" class="uri">notes:*</a></p>
+<ul>
+<li>Important to be clear on consideration of purely true mangroves, or true mangroves with mangrove associates.</li>
+<li>Entire Landsat archive available in Amazon Web Services as well as Google Earth Engine.</li>
+</ul>
+<p>Article synopses:</p>
+<ul>
+<li>Zhu et al, 2016: Look at Back Propagation ANN to map mangrove forest biomass using WorldView-2 imagery. Find that inclusion of species dummy variable for <em>S. apetala</em> vs <em>K. candel</em> highly significant in improving biomass estimation accuracy.</li>
+<li>Cuogo et al, 2016: Examined SAR backscattering from Radarsat-2 C-band data for correlations with forest structure and species data in Amazon. <em>Might be interesting to look into their methods for sites in Thailand</em></li>
+<li>Jones et al, 2016: Used Giri’s data to assess changes in mangrove cover at national level for Madagascar. Produced higher accuracy maps with improved detail relative to Giri’s data. Potentially interesting for Thailand.</li>
+</ul>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-adam2010multispectral">
+<p>Adam, Elhadi, Onisimo Mutanga, and Denis Rugege. 2010. “Multispectral and Hyperspectral Remote Sensing for Identification and Mapping of Wetland Vegetation: A Review.” <em>Wetlands Ecology and Management</em> 18 (3): 281–96. doi:<a href="https://doi.org/10.1007/s11273-009-9169-z">10.1007/s11273-009-9169-z</a>.</p>
+</div>
+<div id="ref-heumann2011satellite">
+<p>Heumann, Benjamin W. 2011. “Satellite Remote Sensing of Mangrove Forests: Recent Advances and Future Opportunities.” <em>Progress in Physical Geography</em> 35 (1): 87–108. doi:<a href="https://doi.org/10.1177/0309133310385371">10.1177/0309133310385371</a>.</p>
+</div>
+<div id="ref-kuenzer2011remote">
+<p>Kuenzer, Claudia, Andrea Bluemel, Steffen Gebhardt, Tuan Vo Quoc, and Stefan Dech. 2011. “Remote Sensing of Mangrove Ecosystems: A Review.” <em>Remote Sensing</em> 3 (5): 878–928. doi:<a href="https://doi.org/10.3390/rs3050878">10.3390/rs3050878</a>.</p>
+</div>
+<div id="ref-giri2016observation">
+<p>Giri, Chandra. 2016. “Observation and Monitoring of Mangrove Forests Using Remote Sensing: Opportunities and Challenges.” <em>Remote Sensing</em> 8. doi:<a href="https://doi.org/10.3390/rs8090783">10.3390/rs8090783</a>.</p>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="project-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="project-3.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="remote-sensing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="vegetation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -358,7 +529,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-prospectus.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/05-remotesensing.Rmd",
 "text": "Edit"
 },
 "download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
