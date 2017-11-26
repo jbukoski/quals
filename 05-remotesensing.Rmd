@@ -650,10 +650,43 @@ The methods are a little black-boxey and may require digging into the associated
 
 *"Exploring LiDAR data for mapping the micro-topography and tidal hydro-dynamics of mangrove systems: An example from southeast Queensland, Australia"* [@knight2009exploring]
 
-**Key contribution: **
+**Key contribution: ** This is one of the very few studies that employs airborner LiDAR to derive a high resolution digital elevation model an examine inundation and hydrology characteristics within a mangrove forest.
 
+**Key notes: **
 
+The study was motivated by the need to map habitats for a disease vector mosquito.
 
+The digital terrain model that they obtained had a vertical accuracy of 0.5 m, and was validated by using hydrological modeling and field data of tidal gauages over ten days.
+
+The accuracy of the DTM and that of field data indicating habitats for mosquitos were found to validate one another.
+
+Of key geomorphological importance is the fact that they were able to identify a ridge that ran through the majority of the site as well as back basins and fringing mangroves. The back basin was blocked from tidal waters during all times except for the highest tides. Such understandings may be important for understanding the spatial ecology of a site.
+
+The authors also note the importance of the LiDAR derived DTM for understanding effects of SLR on the mangrove forest.
+
+*Study design*
+
+LiDAR was flown over the area, producing a shapefile with 3 million points. The points were classified as ground versus non-ground by removal of points not contribution to ground terrain points by +/- 0.1 m. The ground point data was validated against GPS base-station data. 150 points were used to assess vertical accuracy across the entire area.
+
+The tidal inundation data was collected from 10 points in the field, recording water depth, pressure and temperature every 5 minutes continuously for 10 days. Locations of the tidal gauges were informed by the DEM, selecting for areas near to tidal source, in depressions or on hummocks. The tidal depths were used to validate inundation patterns expected given the LiDAR DTM.
+
+Tidal inundation was modeled in ArcMap by "flooding" of the landscape in 0.05 m increments, with flooding constrained to adjacent to water bodies (i.e., the back basin was not flooded until the berm was breached).
+
+*Results*
+
+The use of the DTM was able to identify the presence of a berm as well as back basin. The below figure displays the findings. The top figure displays the elevation along a transect that was conducted along the center of the berm. A minimum elevation can be seen that must be breached for flooding of the back basin.
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/knight2009fig2.bmp"))
+```
+
+The total DTM for the site can be seen below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/knight2009fig1.bmp"))
+```
+
+The authors conclude that use of LiDAR data for derivation of the DTM was successful, and that the approach that they took may work well for modeling of shifts in hydrology that may occur with sea level rise.
 
 ### Smith, 2009 {#smith2009}
 
