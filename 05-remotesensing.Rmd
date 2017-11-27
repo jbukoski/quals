@@ -580,6 +580,11 @@ Additionally, for forests with aboveground root structures (i.e., mangroves), sc
 
 *"An overview of scale, pattern, process and relationships in geomorphology: A remote sensing and GIS perspective"* [@walsh1998overview]
 
+**Key contribution: **
+
+
+**Key notes: **
+
 ### Imhoff, 1990 {#imhoff1990}
 
 *"The derivation of a sub-canopy digital terrain model of a flooded forest using synthetic aperture radar"* [@imhoff1990derivation]
@@ -642,9 +647,55 @@ The methods are a little black-boxey and may require digging into the associated
 
 *"Use of synthetic aperture radar for recognition of coastal geomorphological features, land-use assessment and shoreline changes in Bragan{\c{c}}a coast, Para, Northern Brazil"* [@souza2003use]
 
-**Key contribution: **
+**Key contribution: ** This study is a sister study to that of [@souza2002recognition], and examines mapping of geomorphology as well as changes in coastal extents over time. The study uses SAR data acquired from over a 30 year period to investigate areas of coastal progradation versus erosion.
 
-**Key use: **
+**Key notes: **
+
+The difference in SAR return from land versus water is largely a function of contrast of dielectric properties as well as surface roughness, and allows for striking interface along coastal landscapes.
+
+The two SAR imagery datasets used were airborne X-HH band data from 1972, and orbital (satellite-based) C-HH band data from 1998. Both images were acquired at high tide conditions.
+
+Imagery were ortho-rectified based on ground points that were obtained during a field campaign.
+
+The SAR imagery from 1972 was used to distinguish between terrain and open water, converted to a vector dataset, and overlaid on the 1998 imagery to examine changes in shoreline over time.
+
+The authors provide a nice overview of the steps that must be taken for use of SAR data (i.e., processing):
+
+  1. Input data
+    - Reading of image orbit data and 16 bit RADARSAT data
+  2. Proprocessing phase
+    - Radiometric correction - scaling of 16 bits to 8 bits, ground control point selection
+    - Geometric correction - math model for geometric correction, geometric ortho-correction + speckle reduction
+  3. Enhancement
+    - Linear stretch
+  4. Assessment of SAR product
+    - Radargeologic interpretation
+    
+*Results - Mapping of land cover classes*
+
+The authors used visual interpretation to identify six prominent geomorphological coastal features. Intertidal vs. supratidal mangroves can be determined given different microwave responses to vegetation. Supratidal mangroves are shorter and more open, and thus result in a reduced double-bounce effect relative to intertidal mangroves.
+
+They used aerial imagery in conjunction with the SAR data to help validate some of their land classifications.
+
+*Results - Mapping of shoreline change*
+
+Other studies have noted that mapping shoreline change during Spring High Tide Level is most appropriate, thus both images were acquired at same high tide condition.
+
+The authors conclude that the shorelines has been subject to severe erosion, but I'm also not sure how they distinguish between this and sea level rise during the time period. They identify both areas of erosion as well as deposition, but with a net effect of erosion in the study region.
+
+They note that deposition of sand has killed mangrove vegetation, and thus the mangrove terrace has largely been eroded.
+
+They also note that in other areas, sediment supply and protection from wave attacks has allowed for accretion of sandbanks, muddy deposition and establishment of mangroves.
+
+The full map or erosion and accretion in the area is shown below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/filho2003aabc.bmp"))
+```
+
+The authors use the maps of erosion and accretion coupled with ecosystems to understand processes that may be occuring within the landscape. The authors also note, however, that much of the findings are speculations given the absence of wind, wave, and tidal currents data within the region.
+
+Time series analysis of SAR data thus may be informative in investigating long-term trends along coastlines, particular for identifying regions of erosion or deposition.
 
 ### Knight, 2009 {#knight2009}
 
@@ -721,26 +772,136 @@ Among most important techniques for postprocessing of LiDAR point clouds for geo
   2. Sithole and Vosselman, 2004 - Experimental comparison of filter algorithms for bare-Earth extraction from airborne laser scanning point clouds
 
 
+### Balke & Friess, 2016 {#balke2016}
+
+*"Geomorphic knowledge for mangrove restoration: A pan-tropical categorization"* [@balke2016geomorphic]
+
+**Key contribution: ** This study uses remotely sensed datasets to characterize geomorphic settings across the tropics with a goal of identifying difference that are relevant for restoration projects. The study uses spatial layers of both suspended sediment as well as tidal range to primarily classify the settings, and emerges with three different classes:
+
+  1. Minerogenic and high tidal range (allochthonous)
+  2. Minerogenic and low tidal range (allochthonous)
+  3. Organogenic and low tidal range (authochthonous)
+  
+**Key notes: **
+
+Primarily three different datasets (soil organic matter, total suspended matter, and tidal range) were used for the classifications of different geomorphic settings.
+
+*Study design*
+
+The first dataset is that of soil organic matter, and was compiled from the academic literature.
+
+The second dataset is total suspended matter, which was derived from the MERIS spectrometer (Medium Resolution Imaging Spectrometer) aboard the European Envisat satellite. The data employed was a product of TSM available from ESA's Global Ocean Colour for Carbon Cycle Research Project.
+
+Tidal range data used was a layer built from the FES2012 (Finite Element Solution-Global tide) model, which is one of the more accurate models for shallow continental shelf locations.
+
+For each SOM value, a 50 km radius was used to average TSM and tidal data to characterize the site. K-means clustering was used to separate the data into three different groups and thus define borders between sites of different character.
+
+*Results*
+
+TSM values were highest near outlets of major rivers.
+
+Multiple linear regression showed that SOM was negatively associated with increasing tidal range and total suspended matter. 
+
+The k-means clustering and classification of sites from which they had data are shown below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/balke2009epsl.bmp"))
+```
+
+*Key findings*
+
+Their results show that sites with SOM > 60% were found mostly in the Caribbean, Hawaii and Florida. Sites elsewhere had average OM values of ~10%, and thus broad description of mangrove soils as "peat" is misleading.
+
+The broad majority of mangrove soils globally are organogenic.
+
+They then describe a variety of relevant mangrove restoration and management techniques relevant for the various mangrove geomorphic settings.
+
+In organogenic settings, key risk is collapse of peat following disturbance. Influences on root productivity such as nutrient availability as well as inundation levels are of key importance. 
+
+They note that low tidal ranges often indicate the importance of seasonal flooding to the site. Management and restoration in microtidal sites is thus often concerned with preserving networks of terrestrial freshwater sources.
+
+Minerogenic sites require high levels of sediment input to maintain intertidal surfaces at correct elevation relative to tidal frame, and thus proper management of hydroperiod at rates which mangrove prefer. Disturbances in sediment supply may influence long term health of mangroves. Use of bamboo fences in Vietnam and Thailand may help to reduce tidal energy and wave energy and promote sediment deposition.
+
+Interesting that they note the Chao Phraya river has undergone a ~75% reduction in sediment yield, with severe coastal erosion resulting.
+
+## Other
+
+The following studies provide key information on use of remote sensing as it relates to wetlands, but do not necessarily fit into the mangrove-specific studies of mapping "vegetation" or "geomorphology".
+
 ### Lucas, 2014 {#lucas2014}
 
 *"Contribution of L-band SAR to systematic global mangrove monitoring"* [@lucas2014contribution]
 
 **Key contribution: **
 
-### Balke & Friess, 2016 {#balke2016}
-
-*"Geomorphic knowledge for mangrove restoration: A pan-tropical categorization"* [@balke2016geomorphic]
-
-
-## Other
-
-The following studies provide key information on use of remote sensing as it relates to wetlands, but do not necessarily fit into the mangrove-specific studies of mapping "vegetation" or "geomorphology".
-
 ### Dronova, 2015 {#dronova2015a}
 
 *"Mapping dynamic cover types in a large seasonally flooded wetland using extended principal component analysis and object-based classification"* [@dronova2015mapping]
 
-**Key contribution: **
+**Key contribution: ** This study addresses the issue that remote sensing imagery is often collected at a single point in time, but ecosystems are inherently variable and are constantly changing over multiple time scales (hourly, seasonally, yearly). The authors propose a new mechanism for embracing the dynamic nature of the landscape and improving classification results based on that.
+
+**Key notes: **
+
+The authors use different forms of PCA to examine temporal patterns in space (S-mode PCA), prevalent spatial patterns over time (T-mode PCA), as well as shared spatial and temporal patterns among different datasets (extended PCA). 
+
+One of the key interests is distinguishing between short-term changes (phenology) versus longer-term changes that may indicate changes in ecosystem health, state parameters, or ecosystem function.
+
+"Dynamic cover types" (DCTs) - distinct sequences of wetland cover states and transitions observed within a given period of change cycle.
+
+The study focuses on one flood cycle from summer 2007 to spring 2008 and characterizes seven dominant DCTs that are representative of different water coverages, surface compositions and plant phenology that were identified during prior research.
+
+*Study design*
+
+Their methods were organized as such:
+
+  1. Performed T- and S-mode extended PCA transforms of input RS data and examined which spatial and temporal patterns corresponded to DCTs
+  2. Segmented input image and applied and assigned training and test data for DCT mapping
+  3. Examination of statistics to determine DCT class differences
+  4. Supervised object-based classification of DCTs
+  5. Accuracy assessments of classification and uncertainty
+  
+Within the Poyang Lake area, there is massive change in lake and inundation levels, and five very broad coarse land covers may be described: live vegetation, dead vegetation, water, sand and mudflats.
+
+Note that this study site is primarily herbaceous in cover, and thus the degree of dynamism that occurs (during wet season) may be more pronounced than in mangroves in which dominant vegetation is tree cover.
+
+*Dynamic cover types*
+
+Seven different dynamic cover types were defined, based on key ecological processes as well as the interests of the study:
+
+  1. Ephemeral mudflats, non-vegetated
+  2. Ephemeral mudflats, vegetated
+  3. Emergent C3 grassland, flooded
+  4. Mixed C4-c3 grassland, partiall flooded
+  5. Winter aquatic macrophytes
+  6. Permanent water
+  7. Permanent sand
+  
+The RS datasets that were used were Beijing-1 microsatellite multispectral data (7 scenes), and Envisat advanced SAR C-band in like polarization (HH or VV). The multispectral data was primary imagery whereas the SAR imagery allowed for better delineation between murky waters and mudflats.
+
+The spectral data were used to create NDVI and NDWI indices for the landscape.
+
+The NDVI, NDWI and SAR data were used as inputs to the extended PCA analysis. They "performed standardized EPCA on these three time series using spatial (S-mode) and temporal (T-mode) forms of PCA orientation". 
+
+T-mode analysis outputs principal components as images for each time series that highlight dominant spatial patterns over time.
+
+S-mode analysis reveals recurrent temporal patterns in the study area.
+
+*Classification*
+
+Classification was performed following OBIA, which helps to reduce the salt and pepper effect that is common to wetlands.
+
+*Results*
+
+The results produced maps with quite high classification accuracies (>90%). Thus, the authors conclude that use of prior ecological information and the mapping of dynamic cover types is deemed to be an appropriate approach for producing maps of ecological classes in dynamic landscapes.
+
+The T-Mode EPCA primarily explained variance through the first principal component (94.7% of variation), which correlated with differences in prevalence of green emergent vegetation for the NDVI data, and gradients of submersion time for the NDWI and ASAR data.
+
+The S-mode EPCA highlighted temporal changes in the landscape. The first component (37.7% of variation) highlighted changed between August 2007 and late spring 2008, whereas the second component (35.4%) highlighted change between mid-winter and late spring 2008.
+
+The major sources of error were mutual confusion of emergent C3 grassland with mixed C4/C3 grassland, as well as ephemeral non-vegetated mudflats with vegetated mudflats, permanent water, and winter aquatic macrophytes.
+
+The DCTs helped identify different "schedules" for similar classes, i.e., different trajectories over time that occurred.
+
 
 ### Dronova, 2015 {#dronova2015b}
 

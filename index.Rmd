@@ -3,7 +3,7 @@ title: "Qualifying Exams Literature Review"
 author: "Jacob J. Bukoski"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::pdf_book
+output: bookdown::pdf_document
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike

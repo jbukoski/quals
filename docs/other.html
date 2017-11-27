@@ -235,12 +235,12 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="5.3.5" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#souzafilho2003"><i class="fa fa-check"></i><b>5.3.5</b> Souza-Filho, 2003</a></li>
 <li class="chapter" data-level="5.3.6" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#knight2009"><i class="fa fa-check"></i><b>5.3.6</b> Knight, 2009</a></li>
 <li class="chapter" data-level="5.3.7" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#smith2009"><i class="fa fa-check"></i><b>5.3.7</b> Smith, 2009</a></li>
-<li class="chapter" data-level="5.3.8" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#lucas2014"><i class="fa fa-check"></i><b>5.3.8</b> Lucas, 2014</a></li>
-<li class="chapter" data-level="5.3.9" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#balke2016"><i class="fa fa-check"></i><b>5.3.9</b> Balke &amp; Friess, 2016</a></li>
+<li class="chapter" data-level="5.3.8" data-path="rs-geomorphology.html"><a href="rs-geomorphology.html#balke2016"><i class="fa fa-check"></i><b>5.3.8</b> Balke &amp; Friess, 2016</a></li>
 </ul></li>
 <li class="chapter" data-level="5.4" data-path="other.html"><a href="other.html"><i class="fa fa-check"></i><b>5.4</b> Other</a><ul>
-<li class="chapter" data-level="5.4.1" data-path="other.html"><a href="other.html#dronova2015a"><i class="fa fa-check"></i><b>5.4.1</b> Dronova, 2015</a></li>
-<li class="chapter" data-level="5.4.2" data-path="other.html"><a href="other.html#dronova2015b"><i class="fa fa-check"></i><b>5.4.2</b> Dronova, 2015</a></li>
+<li class="chapter" data-level="5.4.1" data-path="other.html"><a href="other.html#lucas2014"><i class="fa fa-check"></i><b>5.4.1</b> Lucas, 2014</a></li>
+<li class="chapter" data-level="5.4.2" data-path="other.html"><a href="other.html#dronova2015a"><i class="fa fa-check"></i><b>5.4.2</b> Dronova, 2015</a></li>
+<li class="chapter" data-level="5.4.3" data-path="other.html"><a href="other.html#dronova2015b"><i class="fa fa-check"></i><b>5.4.3</b> Dronova, 2015</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="ecoinformatics.html"><a href="ecoinformatics.html"><i class="fa fa-check"></i><b>6</b> Ecoinformatics</a><ul>
@@ -316,13 +316,58 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div id="other" class="section level2">
 <h2><span class="header-section-number">5.4</span> Other</h2>
 <p>The following studies provide key information on use of remote sensing as it relates to wetlands, but do not necessarily fit into the mangrove-specific studies of mapping “vegetation” or “geomorphology”.</p>
-<div id="dronova2015a" class="section level3">
-<h3><span class="header-section-number">5.4.1</span> Dronova, 2015</h3>
-<p><em>“Mapping dynamic cover types in a large seasonally flooded wetland using extended principal component analysis and object-based classification”</em> <span class="citation">(Dronova et al. <a href="#ref-dronova2015mapping">2015</a>)</span></p>
+<div id="lucas2014" class="section level3">
+<h3><span class="header-section-number">5.4.1</span> Lucas, 2014</h3>
+<p><em>“Contribution of L-band SAR to systematic global mangrove monitoring”</em> <span class="citation">(Lucas et al. <a href="#ref-lucas2014contribution">2014</a>)</span></p>
 <p><strong>Key contribution: </strong></p>
 </div>
-<div id="dronova2015b" class="section level3">
+<div id="dronova2015a" class="section level3">
 <h3><span class="header-section-number">5.4.2</span> Dronova, 2015</h3>
+<p><em>“Mapping dynamic cover types in a large seasonally flooded wetland using extended principal component analysis and object-based classification”</em> <span class="citation">(Dronova et al. <a href="#ref-dronova2015mapping">2015</a>)</span></p>
+<p><strong>Key contribution: </strong> This study addresses the issue that remote sensing imagery is often collected at a single point in time, but ecosystems are inherently variable and are constantly changing over multiple time scales (hourly, seasonally, yearly). The authors propose a new mechanism for embracing the dynamic nature of the landscape and improving classification results based on that.</p>
+<p><strong>Key notes: </strong></p>
+<p>The authors use different forms of PCA to examine temporal patterns in space (S-mode PCA), prevalent spatial patterns over time (T-mode PCA), as well as shared spatial and temporal patterns among different datasets (extended PCA).</p>
+<p>One of the key interests is distinguishing between short-term changes (phenology) versus longer-term changes that may indicate changes in ecosystem health, state parameters, or ecosystem function.</p>
+<p>“Dynamic cover types” (DCTs) - distinct sequences of wetland cover states and transitions observed within a given period of change cycle.</p>
+<p>The study focuses on one flood cycle from summer 2007 to spring 2008 and characterizes seven dominant DCTs that are representative of different water coverages, surface compositions and plant phenology that were identified during prior research.</p>
+<p><em>Study design</em></p>
+<p>Their methods were organized as such:</p>
+<ol style="list-style-type: decimal">
+<li>Performed T- and S-mode extended PCA transforms of input RS data and examined which spatial and temporal patterns corresponded to DCTs</li>
+<li>Segmented input image and applied and assigned training and test data for DCT mapping</li>
+<li>Examination of statistics to determine DCT class differences</li>
+<li>Supervised object-based classification of DCTs</li>
+<li>Accuracy assessments of classification and uncertainty</li>
+</ol>
+<p>Within the Poyang Lake area, there is massive change in lake and inundation levels, and five very broad coarse land covers may be described: live vegetation, dead vegetation, water, sand and mudflats.</p>
+<p>Note that this study site is primarily herbaceous in cover, and thus the degree of dynamism that occurs (during wet season) may be more pronounced than in mangroves in which dominant vegetation is tree cover.</p>
+<p><em>Dynamic cover types</em></p>
+<p>Seven different dynamic cover types were defined, based on key ecological processes as well as the interests of the study:</p>
+<ol style="list-style-type: decimal">
+<li>Ephemeral mudflats, non-vegetated</li>
+<li>Ephemeral mudflats, vegetated</li>
+<li>Emergent C3 grassland, flooded</li>
+<li>Mixed C4-c3 grassland, partiall flooded</li>
+<li>Winter aquatic macrophytes</li>
+<li>Permanent water</li>
+<li>Permanent sand</li>
+</ol>
+<p>The RS datasets that were used were Beijing-1 microsatellite multispectral data (7 scenes), and Envisat advanced SAR C-band in like polarization (HH or VV). The multispectral data was primary imagery whereas the SAR imagery allowed for better delineation between murky waters and mudflats.</p>
+<p>The spectral data were used to create NDVI and NDWI indices for the landscape.</p>
+<p>The NDVI, NDWI and SAR data were used as inputs to the extended PCA analysis. They “performed standardized EPCA on these three time series using spatial (S-mode) and temporal (T-mode) forms of PCA orientation”.</p>
+<p>T-mode analysis outputs principal components as images for each time series that highlight dominant spatial patterns over time.</p>
+<p>S-mode analysis reveals recurrent temporal patterns in the study area.</p>
+<p><em>Classification</em></p>
+<p>Classification was performed following OBIA, which helps to reduce the salt and pepper effect that is common to wetlands.</p>
+<p><em>Results</em></p>
+<p>The results produced maps with quite high classification accuracies (&gt;90%). Thus, the authors conclude that use of prior ecological information and the mapping of dynamic cover types is deemed to be an appropriate approach for producing maps of ecological classes in dynamic landscapes.</p>
+<p>The T-Mode EPCA primarily explained variance through the first principal component (94.7% of variation), which correlated with differences in prevalence of green emergent vegetation for the NDVI data, and gradients of submersion time for the NDWI and ASAR data.</p>
+<p>The S-mode EPCA highlighted temporal changes in the landscape. The first component (37.7% of variation) highlighted changed between August 2007 and late spring 2008, whereas the second component (35.4%) highlighted change between mid-winter and late spring 2008.</p>
+<p>The major sources of error were mutual confusion of emergent C3 grassland with mixed C4/C3 grassland, as well as ephemeral non-vegetated mudflats with vegetated mudflats, permanent water, and winter aquatic macrophytes.</p>
+<p>The DCTs helped identify different “schedules” for similar classes, i.e., different trajectories over time that occurred.</p>
+</div>
+<div id="dronova2015b" class="section level3">
+<h3><span class="header-section-number">5.4.3</span> Dronova, 2015</h3>
 <p><em>“Object-based image analysis in wetland research: A review”</em> <span class="citation">(Dronova <a href="#ref-dronova2015object">2015</a>)</span></p>
 
 </div>
@@ -330,6 +375,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <!-- </div> -->
 <h3>References</h3>
 <div id="refs" class="references">
+<div id="ref-lucas2014contribution">
+<p>Lucas, Richard, Lisa Maria Rebelo, Lola Fatoyinbo, Ake Rosenqvist, Takuya Itoh, Masanobu Shimada, Marc Simard, et al. 2014. “Contribution of L-band SAR to systematic global mangrove monitoring.” <em>Marine and Freshwater Research</em> 65 (7): 589–603. doi:<a href="https://doi.org/10.1071/MF13177">10.1071/MF13177</a>.</p>
+</div>
 <div id="ref-dronova2015mapping">
 <p>Dronova, Iryna, Peng Gong, Lin Wang, and Liheng Zhong. 2015. “Mapping Dynamic Cover Types in a Large Seasonally Flooded Wetland Using Extended Principal Component Analysis and Object-Based Classification.” <em>Remote Sensing of Environment</em> 158: 193–206. doi:<a href="https://doi.org/10.1016/j.rse.2014.10.027">10.1016/j.rse.2014.10.027</a>.</p>
 </div>
