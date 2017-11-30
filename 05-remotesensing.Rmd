@@ -580,10 +580,56 @@ Additionally, for forests with aboveground root structures (i.e., mangroves), sc
 
 *"An overview of scale, pattern, process and relationships in geomorphology: A remote sensing and GIS perspective"* [@walsh1998overview]
 
-**Key contribution: **
+**Key contribution: ** This study exemplifies the "scale, pattern and process paradigm" for exploration of geomorphological relationships in two study systems: alpine and fluvial environments. The authors note the value of remote sensing and GIS, as well as their integration, for examining processes that may occur over different scales.
 
+The authors note the basic intent of the study is to examine use of space-time scales for organizing and examining geomorphic and biogeographic processes via a RS-GIS system framework.
 
 **Key notes: **
+
+The study is motivated by early theoretical work in landscape ecology, which functions largely under the premise that ecological patterns and processes are largely dictated by the spatial arrangement and patterning of a landscape.
+
+The authors note several key values of GIS work for landscape processes, in particular:
+
+  1. Examination of spatial vs. non-spatial relationships via explicit tools (overlays, etc.)
+  2. Represent an array of landscape perspectives through integrating geographically registered spatial coverages
+  3. Efficient display of information
+  4. Examine co-occurrence of spatial and non-spatial data
+  5. Display singular thematic or composite coverages
+  6. Can model location and response of phenomena
+
+Critical consideration is the scale at which ecological processes happen, and the scale of the dataset (e.g., 30 x 30m pixels) that one is working with.
+
+The paper provides a review of remote sensing and GIS, which I have largely omitted here except for a few key points.
+
+GIS can be used to produce spatial metrics (quantification of the composition and spatial pattern of landscape units), which may help assess degree of spatial organization within a landscape. As the authors refer to it, these are largely the precursor to what is now termed object based image analysis.
+
+Landscape level pattern indices may include: dominance, contagion, fractal dimension, or lacunarity indices.
+
+Lacunarity incorporates overall fraction of map covered by a phenomenon, degree of contagion, presence of self-similarity, scale of randomness and presence of hierarchical structure. 
+
+In essence, lacunarity describes the degree of similarity of regions within a geographic area at a predefined scale.
+
+Spatial metrics at landscape level can be generally understood to provide information on landscape heterogeneity indices due to measurements of overall landscape structure within defined area.
+
+GIS can also be useful for assessing scale dependencies. Semivariance and fractal dimensions are used to assess nature and degree of spatial autocorrelation within landscape elements over different spatial scales.
+
+Examples of overall scale dependent that may influence a study are:
+
+  1. The precision with which scales and the region of interest are defined
+  2. Nature of the variables that are examined (local scale may be physical variables, regional may be climate or land use)
+  3. Degree of scaling (either up or down) that is attempted
+  
+Explicit recognition of the importance of scale has led to the use of hierarchy theory within landscape ecology studies (may want to read up more on this).
+
+*Fluvial case study*
+
+The authors describe the different scales of environmental processes that shape the meandering and development of alluvial systems. They not the importance of both spatial and temporal scales.
+
+Fine spatial scales may be seen in channeling or sedimentation along particular points within a river, and are likely due to interactions of flow and sediment properties at fine scales.
+
+At coarse spatial scales, development of abandoned channels are controlled by water flow cross floodplains and proximity of site to the channel.
+
+Additionally, for temporal scales, sharp pulses in water flow or longer term gradual shifts may have different effects on an alluvial system.
 
 ### Imhoff, 1990 {#imhoff1990}
 
@@ -1002,6 +1048,3 @@ The author provides six key summary points:
     - spectral similarities of diverse classes
     - subpixel mixing
     - difficulties in field sampling
-
-
-
