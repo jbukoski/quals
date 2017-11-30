@@ -907,5 +907,47 @@ The DCTs helped identify different "schedules" for similar classes, i.e., differ
 
 *"Object-based image analysis in wetland research: A review"* [@dronova2015object]
 
+**Key contribution:** This is an excellent and comprehensive review of OBIA as it relates to wetlands, and provides an overview of how researchers are currently using OBIA in wetland analyses, some of the relative strengths of it, and some of the challenges.
+
+**Key notes: **
+
+There are several extensive sections in the paper per different topics, and I follow the structure in my summarization of the article here.
+
+*Background on general OBIA principlies*
+
+OBIA segmentation may be performed through top-down or bottom-up algorithms, or a combination of the two. 
+
+Given that "typical" objects might be difficult to identify within complex landscapes such as wetlands, "primitive objects," which are just a first pass at removing some of the variation and creating objects slightly larger than the pixel level may be used. The "primitive objects" then become the unit of analysis. 
+
+Segmentation algorithms are controlled by parameters that are subjective and variable across studies. This is a key concern and area for additional research not only within wetlands & OBIA, but OBIA more broadly.
+
+Classification of objects occurs under the same conceptual pathway of pixel-based classification, but the feature space is much larger as textural and spatial characteristics (proximity, size, shape) can all be incorporated into the classification algorithm.
+
+Accuracy assessments for segmentation focus primarily on degree of over- or under-segmentation of the target reference units.
+
+*Using segmentation to address heterogeneity and noise*
+
+Speckle arises due to heterogeneity of intrinsic spectral variation, or mixed areas with fine-scale patchiness and diversity. The influence increases with high resolution data and may expose non-relevant landscapes.
+
+OBIA can be a key means of reducing the speckle within the landscape by smoothing out local variation.
+
+This may be particularly useful for radar based datasets, as interaction with vertical and horizontal structure of wetlands augments speckling. 
+
+For most studies that were reviewed, "primitive objects" are the initial units of analysis, and objects at "higher" hierarchical levels can be recovered later from classification of the primitives.
+
+*Detection and delineation of wetlands as landscape units*
+
+OBIA can help in delineation by providing physically meaningful non-spectral attributes such as shape, size, spatial relationships and adjacency metrics.
+
+OBIA may also smooth variation and help to delineate between "drier" vs. "wetter" regions within the landscape.
+
+Supplementary datasets can also be incorporated into OBIA, such as digital terrain models, which may further help to delineate wetlands.
+
+A major issue for delineating wetlands is the "fuzziness" of their boundaries, which are often unclear and may change with time. Potential strategies to reduce fuzziness may include:
+
+  1. Examining imagery at dates with different hydrological patterns to obtain "generalized" boundaries
+  2. Incorporating high-resolution imagery or ancillary data
+  3. Focus on detection of wetland presence and prevalent extent rather than precise boundaries
+  
 
 
