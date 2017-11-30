@@ -949,5 +949,59 @@ A major issue for delineating wetlands is the "fuzziness" of their boundaries, w
   2. Incorporating high-resolution imagery or ancillary data
   3. Focus on detection of wetland presence and prevalent extent rather than precise boundaries
   
+*Hierarchical relationships in wetland classification*
+
+Given complexity in cover types, may need step wise classifications (i.e., classifications at multiple steps) or analyses at different spatial scales in order to improve accuracies.
+
+In using hierarchical OBIA, researchers can examine "nestedness" within wetlands, which may allow for different scales of physical or ecological processes to emerge (biocomplexity).
+
+*Diversity of object level variables for class delineation*
+
+At the object level, there are a variety of different variables that can be employed for classification and subsequently merging of objects. Three primary types of information exist:
+
+  1. Spectral variables - most commonly employed and may be spectral wavelengths, but may also be radar backscatter that indicates the height or "texture" of the landscape
+  2. Texture variables - of non-spectral variables, texture-based ones are most commonly employed. Here texture refers to patterns within the object, and may be simple measures such as standard deviation or may become increasingly complex.
+  3. Shape and contextual variables - shape, adjacency, proximity, perimeter to area ratios are all examples of informative metrics. Landscape objects that have a known shape may be able to be classified as a function of such parameters.
+
+*OBIA for wetland change analysis*
+
+Use of OBIA for change analysis is less common than single data segmentation or classification efforts, but may be valuable for investigating shifting parameters within particular regions of interest in a landscape.
+
+The author notes the value of an "object fate analysis," in which investigation of spatially explicit changes in the shape geometry can be informative.
+
+In employing wetland change analysis, magnitude of transitions should exceed the sizes of individual pixels or primitive objects.
+
+*Accuracy in wetland OBIA*
+
+Most studies employed the use of a traditional confusion matrix. Several studies used fuzzy accuracy assessment (?).
+
+In general, the accuracies of the OBIA classifications increased with more than 4 classes, though studies rarely employed more than 10 classes.
+
+The accuracy assessment brought to light important issues that may impinge upon accuracy of OBIA-based classification. In particular, the following may influence the classification accuracy:
+
+  1. Spatial scale and spectral properties of image data and inputs to segmentation
+    - object dimensions should significantly exceed scales of local noise and irrelevant heterogeneity
+    - may be spectral, radar based, or supplementary in nature; timing of data acquisition is also critical 
+  2. Choice of segmentation parameters for object generation
+    - depending on segmentation parameters, different objects will be generated; additional research into standardization of them should be performed to identify "optimal" segmentation
+  3. Choice of object attributes for classification
+    - OBIA generates additional features and thus the selection amongst them can be particularly difficult; research into automation of optimizing the feature space is needed
+  4. Choice of classification approach
+    - different algorithms may perform better than others; more research needed here. SVM is quite good so far
+
+*Summary points*
+
+The author provides six key summary points:
+
+  1. OBIA is effective for smoothing microvariation that often corresponds to "noise" and variance that is not ecologically meaningful; induces the unit of analysis to be more ecologically meaningful and effective for classifying into larger landscape classes.
+  2. OBIA is effective for mapping isolate wetlands
+  3. OBIA allows for hierarchical approaches - can delineate wetlands from other land types, and then begin to parse apart ecologically meaningful units within the wetland
+  4. Flexibility in segmentation allows for both customization of analysis but may also hinder generalization and may induce biases into the analysis
+  5. OBIA for change detection can be developed greatly and may be useful in examining the "fate" or particular landscape objects
+  6. Wetland-specific challenges for RS inference remain in OBIA:
+    - spectral similarities of diverse classes
+    - subpixel mixing
+    - difficulties in field sampling
+
 
 
