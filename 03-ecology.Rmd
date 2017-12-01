@@ -204,7 +204,67 @@ Natural stressors have regulating effects on mangroves:
 *Conclusion*
 
 Lugo concludes that mangroves may be best thought of as steady-state systems that are most optimal for the saline, intertidal environment. The same qualities (high mortality, dispersal, germination and growth) that may induce researchers to think of them as successional are likely key for maintaining their steady state status.
+
+
+### Jimenez *et al*, 1985 {#jimenez1985}
+
+*"Tree mortality in mangrove forests"* [@jimenez1985tree]
+
+**Key contribution: ** This article reviews studies of mangrove tree mortality from natural as well as anthropogenic causes. They discuss stressors as well as the ability of mangrove forests to respond (i.e., potential successional implications).
+
+The objectives of the article are to:
+
+  1. Synthesize information on natural massive mangrove mortalities and examine possible causes
+  2. Analyze evidence available on the Gambia "epidemic"
   
+**Key notes: ** 
+
+The authors distinguish between normal tree mortality and massive tree mortality, in which the former is the process of normal forest dynamics and the latter is a result of drastic environmental change.
+
+*Normal mortality*
+
+Normal mortality may be expressed as a reduction in tree density and occurs as a negative power function of mean stand DBH.
+
+They describe mangrove development as four phases: 
+
+  1. Colonization - largely a function of rate of seedling arrival, rate of seedling uprooting, and rate of seedling mortality
+  2. Early development - phase of strong competition for space, in which densities can decline drastically.
+  3. Maturity - occurs when growth rates of trees slow down, and mortality is largely limited to suppressed individuals or late recruitment
+  4. Senescence - seldom reached in mangrove forests but may be characterized by wide gaps in the canopy or lack of regeneration
+  
+Normal mortality results in a measure of total standing dead trees, which is highly variable across stands and can be a function of a variety of factors: geomorphic stability, site productivity, frequency and intensity of stress periods, decaying rate of wood, etc.
+
+A stylized response of stem density over the development of a mangrove forest is shown in the figure below:
+
+```{r, echo=FALSE}
+knitr::include_graphics(rep("images/jimenez1985.bmp"))
+```
+
+*Massive mortality*
+
+In general, massive mortality is poorly documented and not well understood in mangroves.
+
+Massive mortality is commonly prompted by direct mechanical action induced by coastal storms such as breaking of stems and branches, defoliation, or windthrow. Massive siltation may also induce mortality.
+
+Secondary factors such as pronounced shifts in hydrology or sedimentary patterns may also induce massive mortality or greatly alter stress levels of existing trees. Flushing of the soils may be altered which changes nutrient availability and concentrations of toxic sulfides.
+
+Chronic flooding may also cause massive tree mortality and may result from subsidence of patches or large influxes of water due to hurricanes or tsunamis. Mortality here is a result of altered gas exchanges in the root systems in trees.
+
+Damage from natural perturbations can be reduced if locally mitigating factors (freshwater flushing) are available, or may be exacerbated due to high pre-existing levels of stress.
+
+Development of even-aged stands and risk of massive mortality due to large changes in stress or perturbations may be a self-perpetuating process.
+
+Many natural perturbations that impact mangroves occur on regular cycles.
+
+*Ecosystem response to massive mortality*
+
+Mangrove dynamics are characteristically well-adapted to natural impacts via high production of propagules, rapid rearrangement of species zonation, and rapid rates of succession and tree growth.
+
+However, responses following anthropogenic disturbances may be slower processes.
+
+*Conclusion*
+
+The authors note that significant punctuated perturbations are key in determining forest structure, but that long-term shifts in stresses or "primary variables" are most important in determining the condition of the forest.
 
 ### Putz & Chan, 1986 {#putz1986}
 
