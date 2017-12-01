@@ -1518,6 +1518,79 @@ The amount of glomalin was correlated to its age (determined via *immunoreactivi
 
 In the deposited sediments, glomalin did not correlate with geomorphological setting, but did exhibit differences between intertidal zones within riverine and tidal settings. The majority of glomalin deposited in riverine settings occurred in the scrub zone, whereas the majority in tidal settings occured in the fringe zone.
 
+### Lovelock *et al*, 2010 {#lovelock2010}
+
+*"Mangrove forest and soil development on a rapidly accreting shore in New Zealand"* [@lovelock2010mangrove]
+
+**Key contribution: ** This study examines the development of forest structure and soil conditions in two naturally established mangrove forests in New Zealand. The study is interesting in that it provides an interesting description of naturally establishing and developing forests in potentially newly available sites (i.e., at the ends of their range).
+
+**Key notes: ** 
+
+The article opens with an excellent review of succession and forest development in mangroves, for which the literature is relatively limited. Of particular note is that most field studies have focused purely on forest structure (i.e., stem density and basal area) rather than biogeochemical properties through time.
+
+*Methods*
+
+The study uses a chronosequence of two mangrove forests to examine development over time and test the following hypotheses:
+
+  1. Mangroves are youngest on seaward fringe and oldest on landward edge
+  2. Mangroves follow successional patterns described in Odum 1969
+  3. C stocks in soils increase with age
+  4. Soil respiration varies with forest age, declining with forest productivity
+  5. N limitations on growth increases with forest age, similar to terrestrial forest systems
+  
+The site they use is at the mouth of the Thames river, and is in a macrotidal site that has large supply of fine-sediment that is redoposited along the coast in intertidal-mud flats.
+
+Transects were laid across the intertidal (~1 km) and forest structure, soil samples (nutrients, C, redox and soil respiration), and tree cores were taken for bomb pulse radiocarbon dating.
+
+Additionally, nutrient addition experiments were performed in the youngest section of the fringe forest and the tallest and oldest forest. Trees were fertilized directly with N and P, and growth was assessed over 14 months.
+
+They compared the young (fringe) forest to the older (landward) forest to examine several successional criteria:
+
+  1. Community energetics - gross production assumed to scale linearly with LAI, and thus production/biomass can be estimated as LAI/basal area
+  2. Community structure - Several different metrics were used here:
+    - total organic matter - soil carbon and aboveground biomass
+    - ratio of porewater nutrients to total foliar nutrients
+    - biochemical diversity estimated as CV in soil redox potentials
+    - spatial heterogeneity as CV in tree size
+  3. Selective pressure - quality and quantity of production assessed by leaf production, leaf nutrient concentrations, and specific leaf area
+  4. Overall homeostasis - nutrient conservation as foliar nutrient resorption efficiency
+
+*Results*
+
+LAI was variable along the transect whereas other forest structure parameters (height, density and BA) were variable, but not in a linear manner or one that corresponded to distance from shore.
+
+Within the fringe, they found trees with markedly different heights but were likely recruited at approximately the same time, indicating that they had differing rates of growth.
+
+The radiocarbon dating indicated two different periods of broad establishment, with variation in forest structure in each of the recruitment classes.
+
+Soil C and N increased strongly from the seaward to the landward edge. Soil C ranged from 2% at the fringe to 6% at the landward section, but then decreased sharply at the landward edge.
+
+Leaf nutrient concentrations were highest at the fringe, and N resorption was lower whereas P resorption was higher.
+
+Addition of N fertilizer significantly increased stem extension rates in young and old forest, whereas fertilization with P did not have significant effects.
+
+Assessing succession showed that differences between the young and old forests tended to adhere to successional model predictions:
+
+  - Community energetics - found to be higher in young forests for LAI per BA, but soil respiration per BA was not different
+  - Community structure - soil C and biomass were lower in the younger forest; tree size was more variable; CV of soil redox potential was higher in younger
+  - Selective pressure - leaf nutrient concentrations not significantly different, but younger forest had higher growth rates
+  - Overall homeostasis - nutrient conservation did not differ between forests.
+  
+*Discussion*
+
+They expected to find higher density and lower BA forests at the fringe, but found variable structures across both forest ages. Additionally, found two major pulses of establishment to exist.
+
+The authors suggest a strong time component in which forest growth is pulsed and may be dependent upon favorable climatic conditions. The two periods they identify coincide with sustained El Nino activity. Given the orientation of the site, El Nino conditions would reduce wave energy and thus may favor seedling recruitment.
+
+Patterns of forest structure seen at other sites and stylized by Jimenez and Lugo (1985) did not correspond to those seen at the site. Tree density did not differ between seaward and landward edges, although height and basal area increased from younger to older forest.
+
+Characteristics of mature forests are believed to occur around 15 years, and persist until senescence at 55 years. The forests studied here corroborated with that, with the 30 year old forests showing mature forest traits.
+
+Their results gave evidence that mangroves display characteristics consistent with models of succession:
+
+  - Dissolved organic N and N:P ratios in porewater decreased towards landward edge
+  - Total accumulation of soil C, N and P increased towards landward edge.
+
 ## Mangrove SOC
 
 ### Amundson, 2001 {#amundson2001}

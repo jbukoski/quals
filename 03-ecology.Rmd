@@ -138,7 +138,75 @@ She provides a discussion of the hypothesis as well as links it to several studi
 
 Ball hypothesizes that both species likely established at an early time, and *L. racemosa* was able to establish due to shade intolerance and faster growth rates. As presence of *R. mangle* has increased and overtopped *L. racemosa*, a shift in community composition is occurring.
   
-### Putz & Chan, 1986
+### Lugo, 1980 {#lugo1980}
+
+*"Mangrove ecosystems: Successional or steady-state?"* [@lugo1980mangrove]
+
+**Key contribution: ** This article review evidence as to whether mangrove are successional or steady state. Of key important, Lugo seeks to answer the following questions:
+
+  1. Are mangroves builders of land?
+  2. Does zonation recapitulate succession?
+  3. What patterns or strategies are common to all mangrove successions?
+  4. Do all types of mangrove forests exhibit the same successional patterns?
+  5. Are mangrove systems successional or steady state?
+  
+**Key notes: **
+
+"...definitive work on mangrove succession remains to be done, and what exists is an overabundance of species zonation descriptions."
+
+Mangrove are naturally stressed environments, in which they exist under difficult conditions for obtaining fresh water, establishing in high energy environments, removal of stored potential energy and nutrients by tides, etc.
+
+Superimposition of both spatial patterning in environmental processes with the time scales at which they occur or are relevant results in large differentiation in mangrove ecosystem types.
+
+The different environmental settings will make different mangrove forest types more or less susceptible to different pressures (e.g., riverine forests likely highly susceptible to changes in land use).
+
+Lugo notes that stature or complexity of a forest can be indicative of how favorable environmental conditions are for mangrove growth.
+
+*Odum's definition of succession*
+
+Odum (1969) defines succession primarily in terms of three criteria:
+
+  1. Orderly process of community development that is reasonably directional
+  2. Results from the modification of physical environment by community
+  3. Culminates in stabilized ecosystem where maximum biomass and symbiotic functions among organisms are maintained per unit of energy flow
+  
+Odum refers to succession as a community-driven process, though the physical environment determines the pattern of change, the rate of change, and may set limits as to how far development may go.
+
+For coastal systems, he noted that they are in between successional or steady state systems due to periodic setbacks from acute periodic disturbances.
+
+Lugo defines steady-state systems as those in which mangroves replace each other rather than other non-mangrove species. An important consideration in this regard is the time frame of consideration. Lugo considers a time frame of 50-100 years here.
+
+*Zonation and cycling succession*
+
+Evidence generally indicates that zonation does not necessarily imply succession, as zonation may exist under steady or recurrent environmental conditions.
+
+Chapman proposed the concept of cyclic succession, in which two or more stages in a successional pattern could oscillate back and forth under the influence of periodic perturbations (hurricanes).
+
+*Patterns and strategies of succession*
+
+Mangroves generally exhibit ecological characteristics indicative of early successional systems:
+
+  - nutrient cycles function under open systems 
+  - photosynthesis/respiration > 1
+  - low species diversity
+  
+As forest mature, these criteria typically remain the same.
+
+Successional recovery is typically fast in mangroves, particularly for mangroves that sit under favorable environmental conditions for growth such as riverine environments.
+
+Natural stressors have regulating effects on mangroves: 
+
+  1. Regulate speed of process by also regulating growth rates
+  2. Periodically set back succession and are responsible for "young forest" characteristics
+  3. May arrest succession
+  4. May reduce diversity or produce auto-succession
+  
+*Conclusion*
+
+Lugo concludes that mangroves may be best thought of as steady-state systems that are most optimal for the saline, intertidal environment. The same qualities (high mortality, dispersal, germination and growth) that may induce researchers to think of them as successional are likely key for maintaining their steady state status.
+  
+
+### Putz & Chan, 1986 {#putz1986}
 
 *"Tree growth dynamics and productivity in a mature mangrove forest in Malaysia"* [@putz1986tree]
 
