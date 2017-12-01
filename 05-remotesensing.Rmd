@@ -496,7 +496,6 @@ They use three different classification procedures to produce different maps of 
 
 Additionally, it is not entirely clear to me whether they used the coarse level reference map for their accuracy assessment, or whether field data was collected. If the reference map is of low-quality, their results are rather meaningless.
 
-
 ### Dronova, 2012 {#dronova2012}
 
 *"Landscape analysis of wetland plant functional types: The effects of image segmentation scale, vegetation classes and classification methods"* [@dronova2012landscape]
@@ -878,7 +877,75 @@ The following studies provide key information on use of remote sensing as it rel
 
 *"Contribution of L-band SAR to systematic global mangrove monitoring"* [@lucas2014contribution]
 
-**Key contribution: **
+**Key contribution: ** This paper provides an overview of the Global Mangrove Watch program, which primarily employs L-band SAR data to monitor and report on local to global changes in extent of mangroves.
+
+**Key notes: **
+
+The study justifies the use of SAR under the premise that spectral data is limited in tropical regions and thus ill-suited for global monitoring efforts. 
+
+Long-term datasets that are available for C-band SAR data are: 
+
+  1. European Space Agency's (ESA) European Remote Sensing (ERS) Satellite 1 (1991-2000) 
+  2. European Space Agency's (ESA) European Remote Sensing (ERS) (1995-2011) Advanced Microwave Instrument.
+  3. ENVISAT advanced SAR (2002-2012)
+  4. Canadian Space Agency (CSA) RADARSAT-1 (1995-2013)
+  5. CSA RADARSAT-2 (2007-present)
+
+However, C-band SAR is relatively limited for monitoring of mangroves; structural studies limited to just the canopy.
+
+Tandem-X (German Space Agency) is the key source for X-band SAR data, and may be coupled with the SRTM DEM to derive canopy height changes.
+
+Primary L-band SAR datasets that have been operating at global scales are:
+
+  1. Japan Aerospace Exploration Agency's - Japanese Earth Resources Satellite (JAXA JERS-1; 1992 -1998)
+  2. JAXA Advanced Land Observing Satellite Phased Array L-band SAR (ALOS PALSAR-1; 2006-2011)
+  3. JAXA ALOS PALSAR-2 (2014-present)
+  
+Interestingly, the authors note that mangroves may be an indicator ecosystem for impacts from regional to global climate change.
+
+The study review several relevant environmental policies for the GMW program:
+
+  1. Ramsar Convention
+  2. Convention on Biological Diversity
+  3. IPCC REDD+
+  4. IPBES
+  5. Convention on Conservation of Migratory Species of Wild Animals (CMS)
+  
+*Addressing the needs*
+
+Early efforts for producing global maps of mangrove coverage include efforts by: 
+
+  - Spalding et al. 1997, based on expert maps, some RS, and point estimates
+  - Spalding et al., 2010, updated effort largely employing the same data sources/types
+  - Giri et al., 2011, based largely on RS Landsat
+  
+Other efforts that seek to fill other desires exist:
+
+  - Mangrove Capital - seeks to bring awareness to value of mangroves
+  - GLOMIS - Global Mangrove Database and Information System
+    - searchable database of scientific literature relating to mangroves
+
+However, still no system to provide accurate and reliable trends in *changes* of mangrove extent and structure at regional to global scales.
+
+*Value of L-band SAR for mangrove mapping*
+
+Generation of early maps from optical imagery is critical as baseline effort since SAR data cannot distinguish between mangroves and terrestrial forests well.
+
+Due to SAR's ability to provide information on the structure of a forest, estimates of biomass as well as segments of forest with or without prop roots can be achieved.
+
+Furthermore, given the ability to penetrate cloud cover and global coverage of some datasets, change detection analyses are facilitated through the use of SAR. Change may be a function of natural processes, which can be elucidated well in protected areas (e.g., USA or Australia), as well as more anthropogenic or immediate impacts.
+
+*Validation*
+
+In validating change, main variables to consider are extent, structure and AGB of mangroves. Often use RS data of different types (high res imagery, LiDAR, SAR, multispectral imagery) for validation given the difficult field conditions that exist within mangroves.
+
+In future, important for validation activities to co-occur with collection of SAR data to help validate the RS datasets.
+
+*Conclusion*
+
+GMW uses primarily L-band SAR data from JERS-1 SAR, ALOS PALSAR, and ALOS-2 PALSAR-2 (all Japanese) to monitor and map changes in mangrove extent and structure.
+
+The key advantage of L-band SAR over C-band and X-band SAR is its sensitivity to woody components rather than vegetative components. 
 
 ### Dronova, 2015 {#dronova2015a}
 
