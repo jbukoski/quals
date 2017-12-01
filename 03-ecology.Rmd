@@ -1077,42 +1077,38 @@ Rhizophora leaves in particular have undergone extensive work on their chemical 
 
 Mangrove litter thus provide a particular signature that is preserved during transformations and may be helpful in sourcing of organic C in mangroves.
 
-Carbohydrates form the bulk of mangrove tissue with rates of ~10-30% in leaves, and up to 65% in woody tissues.
-
-Amino acids from the second most
-
-Tannins form the third most. Mangrove have relatively high contents of tannins, which affects the feeding patterns of crabs. Leaching of tannins from leaf litter is important step in decomposition of leaf litter.
-
-Phenols derived from lignins form a smaller portion, and are more refractory than other molecular compounds.
-
-Fatty acids are useful in identifying sources of OM as they are uniquitous in living organisms and have biological specificity.
+  - Carbohydrates form the bulk of mangrove tissue with rates of ~10-30% in leaves, and up to 65% in woody tissues.   
+  - Amino acids from the second most
+  - Tannins form the third most. Mangrove have relatively high contents of tannins, which affects the feeding patterns of crabs. Leaching of tannins from leaf litter is important step in decomposition of leaf litter.
+  - Phenols derived from lignins form a smaller portion, and are more refractory than other molecular compounds.
+  - Fatty acids are useful in identifying sources of OM as they are uniquitous in living organisms and have biological specificity.
 
 *Foodwebs and role of fauna in OM processing*
 
-Mangrove derived OM is key source, but additionally have OM sources from epiphytic algae, benthic microalgae, bacteria and fungi, and macroalgae and mixed OM imported by tidal currents.
+Mangrove derived OM is a key source of total OM, but additionally have OM sources from epiphytic algae, benthic microalgae, bacteria and fungi, and macroalgae and mixed OM imported by tidal currents.
 
-Fauna play important roles in OM dynamics, for example processing of litter into smaller pieces, as well as transport of litter into belowground pools. Important in nutrient dynamics, oxidation of soil, and oxidation of reduced compounds.
+Fauna play important roles in OM dynamics, for example the processing of litter into smaller pieces, as well as transport of litter into belowground pools. Important in nutrient dynamics, oxidation of soil, and oxidation of reduced compounds.
 
 *Organic matter decomposition and mangrove sediment biogeochemistry*
 
-Leaf letter that is not exported enters sediment and is processed by microorganisms. Stepwise process of decay is:
+Leaf letter that is not exported enters sediment and is processed by microorganisms. A stepwise process of decay may be exemplified as:
 
   - Significant leaching of soluble organic substances - carbohydrates, tannins and phenolic compounds
   - Extracellular enzymatic hydrolysis - mediated by aerobic and anaerobic prokaryotes and marine mycelial decomposers
     - fungi particularly adapted for capture of cellulose-rich litter
     
-Various controls on the speed at which leaf litter is decomposed exist, for example how wet it is (controls access to microbial decomposers), or the C:N ratio of the litter (higher N = faster decomp rate).
+Various controls on the speed at which leaf litter is decomposed exist, for example how wet it is (controls access to microbial decomposers; there is a sweet spot in terms of moisture for litter decomposition), or the C:N ratio of the litter (higher N = faster decomp rate).
 
 Sedimentary decomposition pathways occur largely under anaerobic conditions:
 
-  - Large OM molecules split to small moieties by fermenting prokaryotes
-  - These molecules then oxidized completely to CO~2~ by wide variety of anaerobic microorganisms via electron acceptors in following sequence: Mn^4+^, NO~3~^-^, Fe^3+^, and SO~4~^2-^
+  - Large OM molecules split to smaller components by fermenting prokaryotes
+  - These molecules are then oxidized completely to CO~2~ by a wide variety of anaerobic microorganisms via electron acceptors in the following sequence: Mn^4+^, NO~3~^-^, Fe^3+^, and SO~4~^2-^
   
-Aerobic and sulfate reduction are most important processes, and account for approximately 40-50% of reduction each. Thus, many mangroves have reduced inorganic S in form of FeS~2~ and S^0^.
+Aerobic and sulfate reduction are the most important reduction processes in mangroves, and account for approximately 40-50% of OM reduction each. Thus, many mangroves have reduced inorganic S in form of FeS~2~ and S^0^.
 
-Denitrification may be significant in areas impacted by sewage.
+Denitrification may be significant in areas impacted by sewage, but other studies have shown that dissimilatory reduction of nitrate to ammonium (DRNA) is capable of conserving large quantities of N in the form of ammonium and reduction of potential emissions of nitrogen species.
 
-Sulfur reduction is hampered by presence of more ready electron acceptors (O~2~ and Fe^3+^), and thus in environments in which Fe^3+^ is high, sulfur reduction may be less significant than Fe respiration.
+Sulfur reduction is hampered by the presence of more ready electron acceptors (O~2~ and Fe^3+^), and thus in environments in which Fe^3+^ is high, sulfur reduction may be less significant than Fe respiration.
 
 Methanogenesis would occur if all electron acceptors are depleted; however ocean water provides steady supply of S and thus largely prevents system from reaching a point in which methanogenesis occurs.
 
@@ -1120,7 +1116,9 @@ The type of respiration that occurs is influenced by the forest conditions, in p
 
 *Burial and permanent storage in sediments*
 
-C burial depends on environmental conditions. For example, older stands have higher productivity and consequently higher efficiency of C burial in sediments. There is also proportionally greater C burial in low intertidal.
+Carbon burial depends on environmental conditions. For example, older stands have higher productivity and consequently higher efficiency of C burial in sediments. There is also proportionally greater C burial in the low intertidal.
+
+Other studies (see \@ref(lunstrum2014)) have shown that mangrove soil organic carbon concentrations typically increase with time.
 
 *Outwelling hypothesis*
 
@@ -1128,8 +1126,8 @@ Clear evidence that significant amounts (~half) of mangrove litter is exported t
 
 The influence of OM exported from mangroves is likely limited to within a km or 2 from the forest. The lack of a major outwelling phenomena may be explained by:
 
-  1. distribution of exported mangrove litter depends on hydrogeomorphology, which may result in direct sedimentation in immediate vicinity of the forest
-  2. over the time-scale at which outwelling occurs, significant fraction of litter is lost as DOC
+  1. The distribution of exported mangrove litter depends on hydrogeomorphology, which may result in direct sedimentation in immediate vicinity of the forest
+  2. Over the time-scale at which outwelling occurs, a significant fraction of litter is lost as DOC
   
 Export of carbon to nearshore ecosystem is significant in mangroves and thus loss of mangrove globally may have had significant implications for DOC to the ocean.
 

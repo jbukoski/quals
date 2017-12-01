@@ -873,6 +873,31 @@ Interesting that they note the Chao Phraya river has undergone a ~75% reduction 
 
 The following studies provide key information on use of remote sensing as it relates to wetlands, but do not necessarily fit into the mangrove-specific studies of mapping "vegetation" or "geomorphology".
 
+### Lucas, 2007 {#lucas2007}
+
+*"Potential of L-band SAR for quantifying mangrove characteristics and change: Case studies from the tropics"* [@lucas2007potential]
+
+**Key contribution: ** As a precursor to the Lucas *et al* (2014) study on L-band SAR and Global Mangrove Watch, this study examines the use of L-band SAR data in mangroves in Australia, French Guiana and Malaysia to characterize forest structure and changes in extent.
+
+**Key notes: **
+
+*Overview notes on SAR data*
+
+SAR operates at X, C, L, or P-band frequencies in both polarimetric and interferometric formats.
+
+"Polarimetric systems measure the full scattering matrix from which the intensity and phase of scattered fields can be derived for any polarization". The backscattering coefficient relates to intensity whereas the phase information indicates phse different and correlation coefficients between signals.
+
+SAR data may be used for *polarimetry* or *interferometry*:
+
+  - Polarimetry - measurement of phase difference and correlation between different polarizations; measurement of phase allows entire complex electromagnetic field to be recomposed
+  - Interferometry - measurement of phase different and correlation of two identical radar signals from slightly different locations; allows for construction of DEMs
+  
+The backscattering coefficient of SAR data depends upon interactions of microwaves of varying configurations with components of vegetation that differ in qualities (size, dimension, density, dieletric constant).
+
+Interactions of microwaves with surfaces is often described in terms of the scattering mechanism, which ranges from direct (i.e., direct return with little diffuse scattering) to diffuse (rough surfaces that scatter the signal in many directions).
+
+*Case studies*
+
 ### Lucas, 2014 {#lucas2014}
 
 *"Contribution of L-band SAR to systematic global mangrove monitoring"* [@lucas2014contribution]
