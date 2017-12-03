@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="decision-making.html">
-<link rel="next" href="other-studies.html">
+<link rel="prev" href="rs-geomorphology.html">
+<link rel="next" href="ecoinformatics.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -320,93 +320,239 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="mangrove-thresholds" class="section level2">
-<h2><span class="header-section-number">6.5</span> Mangrove thresholds</h2>
-<div id="cavanaugh2014" class="section level3">
-<h3><span class="header-section-number">6.5.1</span> Cavanaugh, 2014</h3>
-<p><em>“Poleward expansion of mangroves is a threshold response to decreased frequency of extreme cold events”</em> <span class="citation">(Cavanaugh et al. <a href="#ref-cavanaugh2014poleward">2014</a>)</span></p>
-<p><strong>Key contribution: </strong> This paper provides evidence for a threshold response of mangroves in terms of latitudinal limits, in which frequency of days colder than -4 deg C is key for mangrove presence.</p>
+<div id="other-1" class="section level2">
+<h2><span class="header-section-number">5.4</span> Other</h2>
+<p>The following studies provide key information on use of remote sensing as it relates to wetlands, but do not necessarily fit into the mangrove-specific studies of mapping “vegetation” or “geomorphology”.</p>
+<div id="lucas2007" class="section level3">
+<h3><span class="header-section-number">5.4.1</span> Lucas, 2007</h3>
+<p><em>“Potential of L-band SAR for quantifying mangrove characteristics and change: Case studies from the tropics”</em> <span class="citation">(Lucas et al. <a href="#ref-lucas2007potential">2007</a>)</span></p>
+<p><strong>Key contribution: </strong> As a precursor to the Lucas <em>et al</em> (2014) study on L-band SAR and Global Mangrove Watch, this study examines the use of L-band SAR data in mangroves in Australia, French Guiana and Malaysia to characterize forest structure and changes in extent.</p>
 <p><strong>Key notes: </strong></p>
-<p>Distribution modeling has informed hypotheses that mangroves and salt marshes exist due to thresholds at northern limits of mangrove range as a result of climatic variables.</p>
-<p>The study employs long-term satellite data coupled with historical temperature data spanning the coast of Florida to examine growth in extent of mangrove forest.</p>
-<p><strong>Key results: </strong></p>
-<p>Mangrove area within the band at the upper range of its limits (29 - 29.75 deg N) doubled over the 28 year period.</p>
-<p>Latitude 26.75 deg N existed as a breakpoint, in which areas north of that experience significant expansion and areas south of that did not experience significant expansion in extent.</p>
-<p>Expansion of mangroves, however, was not significantly associated with changes in mean annual or mean winter temperatures.</p>
-<p>It is unclear to me how exactly they distinguished between mangrove and other vegetation. They simply assume photosynthetic vegetation is mangroves but its possible it may have been another ecosystem type…</p>
+<p><em>Overview notes on SAR data</em></p>
+<p>SAR operates at X, C, L, or P-band frequencies in both polarimetric and interferometric formats.</p>
+<p>“Polarimetric systems measure the full scattering matrix from which the intensity and phase of scattered fields can be derived for any polarization”. The backscattering coefficient relates to intensity whereas the phase information indicates phse different and correlation coefficients between signals.</p>
+<p>SAR data may be used for <em>polarimetry</em> or <em>interferometry</em>:</p>
+<ul>
+<li>Polarimetry - measurement of phase difference and correlation between different polarizations; measurement of phase allows entire complex electromagnetic field to be recomposed</li>
+<li>Interferometry - measurement of phase different and correlation of two identical radar signals from slightly different locations; allows for construction of DEMs</li>
+</ul>
+<p>The backscattering coefficient of SAR data depends upon interactions of microwaves of varying configurations with components of vegetation that differ in qualities (size, dimension, density, dieletric constant).</p>
+<p>Interactions of microwaves with surfaces is often described in terms of the scattering mechanism, which ranges from direct (i.e., direct return with little diffuse scattering) to diffuse (rough surfaces that scatter the signal in many directions).</p>
+<p><em>Case studies</em></p>
+<p>In using SAR data, detection of zonation at the species level is more complicated because the information provided is purely structural in nature.</p>
+<p>Differences in signal from truly different structural forms versus differences in growth stage and form should be considered when distinguishing species or zones from SAR data.</p>
+<p>Mapping of mangrove zones may be complicated by variations in growth stage/form and tidal inundation at the time of observation.</p>
+<p><em>Forest structure</em></p>
+<p>May be expressed in terms of integrative metric of aboveground biomass, or more specific metric such as height, basal area, density.</p>
+<p>For SAR data, the viewing angle may be an important criteria in identifying differences in different structures.</p>
+<p>In the case studies, the backscattering coefficient was found to be enhanced towards the seaward zone due to both a more open canopy as well as the double-bounce effect from tidal inundation.</p>
+<p>Backscattering coefficient for approximating biomass may saturated at high biomass values (120-140 Mg/ha).</p>
+<p>The different interactions of different bands of microwave and various components of vegetation have been hard to untangle due to the interactions of the components.</p>
+<p><em>Potential of L-band PALSAR for mangrove assessment</em></p>
+<p>ALOS PALSAR is collecting data in HH and HV polarizations, which allows for better understanding of the landscape.</p>
+<p>“Quad-polarized” - implies availability of both amplitude and interchannel phase information</p>
+<p>“Selective polarization” or “selective single polarization” - imply availability of amplitude data but no interchannel phase information</p>
+<p>The authors note that use of ALOS PALSAR across sites will be greatly complicated and thus the use of site-specific ancillary data such as species maps, or optical imagery will be important in understanding variation in forest structure and composition.</p>
 </div>
-<div id="eslami2015" class="section level3">
-<h3><span class="header-section-number">6.5.2</span> Eslami-Andergoli, 2015</h3>
-<p><em>“Approaching tipping points: A focussed review of indicators and relevance to managing intertidal ecosystems”</em> <span class="citation">(Eslami-Andergoli et al. <a href="#ref-eslami2015approaching">2015</a>)</span></p>
-<p><strong>Key contribution: </strong> This article reviews alternative stable state theory and early warning signals, with a particular focus on how it relates to intertidal ecosystems. They note the potential relevance of remote sensing as well as paleoecology &amp; soil stratigraphy for understanding long-term shifts in regime over time.</p>
+<div id="lucas2014" class="section level3">
+<h3><span class="header-section-number">5.4.2</span> Lucas, 2014</h3>
+<p><em>“Contribution of L-band SAR to systematic global mangrove monitoring”</em> <span class="citation">(Lucas et al. <a href="#ref-lucas2014contribution">2014</a>)</span></p>
+<p><strong>Key contribution: </strong> This paper provides an overview of the Global Mangrove Watch program, which primarily employs L-band SAR data to monitor and report on local to global changes in extent of mangroves.</p>
 <p><strong>Key notes: </strong></p>
-<p>The authors suggest three primary ways in which alternative stable state theory can be examined within intertidal systems:</p>
+<p>The study justifies the use of SAR under the premise that spectral data is limited in tropical regions and thus ill-suited for global monitoring efforts.</p>
+<p>Long-term datasets that are available for C-band SAR data are:</p>
 <ol style="list-style-type: decimal">
-<li>Retrofitting data from long-term studies (i.e., coupling with external data sets to examine perturbations, shifts in state variables, and regime shifts)</li>
-<li>Using remote sensing to predict regime shifts</li>
-<li>Use paleoecological data to reconstruct developmental history of intertidal wetlands</li>
+<li>European Space Agency’s (ESA) European Remote Sensing (ERS) Satellite 1 (1991-2000)</li>
+<li>European Space Agency’s (ESA) European Remote Sensing (ERS) (1995-2011) Advanced Microwave Instrument.</li>
+<li>ENVISAT advanced SAR (2002-2012)</li>
+<li>Canadian Space Agency (CSA) RADARSAT-1 (1995-2013)</li>
+<li>CSA RADARSAT-2 (2007-present)</li>
 </ol>
-<p>They focus largely on gradually changing state variables rather than sharp perturbations, as slow changes are most relevant for management practices.</p>
-<p>They note the potential relevance of spatial datasets for understanding tipping points, as they may help identify autocorrelation or state changes. For example, Dale and Dale 2002 use transition matrix to examine shifts in salt marsh plant communities over time, with permanent shifts potentially indicative of a tipping point.</p>
-<p>In identifying EWS in intertidal systems, the scale at which one is considering things is important. Role of vegetation versus shifts in hydrology or sedimentation may have different impacts at different scales.</p>
-<p>Often may consider shifting expanse of mangroves and loss of sea grass habitat.</p>
-<p><em>Challenges for indicators</em></p>
-<p>The authors identify several key limitations for using indicators to indicate impending transitions:</p>
+<p>However, C-band SAR is relatively limited for monitoring of mangroves; structural studies limited to just the canopy.</p>
+<p>Tandem-X (German Space Agency) is the key source for X-band SAR data, and may be coupled with the SRTM DEM to derive canopy height changes.</p>
+<p>Primary L-band SAR datasets that have been operating at global scales are:</p>
 <ol style="list-style-type: decimal">
-<li>Insufficient data or resolution within the data</li>
-<li>Inaccurate or imprecise observation</li>
-<li>Occurrence of large perturbation without any indication of EWS</li>
-<li>Interactions of multiple tresholds and correlated process errors may obscure EWS</li>
-<li>Systematic change in external perturbation regime over period leading to a shift</li>
-<li>Uncertainty involved in identifying and modelling dynamic processes</li>
-<li>Proposed EWS might not be detectable in some types of transition</li>
-<li>Underlying stochasticity that is always present in a system, even given shifts in state variables</li>
+<li>Japan Aerospace Exploration Agency’s - Japanese Earth Resources Satellite (JAXA JERS-1; 1992 -1998)</li>
+<li>JAXA Advanced Land Observing Satellite Phased Array L-band SAR (ALOS PALSAR-1; 2006-2011)</li>
+<li>JAXA ALOS PALSAR-2 (2014-present)</li>
 </ol>
-<p>They make a call for long term monitoring, both from a field perspective as well as leverating remote sensing.</p>
+<p>Interestingly, the authors note that mangroves may be an indicator ecosystem for impacts from regional to global climate change.</p>
+<p>The study review several relevant environmental policies for the GMW program:</p>
+<ol style="list-style-type: decimal">
+<li>Ramsar Convention</li>
+<li>Convention on Biological Diversity</li>
+<li>IPCC REDD+</li>
+<li>IPBES</li>
+<li>Convention on Conservation of Migratory Species of Wild Animals (CMS)</li>
+</ol>
+<p><em>Addressing the needs</em></p>
+<p>Early efforts for producing global maps of mangrove coverage include efforts by:</p>
+<ul>
+<li>Spalding et al. 1997, based on expert maps, some RS, and point estimates</li>
+<li>Spalding et al., 2010, updated effort largely employing the same data sources/types</li>
+<li>Giri et al., 2011, based largely on RS Landsat</li>
+</ul>
+<p>Other efforts that seek to fill other desires exist:</p>
+<ul>
+<li>Mangrove Capital - seeks to bring awareness to value of mangroves</li>
+<li>GLOMIS - Global Mangrove Database and Information System
+<ul>
+<li>searchable database of scientific literature relating to mangroves</li>
+</ul></li>
+</ul>
+<p>However, still no system to provide accurate and reliable trends in <em>changes</em> of mangrove extent and structure at regional to global scales.</p>
+<p><em>Value of L-band SAR for mangrove mapping</em></p>
+<p>Generation of early maps from optical imagery is critical as baseline effort since SAR data cannot distinguish between mangroves and terrestrial forests well.</p>
+<p>Due to SAR’s ability to provide information on the structure of a forest, estimates of biomass as well as segments of forest with or without prop roots can be achieved.</p>
+<p>Furthermore, given the ability to penetrate cloud cover and global coverage of some datasets, change detection analyses are facilitated through the use of SAR. Change may be a function of natural processes, which can be elucidated well in protected areas (e.g., USA or Australia), as well as more anthropogenic or immediate impacts.</p>
+<p><em>Validation</em></p>
+<p>In validating change, main variables to consider are extent, structure and AGB of mangroves. Often use RS data of different types (high res imagery, LiDAR, SAR, multispectral imagery) for validation given the difficult field conditions that exist within mangroves.</p>
+<p>In future, important for validation activities to co-occur with collection of SAR data to help validate the RS datasets.</p>
+<p><em>Conclusion</em></p>
+<p>GMW uses primarily L-band SAR data from JERS-1 SAR, ALOS PALSAR, and ALOS-2 PALSAR-2 (all Japanese) to monitor and map changes in mangrove extent and structure.</p>
+<p>The key advantage of L-band SAR over C-band and X-band SAR is its sensitivity to woody components rather than vegetative components.</p>
 </div>
-<div id="ellison2015" class="section level3">
-<h3><span class="header-section-number">6.5.3</span> Ellison, 2015</h3>
-<p><em>“Vulnerability assessment of mangroves to climate change and sea-level rise impacts”</em> <span class="citation">(Ellison <a href="#ref-ellison2015vulnerability">2015</a>)</span></p>
-<p><strong>Key significance: </strong> The study reviews vulnerability of mangroves to climate change, and in particular sea level rise, and performs a study in which they seek to assess and measure vulnerabilities across mangrove sites in the Pacific with an end-goal of informing management of these systems.</p>
+<div id="dronova2015a" class="section level3">
+<h3><span class="header-section-number">5.4.3</span> Dronova, 2015</h3>
+<p><em>“Mapping dynamic cover types in a large seasonally flooded wetland using extended principal component analysis and object-based classification”</em> <span class="citation">(Dronova et al. <a href="#ref-dronova2015mapping">2015</a>)</span></p>
+<p><strong>Key contribution: </strong> This study addresses the issue that remote sensing imagery is often collected at a single point in time, but ecosystems are inherently variable and are constantly changing over multiple time scales (hourly, seasonally, yearly). The authors propose a new mechanism for embracing the dynamic nature of the landscape and improving classification results based on that.</p>
 <p><strong>Key notes: </strong></p>
-<p>Vulnerability as defined by Ellison has three components:</p>
+<p>The authors use different forms of PCA to examine temporal patterns in space (S-mode PCA), prevalent spatial patterns over time (T-mode PCA), as well as shared spatial and temporal patterns among different datasets (extended PCA).</p>
+<p>One of the key interests is distinguishing between short-term changes (phenology) versus longer-term changes that may indicate changes in ecosystem health, state parameters, or ecosystem function.</p>
+<p>“Dynamic cover types” (DCTs) - distinct sequences of wetland cover states and transitions observed within a given period of change cycle.</p>
+<p>The study focuses on one flood cycle from summer 2007 to spring 2008 and characterizes seven dominant DCTs that are representative of different water coverages, surface compositions and plant phenology that were identified during prior research.</p>
+<p><em>Study design</em></p>
+<p>Their methods were organized as such:</p>
 <ol style="list-style-type: decimal">
-<li>Exposure to stress</li>
-<li>Associated sensitivity</li>
-<li>Related adaptive capacity</li>
+<li>Performed T- and S-mode extended PCA transforms of input RS data and examined which spatial and temporal patterns corresponded to DCTs</li>
+<li>Segmented input image and applied and assigned training and test data for DCT mapping</li>
+<li>Examination of statistics to determine DCT class differences</li>
+<li>Supervised object-based classification of DCTs</li>
+<li>Accuracy assessments of classification and uncertainty</li>
 </ol>
-<p>For mangroves, exposure to stress is dependent upon different hydrogeomorphological setting, but is perhaps most broadly impacted by sea level rise. Exposure is largely related to shifts in external influences that impinge upon the health of the system.</p>
-<p>Sensitivity relates more to the resilience of the system and is a function of characteristics of species or the system as a whole. Vulnerability may be shown by decline in condition, productivity, biodiversity or increase in mortality.</p>
-<p>Adaptive capacity may be expressed in mangroves by retreat inland. If sediment accretion rates cannot keep up with sea level rise, then migration is key adaptation response and is dependent upon suitable topography and available areas.</p>
-<p><em>Vulnerability rankings</em></p>
-<p>Studies have tried to rank vulnerabilities of different ecosystems and the factors that drive them, and mangrove and unconsolidated sedimentary shores or coastal wetlands have been ranked as having high vulnerability.</p>
-<p><em>Assessing vulnerability of multiple mangrove sites globally</em></p>
-<p>The study examined mangrove sites in Eastern Africa, Western Africa, and the Pacific Islands to attain measurements of vulnerability and inform management.</p>
-<p>The vulnerability assessment methodology seeks to identify aspects that may already be experience climate change impacts and may also be more susceptible to future impacts.</p>
-<p>The assessments considers range of metrics within the exposure, sensitivity and adaptive capacity categories. In distributing vulnerabilities amongst each of these categories, appropriate management options (a la Johnson, 2017) that are effective may be identified. Sea level rise, for example, may not be able to be controlled whereas barriers to forests migrating inland may be removed via land planning.</p>
-<p>The framework is generalized and allows for application at a broad range of sites. It incorporates both quantitative and qualitative metrics of vulnerability for the various sites.</p>
+<p>Within the Poyang Lake area, there is massive change in lake and inundation levels, and five very broad coarse land covers may be described: live vegetation, dead vegetation, water, sand and mudflats.</p>
+<p>Note that this study site is primarily herbaceous in cover, and thus the degree of dynamism that occurs (during wet season) may be more pronounced than in mangroves in which dominant vegetation is tree cover.</p>
+<p><em>Dynamic cover types</em></p>
+<p>Seven different dynamic cover types were defined, based on key ecological processes as well as the interests of the study:</p>
+<ol style="list-style-type: decimal">
+<li>Ephemeral mudflats, non-vegetated</li>
+<li>Ephemeral mudflats, vegetated</li>
+<li>Emergent C3 grassland, flooded</li>
+<li>Mixed C4-c3 grassland, partiall flooded</li>
+<li>Winter aquatic macrophytes</li>
+<li>Permanent water</li>
+<li>Permanent sand</li>
+</ol>
+<p>The RS datasets that were used were Beijing-1 microsatellite multispectral data (7 scenes), and Envisat advanced SAR C-band in like polarization (HH or VV). The multispectral data was primary imagery whereas the SAR imagery allowed for better delineation between murky waters and mudflats.</p>
+<p>The spectral data were used to create NDVI and NDWI indices for the landscape.</p>
+<p>The NDVI, NDWI and SAR data were used as inputs to the extended PCA analysis. They “performed standardized EPCA on these three time series using spatial (S-mode) and temporal (T-mode) forms of PCA orientation”.</p>
+<p>T-mode analysis outputs principal components as images for each time series that highlight dominant spatial patterns over time.</p>
+<p>S-mode analysis reveals recurrent temporal patterns in the study area.</p>
+<p><em>Classification</em></p>
+<p>Classification was performed following OBIA, which helps to reduce the salt and pepper effect that is common to wetlands.</p>
+<p><em>Results</em></p>
+<p>The results produced maps with quite high classification accuracies (&gt;90%). Thus, the authors conclude that use of prior ecological information and the mapping of dynamic cover types is deemed to be an appropriate approach for producing maps of ecological classes in dynamic landscapes.</p>
+<p>The T-Mode EPCA primarily explained variance through the first principal component (94.7% of variation), which correlated with differences in prevalence of green emergent vegetation for the NDVI data, and gradients of submersion time for the NDWI and ASAR data.</p>
+<p>The S-mode EPCA highlighted temporal changes in the landscape. The first component (37.7% of variation) highlighted changed between August 2007 and late spring 2008, whereas the second component (35.4%) highlighted change between mid-winter and late spring 2008.</p>
+<p>The major sources of error were mutual confusion of emergent C3 grassland with mixed C4/C3 grassland, as well as ephemeral non-vegetated mudflats with vegetated mudflats, permanent water, and winter aquatic macrophytes.</p>
+<p>The DCTs helped identify different “schedules” for similar classes, i.e., different trajectories over time that occurred.</p>
 </div>
-<div id="sasmito-2016" class="section level3">
-<h3><span class="header-section-number">6.5.4</span> Sasmito, 2016</h3>
-<p><em>“Can mangroves keep pace with sea level rise? A global data review”</em> <span class="citation">(Sasmito et al. <a href="#ref-sasmito2016can">2016</a>)</span></p>
-<p><strong>Key contribution: </strong> This is a well-written study that looks at data of relative sea level rise and accretion rates in mangroves and assesses the abundance of empirical evidence indicating whether or not mangroves may keep pace with sea level rise. The article is summarized in section <a href="sea-level-rise-biogeography.html#sasmito2016">3.4.6</a>.</p>
+<div id="dronova2015b" class="section level3">
+<h3><span class="header-section-number">5.4.4</span> Dronova, 2015</h3>
+<p><em>“Object-based image analysis in wetland research: A review”</em> <span class="citation">(Dronova <a href="#ref-dronova2015object">2015</a>)</span></p>
+<p><strong>Key contribution:</strong> This is an excellent and comprehensive review of OBIA as it relates to wetlands, and provides an overview of how researchers are currently using OBIA in wetland analyses, some of the relative strengths of it, and some of the challenges.</p>
+<p><strong>Key notes: </strong></p>
+<p>There are several extensive sections in the paper per different topics, and I follow the structure in my summarization of the article here.</p>
+<p><em>Background on general OBIA principlies</em></p>
+<p>OBIA segmentation may be performed through top-down or bottom-up algorithms, or a combination of the two.</p>
+<p>Given that “typical” objects might be difficult to identify within complex landscapes such as wetlands, “primitive objects,” which are just a first pass at removing some of the variation and creating objects slightly larger than the pixel level may be used. The “primitive objects” then become the unit of analysis.</p>
+<p>Segmentation algorithms are controlled by parameters that are subjective and variable across studies. This is a key concern and area for additional research not only within wetlands &amp; OBIA, but OBIA more broadly.</p>
+<p>Classification of objects occurs under the same conceptual pathway of pixel-based classification, but the feature space is much larger as textural and spatial characteristics (proximity, size, shape) can all be incorporated into the classification algorithm.</p>
+<p>Accuracy assessments for segmentation focus primarily on degree of over- or under-segmentation of the target reference units.</p>
+<p><em>Using segmentation to address heterogeneity and noise</em></p>
+<p>Speckle arises due to heterogeneity of intrinsic spectral variation, or mixed areas with fine-scale patchiness and diversity. The influence increases with high resolution data and may expose non-relevant landscapes.</p>
+<p>OBIA can be a key means of reducing the speckle within the landscape by smoothing out local variation.</p>
+<p>This may be particularly useful for radar based datasets, as interaction with vertical and horizontal structure of wetlands augments speckling.</p>
+<p>For most studies that were reviewed, “primitive objects” are the initial units of analysis, and objects at “higher” hierarchical levels can be recovered later from classification of the primitives.</p>
+<p><em>Detection and delineation of wetlands as landscape units</em></p>
+<p>OBIA can help in delineation by providing physically meaningful non-spectral attributes such as shape, size, spatial relationships and adjacency metrics.</p>
+<p>OBIA may also smooth variation and help to delineate between “drier” vs. “wetter” regions within the landscape.</p>
+<p>Supplementary datasets can also be incorporated into OBIA, such as digital terrain models, which may further help to delineate wetlands.</p>
+<p>A major issue for delineating wetlands is the “fuzziness” of their boundaries, which are often unclear and may change with time. Potential strategies to reduce fuzziness may include:</p>
+<ol style="list-style-type: decimal">
+<li>Examining imagery at dates with different hydrological patterns to obtain “generalized” boundaries</li>
+<li>Incorporating high-resolution imagery or ancillary data</li>
+<li>Focus on detection of wetland presence and prevalent extent rather than precise boundaries</li>
+</ol>
+<p><em>Hierarchical relationships in wetland classification</em></p>
+<p>Given complexity in cover types, may need step wise classifications (i.e., classifications at multiple steps) or analyses at different spatial scales in order to improve accuracies.</p>
+<p>In using hierarchical OBIA, researchers can examine “nestedness” within wetlands, which may allow for different scales of physical or ecological processes to emerge (biocomplexity).</p>
+<p><em>Diversity of object level variables for class delineation</em></p>
+<p>At the object level, there are a variety of different variables that can be employed for classification and subsequently merging of objects. Three primary types of information exist:</p>
+<ol style="list-style-type: decimal">
+<li>Spectral variables - most commonly employed and may be spectral wavelengths, but may also be radar backscatter that indicates the height or “texture” of the landscape</li>
+<li>Texture variables - of non-spectral variables, texture-based ones are most commonly employed. Here texture refers to patterns within the object, and may be simple measures such as standard deviation or may become increasingly complex.</li>
+<li>Shape and contextual variables - shape, adjacency, proximity, perimeter to area ratios are all examples of informative metrics. Landscape objects that have a known shape may be able to be classified as a function of such parameters.</li>
+</ol>
+<p><em>OBIA for wetland change analysis</em></p>
+<p>Use of OBIA for change analysis is less common than single data segmentation or classification efforts, but may be valuable for investigating shifting parameters within particular regions of interest in a landscape.</p>
+<p>The author notes the value of an “object fate analysis,” in which investigation of spatially explicit changes in the shape geometry can be informative.</p>
+<p>In employing wetland change analysis, magnitude of transitions should exceed the sizes of individual pixels or primitive objects.</p>
+<p><em>Accuracy in wetland OBIA</em></p>
+<p>Most studies employed the use of a traditional confusion matrix. Several studies used fuzzy accuracy assessment (?).</p>
+<p>In general, the accuracies of the OBIA classifications increased with more than 4 classes, though studies rarely employed more than 10 classes.</p>
+<p>The accuracy assessment brought to light important issues that may impinge upon accuracy of OBIA-based classification. In particular, the following may influence the classification accuracy:</p>
+<ol style="list-style-type: decimal">
+<li>Spatial scale and spectral properties of image data and inputs to segmentation
+<ul>
+<li>object dimensions should significantly exceed scales of local noise and irrelevant heterogeneity</li>
+<li>may be spectral, radar based, or supplementary in nature; timing of data acquisition is also critical</li>
+</ul></li>
+<li>Choice of segmentation parameters for object generation
+<ul>
+<li>depending on segmentation parameters, different objects will be generated; additional research into standardization of them should be performed to identify “optimal” segmentation</li>
+</ul></li>
+<li>Choice of object attributes for classification
+<ul>
+<li>OBIA generates additional features and thus the selection amongst them can be particularly difficult; research into automation of optimizing the feature space is needed</li>
+</ul></li>
+<li>Choice of classification approach
+<ul>
+<li>different algorithms may perform better than others; more research needed here. SVM is quite good so far</li>
+</ul></li>
+</ol>
+<p><em>Summary points</em></p>
+<p>The author provides six key summary points:</p>
+<ol style="list-style-type: decimal">
+<li>OBIA is effective for smoothing microvariation that often corresponds to “noise” and variance that is not ecologically meaningful; induces the unit of analysis to be more ecologically meaningful and effective for classifying into larger landscape classes.</li>
+<li>OBIA is effective for mapping isolate wetlands</li>
+<li>OBIA allows for hierarchical approaches - can delineate wetlands from other land types, and then begin to parse apart ecologically meaningful units within the wetland</li>
+<li>Flexibility in segmentation allows for both customization of analysis but may also hinder generalization and may induce biases into the analysis</li>
+<li>OBIA for change detection can be developed greatly and may be useful in examining the “fate” or particular landscape objects</li>
+<li>Wetland-specific challenges for RS inference remain in OBIA:
+<ul>
+<li>spectral similarities of diverse classes</li>
+<li>subpixel mixing</li>
+<li>difficulties in field sampling</li>
+</ul></li>
+</ol>
 
 </div>
 </div>
 <!-- </div> -->
 <h3>References</h3>
 <div id="refs" class="references">
-<div id="ref-cavanaugh2014poleward">
-<p>Cavanaugh, Kyle C, James R Kellner, Alexander J Forde, Daniel S Gruner, John D Parker, Wilfrid Rodriguez, and Ilka C Feller. 2014. “Poleward Expansion of Mangroves Is a Threshold Response to Decreased Frequency of Extreme Cold Events.” <em>Proceedings of the National Academy of Sciences</em> 111 (2): 723–27. doi:<a href="https://doi.org/10.1073/pnas.1315800111">10.1073/pnas.1315800111</a>.</p>
+<div id="ref-lucas2007potential">
+<p>Lucas, Richard M, Anthea L Mitchell, Ake Rosenqvist, Christophe Proisy, Alex Melius, and Catherine Ticehurst. 2007. “The Potential of L-Band Sar for Quantifying Mangrove Characteristics and Change: Case Studies from the Tropics.” <em>Aquatic Conservation: Marine and Freshwater Ecosystems</em> 17 (3): 245–64. doi:<a href="https://doi.org/10.1002/aqc.833">10.1002/aqc.833</a>.</p>
 </div>
-<div id="ref-eslami2015approaching">
-<p>Eslami-Andergoli, L, PER Dale, JM Knight, and Hamish McCallum. 2015. “Approaching Tipping Points: A Focussed Review of Indicators and Relevance to Managing Intertidal Ecosystems.” <em>Wetlands Ecology and Management</em> 23 (5): 791–802. doi:<a href="https://doi.org/10.1007/s11273-014-9352-8">10.1007/s11273-014-9352-8</a>.</p>
+<div id="ref-lucas2014contribution">
+<p>Lucas, Richard, Lisa Maria Rebelo, Lola Fatoyinbo, Ake Rosenqvist, Takuya Itoh, Masanobu Shimada, Marc Simard, et al. 2014. “Contribution of L-band SAR to systematic global mangrove monitoring.” <em>Marine and Freshwater Research</em> 65 (7): 589–603. doi:<a href="https://doi.org/10.1071/MF13177">10.1071/MF13177</a>.</p>
 </div>
-<div id="ref-ellison2015vulnerability">
-<p>Ellison, Joanna C. 2015. “Vulnerability Assessment of Mangroves to Climate Change and Sea-Level Rise Impacts.” <em>Wetlands Ecology and Management</em> 23 (2): 115–37. doi:<a href="https://doi.org/10.1007/s11273-014-9397-8">10.1007/s11273-014-9397-8</a>.</p>
+<div id="ref-dronova2015mapping">
+<p>Dronova, Iryna, Peng Gong, Lin Wang, and Liheng Zhong. 2015. “Mapping Dynamic Cover Types in a Large Seasonally Flooded Wetland Using Extended Principal Component Analysis and Object-Based Classification.” <em>Remote Sensing of Environment</em> 158: 193–206. doi:<a href="https://doi.org/10.1016/j.rse.2014.10.027">10.1016/j.rse.2014.10.027</a>.</p>
 </div>
-<div id="ref-sasmito2016can">
-<p>Sasmito, Sigit D, Daniel Murdiyarso, Daniel A Friess, and Sofyan Kurnianto. 2016. “Can Mangroves Keep Pace with Contemporary Sea Level Rise? A Global Data Review.” <em>Wetlands Ecology and Management</em> 24 (2): 263–78. doi:<a href="https://doi.org/10.1007/s11273-015-9466-7">10.1007/s11273-015-9466-7</a>.</p>
+<div id="ref-dronova2015object">
+<p>Dronova, Iryna. 2015. “Object-Based Image Analysis in Wetland Research: A Review.” <em>Remote Sensing</em> 7 (5): 6380–6413. doi:<a href="https://doi.org/10.3390/rs70506380">10.3390/rs70506380</a>.</p>
 </div>
 </div>
             </section>
@@ -414,8 +560,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-<a href="decision-making.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="other-studies.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="rs-geomorphology.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ecoinformatics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -444,7 +590,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/06-ecoinformatics.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/05-remotesensing.Rmd",
 "text": "Edit"
 },
 "download": ["bookdown-demo.pdf", "bookdown-demo.epub"],

@@ -20,6 +20,63 @@ The model allows for conceptual investigation of the various factors that influe
 **Key contribution:** 
 
 
+
+### Bethke, 2011 {#bethke2011}
+
+*"The thermodynamic ladder in geomicrobiology"* [@bethke2011thermodynamic]
+
+**Key contribution: ** This article gives an overview of the "thermodynamic ladder" in aerobic respiration in soils. They specifically seek to calculate the portion of available energy in soils that different functional groups of microbes can take advantage of to drive their metabolisms.
+
+Ultimately, the usable energy available to various groups changes with water composition and affects microbial reactions.
+
+**Key notes: **
+
+"Thermodynamic ladder" - this is the concept that posits microbial activity in aquifers is organized according to an energetic hierarchy of electron accepting processes. Microbes on "higher rungs" of the ladder are able to maintain an advantage of groups over lower rungs that compete for same electron donor.
+
+In respiration, the species that is initially reduced is the electron donor, whereas the oxidized species is the acceptor. In the process, the electron donor is "oxidized" whereas the acceptor is "reduced", which determines the redox state of the soil system.
+
+Ladder: O~2~ > NO~3~^-^ > Fe > Mn > S)~4~^2-^
+
+*Microbial catalysts*
+
+This particular study constrains its examinations to pristine aquifers, and is most focused on the least energetically favored functional groups: iron reducers, sulfate reducers, and methanogens.
+
+Acetotrophic sulfate reducers - respiring microbes that catalyze electron transfer from acetate to sulfate ions, producing carbonate and sulfide species.
+
+$$ CH_{3}COO^{-} + SO_{4}^{2-} ->  2HCO_{3}^{-} + HS^{-}$$
+
+Iron reducing bacteria will use a variety of other minerals, including ferric oxides and oxyhydroxides and Fe(III) bearing clays as oxidants.
+
+For sulfate reduction and methanogenesis, the amount of H+ ions that are consumed and produced are approximately the same, and thus net reactions for sulfate reductions depend weakly, if at all, on pH
+
+Conversely, reduction of Mn and Fe consumes a large amount of H+ ions, and thus are strongly acid consuming and depend on the pH of the soil.
+
+*Available energy*
+
+The "more negative the free energy of an electron accepting half-reaction, the more energy is available to microorganisms."
+
+Energy available to Mn and Fe reducers depends on the mineralogic form the metal takes.
+
+Iron reduction is favored in the nominal environment of the paper over sulfate reduction in the form of soil ferrihydrite, but goethite (less fresh?) may be prevalent and thus less available for iron reducers. This ultimately might lead to loss of advantage of iron reducers over sulfate reducers or methanogens.
+
+*Usable energy*
+
+Microbes can only run metabolism where energy available outside the cell exceeds its internal store.
+
+Iron reducers and sulfate reducers capture more energy per mol of electron donor consumed than methanogens. However, in methanogens capturing less energy than iron and sulfate reducers, they can exist in environments in which less energy is available.
+
+*Bioexperiments*
+
+The authors detail a number of bioexperiments, which I have skipped over here.
+
+*Conclusions*
+
+The study fails to find a fixed thermodynamic hierarchy amongst methanogens, sulfate reducers and iron reducers. 
+
+In particular, the amount of usable energy that was seen by the various groups was approximately the same in conditions in which pH was near neutral. Iron reducers exhibit a small advantage where groundwater is acidic.
+
+The experiment found that ecological factors such as population viability and mutualism rather than thermodynamics alone may be important in determining microbial activity.
+
 #### Amundson, 2014 {#amundson2014}
 
 *"Soil formation"* [@amundson2014soil]
@@ -1848,3 +1905,70 @@ Indonesia, Malaysia, USA, and Brazil have the highest potential C emissions from
 Other countries with very high density (higher than these four) currently have low rates of deforestation, and thus may constrain total C emissions from mangroves. Prioritizing conservation of mangroves in these countries may be critical.
 
 Myanmar may be a highly significant country in terms of C emissions and deforestation.
+
+## Other
+
+### Ferreira *et al*, 2007 {#ferreira2007}
+
+*"Redox processes in mangrove soils under Rhizophora mangle in relation to different environmental conditions"* [@ferreira2007redox]
+
+**Key contribution: ** Upon recognizing that redox conditions may be highly variable over space and across different environmental settings, this study seeks to examine redox patterns in pure Rhizophora stands across three different environmental settings. They find that different redox patterns occur, and that particular characteristics that may be associated with particular settings (e.g., degree of periodic oxidation or soil texture) may greatly influence redox potentials.
+
+**Key notes: **
+
+Bacterial reduction of sulfate is commonly considered main form of respiration in tidal environments, but recent work has shown that the reduction of Fe may also be very important in mineralization of organic matter.
+
+*Study design*
+
+Pure Rhizophora forests in three different environmental settings (fringe, riverine and basin) were selected for examining soil conditions and redox conditions.
+
+Half-meter cores were taken with 6 replicates, and pH and E~h~ were measured in the field.
+
+Cores were preserved and one was cut into fine-scaled sections of variable depth, whereas the other five were cut into two depth sections (0-10 & 10-30 cm).
+
+Pore water analysis was conducted after sampling and from the middle of each soil sample. HS^-^ and Fe^2+^ concentrations were determined.
+
+Soild-phase Fe was partitioned to determine the contributions of seven operationally derived Fe pools:
+
+  1. Exchangeable Fe
+  2. Carbonate-associated Fe
+  3. Ferrihydrite Fe
+  4. Lepidocrocite Fe
+  5. Crstalline oxides 
+  6. Fe oxyhydroxides (goethite, hematite)
+  7. Pyrite Fe
+
+Total organic carbon, total S, total Fe, and percentage sand were determined for each soil sample.
+
+*Results*
+
+The different environmental settings produced differences in soil composition and physicochemical conditions.
+
+Redox potential values decreased significantly with depth in all studied profiles.
+
+A highly significant correlation between pH and E~h~ existed, with lowest pH values corresponding to the highest redox potentials.
+
+For Fe^2+^ and HS^-^ concentrations, high variation over both space as well as with depth were observed. Concentrations of HS^-^ increased significantly with depth, whereas highest values of Fe^2+^ were found in surficial layers.
+
+Iron partitioning was found to be variable between the fringe site versus the riverine and basin sites: 
+
+  - Fringe site - Within the fringe site, Fe oxyhydroxides predominated, especially in surficial layers. Pyrite at this site increased notably with depth.
+  - Basin and riverine sites - Relatively lower amounts of Fe oxyhydroxides existed. Pyrite was much higher in the riverine site both at surface and at depth, whereas pyrite approximated Fe oxyhydroxides at surface but pyrite predominated at depth
+
+Total exchangeable Fe was small across all sites and not considered in the study.
+
+*Discussion*
+
+The author attribute the spatial variation in geochemical conditions to different periods of inundation in which soils are exposed, response to positions within the mangrove forest, and the composition (texturally and chemically) of the substrate.
+
+  - Fringe forest - convex profile and high density of roots induces rapid drainage, aeration and oxidation in low tide; extremely acidic conditions in surface soils coincide with tidal cycle. High tide induces an increase in pH due to diluting and buffering effect of sea water, which favors precipitation of dissolved Fe as Fe oxyhydroxides.
+  - Basin forest - strongly reduced conditions due to long periods of inundation from concave profile; anoxic conditions within the profile gavor syntehsis of pyrite rather than Fe^2+^ and HS^-^ in pore water. Predominance of pyrite synthesis is due to high availability of OM, which maintains activity of sulfate-reducing bacteria. 
+    - High rates of sulfate reduction may occur with presence of reactive Fe, as different species of Fe oxyhydroxides have different surface areas (goethite and hematite are reduced), that may limit actions of microorganisms.
+  - Riverine forest - highly reduced despite position along river. Total Fe and free Fe was very low relative to the other sites, and was consistent with sandy, quartz-based texture. Thus, sulfate reduction was primary reduction pathway of OM.
+  
+*Conclusions*
+
+The dominant redox pathways are highly variable of space and with depth. Occurrence or dominance or a particular process over others may significantly affect chemical composition of pore water and solid phases.
+
+
+
