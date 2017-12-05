@@ -10,7 +10,7 @@
 
 **Key contribution:** This is Hans Jenny's seminal work on the factors of soil formation. The most significant contribution of the work is his conceptual model for soil formation, which is shown below:
 
-  $$soils = f(climate, organisms, relief, parent material, time)$$
+  $$soils = f(climate,\ organisms,\ relief,\ parent\ material,\ time,\ humans)$$
 The model allows for conceptual investigation of the various factors that influence the formation of a soil "system." Jenny defined soils as "systems" that were largely influenced by initial states (relief, parent material, time) as well as their surroundings (climate, organisms).
 
 #### Amundson, 2003 {#amundson2003}
