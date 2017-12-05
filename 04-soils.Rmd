@@ -95,7 +95,127 @@ The importance of atmospheric inputs of chemical nutrients is particularly impor
 
 *Mass balance of soil formation with respect to climate*
 
+In examining hyper-arid soils, the lack of chemical weathering and atmospheric accretion of chemical constituents results in volumetric expansion of soil and accumulation of essential plant nutrients. This is indicative that at a critical threshold of precipitation, accumulation of soils may occur. This is also indicative of the important of water in chemical weathering processes.
 
+*Matter and energy transfer processes in soils*
+
+Movement of soil constituents can broadly be described as diffusive or advective processes. Study of these processes is largely wrapped up in domain of "soil physics".
+
+  - "Advection" - transport with mean fluid flow
+  - "Diffusion" - transport of compounds through action of random motions
+  
+Diffusive transport is predominant form of movement in soils.
+
+Soil carbon cycle is one of the few chemical constituent cycles that has been described in detail.
+
+*Mechanistic modeling of organic and inorganic carbon in soils*
+
+Extremely important to consider variation in soil carbon with depth. Different soil carbon with depth profiles may emerge. Mollisols remeniscent of mangroves, aridosols relatively low and flat but with some variation, spodosols may have a sharp spike.
+
+Modeling carbon movement into soils:
+
+  - Depends on the soil type, but for grasslands, the general process can be modeled as:
+  
+  $$ \frac{dC}{dt} = -v(\frac{dC}{dz})- kC + \frac{F}{L}e^{-z/L} $$
+Where:
+
+  - -v is advection rate in (cm/yr)
+  - z is soil depth in (cm)
+  - F is total plant carbon inputs (g /cm^2 / yr)
+  - L is e-folding depth (cm) ("e-folding" is time interval in which an exponentially growing quantity increases by a factor of e)
+  
+The first term describes downward advective transport, the second term describes decomposition and the third term describes plant inputs that are distributed exponentially. Conceptually:
+
+  $$ \frac{dC}{dt} = down\ advection - decomposition + plant\ inputs  $$
+
+Modeling carbon movement out of soils:
+
+  - Primary pathway is through production of CO~2~ from decomposition
+  - Various forms of Fick's law have been applied to describe transport of CO~2~ from soils
+
+Important to consider the work of Cerling, 1984 - describing the carbon-isotope composition of soil CO~2~, which he recognized ultimately controls the isotope composition of pedogenic carbonate.
+
+CO~2~ concentrations in soil typically increase with depth.
+
+Steady-state soil production/diffusion model for CO~2~ can be described as:
+
+  $$ \epsilon\frac{dCO_{2}}{dt} = 0 = D\frac{d^{2}CO_{2}}{dz^{2}} + \phi $$
+
+Where:
+
+  - $\epsilon$ is free air porosity in soil
+  - D is the effective diffusion constant
+  - z is the soil depth
+  - $\phi$ is CO~2~ production
+  
+Or conceptually:
+
+  $$ porosity * change\ in\ CO_{2} = 0 = net\ diffusion + biological\ production $$
+
+Cerling was interested in identifying processes controlling carbon-isotope composition of soil CO~2~.
+
+Carbon isotopes:
+
+  - Ultimate source is atmospheric CO~2~, which has a C^13^/C^12^ ratio of approximately -7 ppt.
+
+Carbon isotopes are expressed as:
+
+$$ \delta^{13}C(ppt) = (\frac{R_{s}}{R_{std}} - 1)*1,000 $$
+
+Where:
+
+  - R~s~ is the carbon isotope ratio of the sample
+  - R~std~ is the carbon isotope ratio of the international standard
+  
+Three photosynthetic pathways have evolved in plants:
+
+  - C~3~ where $\delta^{13}C$ is approximately -27 ppt.
+  - C~4~ where $\delta^{13}C$ is approximately -12 ppt (tropical grasses that evolved in response to decreasing CO~2~ levels or strong seasonality/water stress)
+  - CAM as an isotopic intermediary between C~3~ and C~4~.
+  
+Root respiration is believed to account for approximately 50% of CO~2~ flux out of soils.
+
+Soil organic matter commonly shows enrichment of C^13^, as C^12^ typically lost as CO~2~ but C^13^ remains in humic substances.
+
+Quade et al (1989) found there were systematic trends in soil CO~2~ concentrations and $\delta^13^C$ values due to changes in CO~2~ production rates with elevation and soil depth.
+
+Formation of carbonate in soils may be described as:
+
+$$ CO_{2} + H_{2}O +Ca^{2+} = CaCO_{3} + 2H^{+}$$
+
+The use of the pedogenic carbonate and carbon-isotope model has allowed for:
+
+  - Description of observed increase in $\delta^{13}C$ for soil CO~2~ and CaCO~3~ with depth
+  - Mechanistic understanding of why soil CO~2~ is enriched in ^13^C relative to plants (steady-state diffusional enrichment of ^13^C)
+  - Can be used in paleoecology, informing on past vegetation complexes
+  
+*Lateral transport by erosion*
+
+A combination of physical and biological processes, aided by gravity, can drive downslope movement of soil material.
+
+Bioturbation coupled with soil erosion has been shown to be very important in soil formation in some ecosystems/landscapes. Soils that have some plant matter at surface often have high organism activity in the "biomantle" (upper surface), with highly mixed and sorted zones.
+
+Mixing by bioturbation has important physical and chemical implications:
+
+  1. Mixing of soil and loss of stratification at early stages
+  2. Quick incorporation of organic matter
+  3. Periodic cycling of soil structure, which helps prevent development of horizons within the biomantle
+  4. Strongly non-random movements of soils that result in unique landscapes or structures
+  
+Mass of soil present is a function of soil transport in, soil transport out, and in situ soil production. The model to describe this is:
+
+$$ \rho_{s}\frac{\delta h}{\delta t} = 0 = (\rho_{r} \phi) + (K \rho_{s}\frac{\delta^2z}{\delta x^2})  $$
+
+Where:
+
+  - h is the soil thickness (cm)
+  - $\rho_s$ and $\rho_r$ are the soil and rock density (c/cm^3^)
+  - $\phi$ is the soil production constant (cm/yr)
+    - soil production is a function of depth, parent material and environmental conditions; rate of production decreases with increasing soil depth
+
+"Soil residence time" is the idea of how long a soil may exist on a landscape.
+
+In depositional landforms (e.g., active floodplains of major rivers), sediment residence time can be no more than a few hundred years. Soil profiles exhibit stratification, weakly developed horizons that are buried, and little if any chemical weathering.
 
 ### Bethke, 2011 {#bethke2011}
 
