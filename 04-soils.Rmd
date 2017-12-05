@@ -2,9 +2,7 @@
 
 ## Background
 
-### Soil formation
-
-#### Jenny, 1994 {#jenny1994}
+### Jenny, 1994 {#jenny1994}
 
 *"Factors of soil formation: A quantitative system of pedology"* [@jenny1994factors]
 
@@ -13,7 +11,7 @@
   $$soils = f(climate,\ organisms,\ relief,\ parent\ material,\ time,\ humans)$$
 The model allows for conceptual investigation of the various factors that influence the formation of a soil "system." Jenny defined soils as "systems" that were largely influenced by initial states (relief, parent material, time) as well as their surroundings (climate, organisms).
 
-#### Amundson, 2003 {#amundson2003}
+### Amundson, 2003 {#amundson2003}
 
 *"Soil formation"* [@amundson2003soil]
 
@@ -36,9 +34,9 @@ Soil formation is a depth dependent process.
 Present US nomenclature for naming soil horizons consists of two key features:
 
   1. Upper case "master horizon" indicator (O, A, E, B, C, R, W)
-  2. lower case modifier that provides more information on horizon or processes that formed it (a, b, c, d, e, etc.)
+  2. Lower case modifier that provides more information on horizon or processes that formed it (a, b, c, d, e, etc.)
   
-Although most soil formation processes are continuous with depth, some occur at abrupt intervals as evidenced by banding within soil profiles.
+Although most soil formation processes are continuous with depth, some occur at abrupt intervals as evidenced by banding within soil profiles. A good example of this is a prominent E horizon present in spodosols, which results from leaching of silicate clay, iron, and aluminum leaving only sand and silt.
 
 The "master horizon" indicators are provided below:
 
@@ -57,7 +55,7 @@ knitr::include_graphics(rep("images/amundson2003modifiers.bmp"))
 In general, the gain or loss of a given chemical element may be described as:
 
 $$ m_{j, flux} = m_{j,s} - m_{j,p} $$
-Where m~j~ is the element j, in the soil (s) or parent material (p).
+Where m~j~ is the element j, in the soil (s) or parent material (p). Thus, fluxes are determined as the content of a mineral relative to the parent material of that soil.
 
 Volumetric collapse may occur through weathering (leaching of elements, compaction) whereas expansion may occur through biological activity or physical processes.
 
@@ -72,15 +70,15 @@ Principal processes of chemical differentiation relevant for the formation of so
 Chemical composition of crustal rock on earth is a result of both:
 
   1. Formation and accretion of the earth itself
-  2. Differentiation in element composition of the core, mantl and crust.
-    - Crust is generally depleted in noble gases, hydrogen, carbon and nitrogen, but enriched in the other elements.
+  2. Differentiation in element composition of the core, mantle and crust
+    - Crust is generally depleted in noble gases, H, C and N, but enriched in the other elements
     - Parent material is dominated by O, Si, Al, Fe, Ca, Na, Mg, and K
 
 The "enrichment factor" is the ratio of the mass concentration of elements in soils by those in crustal rocks. Values less than 1 indicate losses from that soil system, whereas values greater than 1 indicate gains.
 
 In general, soils are:
 
-  - Very depleted in Mg, Na, Ca, K, and Be (Beryllium) due to aqueous weathering
+  - Very depleted in Mg, Na, Ca, K, and Be (Beryllium) due to aqueous weathering (loss of cations)
   - Somewhat depleted in Si, Fe, and Al
   - Enriched in C, N, and S
     - Vast majority of enrichment of C and N occurs through biological activity
@@ -89,28 +87,30 @@ In general, soils are:
 
 For nonarid, temperate environments, soil formation typically is marked by soil expansion as a result of physical and biological processes, followed by collapse as a result of chemical weathering of the soil.
 
-For cool tropical climates, the influx of nutrients via wind-blown atmospheric sources may be important. Initially, all major nutrients for plants are available with exception of C and N. Following their incorporation into the soil by early OM, a peak productivity is reached before other nutrients are depleted and OM production begins to decline. At this point, atmospheric inputs of key nutrients may be important.
+For cool tropical climates, the influx of nutrients via wind-blown atmospheric sources may be important. Initially, all major nutrients for plants are available with exception of C and N. Following their incorporation into the soil by early OM production and cycling, a peak productivity is reached before other nutrients are depleted and OM production begins to decline. At this point, atmospheric inputs of key nutrients may be important.
 
 The importance of atmospheric inputs of chemical nutrients is particularly important for landscapes in which geological rejuvenation does not occur (i.e., no tectonic action).
 
 *Mass balance of soil formation with respect to climate*
 
-In examining hyper-arid soils, the lack of chemical weathering and atmospheric accretion of chemical constituents results in volumetric expansion of soil and accumulation of essential plant nutrients. This is indicative that at a critical threshold of precipitation, accumulation of soils may occur. This is also indicative of the important of water in chemical weathering processes.
+In examining hyper-arid soils, the lack of chemical weathering and atmospheric accretion of chemical constituents results in volumetric expansion of soil and accumulation of essential plant nutrients. This is indicative that at a critical threshold of precipitation, accumulation of soils may occur. This is also indicative of the importance of water in chemical weathering processes.
 
 *Matter and energy transfer processes in soils*
 
-Movement of soil constituents can broadly be described as diffusive or advective processes. Study of these processes is largely wrapped up in domain of "soil physics".
+Movement of soil constituents can broadly be described as diffusive or advective processes. Study of these processes is largely wrapped up within the domain of "soil physics".
 
   - "Advection" - transport with mean fluid flow
-  - "Diffusion" - transport of compounds through action of random motions
+  - "Diffusion" - transport of compounds through action of random motions; often occurs against mean flow
   
 Diffusive transport is predominant form of movement in soils.
 
-Soil carbon cycle is one of the few chemical constituent cycles that has been described in detail.
+The soil carbon cycle is one of the few chemical constituent cycles that has been described in detail.
 
 *Mechanistic modeling of organic and inorganic carbon in soils*
 
-Extremely important to consider variation in soil carbon with depth. Different soil carbon with depth profiles may emerge. Mollisols remeniscent of mangroves, aridosols relatively low and flat but with some variation, spodosols may have a sharp spike.
+Extremely important to consider variation in soil carbon with depth. Different soil carbon dynamics and concentrations across depth profiles may emerge. 
+
+Graphs of SOC concentrations across depth for mollisols are reminiscent of mangroves, aridosols are relatively low and flat but with some variation, spodosols may have a sharp spike or dent in the graph as a result of the extensive leaching in the E horizon.
 
 Modeling carbon movement into soils:
 
@@ -119,10 +119,10 @@ Modeling carbon movement into soils:
   $$ \frac{dC}{dt} = -v(\frac{dC}{dz})- kC + \frac{F}{L}e^{-z/L} $$
 Where:
 
-  - -v is advection rate in (cm/yr)
-  - z is soil depth in (cm)
-  - F is total plant carbon inputs (g /cm^2 / yr)
-  - L is e-folding depth (cm) ("e-folding" is time interval in which an exponentially growing quantity increases by a factor of e)
+  - $-v$ is advection rate (cm/yr)
+  - $z$ is soil depth (cm)
+  - $F$ is total plant carbon inputs (g /cm^2 / yr)
+  - $L$ is e-folding depth (cm) ("e-folding" is time interval in which an exponentially growing quantity increases by a factor of e)
   
 The first term describes downward advective transport, the second term describes decomposition and the third term describes plant inputs that are distributed exponentially. Conceptually:
 
@@ -131,9 +131,9 @@ The first term describes downward advective transport, the second term describes
 Modeling carbon movement out of soils:
 
   - Primary pathway is through production of CO~2~ from decomposition
-  - Various forms of Fick's law have been applied to describe transport of CO~2~ from soils
+  - Various forms of Fick's law (law for diffusion) have been applied to describe transport of CO~2~ from soils
 
-Important to consider the work of Cerling, 1984 - describing the carbon-isotope composition of soil CO~2~, which he recognized ultimately controls the isotope composition of pedogenic carbonate.
+Important to consider the work of Cerling (1984) in which he described the carbon-isotope composition of soil CO~2~, which he recognized ultimately controls the isotope composition of pedogenic carbonate.
 
 CO~2~ concentrations in soil typically increase with depth.
 
@@ -144,8 +144,8 @@ Steady-state soil production/diffusion model for CO~2~ can be described as:
 Where:
 
   - $\epsilon$ is free air porosity in soil
-  - D is the effective diffusion constant
-  - z is the soil depth
+  - $D$ is the effective diffusion constant
+  - $z$ is the soil depth
   - $\phi$ is CO~2~ production
   
 Or conceptually:
@@ -166,6 +166,7 @@ Where:
 
   - R~s~ is the carbon isotope ratio of the sample
   - R~std~ is the carbon isotope ratio of the international standard
+    - The standard comes from the Pee Dee Belemnite (PDB), which is a Cretaceous marine fossil from S. Carolina. It has an anomalously high ^13^C:^12^C ratio, and thus most $\delta^{13}C$ values of natural materials are negative.
   
 Three photosynthetic pathways have evolved in plants:
 
@@ -177,7 +178,7 @@ Root respiration is believed to account for approximately 50% of CO~2~ flux out 
 
 Soil organic matter commonly shows enrichment of C^13^, as C^12^ typically lost as CO~2~ but C^13^ remains in humic substances.
 
-Quade et al (1989) found there were systematic trends in soil CO~2~ concentrations and $\delta^13^C$ values due to changes in CO~2~ production rates with elevation and soil depth.
+Quade *et al* (1989) found there were systematic trends in soil CO~2~ concentrations and $\delta^{13}C$ values due to changes in CO~2~ production rates with elevation and soil depth.
 
 Formation of carbonate in soils may be described as:
 
@@ -185,7 +186,7 @@ $$ CO_{2} + H_{2}O +Ca^{2+} = CaCO_{3} + 2H^{+}$$
 
 The use of the pedogenic carbonate and carbon-isotope model has allowed for:
 
-  - Description of observed increase in $\delta^{13}C$ for soil CO~2~ and CaCO~3~ with depth
+  - Description of the observed increase in $\delta^{13}C$ for soil CO~2~ and CaCO~3~ with depth
   - Mechanistic understanding of why soil CO~2~ is enriched in ^13^C relative to plants (steady-state diffusional enrichment of ^13^C)
   - Can be used in paleoecology, informing on past vegetation complexes
   
@@ -202,14 +203,14 @@ Mixing by bioturbation has important physical and chemical implications:
   3. Periodic cycling of soil structure, which helps prevent development of horizons within the biomantle
   4. Strongly non-random movements of soils that result in unique landscapes or structures
   
-Mass of soil present is a function of soil transport in, soil transport out, and in situ soil production. The model to describe this is:
+Mass of soil present is a function of soil transport in, soil transport out, and *in situ* soil production. The model to describe this is:
 
 $$ \rho_{s}\frac{\delta h}{\delta t} = 0 = (\rho_{r} \phi) + (K \rho_{s}\frac{\delta^2z}{\delta x^2})  $$
 
 Where:
 
-  - h is the soil thickness (cm)
-  - $\rho_s$ and $\rho_r$ are the soil and rock density (c/cm^3^)
+  - $h$ is the soil thickness (cm)
+  - $\rho_s$ and $\rho_r$ are the soil and rock density (g/cm^3^)
   - $\phi$ is the soil production constant (cm/yr)
     - soil production is a function of depth, parent material and environmental conditions; rate of production decreases with increasing soil depth
 
@@ -231,7 +232,7 @@ Ultimately, the usable energy available to various groups changes with water com
 
 In respiration, the species that is initially reduced is the electron donor, whereas the oxidized species is the acceptor. In the process, the electron donor is "oxidized" whereas the acceptor is "reduced", which determines the redox state of the soil system.
 
-Ladder: O~2~ > NO~3~^-^ > Fe > Mn > S)~4~^2-^
+Ladder: O~2~ > NO~3~^-^ > Fe > Mn > SO~4~^2-^
 
 *Microbial catalysts*
 
@@ -246,6 +247,8 @@ Iron reducing bacteria will use a variety of other minerals, including ferric ox
 For sulfate reduction and methanogenesis, the amount of H+ ions that are consumed and produced are approximately the same, and thus net reactions for sulfate reductions depend weakly, if at all, on pH
 
 Conversely, reduction of Mn and Fe consumes a large amount of H+ ions, and thus are strongly acid consuming and depend on the pH of the soil.
+
+Most mangrove soils are moderately acidic, which is maintained by frequent inundation and moist character of soil column. Upon drying the soils, they can become extremetly acidic. Thus, Fe reduction is likely to occur in mangrove soils, but will also depend upon the species of Fe present.
 
 *Available energy*
 
@@ -273,7 +276,7 @@ In particular, the amount of usable energy that was seen by the various groups w
 
 The experiment found that ecological factors such as population viability and mutualism rather than thermodynamics alone may be important in determining microbial activity.
 
-#### Amundson, 2014 {#amundson2014}
+### Amundson, 2014 {#amundson2014}
 
 *"Soil formation"* [@amundson2014soil]
 
@@ -289,19 +292,19 @@ The experiment found that ecological factors such as population viability and mu
   4. Soil chemistry in deserts
   5. Soil formation on Mars
 
-**Notes: ** This chapter should be reviewed several times, as it is indicative of Ron's current thinking on soil formation processes.
+**Key notes: **
 
-*Conceptual issue of what constitutes a "soil"* - different views of soil thickness among differing scientific communities. For example:
+*Conceptual issue of what constitutes a "soil"* - different views of soil thickness exist among different scientific communities. For example:
 
   1. Earth sciences - primarily concerned with the mobile layer of weathering profile in which material no longer reflects parent rock (often restricts to A horizon as B horizon still has parent material)
   2. Geochemical perspectices - interested in the whole weathering process and thus interest extends to more considerable depths
 
-Import to consider: What is the depth at which I am interested for mangroves?
+Important to consider the depth at which I am interested for mangroves? This is likely to be the top meter or so of soil, but especially the soil layer in which vegetation health is most dependent upon (more in line with "earth sciences").
 
 *Soil data access* - There are several platforms for which rich data on soils in the US can be collected:
 
-  1. Web soil survey - portal for soil maps and lab data
-  2. Soil-web - accesses same database as Web Soil Survey, but uses a different architecture to interface with key technologies (Google Earth, Maps, & smartphones)
+  1. Web Soil Survey - portal for soil maps and lab data
+  2. Soil-Web - accesses same database as Web Soil Survey, but uses a different architecture to interface with key technologies (Google Earth, Maps, & smartphones)
   3. Digital soil map of the world -- currently under development but needs more effort (see Sanchez, 2009, Science)
   
 *Soil formation* - Can very abstractly be thought of in three classes:
@@ -328,13 +331,15 @@ Within San Joaquin Valley, the "mound and swale" topography is due to the relati
   - Note, this is the state soil of California (San Joaquin soil series)
   - "Fine, mixed, active, thermic Abruptic Durixeralfs"
   
-Important point is that rates of mineral dissolution in almost all soils are transport limited in that it is not the resistance of elements or materials that determine rates, but rather flow of liquids.
+Important point is that rates of mineral dissolution in almost all soils are transport limited (i.e., it is not the resistance of elements or materials that determine rates, but rather the flow and volume of liquids).
 
-Thus, the rate of weathering is relatively constant with age and thus may have weathering fronts that exist at very considerable depths.
+Thus, the rate of weathering is relatively constant with age and weathering fronts may exist at considerable depths.
 
 *Weathering front* - the boundary between the parent rock and either weathered rock or regolith
 
-**Erosional landscapes** - One of the most important conceptual changes in soil formation within last fifteen years is through modeling of soil transport on hillslopes, particularly through coupling of physical processes with geochemical ones (see Dietrich et al., 2003).
+**Erosional landscapes**
+
+One of the most important conceptual changes in soil formation within the last fifteen years is through modeling of soil transport on hillslopes, particularly through coupling of physical processes with geochemical ones (see Dietrich et al., 2003).
 
 *Denudation* - processes causing wearing away of Earth's surface via moving water, ice, wind or waves; leads to reduction in elevation and relief
 
@@ -342,19 +347,25 @@ The chemical weathering rate can be defined as the difference between the total 
 
   $$ Chemical\ weathering = Total\ denudation - Physical\ erosion$$
 
-The position of the weathering front will depend upon the relative balance between the denudatoin rate and the propagation rate of the weathering front. If denudation (soil loss) exceeds that of weathering front propagation rate, then the front cant be expected to be shallow, and vice versa.
+The position of the weathering front will depend upon the relative balance between the denudation rate and the propagation rate of the weathering front. If denudation (soil loss) exceeds that of weathering front propagation rate, then the front cant be expected to be shallow, and vice versa.
 
-Denudation is apparently insensitive to rainfall for vegetated landscapes, where as weathering front propagation rate is highly sensitive to levels of rainfall.
+Denudation is apparently insensitive to rainfall for vegetated landscapes, whereas the weathering front propagation rate is highly sensitive to rainfall levels.
 
-*Human influences* - The scale at which humans are influencing soils is massive. When defining "endangered soils" as those soil series that have lost at least 50% of their extent, considerable portions of soils in the US have been affected (particularly in the mid-West), but also much of the central valley and along the E. coast.
+*Human influences*
 
-The effects of mechanical alteration of soils as well as through the addition of high amounts of water in arid or semi-arid landscapes greatly accelerates chemical weathering processes (e.g., removal of salts, altering of pH, secondary clay formation, etc. Additional research is needed on the effects of agriculture on undisturbed soils.
+The scale at which humans are influencing soils is massive. When defining "endangered soils" as those soil series that have lost at least 50% of their extent, considerable portions of soils in the US have been affected (particularly in the mid-West), but also much of the central valley and along the east coast.
 
-*Soil geochemistry in deserts* - Use of isotope research in arid soils reveals that *stable isotopes in soils are rarely conservative tracers of element source* (is this for all soils? what does he mean by this?), but rather reflect complex postdepositional processes caused by aqueous or gaseous transport.
+The effects of mechanical alteration of soils as well as through the addition of high amounts of water in arid or semi-arid landscapes greatly accelerates chemical weathering processes (e.g., removal of salts, altering of pH, secondary clay formation, etc.). Additional research is needed on the effects of agriculture on undisturbed soils.
+
+*Soil geochemistry in deserts*
+
+Use of isotope research in arid soils reveals that *stable isotopes in soils are rarely conservative tracers of element source*, but rather reflect complex postdepositional processes caused by aqueous or gaseous transport.
 
 An important interpretation of this is that C isotope ratios of soil CO~2~ (and thus any carbonate that forms from it) largely reflects the isotope ratio of plant respiration and the concentration of atmospheric CO~2~. Additionally, C isotope ratios are highly variable along the depth profile.
 
-*Soil formation on Mars* - Investigation of soils in the top 10-15 cm of the surface of mars allows for interesting insight into soil formation and development processes in the absence of water; however, the conclusions of existing work conclude that much of the observation were driven by prior existence of liquids on the surface.
+*Soil formation on Mars*
+
+Investigation of soils in the top 10-15 cm of the surface of mars allows for interesting insight into soil formation and development processes in the absence of water; however, the conclusions of existing work conclude that much of the observation were driven by prior existence of liquids on the surface.
 
 ### Soil classification
 
@@ -364,11 +375,11 @@ Classifying soils includes chemical, physical, and biological properties that ma
 
 *Pedon* - Smallest three-dimensional sampling unit that displays the full range of characteristic properties of a particular soil
 
-*Polypedon* - A group of closely associated pedons that are commonly found adjacent to another within the field (i.e., slight variations in a one general pedon). A polypedon forms a *soil individual*.
+*Polypedon* - A group of closely associated pedons that are commonly found adjacent to another within the field (i.e., may exist as slight variations in one general pedon). A polypedon forms a *soil individual*.
 
 *Soil series* - A class of soil individuals that exhibit the same properties and horizons, though they may be disjunct in space or time
 
-*Diagnostic soil horizons* are often associated with precise quantitative measures and are used to resolutely identify a soil as particular series or not
+*Diagnostic soil horizons* are often associated with precise quantitative measures and are used to resolutely identify a soil as a particular series or not
 
 Diagnostic soil horizons may occur at the surface or below the surface of the soil. Horizons that occur at the surface of the soil are termed *epipedons*. Seven epipedons exist:
 
@@ -449,7 +460,9 @@ More than 400 *Great Groups* exist, defined primarily by presence of diagnostic 
 
 ### Soil architecture
 
-**Soil color:** Soil color is classified using the Munsell charts and is a function of:
+**Soil color** 
+
+Soil color is classified using the Munsell charts and is a function of:
 
   1. Hue - Redness or yellowness
   2. Chroma - Lightness or darkness
@@ -459,7 +472,9 @@ Soil color is indicative of many properties of the soil, including presence of o
 
 *Gleying* refers to reduction of Fe or Fe depletion from the soil and is indicated by a gray soil color.
 
-**Soil texture:** Soil texture ranges greatly (e.g., from clay to boulders), but often we refer to the fine-earth fraction (sand, silt & clay) in referring to soil texture.
+**Soil texture** 
+
+Soil texture ranges greatly (e.g., from clay to boulders), but often we refer to the fine-earth fraction (sand, silt & clay) in referring to soil texture.
 
   1. *Sand* - Smaller than 2 mm in size but greater than 0.05 mm; most common material constituent is quartz (SiO~2~), or other silicate materials
   2. *Silt* - Between 0.05 mm and 0.002 mm; Similar in shape and mineral composition to sand but much smaller in size and thus drains water more slowly
@@ -467,13 +482,15 @@ Soil color is indicative of many properties of the soil, including presence of o
     - The finest sizes of clays act as colloids (i.e., where particles suspended in a liquid do not readily settle out)
     - More commonly flat and plate-like than round which further inhibits passing of liquids and gasses
 
-*Textural classes* - Soils exist on a continuum of texture, but can classified generally given their relative percent composition of sand, silt or clay
+*Textural classes* - Soils exist on a continuum of texture, but can be classified generally given their relative percent composition of sand, silt or clay
 
-Central concept of a *loam* is defined as a mixture of sand, silt and clay that exhibits properties of those separates in approximately equal proportions.
+Central concept of a *loam* is defined as a mixture of sand, silt and clay that exhibits properties of the three in approximately equal proportions.
 
 Adding peat or compost to soils does not technically change the texture, as the texture criteria is only referring to the mineral particles.
 
-**Soil structure:** Soil particles aggregate together to form *peds* or *aggregates*, which greatly influence the structure and functioning of the soil.
+**Soil structure** 
+
+Soil particles aggregate together to form *peds* or *aggregates*, which greatly influence the structure and functioning of the soil.
 
 *Peds* may vary in size from 1 mm to 1 m; Commonly used to refer to the whole structure of the soil (as aggregates exist at different scales), but is synonymous with "aggregate". Peds often vary depending on the horizon in which they are found. The principal ped shapes are:
 
@@ -482,15 +499,17 @@ Adding peat or compost to soils does not technically change the texture, as the 
   3. Prismlike
   4. Blocklike
   
-Soil aggregates consist of macroaggregates that are a combination of microaggregates. Both biological and physical-chemical processes are important in their formation, though PC processes matter primarily for microaggregates whereas biological processes are more critical for macroaggregates.
+Soil aggregates consist of macroaggregates that are a combination of microaggregates. Both biological and physical-chemical processes are important in their formation, though physico-chemical processes matter primarily for microaggregates whereas biological processes are more critical for macroaggregates.
 
 *Flocculation* is the mutual attraction between clay and organic molecules, and is key for formation of microaggregates (particularly for sedimentation in mangroves).
 
-  - Form through a covalent bond in which positive charged ions compressed against one another attract negative charges on the opposites platelet.
+  - Form through a covalent bond in which positive charged ions compressed against one another attract negative charges on the opposite's platelet.
   
 Organisms (e.g., earthworms) and plant roots are also important in forming of casts through consumption of soil as well as production of sticky substances (glomulin) that are important in forming aggregates.
 
-**Soil density:** There is a key distinction between particle density and bulk density that should be noted. In particular:
+**Soil density** 
+
+There is a key distinction between particle density and bulk density that should be noted. In particular:
 
   - Particle density is defined as the mass of the soil particles per unit volume of *soil solids* (i.e., no pore space is considered)
     - Particle densities vary little and are typically between 2.6 - 2.75 Mg/m^3^
