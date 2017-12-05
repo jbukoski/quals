@@ -556,11 +556,11 @@ Total soil water potential is a function of:
   
 Matric and hydrostatic potentials are part of the "pressure potential," whereas gravitational and osmotic are considered alone.
 
-*Soil water content and water potential* - An inverse relationship exsists between the water content of soils and how strongly water is held within soils.
+*Soil water content and water potential* - An inverse relationship exists between the water content of soils and how strongly water is held within soils.
 
-In describing water content of soil, need to describe both i) the water content as well as ii) the water potential. Behavior of water in soil is typically determined primarily by water potential rather than water content.
+In describing water content of soil, need to describe both the water content as well as the water potential. Behavior of water in soil is typically determined primarily by water potential rather than water content.
 
-"Water content" is defined as a volume of water per volume soil. Typically measured as difference between wet and dry weights of soil.
+"Water content" is defined as a volume of water per volume soil and is typically measured as the difference between wet and dry weights of soil.
 
 "Water potential" can be measured in different ways; Matric potential can be measured via a tensiometer, which is a semi-porous rod filled with water that allows water to flow out of the rod and creates a vacuum within the rod. Tensiometers are useful over a range of 0 to -85 kPa.
 
@@ -574,7 +574,7 @@ In describing water content of soil, need to describe both i) the water content 
     - Soil texture is highly important as clays will moderate flows whereas sandy loams are more "flashy"
   3. Vapor movements - Result of vapor pressure differences in relatively dry soils
   
-*Infiltration and percolation* - Texture of soil and in particular presence of macropores are critical here.
+*Infiltration and percolation* - The texture of a soil and in particular the presence of macropores are critical here.
 
 *Qualitative descriptions of soil wetness* - Several classes of soil wetness can be described:
 
@@ -583,7 +583,7 @@ In describing water content of soil, need to describe both i) the water content 
     1. Maximum level of water available to plants is present
     2. Soil is at optimal "pliability" in that below field capacity it will begin to crumble and above that it will easily turn to mud
     3. Sufficient pore space is available to allow aeration for microbial activity and plant growth
-  3. Plant available water - from 10 - 30 kPa to 1500 kPa - water potentials at which water is largely available to plants
+  3. Plant available water - from 10 - 30 kPa to 1500 kPa; water potentials at which water is largely available to plants
   4. Permanent wilting percentage - point at which plants wilt during both day and night due to inability to extract water from soil (<1500 kPa)
   5. Hygroscopic coefficient - point at which water is only available in vapor form due to extreme aridity
 
@@ -593,7 +593,7 @@ The amount of organic matter within a soil can influence the amount of plant ava
 
 *Relevance for mangroves* - My own interpretation of how this might matter for mangroves is as follows:
 
-For mangroves, matric potentials and osmotic potentials likely drive water flows within mangroves. Given the extremely find sediment of many mangrove forests, there is likely very little pore space for which water and air may enter the soil. Water flushing and aeration may only exist within top 15-20 cm of soil.
+For mangroves, soils are likely saturated with water at most times. Matric potentials and osmotic potentials are likely to be critical for water availability for mangrove vegetation. Preferential flow as a result of bioturbation is likely critical for flushing of the system as well as aerating soil at depth. Given the fine sediment texture of many mangrove forests, there is likely very little pore space for which water and air may enter the soil. Water flushing and aeration may only exist within top 15-20 cm of soil.
 
 ### Soil aeration
 
@@ -620,7 +620,7 @@ There are three primary ways of characterizing aeration of soil:
   2. Air-filled soil porosity (i.e., percentage of soil pores that are filled with air)
   3. Redox potential as a measure of the oxidation and reduction of different elements (i.e., a measure of aerobic metabolism by organisms)
   
-Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electron is transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.
+Reduction-oxidation (redox) describes the chemical processes by which electrons are transferred. Reduction and oxidation occur together, as electrons are transferred from one (the reductant) to the other (the oxidant). Micro-organisms drive majority of redox reactions, often consuming electrons from C or accepting electrons from oxygen. Respiration is largely the consumption of C based electrons from carbohydrates.
 
 Basic example of respiration in which electrons are derived from an organic molecule:
 
@@ -630,12 +630,12 @@ The electrons cannot exist in independent form, and thus are run through metabol
 
 Oxygen is important within soils as it rapidly accepts electrons from other elements, which allows for metabolic processes. Aerobic respiration is performed on O~2~ (oxidize organic carbon) and release energy for metabolic activity.
 
-The redox potential of a soil is a measure of how well much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH. Redox potential typically decreases as the pH increases.
+The redox potential of a soil is a measure of how much oxidation-reduction it is able to perform (i.e., a measure of its ability to accept or donate electrons), and depends upon presence of electron acceptors as well as pH. Redox potential typically decreases as the pH increases.
 
-*Oxidizing soils* - accept electrons easily
-*Reducing soils* - donate electrons easily
+  - *Oxidizing soils* - accept electrons easily
+  - *Reducing soils* - donate electrons easily
 
-Standard Eh levels for drained, well-aerated soils is in the 0.4 - 0.7 Volt range, whereas flooded conditions can reduce Eh levels to as low as -0.3 V.
+Standard E~h~ levels for drained, well-aerated soils are in the 0.4 - 0.7 Volt range, whereas flooded conditions can reduce E~h~ levels to as low as -0.3 V.
 
 Other electron acceptors besides oxygen are:
 
@@ -663,7 +663,7 @@ The form of particular elements is important because it will change availability
   - Nature and rates of microbial activity are determined largely by O~2~ concentrations
   - Redox of elements:
     - Determines form and thus availability of elements, which may be beneficial or toxic
-    - Methane production, which occurs at Redox potentials of approximately -0.2
+    - Methane production, which occurs at redox potentials of approximately -0.2
   - Activities of higher plants:
     - Root growth may be curtailed
     - Absorption of water and nutrients may be decreased
@@ -681,7 +681,7 @@ Temperature of soil in the field is largely dependent upon three factors:
   2. Heat energy required to bring change in the soil temperature
   3. The energy required for processes such as evaporation, which occur primarily near soil surface
   
-Only approximately 10% of solar incidence is actually transferred to soil. Majority is intercepted within atmosphere, by vegetation, or is loss in the evaporation of soil water.
+Only approximately 10% of solar incidence is actually transferred to soil. The majority is intercepted by the atmosphere, by vegetation, or is lost via the evaporation of soil water.
 
 Dark soils do not necessarily warm faster than light soils due to the fact that dark soils may often be very moist and thus solar incidence is lost through evaporation of soil moisture.
 
@@ -704,11 +704,11 @@ The soil colloids are arguably the most important component of soil chemistry, a
 
 The colloidal fraction of soil refers to the clays and humus particles in soil because of their extremely small size (< 1 micrometer) and colloid-like behavior.
 
-The very large surface area to volume ratio of soil colloids is due to the platelike structure, and the present of internal surfaces within clays. The majority of soil colloids primarily carry more negative electrostatic charges than positive charges.
+The very large surface area to volume ratio of soil colloids is due to both their platelike structure and their presence of internal surfaces within clays. The majority of soil colloids primarily carry more negative electrostatic charges than positive charges.
 
 *Absorption of cations and anions:*
 
-Colloids attract thousands of Al^3+^, Ca^2+^, Mg^2+^, K^+^, ^H+^, and Na^+^, which are loosely bound to the surface of the colloid, often in a hydrated state in moist soils.
+Colloids attract thousands of Al^3+^, Ca^2+^, Mg^2+^, K^+^, ^H+^, and Na^+^ cations, which are loosely bound to the surface of the colloid, often in a hydrated state in moist soils.
 
 "Cation exchange" is the process in which one cation breaks free from the colloid, is released into solution, and a different cation takes its place. The ions that are readily lost from the colloid surface are referred to as "exchangeable ions".
 
@@ -720,7 +720,7 @@ Exchangeable anions are also present in the soil solution, and will exchange wit
 
   - Crystalline silicate clays -- dominant in most soils; layered structure like pages in a book; predominantly negatively charged; different silicate clay minerals vary widely in particle shape, however, which influences intensity of charge, plasticity, swelling behavior, etc. 
     - Examples: smectite, vermiculite, fine mica, chlorite, kaolinite (1:1 silicate)
-  - Noncrystalline silicate clays -- tithgly bonded silicon, aluminum and oxygen atoms, but do not exhibit crystalline sheets; high amounts of positive and negative charge, and capable of holding large amounts of water, but exhibit little stickiness
+  - Noncrystalline silicate clays -- tightly bonded Si, Al and O atoms, but do not exhibit crystalline sheets; high amounts of positive and negative charge, and capable of holding large amounts of water, but exhibit little stickiness
     - Principle types: allophane and imogolite (both form from volcanic ash)
   - Iron and aluminum oxides -- found widely but are most important in weathered soils of sub-/tropics; slightly negative to moderately positive and are relatively low in plasticity and stickiness
     - Examples: gibbsite (Al-oxide) and goethite (Fe-oxide) which form crystalline sheets; others are noncrystalline
@@ -728,11 +728,11 @@ Exchangeable anions are also present in the soil solution, and will exchange wit
   
 A summary of the major colloids and their properties is shown below:
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics(rep("images/colloids.bmp"))
 ```
 
-*Layer silicate clay structure:* 
+*Layered silicate clay structure:* 
 
 Silicon tetrahedral and Aluminum-Magnesium octahedral sheets:
 
@@ -741,7 +741,7 @@ Silicon tetrahedral and Aluminum-Magnesium octahedral sheets:
   
 Two to four of the tetrahedral and octahedral sheets will bind together by sharing some of the same oxygen atoms, which results in extremely tight bonds and forms a "layer". The layers then are bound together via adsorbed ions and water, which forms the clay "crystal".
 
-The nature and combination of sheets in the layers vary, and thus produce the differences in types of clays (ant thus their resultant physical and chemical properties).
+The nature and combination of sheets in the layers vary, and thus produce the differences in types of clays (and thus their resultant physical and chemical properties).
 
 "Isomorphous substitution" is the process by which cations of comparable size to Si, Al, or Mg are substituted for the center of one of the tetrahedrons or octahedrons without significantly changing the structure of the crystal. This is the key process that induces variability in nature of silicate clays.
 
@@ -766,9 +766,9 @@ Chlorites -- Fe or Mg primarily occupies the place of Al in the octahedral sheet
 
 *Non-silicate colloids*
 
-Fe and Al oxides are motified octahedral sheets with Fe or Al in the cation positions, and no tetrahedral sheets or silicon in their structures. 
+Fe and Al oxides are modified octahedral sheets with Fe or Al in the cation positions, and no tetrahedral sheets or silicon in their structures. 
 
-Humus is noncrystalline and is formed of large organic molecules of varied chemical composition. Negative or positive charges on humus colloid are a result of loss or gain of H^+^ ions; a very large net negative charge is associated with humus, though sites of both positive and negative charges may exist
+Humus is noncrystalline and is formed of large organic molecules of varied chemical composition. Negative or positive charges on humus colloid are a result of loss or gain of H^+^ ions; a very large net negative charge is associated with humus, though sites of both positive and negative charges may exist.
 
 *Formation of colloids*
 
@@ -790,15 +790,15 @@ Two major sources of charge imbalances:
   
 Charges of all colloids are affected to a certain degree by OH^-^ groups, which are largely pH dependent. The charges of Al and Fe oxides, 1:1 type clays, allophane and humus are primarily determined by OH^-^ groups.
 
-For 2:1 clays, surface charges are complemented by isomorphouos substitutions of cations. Charges from isomorphous substitution are not dependent upon pH, and thus are considered "permanent"
+For 2:1 clays, surface charges are complemented by isomorphouos substitutions of cations. Charges from isomorphous substitution are not dependent upon pH, and thus are considered "permanent".
 
 *Cation exchange reactions:*
 
-Ions held to external surface of clays via electrostatic attraction, which is relatively weak and thus ions are in constant motion. There are points at which ions are closer versus slightly further away from the colloid. If an ion in soil solution enters space closer to the colloid, the ions "exchange".
+Ions held to external surface of clays via electrostatic attraction, which is relatively weak and thus ions are in constant motion. Ions constantly oscillate between being closer versus slightly further away from the colloid. If an ion in soil solution enters space closer to the colloid, the ions "exchange".
 
 Cation exchange reactions are reversible in that the cations can easily revert back to their original places.
 
-Cation exchange reactions occur on charge to charge basis (i.e., 2 H^+^ for 1 Ca^2+^).
+Cation exchange reactions occur on a charge to charge basis (i.e., 2 H^+^ for 1 Ca^2+^).
 
 Ratios of cations within soil solution will match those of cations bound to colloids at equilibrium.
 
@@ -814,7 +814,7 @@ Measurement of CEC via pH buffered solutions will yield measures of the *potenti
 
 *Exchangeable cations in field soils* - Varies depending on the environmental conditions of the site.
 
-In humid regions, Ca^2+^, Al^3+^, aluminum hydroxy ions and H^+^ are most prominent, whereas Ca^2+^, Mg^2+^, and Na^+^ dominated in more arid regions.
+In humid regions, Ca^2+^, Al^3+^, aluminum hydroxy ions and H^+^ are most prominent, whereas Ca^2+^, Mg^2+^, and Na^+^ dominate in more arid regions.
 
 "Saturation percentage" refers to the percent of the exchange complex held by a particular ion. Useful in identifying acid percentage saturation (H^+^ and Al^3+^) versus nonacid (base) saturation percentage.
 
@@ -823,7 +823,7 @@ Exchangeable cations influences the fertility of the soil, as many of the cation
 *Anion exchange* - Anions are held by colloids in two primary ways:
 
   1. Held by anion adsorption mechanisms similar to those of cation adsorption
-  2. Reactions with surface oxides or hydroxides, which forms inner-spere complexes
+  2. Reactions with surface oxides or hydroxides, which form inner-sphere complexes
   
 Positive charges associated with kaolinite surfaces attract anions such as SO~4~^2-^ and NO~3~^-^. Adsorption exchanges typically decrease with increasing pH for anions.
 
@@ -833,22 +833,22 @@ Anion exchange is important as it determines the mobility of certain important a
 
 ### Soil pH
 
-Principle processes that determine soil acidification are:
+The principle processes that determine soil acidification are:
 
   1. Production of H+ ions
   2. Washing away of cations by percolating water
   
-Both processes are facilitated by volumes of water that percolate through soil, and thus acidity is closely related to amounts of precipitation within the region.
+Both processes are facilitated by volumes of water that percolate through soil, and thus acidity is closely related to the amount of precipitation within a particular region or soil system.
 
 H^+^ ions are produced through dissociation of carbonic acid, which forms through CO~2~ dissolving in H~2~O.
 
 $$ CO_{2}\ +\ H_2O\ \to\ H_2CO_3\ \iff\ HCO_3^{-}\ +\ H^+$$
 
-Production of H^+ from H~2~CO^3^ is only significant for pH levels greater than 5.
+Production of H^+^ from H~2~CO^3^ is only significant for pH levels greater than 5.
 
 In addition, several biological processes can affect the acidity of the soil:
 
-  1. Plant balancing of cations - when excess of certain cations are taken up by roots, H^+^ often released into soil solution so maintain charge balance
+  1. Plant balancing of cations - when excess of certain cations are taken up by roots, H^+^ often released into soil solution to maintain charge balance
   2. Accumulation of OM - cations can form soluble complexes with nonacid nutrient cations (e.g., Ca^2+^ and Mg^2+^), which may result in leaching; nonacid cations may be replaced with acid cations
   3. Oxidation of nitrogen (Nitrification) - reaction of ammonium (NH~4~^+^) with oxygen releases H^+^ ions.
   4. Oxidation of sulfur - oxidation of sulfur yields H~2~SO~4~, which is a strong acid
@@ -856,8 +856,8 @@ In addition, several biological processes can affect the acidity of the soil:
 *Alkalizing processes* - Reduction of H^+^ or production of OH^-^ in the soil alkalizes the soil. Several pathways of alkalizing processes exist:
 
   1. Weathering of nonacid cations from minerals -- weathering of parent material may result in bonding of H^+^ and release of nonacid cations, such as Ca^2+^
-  2. Accumulation of nonacid cations -- nonacid cations from weathering may accumulate in areas of low precipitation (Ca^2+^, Mh^2+^m K^+^, and Na^+^)
-  3. Production of base-producing anions -- basic, hydroxyl generating anions are carbonate (CO~3~^2-^) and bicarbonate (HCO~3~^-^); these react with water to form Oh^-^ and raise pH (important for *soil buffering*)
+  2. Accumulation of nonacid cations -- nonacid cations from weathering may accumulate in areas of low precipitation (Ca^2+^, Mg^2+^ K^+^, and Na^+^)
+  3. Production of base-producing anions -- basic, hydroxyl generating anions are carbonate (CO~3~^2-^) and bicarbonate (HCO~3~^-^); these react with water to form OH^-^ and raise pH (important for *soil buffering*)
     - The direction of carbonate reactions depends largely on the presence of CO~2~ in the soil, with greater amounts of CO~2~ acidifying the soil
   4. Excess anion uptake by roots -- roots excude bicarbonate when excess of anions are taken up by roots
   
@@ -883,7 +883,7 @@ Percent saturation of acid vs. nonacid cations refers to the relative charge per
 
 "Potential" CEC is the CEC at high pH values, whereas "effective" CEC is the CEC at the pH of the soil.
 
-*Soil buffering* - The ability of a soil to resists changes in pH
+*Soil buffering* - The ability of a soil to resist changes in pH
 
 Mechanisms of buffering are largely explained by the equilibrium between the different pools of soil acidity: active, salt replaceable and residual. Largely as a result of uptake or release of acid ions on the exchangeable complex of colloids.
 
@@ -903,7 +903,7 @@ In general, the higher the CEC, the higher the buffering capacity of the soil.
 
 Aluminum is the most significant toxicity for plants, which is taken up in roots and restricts growth and functioning. Aluminum is only toxic at pH levels below 5.3
 
-Manganese may also become toxic under acidic conditions as it is increasingly soluble and taken up in excess quantities. Mg is an essential micronutrient but becomes toxic in excess quantities
+Manganese may also become toxic under acidic conditions as it is increasingly soluble and taken up in excess quantities. Mn is an essential micronutrient but becomes toxic in excess quantities
 
 Nutrient availability in general is greatly influenced due to varying degrees of availability that depend upon pH. Several key macronutrients may be greatly limited under acidic conditions
 
@@ -958,18 +958,18 @@ In general, low salt concentrations and weakly attracted ions encourage soil dis
 
 Soil organisms range from macrofauna to microfauna, and tend to aggregate in zones of favorable conditions rather than be spread out evenly through the soil.
 
-A range of different classifications for soil organisms, but often consider trophic level (primary producer, primary consumer, etc.) or feeding patterns (fungivore, herbivore, autotrophic, etc.).
+There are a range of different classifications for soil organisms, but most consider their trophic level (primary producer, primary consumer, etc.) or feeding patterns (fungivore, herbivore, autotrophic, etc.).
 
 *Primary consumers* - A variety of primary consumers exist within the soil environment:
 
-  - herbivores - feed directly on living plant tissue, for example rodents or larvae feeding on plant roots
-  - detritivores - vast majority of soil organisms; feed on dead decaying tissues of plants on soil surface and within soil pores
+  - Herbivores - feed directly on living plant tissue, for example rodents or larvae feeding on plant roots
+  - Detritivores - vast majority of soil organisms; feed on dead decaying tissues of plants on soil surface and within soil pores
     - "shredders" - those organisms that actually feed on organisms on decaying material (e.g., bacteria) rather than the material itself; important for shredding & processing of detritus
-  - saprophytic - feeding on dead tissues by fungi and bacteria (microflora); accounts for majority of decomposition of dead plant and animal debris
+  - Saprophytic - feeding on dead tissues by fungi and bacteria (microflora); accounts for majority of decomposition of dead plant and animal debris
 
 *Secondary consumers* - Include microflora as well as carnivores
 
-  - carnivores -- may include centipedes, mites, insects, nematodes, spiders, snails, etc.
+  - Carnivores -- may include centipedes, mites, insects, nematodes, spiders, snails, etc.
     - feed on microflora and thus are important for processing of litter
     
 *Tertiary consumers* - Ants, bird, or other organisms that consume the soil organisms
@@ -978,9 +978,9 @@ A range of different classifications for soil organisms, but often consider trop
 
 In general, the ratios of soil OM to detritus to microbial biomass to faunal biomass is 1000:100:10:1.
 
-Total living biomass is generally well-correlated with the dry-weight or organic matter, oftentimes approximately 1-5% of the dry weight of organic matter.
+Total living biomass is generally well-correlated with the dry-weight of organic matter, oftentimes approximately 1-5% of the dry weight of organic matter.
 
-Majority of activity in soils is by microorganisms (estimated at ~80% of total soil metabolism). Nematodes and protozoa play important roles in preying on bacteria and fungi, whereas earthworms can be significant and play an important role as ecosystem engineers.
+The majority of activity in soils is by microorganisms (estimated at ~80% of total soil metabolism). Nematodes and protozoa play important roles in preying on bacteria and fungi, whereas earthworms can be significant and play an important role as ecosystem engineers.
 
 *Plant roots* - Typically occupy approximately 1% of soil volume and may also be responsible for 25% - 33% of the respiration occuring in the soil.
 
@@ -1000,13 +1000,13 @@ Endomycorrhizae - (arbuscular mycorrhizae are most important group); penetrate c
 
 Prokaryotes may be round, rod-shaped, or spiral; but in soils the rod-shaped prokaryotes appear to dominate.
 
-Prokaryotes have enormous diversity (handful of soil may hold as many species as fauna in the amazon), and consist of both autotrophs and heterotrophs.
+Prokaryotes have enormous diversity (a handful of soil may hold as many species as fauna in the Amazon), and consist of both autotrophs and heterotrophs.
 
 Perform important functions within the soil:
 
   - Break down of toxins (for example archae processing hydrocarbons, i.e., oil products)
-  - Oxidation and reduction of particular elements (e.g., Iron and Mn)
-    - Nitrogen fixation
+  - Oxidation and reduction of particular elements (e.g., Fe and Mn)
+    - N fixation
 
 *Controls on soil microorganism growth*:
 
@@ -1014,9 +1014,9 @@ Perform important functions within the soil:
     - additions of certain nutrients will prompt growth from different microorganism types
     - for example, bacteria respond well to starch and sugars whereas fungi and actinomycetes have heavier influence with additions of cellulose or other resistant material
   - Oxygen, moisture and temperature - increasing availability of oxygen, moisture and higher temperatures all promote microorganism activity
-  - Exchangeable cations and pH - 
+  - Exchangeable cations and pH - the acidity of the soil may affect the ability of different micro-organisms to persist
   
-*Benefits to plants of soil organisms*:
+*Benefits to plants from soil organisms*:
 
   - Nutrient availability - primary benefit is the role in processing organic matter and increasing availability of key nutrients for plants
   - Breakdown of toxic compounds - can breakdown and process toxins that would otherwise accumulate within the soil profile
@@ -1038,7 +1038,7 @@ Can control diseases or impacts on plants through management:
   
 ### Soil organic matter
 
-Soil organic matter is critical to soil systems for a variety of reasons, but in particular for their increases in CEC, water holding capacity, and also importance to global carbon cycles.
+Soil organic matter is critical to soil systems for a variety of reasons, but in particular for increasing CEC, improving water holding capacity, and also its role within the global carbon cycle.
 
 Inorganic carbon may also form a substantial role of C pool in the ecosystem, and is formed largely through reaction of CO~2~ to produce carbonic acid as well as carbonates and bicarbonates of Ca, K, Mg, and Na. 
 
@@ -1056,7 +1056,7 @@ Four broad classes of organic compounds in plant tissue:
   
 Decompositional process primarily consists of three steps:
 
-  1. enzymatic oxidation of organic compounds - releases CO~2~, energy, water and biomass
+  1. Enzymatic oxidation of organic compounds - releases CO~2~, energy, water and biomass
   2. Nutrient specific release and/or immobilization
   3. Formation of resistant compounds either through microbial activity or modification of the compounds
   
@@ -1090,7 +1090,7 @@ Depending on the C:N ratio of the soil, availability of N for plant communities 
 
 Consumption of microbial community by earthworms, nematodes or protozoa can result in release of NH~4~^+^ in the soil, as the macrofauna consume more N than they can consume.
 
-**Genesis and nature of SOM and humus**:
+*Genesis and nature of SOM and humus*
 
 SOM comprises of living as well as dead biomass (both recognizable and unrecognizable). The unrecognizable dead biomass is known as "humus". Humic substances are resistant to decomposition, whereas nonhumic substances are more easily degraded.
 
@@ -1098,7 +1098,7 @@ Humic substances are often ~60-80% of soil organic matter. Their complexity make
 
 Nonhumic substances contain definite chemical and physical properties and thus are more readily decomposed. 
 
-**Influence of OM on plant growth and soils**:
+*Influence of OM on plant growth and soils*
 
 Benefits of OM to plants occur largely indirectly, but some direct benefits exist:
 
@@ -1115,18 +1115,18 @@ Other direct effects relate to the effect of OM on soil properties:
   - Biological properties:
     - Provides food for much of the heterotrophic soil organism community
 
-**Pools of organic matter**:
+*Pools of organic matter*
 
 Depending on quality and availability, different "pools" of OM can be considered:
 
   - Active pool - easily decomposible OM with half-lives of days to a few years (~10-20% of OM)
-    - e.g., living biomass, pieces of detritus, most of polysaccharides, other nonhumic substances
+    - e.g., living biomass, pieces of detritus, mostly polysaccharides, other nonhumic substances
     - Can be readily enhanced through additions, but is also readily lost
   - Slow pool - finest fractions of particulate OM that is high in lignin, as well as other slowly decomposable or chemically resistant components
   - Passive pool - primarily material protected within clay-humus complexes; remains in soil for hundreds to thousands of years (~60-90% of OM)
     - closely associated with colloidal properties of soil and thus most responsible for CEC and water holding capabilities
 
-**Other**:
+*Other*
 
 Contributions to OM by plants in grasslands is often higher and more efficient than forests, given grasses greater biomass contribution roots and their greater resistance to decay.
 
@@ -1136,7 +1136,7 @@ This is interesting in that mangroves might have more significant root biomass t
 
 ### Soil nutrients
 
-**Key notes:**
+**Key notes: **
 
 Nitrogen is in general the most widely occurring nutritional limit on plant growth globally.
 
@@ -1162,7 +1162,7 @@ N in nitrate is subject to five fates, some of which overlap:
   2. Removal - uptake by plants
   3. Leaching - loss to groundwater via percolation
   4. Volatilization - loss to atmosphere as several N-containing gases formed by denitrification
-  5. Conversion to ammonium - dissimilatory (nitrate) reduction to NDRA by anaerobic organisms
+  5. Conversion to ammonium - dissimilatory (nitrate) reduction to DNRA by anaerobic organisms
   
 *Immobilization and mineralization*
 
@@ -1177,7 +1177,7 @@ Soluble organic N compounds are available for plant uptake and leaching losses; 
 
 *Ammonium fixation by clays* 
 
-Ammonium are attracted to negative surfaces of clays and humus, where they're held in exchangeable forms & are available for plant uptake. May become more permanently fixed in pockets within the crystalline structure of particular 2:1 clay types.
+Ammonium is attracted to the negative surfaces of clays and humus, where it is held in an exchangeable form and is available for plant uptake. May become more permanently fixed in pockets within the crystalline structure of particular 2:1 clay types.
 
 Although this can help preserve mineral N in the soil environment, it may also not be available to plants at rates at which it is needed.
 
@@ -1193,8 +1193,8 @@ Conversion of ammonium to nitrates in a two-step reaction (NH~4~^+^ to NO~2~^-^ 
 
 Nitrification may be reversed be several bacterial processes, some of which occur in anaerobic environments:
 
-  - denitrification - heterotrophic bacteria reduce nitrate to NO, N~2~O or N~2~ gases
-  - dissimilatory nitrate reduction to ammonia (DNRA) - reduces NO3- to NO~2~^-^ and then to NH~4~^+^
+  - Denitrification - heterotrophic bacteria reduce nitrate to NO, N~2~O or N~2~ gases
+  - Dissimilatory nitrate reduction to ammonia (DNRA) - reduces NO~3~^-^ to NO~2~^-^ and then to NH~4~^+^
   
 *Nitrate leaching* 
 
@@ -1207,7 +1207,7 @@ Denitrification of nitrates may produce NO, N~2~O and N~2~. NO (nitric oxide) an
   - Form nitric acid, which is one of the principle components of acid rain
   - May react with volatile organic pollutants to form ground-level ozone
   - Very potent (but shortlived) greenhouse gases
-  - N~2~O destructs ozone
+  - N~2~O destroys ozone
   
 May be extremely high in wetlands due to periods of wetting (denitrification) and drying (nitrates produced).
 
@@ -1219,7 +1219,7 @@ Conversion of atmospheric N~2~ to forms usable by organisms by limited number of
 
 Key component is the enzyme *nitrogenase*, which catalyzes reduction of N~2~ to NH~3~^+^. The ammonia is then used to form amino acids and subsequently proteins.
 
-Nitrogenase is destroyed by O~2~, and thus the enzyme needs to be protected from exposure to O~2~. The molecule that protects nitrogenase (leghemoglobin) is virtually the same as hemoglobin that gives blood red color when oxygenated, hence root nodules on legumes are red.
+Nitrogenase is destroyed by O~2~, and thus the enzyme needs to be protected from exposure to O~2~. The molecule that protects nitrogenase (leghemoglobin) is virtually the same as hemoglobin that gives blood red its color when oxygenated, hence root nodules on legumes are red.
 
 Additionally, fixation of N~2~ is very energy intensive, and thus mutual relationships between N-fixing bacteria and plants occur. Host plant supplies bacteria with carbohydrates as energy sources, whereas bacteria provide the plant with reactive-nitrogen compounds.
 
@@ -1228,8 +1228,8 @@ Additionally, fixation of N~2~ is very energy intensive, and thus mutual relatio
 Important as key constituent of essential amino acids, vitamins, enzymes & aromatic oils. Sulfur has three primary "natural" sources:
 
   1. Organic matter - microorganisms break down organic sulfur compounds to soluble forms analogous to release of ammonium and nitrate
-  2. Soil minerals - inorganic forms are primarily sulfates and sulfides. Sulfates directly available to plants whereas sulfides must be oxidized to sulfate form before they may be taken up by plants
-  3. Sulfur gases in the atmosphere - primarily COS, H~2~S, and S~O~2 are produced from volcanos, ocean spray, biomass fires and fossil fuel burning. These are eventually oxidized to sulfates which form sulfuric acid and result in acid rain.
+  2. Soil minerals - inorganic forms are primarily sulfates and sulfides. Sulfates are directly available to plants whereas sulfides must be oxidized to sulfate form before they may be taken up by plants
+  3. Sulfur gases in the atmosphere - primarily COS, H~2~S, and SO~2~ are produced from volcanos, ocean spray, biomass fires and fossil fuel burning. These are eventually oxidized to sulfates which form sulfuric acid and result in acid rain
   
 *Sulfur cycle* -- There are four major forms of S that occur:
 
@@ -1251,7 +1251,7 @@ For systems in which S uptaken by plants is eventually returned to the soil, the
 
 Sulfuric acid (H~2~SO~4~) is produced through oxidation of H~2~S or S, which occurs at a wide range of soil conditions.
 
-Sulfate ions tend to be unstable within anaerobic environments, and are reduced to sulfide ions by bacteria in two genera. THe sulfide ion will react almost immediately with reduced soluble Fe or Mn to form insoluble sulfides in anaerobic soils. 
+Sulfate ions tend to be unstable within anaerobic environments, and are reduced to sulfide ions by bacteria in two genera. The sulfide ion will react almost immediately with reduced soluble Fe or Mn to form insoluble sulfides in anaerobic soils. 
 
 Sulfide ions also undergo hydrolysis to form gaseous hydrogen sulfide, which gives swamps rotten-egg smell.
 
@@ -1274,11 +1274,11 @@ Phosphorus is generally unavailable in soils due to three reasons:
     3. Fe- or Al-bound inorganic phosphorus - opposite solubility of Ca-bound P
   - Gains and losses - losses are primarily due to biomass removal, erosion of P-bound soil particles, or P dissolved in surface runoff or leaching to groundwater; primary additions are through atmosphere, which is often sufficient in natural environments
 
-*P availability*
+*Phosphorus availability*
 
 Generally 20-80% of P is held in OM in soil systems.
 
-For inorganic P, two primary controls on its availability exist: i) solubility of P-containing minerals, and ii) fixation or adsorption of P ions on surface of soil particles.
+For inorganic P, two primary controls on its availability exist: i) the solubility of P-containing minerals, and ii) the fixation or adsorption of P ions on the surfaces of soil particles.
 
 Phosphorus can precipitate with Fe, Al or Mn ions, which forms insoluble hydroxy phosphate precipitates. In very acidic soils, enough Al, Fe, or Mn typically present to precipitate all dissolved H~2~PO~4~^-^ ions.
 
@@ -1290,7 +1290,7 @@ Big take-away is that P is generally present but is not available and thus there
 
 **Potassium**
 
-Only present in soil solution as cation, and behavior in soil is thus largely effected soil cation exchange properties and mineral weathering.
+Only present in soil solution as cation, and behavior in soil is thus largely effected by soil cation exchange properties and mineral weathering.
 
 Key role in organisms is as an activator of particular enzymes. Important in metabolic processes in mangroves and important in balancing Na^+^ levels.
 
@@ -1318,7 +1318,7 @@ Deficiencies of calcium for plants is rare, except in acid soils.
 
 Calcium is found primarily in three pools within the soil system:
 
-  1. Ca contianing minerals
+  1. Ca containing minerals
   2. Ca complexed with soil humus
   3. Ca held by CEC on clay and humus colloids
   
@@ -1370,8 +1370,8 @@ From a geomorphological standpoint, this is one of the most well-cited studies a
 
 **Key conclusions:** Carlton concludes more or less that mangroves do not "build" land *per se*, but are influential upon the *rate* at which sediments accrete on shorelines. In sum, two viewpoints exist:
 
-  1. mangroves "build" land by accretion of sediments (*a la* Davis 1940) (UNSUPPORTED)
-  2. mangroves modify the rate at which sediments accrete, thus affecting the speed of geomorphic change rather than the direction (Egler 1952, Gill 1971) (SUPPORTED)
+  1. Mangroves "build" land by accretion of sediments (*a la* Davis 1940) (UNSUPPORTED)
+  2. Mangroves modify the rate at which sediments accrete, thus affecting the speed of geomorphic change rather than the direction (Egler 1952, Gill 1971) (SUPPORTED)
   
 *Further reading:*
 
@@ -1394,13 +1394,13 @@ From a geomorphological standpoint, this is one of the most well-cited studies a
 
   1. *Geophysical* - The dominant physical processes that affect a landscape, such as SLR or climate
   2. *Geomorphic* - The dynamic history of the land in response to the dominant geophysical factors. Can be broken into three scales:
-    a. macro: clastic vs. carbonate sediments
-    b. meso: dominant physical process (tide vs. riverine vs. wave)
-    c. micro: microtopographic features such as drainage and elevation that produce environmental gradients
+    a. Macro: clastic vs. carbonate sediments
+    b. Meso: dominant physical process (tide vs. riverine vs. wave)
+    c. Micro: microtopographic features such as drainage and elevation that produce environmental gradients
     
   3. *Biological* - Factors such as biogeography or competition that affect the landscape
   
-Additionally, Thom notes that his five suggested geomorphig settings *are not comprehensive but are rather representative of dominant processes that may be relevant.* Thom goes on to discuss variations and scale in time and space and their resultant effects on mangrove geomorphology. He concludes that zonation of mangrove species responds opportunistically to geomorphic setting, and areas with high geomorphic diversity will have high degrees of habitat variation.
+Additionally, Thom notes that his five suggested geomorphic settings *are not comprehensive but are rather representative of dominant processes that may be relevant.* Thom goes on to discuss variations and scale in time and space and their resultant effects on mangrove geomorphology. He concludes that zonation of mangrove species responds opportunistically to geomorphic setting, and areas with high geomorphic diversity will have high degrees of habitat variation.
 
 **Topics to think about further:**
 
@@ -1412,7 +1412,7 @@ Additionally, Thom notes that his five suggested geomorphig settings *are not co
 
 **Key contribution:** This paper describes the development of an autochthnous, geomorphically inactive mangrove forests on Grand Cayman island. The study takes a geological perspective in that they examine soil depths and soil cores throughout the west peninsula, and reconstruct models of autochthonous development of the mangrove forest through time.
 
-**Key findings:** The study concludes that there were key tidal inlets which were eventually breached my rising sea levels and allowed for expanded colonization of the calcerous bedrock by mangroves. Soil depths & cores indicate that there was a forest of landlocked mangroves at one point during low-levels (200 cm below present), but the authors are unsure of how tidal fluxes reached this area.
+**Key findings:** The study concludes that there were key tidal inlets which were eventually breached by rising sea levels and allowed for expanded colonization of the calcerous bedrock by mangroves. Soil depths and cores indicate that there was a forest of landlocked mangroves at one point during low-levels (200 cm below present), but the authors are unsure of how tidal fluxes reached this area.
 
 ```{r, echo=FALSE}
 
@@ -1429,13 +1429,13 @@ knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 **Key additions:** The carbonate settings that Thom adds to his original five clastic settings are as follows:
 
   6. *Carbonate platform* - Accumulation of lime muds and peat on low-energy tropical coasts. Oftentimes the fringing mangroves are against large, open, shallow bodies of water. Coral reef or sand barriers may block wave and tidal energy to produce low-energy conditions
-  7. *Sand/shingle barrier* - Mangroves may form on the cemented or non-cemented coral detritus, for example patchy mangroves colozining portions of the Great Barrier Reef. Sand mostly consists of carbonate particles and sea levels play an important part on depositional characteristics
-  8. *Carbonate embayments* - Embayments in which soil "crusts" were submerged by SLR during Holocene. E.g., patchy mangroves on old reef complexes that are highly variable and reflect varability in the substrate complexity.
+  7. *Sand/shingle barrier* - Mangroves may form on cemented or non-cemented coral detritus, for example patchy mangroves colonizing portions of the Great Barrier Reef. Sand mostly consists of carbonate particles and sea levels play an important part on depositional characteristics
+  8. *Carbonate embayments* - Embayments in which soil "crusts" were submerged by SLR during Holocene. For example, patchy mangroves on old reef complexes that are highly variable and reflect varability in the substrate complexity.
   
 **Key knowledge:** In addition, Thom discusses some of the prior models of succession and zonation in mangroves. In particular he identifies three trends of research, including one in which he situates himself:
 
   1. *"Classical succesional view of mangroves"* - The "Davis 1940" view of mangroves that emphasizes the role of biota rather than geophysical or geomorphological processes
-  2. *"Environmental gradient view"* - The more "ecological niche" based view of vegetation patterning that results from environmental gradients; Watson 1928 was one of first studies to argue for this effect
+  2. *"Environmental gradient view"* - The more "ecological niche" based view of vegetation patterning that results from environmental gradients; Watson 1928 and his description of inundation classes was one of first studies to argue for this effect
   3. *"Physiographic ecology"* - regards physical and botanical landscapes as mosaics of landforms that result from differential effects of physical processes on different materials, and the promotion of different biological communities in response to them
     - focused at landscape scale, geomorphic variety produces variety in biological assemblages
 
@@ -1453,29 +1453,29 @@ knitr::include_graphics(rep("images/woodroffe1983TVS.bmp"))
 
 **Key notes: **
 
-  - ability of mangrove forests to respond to different levels of sea level rise depends on coastal morphology
-    1. steep cliffs (e.g., mid-oceanic atolls) may not be able to respond due to lack of ability to migrate along shoreline as well as distant propagule sources for recolonization
+  - The ability of mangrove forests to respond to different levels of sea level rise depends on coastal morphology
+    1. Steep cliffs (e.g., mid-oceanic atolls) may not be able to respond due to lack of ability to migrate along shoreline as well as distant propagule sources for recolonization
   - Eustatic patterns during Holocene have varied regionally
-    - in Indian and Pacific Oceans, rose to approximately 1-2 m above present levels, before falling and stabilizing at current levels
-    - in West Indies and Southern US, increasingly risen though at decelerating rates to arrive at period of stability of today
-  - mangroves are effective indicators of past sea-level if species with given preference for position in intertidal zone can be identified within paleosedimenets
-    - however, often not clear because of compaction and contamination with younger aged organic matter
-  - given sea level rise, the ability of mangrove forests to persist may be largely dependent upon the catchment size of deltas (i.e., size of area from which water and sediments drain)
-  - carbonate settings are at higher risk of undergoing regime shifts relative to deltaic or estuarine mangroves
+    - In Indian and Pacific Oceans, rose to approximately 1-2 m above present levels, before falling and stabilizing at current levels
+    - In West Indies and Southern US, increasingly risen though at decelerating rates to arrive at period of stability of today
+  - Mangroves are effective indicators of past sea-level if species with given preference for position in intertidal zone can be identified within paleosedimenets
+    - However, often not clear because of compaction and contamination with younger aged organic matter
+  - Given sea level rise, the ability of mangrove forests to persist may be largely dependent upon the catchment size of deltas (i.e., size of area from which water and sediments drain)
+  - Carbonate settings are at higher risk of undergoing regime shifts relative to deltaic or estuarine mangroves
     
 Woodroffe combines Thom's environmental settings into three primary classes of geomorphological development:
   
-  1. river dominated
-  2. tide dominated
-  3. carbonate
+  1. River dominated
+  2. Tide dominated
+  3. Carbonate
   
-He expounds on them in this article, whereas he summarizes them in his review in Tropical Mangrove Ecosystems (see Section @\ref(woodroffe1992)).
+He expounds on them in this article, whereas he summarizes them in his review in Tropical Mangrove Ecosystems (see Section \@ref(woodroffe1992)).
 
 ### Woodroffe, 1992 {#woodroffe1992}
 
 *"Mangrove sediments and geomorphology"* [@woodroffe1992mangrove]
 
-**Key contribution:** This is a key synthesis of knowledge related to geomorphology and environmental settings in mangroves. Woodroffe gives an overview of sedimentation and shoreline progradation / erosion, followed by a review of Thom's environmental settings and Lugo and Snedaker's mangrove habitats. He concludes the article with a review of stratigraphy and paleoecology, with particular reference to mangrove responses to relative sea level rise.
+**Key contribution:** This is a key synthesis of knowledge related to geomorphology and environmental settings in mangroves. Woodroffe gives an overview of sedimentation and shoreline progradation/erosion, followed by a review of Thom's environmental settings and Lugo and Snedaker's mangrove habitats. He concludes the article with a review of stratigraphy and paleoecology, with particular reference to mangrove responses to relative sea level rise.
 
 **Key findings:**
 
@@ -1496,23 +1496,22 @@ knitr::include_graphics(rep("images/thom1984.bmp"))
 
   - Quaternary period (~past two million years) comprised of:
     1. Holocene (~11,700 YBP)
-      - sea level has been approximately stable for 6,000 years
-      - sea level was rising rapidly from approximately 10,000 - 6,000 YBP
-      - though there is likely regional variation
+      - Sea level has been approximately stable for 6,000 years
+      - Sea level was rising rapidly from approximately 10,000 - 6,000 YBP
+      - Though there is likely regional variation
     2. Pleistocene (~2.5 mil to 11,700 YBP)
   - Sediments deposited during Holocene are well preserved and contain structures & fossils that are useful, whereas sediments deposited during Pleistocene are less well preserved
-  - sea level rise on more gradually sloping coasts likely resulted in significant fluctuation of mangrove forests, whereas carbonate atolls (e.g., on coral) likely disappeared during high sea levels or were restablished during low sea levels
-  - *transgression* - landward movement of shoreline during periods of sea level rise
-  - *regression* - seaward movement of shoreline during periods of sea level subsidence
-    - there are also iteractions with progradation and erosion that may reverse processes at specific locations
+  - Sea level rise on more gradually sloping coasts likely resulted in significant fluctuation of mangrove forests, whereas carbonate atolls (e.g., on coral) likely disappeared during high sea levels or were restablished during low sea levels
+  - *Transgression* - landward movement of shoreline during periods of sea level rise
+  - *Regression* - seaward movement of shoreline during periods of sea level subsidence
+    - There are also iteractions with progradation and erosion that may reverse processes at specific locations
   - Woodroffe examines three patterns of tropical geomorphological development:
-    1. tropical deltas that are river dominated (poorly studied as of 1992)
-    2. estuarine embayments that are tide-dominated
+    1. Tropical deltas that are river dominated (poorly studied as of 1992)
+    2. Estuarine embayments that are tide-dominated
       1. Progradational model - estuary shoreline gradually build into estuary and is generally fringed by mangroves
       2. Big swamp model - rapid accumulation of sediment as sea level stabilizes followed by vertical accretion and conversion to other types; differs from progradational model in that there's little age difference between mangrove sediments
       3. Barrier estuary/mud basin - sand reworked from seward shelf and forms sandy barrier or flood tidal delta; lagoon is sink for fluvial sand and mud from terrestrial sources by rivers
-    3. carbonate banks or reefs
-      - predominantly characterized by in situ production of sediments
+    3. Carbonate banks or reefs - predominantly characterized by in situ production of sediments
 
 *Note: * This is a key study that would be good to review again later.
 
@@ -1520,11 +1519,15 @@ knitr::include_graphics(rep("images/thom1984.bmp"))
 
 *"Caribbean mangroves adjust to rising sea level through biotic controls on change in soil elevation"* [@mckee2007caribbean]
 
-**Key contribution: ** This is a very well-cited study that experimentally examples biological controls on soil elevation in mangroves of the Meso American Barrier Reef (in Belize). 
+**Key contribution: ** This is a very well-cited study that experimentally examines biological controls on soil elevation in mangroves of the Meso American Barrier Reef (in Belize). 
 
-**Study design: ** The authors installed elevation rods with rod surface elevation tables (RSETs) that were able to measure changes in elevation from a baseline over the course of three years in fringe, transition and interior mangroves. They examined the effects of nutrient additions (N, P & a control) across three transects at three replicate sites. In addition, they laid a sand horizon in a plot adjacent to the RSETs and used cores to monitor subsurface accretion, allowing for differentiation between subsurface accretion and surface accretion of biomass to elevation. Finally, the authors examine several cores (up to 10m in depth) across sites throughout the Caribbean to examine relative SLR and mean soil accretion.
+**Study design: ** The authors installed elevation rods with rod surface elevation tables (RSETs) that were able to measure changes in elevation from a baseline over the course of three years in fringe, transition and interior mangroves. They examined the effects of nutrient additions (N, P & a control) across three transects at three replicate sites. 
 
-**Key results: ** The authors conclude that the fringe portion of the forests are able to keep pace with sea level rise, primarily due to subsurface accumulation of biomass (significantly correlated with elevation change). The fringe zone was found to have significantly positive gain in elevation, with majority from subsurface change, whereas interior and transition zones saw subsidence. Elevation gains were seen across all sites for P addition, whereas elevation gain was variable in directino for N (negative in interior).
+In addition, they laid a sand horizon in a plot adjacent to the RSETs and used cores to monitor subsurface accretion, allowing for differentiation between subsurface accretion and surface accretion of biomass to elevation. Finally, the authors examine several cores (up to 10m in depth) across sites throughout the Caribbean to examine relative SLR and mean soil accretion.
+
+**Key results: ** The authors conclude that the fringe portion of the forests are able to keep pace with sea level rise, primarily due to subsurface accumulation of biomass (significantly correlated with elevation change). 
+
+The fringe zone was found to have significantly positive gain in elevation, with majority from subsurface change, whereas interior and transition zones saw subsidence. Elevation gains were seen across all sites for P addition, whereas elevation gain was variable in direction for N (negative in interior).
 
 The authors give three key points:
 
@@ -1540,13 +1543,15 @@ knitr::include_graphics(rep("images/mckee2007GlobEcolBiog.bmp"))
 
 ```
 
-The results from the mangrove peat cores showed that peat accumulation corresponded with rates of SLR over the past 6,000-7,000 years. Although they are currently keeping pace with sea level rise, the cores show that at points (in which SLR exceeded 5 mm / yr), mangroves were lost from the area. Thus, the presence of mangroves at these sites depends on relative SLR rates (eustatic rise plus local subsidence). Rates of mangrove peat accretion, however, may underestimate ability to respond to SLR as these are often based on mean rates from historical records that likely fluctuate significantly in response to SLR.
+The results from the mangrove peat cores showed that peat accumulation corresponded with rates of SLR over the past 6,000-7,000 years. Although they are currently keeping pace with sea level rise, the cores show that at points (in which SLR exceeded 5 mm / yr), mangroves were lost from the area. 
+
+Thus, the presence of mangroves at these sites depends on relative SLR rates (eustatic rise plus local subsidence/elevation gains). Rates of mangrove peat accretion, however, may underestimate the ability to respond to SLR as these are often based on mean rates from historical records that likely fluctuate significantly in response to SLR.
 
 ### Woodroffe, 2016
 
 *"Mangrove sedimentation and response to relative sea level rise"* [@woodroffe2016mangrove]
 
-**Key contribution: ** This study is a review of sedimentary processes and geomorphology with a particular focus on their responses to relative sea level rise. The study introduces the concept of the accomodation space in the context of mangroves, which is the space available for potential sediment accumulation.
+**Key contribution: ** This study is a review of sedimentary processes and geomorphology with a particular focus on their responses to relative sea level rise. The study introduces the concept of the "accommodation space" in the context of mangroves, which is the space available for potential sediment accumulation.
 
 **Notes: **
 
@@ -1567,13 +1572,13 @@ knitr::include_graphics(rep("images/woodroffe2016ARMS.bmp"))
 
 A nice summary of interactions between sedimentology, hydrology and biology:
 
-"The distribution of mangrove species coincides with the intertidal accomodation space, which progressively fills through sediment accumulation. Emergent properties and biocomplexity are a function of hydroperiod and are related to salinity and flooding tolerance, the latter of which is related to root morphologies, physiology, and reproductive traits such as vivipary."
+"The distribution of mangrove species coincides with the intertidal accommodation space, which progressively fills through sediment accumulation. Emergent properties and biocomplexity are a function of hydroperiod and are related to salinity and flooding tolerance, the latter of which is related to root morphologies, physiology, and reproductive traits such as vivipary."
 
-*Accomodation space* - the space available for potential sediment accumulation. Typically see highest accomodation space at shoreline in mangroves, though it may be highly variable (e.g., basin areas that are only flooded during highest tides).
+*Accommodation space* - the space available for potential sediment accumulation. Typically see highest accomodation space at shoreline in mangroves, though it may be highly variable (e.g., basin areas that are only flooded during highest tides).
 
-  - may distinguish between mineral vs. biological accretion, and thus may consider "ecological accomodation space"
+  - may distinguish between mineral vs. biological accretion, and thus may consider "ecological accommodation space"
   
-Rates of sedimentation depend upon the accomodation space, which depends on hydrology and other factors. In the short term, the rate of sediment deposition appears independent of rate of SLR. The accomodation space is directly constrained by upper limit of tidal flooding.
+Rates of sedimentation depend upon the accommodation space, which depends on hydrology and other factors. In the short term, the rate of sediment deposition appears to be independent of the rate of SLR. The accommodation space is directly constrained by the upper limit of tidal flooding.
 
 Focusing on vertical adjustment within a mangrove forests risks missing broader regional picture in that mangroves have constantly shifted position throughout time, and thus there may be natural fluctuations with sea level rise that can maintain existence as well as are potentially key climate change mitigation opportunities.
 
@@ -1616,7 +1621,7 @@ knitr::include_graphics(rep("images/wolanski1986.bmp"))
 
 ### Wolanski *et al*, 1992 {#wolanski1992}
 
-*"Mangrove hydrodynamics"* (In Robertson and Alongi, 1992) [@wolanski1992mangrove]
+*"Mangrove hydrodynamics"* [@wolanski1992mangrove]
 
 **Key contribution:** This is a comprehensive review of hydrodynamics in mangroves, that comes from the Robertson and Alongi book.
 
@@ -1635,7 +1640,7 @@ Mathematical models of hydrodynamics in mangroves have largely focused on two co
   1. Tidal creeks - where acceleration, sea level gradients, friction and inertia are all important
   2. Forest flood - where inertial effects can largely be neglected
   
-*Tidal assymetry* - Currents in tidal creeks are strong during ebb flow relative to flood flow.
+*Tidal asymmetry* - Currents in tidal creeks are strong during ebb flow relative to flood flow.
 
 The key to understanding this is that friction within the bed of the creek as well as the forest floor produces a time lag between the time of high tide at the head of the creek, versus the time of high tide at the mouth of the creek. The higher water level at the head of the creek accelerates flows back towards the mouth of the estuary.
 
@@ -1684,7 +1689,7 @@ They find that the presence of a tidal pump is largely due to:
 
 Water velocity of tidal flooding in a mangrove forest can be described as:
 
-$$ u = 1/n\ *\ h^{2/3}\ *\ I^{1/2}  $$
+$$ u = \frac{1}{n}\ *\ h^{\frac{2}{3}}\ *\ I^{\frac{1}{2}}  $$
 
 Where:
 
@@ -1722,7 +1727,7 @@ The LAKE model performed poorly and was not used within in the subsequent analys
 
 Suspended sediment concentration showed strong asymmetry in that concentration was higher at flood tibe and much lower at ebb tide. This is indicative of net inwelling of sediment into the mangrove.
 
-Sedimentation rates decreased with distance from the tidal creek. In calculating the sedimentation velocity, the median floc size (90 micrometers) was approximately 4 times that of size of solid minerals (24 micrometers) given high porosity of flocs. Visual investigation of suspended sediment reveals that much of the flocs had settled out of the water column following slack high tide.
+Sedimentation rates decreased with distance from the tidal creek. In calculating the sedimentation velocity, the median floc size (90 micrometers) was approximately 4 times the size of solid minerals (24 micrometers) given high porosity of flocs. Visual investigation of suspended sediment reveals that much of the flocs had settled out of the water column following slack high tide.
 
 Vegetation greatly increased turbulence and created a complex set of hydrological effects (eddies, stagnant regions, and jets).
 
@@ -1738,18 +1743,18 @@ The findings suggest a net inwelling of DOC in the forest (greater DOC concentra
 
 **Study design:** Rates of sediment accretion and elevation change for three different root types were examined in three different river basins in the Federated States of Micronesia. Experimental plots of 25 m in radius were established within the fringe, riverine and interior sections of each of the river basins, and three 1 m^2^ plots were established in the plots in each of the three root types (Rhizophora prop; Avicennia pneumatophore; and Bruguiera knee) as well as a control.
 
-Marker horizons (50% feldspar clay, 50% sand) were laid and 5 100 cm pins were inserted 70 cms into the soil to estimate sediment accretion and surface elevation changes, respectively. Additionally, root basal areas were calculated at a height of 4 cm for comparison of root biomass to sedimentation characteristics. Fine root fraction estimates were taken via soil cores and washing of mineral soil and particulate OC to achieve just the fine root fraction, which was compared with surface elevation data.
+Marker horizons (50% feldspar clay, 50% sand) were laid and five 100 cm pins were inserted 70 cm into the soil to estimate sediment accretion and surface elevation changes, respectively. Additionally, root basal areas were calculated at a height of 4 cm for comparison of root biomass to sedimentation characteristics. Fine root fraction estimates were taken via soil cores and washing of mineral soil and particulate OC to achieve just the fine root fraction, which was compared with surface elevation data.
 
 **Key results:** The results provided several key findings:
 
   - The results showed that Rhizophora roots had significantly higher rates of sediment accretion relative to the others.
     - The authors attribute it to increased turbulence and thus flocculation of suspended sediment, reduction in flow which traps it within the root complex, and thus higher rates of sediment accretion during slack flows
-  - No significant differences among functional root types for elevation change were found across all basins, but root type x river basin interactions were found to be significant (control plots or pneumatophores having higher rates of positive sediment surface elevation change).
-    - Elevation chane rates were found to occur through series of "pulses" rather than steady through time
-    - Lower rate of surface elevation change in Rhizophora was suggested to potentially having to do with the lower ratio of lignin:Nitrogen in the fine root fraction, which may have been more decomposible and thus result in elevation decreases.
+  - No significant differences among functional root types for elevation change were found across all basins, but root type by river basin interactions were found to be significant (control plots or pneumatophores having higher rates of positive sediment surface elevation change).
+    - Rates of elevation change were found to occur through series of "pulses" rather than steady through time
+    - A lower rate of surface elevation change in Rhizophora was suggested to potentially be due to the lower ratio of lignin:nitrogen in the fine root fraction, which may have been more decomposible and thus result in elevation decreases.
   - Root area and root density did not have significant influence on monthly rates of vertical accretion.
 
-Furthermore, found that surface elevation change in Avicennia pneumatophores was highest, and the authors conclude that organic matter contribution is thus significant -- might have implications for research questions.
+Furthermore, the authors found that surface elevation change in Avicennia pneumatophores was highest, and the authors conclude that organic matter contribution is thus significant, which might have implications for research questions.
 
 ### Adame *et al*, 2010 {#adame2010}
 
@@ -1757,17 +1762,17 @@ Furthermore, found that surface elevation change in Avicennia pneumatophores was
 
 **Key contribution:** This is one of the few studies that empirically tests for differences in sedimentation rates amongst different geomorphological settings and different forest types (fringe vs. scrub vs. algal mats) within the different geomorphological settings.
 
-**Study design:** The study primarily employs petri dishes held to the forest floor as well as water samples to example differences in total suspended sediment, sediment accretion and the presence of glomalin (a secretion produced by terrestrial arbuscular mycorrhizal fungi) across forest types/settings.
+**Study design:** The study primarily employs petri dishes held to the forest floor as well as water samples to examine differences in total suspended sediment, sediment accretion and the presence of glomalin (a secretion produced by terrestrial arbuscular mycorrhizal fungi) across forest types/settings.
 
 Glomalin was used as an indicator of terrestrially versus other derived sediments, as AMF largely do not exist in mangroves and thus this would be indicative of terrestrially derived sediments.
 
-Replicates plots in the fringe, scrub, and upper-tidal (algal mats) portions of six different sites, which were a variation of river-dominated vs. tide-dominated geomorphological settings, were established. Samples from the water column and sediment deposition on petri dishes were taken to investigate variation in deposition patterns.
+Replicate plots in the fringe, scrub, and upper-tidal (algal mats) portions of six different sites, which were a variation of river-dominated vs. tide-dominated geomorphological settings, were established. Samples from the water column and sediment deposition on petri dishes were taken to investigate variation in deposition patterns.
 
 Interestingly, the study also used PCA of several environmental variables to establish a quantitative measure of the geomorphic setting. Among the environmental variables included were:
 
   1. Salinity
   2. Catchment area (km^2^) - unsure specifically what this is
-  3. DIstance to sea (km) - unsure as to how this measure was taken
+  3. Distance to sea (km) - unsure as to how this measure was taken
   4. Entrance section area (m^2^) - unsure as to what this is
   
 **Key results:** Their results found that sedimentation patterns varied between geomorphic types, as well as environmental settings within the river-dominated vs. tide-dominated settings.
@@ -1898,7 +1903,7 @@ Different pools of SOC exist, which have varying degrees of susceptibility to be
   
 Change in SOC with time can be expressed as:
 
-  $$ dC/dt = I -kC$$
+  $$ \frac{dC}{dt} = I -kC$$
 
 Where I is the SOC input, k is the fraction of C lost as CO~2~ each year, and C is the mass of C per soil volume.
 
@@ -1918,7 +1923,7 @@ Understanding of SOC dynamics from using chronosequences includes:
   3. Steady-state C is related to climate and other environmental factors
   4. Rates of C accumulation in young soils are likely controlled by N availability in ecosystem
   
-Understandin of SOC dynamics from mass balance approach:
+Understanding of SOC dynamics from mass balance approach:
 
 At steady state, inputs can be assumed to equate to the decay of C present, thus: $I = kC$. For soils at or near steady state, total C and either losses or inputs can be measured to derive the decay constant.
 
@@ -1927,16 +1932,15 @@ At steady state, inputs can be assumed to equate to the decay of C present, thus
 Several key questions exist per understanding the role of SOC in the global CO~2~ cycle:
 
   1. Are undisturbed soils sequestering atmospheric CO~2~?
-    - They may be. Particularly for young soils that are not at steady state and may not be newly exposed to increasing temperatures and OM inputs (i.e., northern Canadian soils that were priorly glaciated).
-  2. What is the effect of cultivation on SOC storage and atmospheric CO~2~?
-    - Several key points are provided:
+    - They may be. Particularly for young soils that are not at steady state and may now be newly exposed to increasing temperatures and OM inputs (i.e., northern Canadian soils that were priorly glaciated).
+  2. What is the effect of cultivation on SOC storage and atmospheric CO~2~? Several key points are provided:
     - Soils initially low in C often will gain C upon cultivation.
     - At global scales, cultivation reduces SOC content by approximately 30%.
     - Rate of C loss is a function of climate
     - Agricultural soils approach new C steady states in approximately 100 years.
     - Fractional loss of C is controlled by climate.
   3. How quickly will soils recover C if reverted to original flora?
-    - Initial rates are quite high, but drop off exponentially with time. Often times, inputs of OM to the soil system are limited by N availability.
+    - Initial rates are quite high, but drop off exponentially with time. Inputs of OM to the soil system are often limited by N availability.
     - Production and transport of N fertilizers can be greenhouse gas intensive and may reduce the GHG reduction potential of SOC inputs from both reverting ecosystems to native flora as well as enhanced agricultural management practices.
   4. How will global SOC change with increasing temperatures?
     - Only a fraction of SOC is cycled on time scales relevant for climate change, however it is expected that SOC emissions will increase with increasing temperature, and may be a significant positive feedback response for climate change.
@@ -1965,11 +1969,11 @@ Mixing models are a way of modeling relative contributions (often two end-member
 
 Sediments underneath Rhizophora were found to have higher OC concentrations than Avicennia and Excoecaria species at two of the sites.
 
-Lower OC concentrations coincided with lower C/N ratios and less negative C-13 isotope values, whereas soils with rich OC concentrations had higher C/N ratios and C-13 values closer to those of the mangrove leaf litter.
+Lower OC concentrations coincided with lower C/N ratios and less negative C^13^ isotope values, whereas soils with rich OC concentrations had higher C/N ratios and C^13^ values closer to those of the mangrove leaf litter.
 
-Appears there is an inverse relationship between OC content and C-13 values.
+Appears there is an inverse relationship between OC content and C^13^ values.
 
-Although they note that organic C in mangrove sediment may originate entirely from mangrove-derived organic matter, they note that this is likely to be not the norm.
+Although they note that organic C in mangrove sediment may originate entirely from mangrove-derived organic matter, they note that this is not likely to be the norm.
 
 From the Coringa site, they find that suspended OM in the water column is significant and likely derived from phytoplankton-derived matter.
 
@@ -1983,7 +1987,7 @@ Stable isotopes can be used for sourcing of organic matter and are commonly used
 
 Stable isotope compositions are typically expressed in "parts per thousand differences from a standard." I.e.:
 
-$$\delta X = [(R_{sample}/R_{standard})-1]*10^{3} $$
+$$\delta X = (\frac{R_{sample}}{R_{standard}}-1)*1,000 $$
 Where:
 
   - X represents the isotope of interest (i.e., ^13^C)
@@ -2003,7 +2007,7 @@ Carbon isotopes allow for understanding of primary production sources in an ecos
 
 *"Soil respiration and belowground carbon allocation in mangrove forests"* [@lovelock2008soil]
 
-**Key contribution: ** Cath sought to examine variation in mangrove soil respiration as a result of forest structure and temperature at seven different sites, from 27 deg N to 37 deg S.
+**Key contribution: ** Lovelock sought to examine variation in mangrove soil respiration as a result of forest structure and temperature at seven different sites, from 27 deg N to 37 deg S.
 
 Key findings were that soil respiration approximated that of terrestrial forests, and correlated with leaf area index and aboveground net primary production.
 
@@ -2012,7 +2016,7 @@ Key findings were that soil respiration approximated that of terrestrial forests
 Lovelock examines soil respiration across a range of stands that represent a wide variety of forest structure, ANPP and climate. In doing so, she seeks to primarily answer:
 
   1. Whether soil respiration is higher in taller forests compared to dwarf forests, reflecting differences in aboveground productivity
-  2. Whether total belowground carbon allocation (TBCA) in mangrove forests is related to ANPP with a similar relationship as that which exists in terrestrial forests
+  2. Whether total belowground carbon allocation (TBCA) in mangrove forests is related to ANPP with a similar relationship as to that which exists in terrestrial forests
   3. Whether dwarf mangroves, which are nutrient limited, have proportionally higher TBCA than taller forests
   
 *Study design*
@@ -2053,35 +2057,35 @@ High rates of soil respiration in dwarf forests relative to taller forests are u
 
 **Key notes: **
 
-The authors hypothesize that given the realtively higher root to shoot biomass ratio in mangroves, soil C stocks will increase soon after afforestation.
+The authors hypothesize that given the relatively higher root to shoot biomass ratio in mangroves, soil C stocks will increase soon after afforestation.
 
 They use primarily two key datasets:
 
   1. Data consisting of repeated measures of surface soil C concentration in two young forests (K. obovata and S. apetala) from 0 to 6 years old
   2. Chronosequence of 1 m soil cores from a mudflat, a 6 year, a 20 year, and a 70 year old forest.
   
-Using the two datasets, they test the hypothesis that:
+Using the two datasets, they test the hypotheses that:
 
   1. Soil C increases with forest age following mangrove forestation
   2. Soil C accumulates more quickly in forested S. apetala than K. obovata plots
 
 *Chronosequence results*
 
-The growth of S. apetala and K obovata differed greatly. S. apetala reached 7.6 m whereas K. obovata reached just 1.4 m. The stem density between the 20 year and 70 year old forests were markedly different, with the 70 year old forest (dominated by K. obovata) stocked more densely.
+The growth of *S. apetala* and *K. obovata* differed greatly. *S. apetala* reached 7.6 m whereas *K. obovata* reached just 1.4 m. The stem density between the 20 year and 70 year old forests were markedly different, with the 70 year old forest (dominated by *K. obovata*) stocked more densely.
 
-Soil C generally decreased with depth in all forests. Younger forests convered towards the mudflat values below 30 cm.
+Soil C generally decreased with depth in all forests. Younger forests converged towards the mudflat values below 30 cm.
 
 The 70 year forest had the highest SOC concentration at 10-20 cm, whereas the lowest value was found at the 70-100 cm level in the 6 year forests.
 
 N content was also found to be higher in the 70 year old forest, though the difference was not as pronounced.
 
-SOC differences between the three young forests and the mud flat was not significantly different, whereas the 70 year old forest was significantly different from the mud flat. THis might indicate that soil C accumulation accelerates in older forests.
+SOC differences between the three young forests and the mud flat was not significantly different, whereas the 70 year old forest was significantly different from the mud flat. This might indicate that soil C accumulation accelerates in older forests.
 
 *Field study results*
 
-Soil C concentration increasesd with age in the young forests (increase of approximately 0.06% per yr for K obovata and 0.08% per yr for S apetala).
+Soil C concentration increased with age in the young forests (increase of approximately 0.06% per yr for *K. obovata* and 0.08% per yr for *S. apetala*).
 
-Mangroves are often cited as having high average POC at 8.5% (Duarte et al., 2005), but Alongi, 2014 revised this estimated closer to 2-3% C.
+Mangroves are often cited as having high average POC at 8.5% (Duarte et al., 2005), but Alongi, 2014 revised this estimate closer to 2-3% C.
 
 *Literature results*
 
@@ -2091,7 +2095,7 @@ The literature results also showed a significant increase in SOC with age; howev
 
 Terrestrial forests are commonly cited as losing SOC upon afforestation, occasionally taking 20-30 years to recover initial values. Given the evidence here and the literature review, the results indicate that mangroves may behave differently and provide immediate SOC sequestration benefits.
 
-The hypothesis that S. apetala and K. obovata would differ in SOC accumulation was not supported by the study.
+The hypothesis that *S. apetala* and *K. obovata* would differ in SOC accumulation was not supported by the study.
 
 Relative C:N concentrations in the biomass of different species could influence differences in SOC in forests of different species compositions, as the nutrient quality would affect the rate at which biomass is decomposed.
 
@@ -2131,7 +2135,7 @@ Myanmar may be a highly significant country in terms of C emissions and deforest
 
 **Key notes: **
 
-Bacterial reduction of sulfate is commonly considered main form of respiration in tidal environments, but recent work has shown that the reduction of Fe may also be very important in mineralization of organic matter.
+Bacterial reduction of sulfate is commonly considered the main form of respiration in tidal environments, but recent work has shown that the reduction of Fe may also be very important in mineralization of organic matter.
 
 *Study design*
 
@@ -2177,13 +2181,10 @@ Total exchangeable Fe was small across all sites and not considered in the study
 The author attribute the spatial variation in geochemical conditions to different periods of inundation in which soils are exposed, response to positions within the mangrove forest, and the composition (texturally and chemically) of the substrate.
 
   - Fringe forest - convex profile and high density of roots induces rapid drainage, aeration and oxidation in low tide; extremely acidic conditions in surface soils coincide with tidal cycle. High tide induces an increase in pH due to diluting and buffering effect of sea water, which favors precipitation of dissolved Fe as Fe oxyhydroxides.
-  - Basin forest - strongly reduced conditions due to long periods of inundation from concave profile; anoxic conditions within the profile gavor syntehsis of pyrite rather than Fe^2+^ and HS^-^ in pore water. Predominance of pyrite synthesis is due to high availability of OM, which maintains activity of sulfate-reducing bacteria. 
+  - Basin forest - strongly reduced conditions due to long periods of inundation from concave profile; anoxic conditions within the profile favor synthesis of pyrite rather than Fe^2+^ and HS^-^ in pore water. Predominance of pyrite synthesis is due to high availability of OM, which maintains activity of sulfate-reducing bacteria. 
     - High rates of sulfate reduction may occur with presence of reactive Fe, as different species of Fe oxyhydroxides have different surface areas (goethite and hematite are reduced), that may limit actions of microorganisms.
   - Riverine forest - highly reduced despite position along river. Total Fe and free Fe was very low relative to the other sites, and was consistent with sandy, quartz-based texture. Thus, sulfate reduction was primary reduction pathway of OM.
   
 *Conclusions*
 
-The dominant redox pathways are highly variable of space and with depth. Occurrence or dominance or a particular process over others may significantly affect chemical composition of pore water and solid phases.
-
-
-
+The dominant redox pathways are highly variable throughout space and depth. Occurrence or dominance or a particular process over others may significantly affect chemical composition of pore water and solid phases.
