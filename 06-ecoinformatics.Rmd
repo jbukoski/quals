@@ -56,7 +56,7 @@ knitr::include_graphics(rep("images/jones2006AREES.bmp"))
 
 A focus on "experimental" design and testing of multiple hypotheses makes ecological data inherently heterogeneous.
 
-Ecoinformatics importance is housed in ability to "allow a broader perspective over time and space, and across many disciplines, than is possible from on or a few studies," and in allowing data to be reused for questions that may emerge in the future (thus may fit well with "biocomplex" framework).
+The importance of ecoinformatics is housed in its ability to "allow a broader perspective over time and space, and across many disciplines, than is possible from one or a few studies," and in allowing data to be reused for questions that may emerge in the future (thus may fit well with "biocomplex" framework).
 
 Current standard for storing of data is in heterogeneous spreadsheets, which are termed "data islands".
 
@@ -65,7 +65,7 @@ The response of ecoinformatics to resolving issues related to data islands are l
   - *Data warehouses (vertically-integrated)* - databases that coalesce data from many investigators, but focus on one theme and are searchable often through an online interface 
     - Often represents a "least-common denominator" approach in that they are less complex than original dataset
     - Examples: GenBank, VegBank or TreeBase
-  - *Data collections (metadata-driven)* - collection of datasets that are loosely structured together by well-crafted metadata. Some advantages are:
+  - *Data collections (metadata-driven)* - collection of datasets that are loosely structured together by well-crafted metadata. A good example if the Global Biodiversity Information Facility (GBIF), which compiles data from 450 museum collections. Also, Data Dryad, which links datasets to papers and is a member of the dataOne network. Some advantages of meta-data driven databases are:
       1. Data of disparate types can be housed within a single location
       2. Focuses on project-level data and thus is familiar to researchers
       3. Metadata often more detailed
@@ -78,7 +78,7 @@ The response of ecoinformatics to resolving issues related to data islands are l
 
 Databasing and development of meta data is often subject to entrenched domain-specific vocabularies and also assumptions; ontologies may be a way of resolving this limitation
 
-"Ontologies"*" - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as formal mappings of how the terms interrelate
+"Ontologies" - well-defined concepts or terms that have precise meanings within a specific domain or field, as well as formal mappings of how the terms interrelate
 
   - "Science Environment for Ecological Knowledge (SEEK)" - one example of a system developing ontologies within ecology
   - "Darwin Core"- another provider of ontologies, particularly for evolution related concepts; extension of Dublin Core for biodiversity informatics (GBIF uses it)
@@ -127,7 +127,9 @@ The primary functionality of metadata is:
 
 *"Long term datasets: From descriptive to prescriptive data using ecoinformatics"* [@bekker2007long]
 
-**Key contribution:** This is the lead article to a special issue in *Journal of Vegetation Science* that focuses on ecoinformatics driven approaches to understanding complexity within vegetation systems. The article is less informative in its own right as much as a good pointer to other key studies working with vegetation science and ecoinformatics. It appears to be one of the earliest applications of ecoinformatics to vegetation science.
+**Key contribution:** This is the lead article to a special issue in *Journal of Vegetation Science* that focuses on ecoinformatics driven approaches to understanding complexity within vegetation systems. 
+
+The article is less informative in its own right as much as a good pointer to other key studies working with vegetation science and ecoinformatics. It appears to be one of the earliest explicit applications of ecoinformatics to vegetation science.
 
 **Further reading:**
 
@@ -152,7 +154,7 @@ The primary functionality of metadata is:
 
 **Key contribution:** Aim to elucidate the factors playing in at different hierarchical levels in mangrove ecosystems (biocomplexity). They use emergent properties (which they define as "patterns or processes that occur at multiple hierarchical levels within ecosystems") to examine underlying ecological processes within mangroves.
 
-Biocomplexity appears to be thinking of ecology through a hierarchical lens, in which processes that exist at the "hard science" level (physics, chemistry, etc.) result in ecological processes > functions > services.
+Biocomplexity appears to be thinking about ecology through a hierarchical lens, in which processes that exist at more baseline levels (physics, chemistry, etc.) result in ecological processes > functions > services.
 
 **Key findings:** The article doesn't differ much from other reviews of controls on mangrove processes, apart from the structure in which they examine:
 
@@ -237,7 +239,7 @@ The article is largely an extension of Michener and Jones (2012), and argues lar
 
 *"Cross-scale interactions: Quantifying multi-scaled cause -- effect relationships in macrosystems"* [@soranno2014cross]
 
-**Key significance:** This study calls for a need for more explicit investigation of cross scale interactions (CSIs) both in time and space. They lay out a framework for investigating CSIs that consists of: 
+**Key significance:** This study calls for more explicit investigation of cross scale interactions (CSIs) both in time and space. They lay out a framework for investigating CSIs that consists of: 
 
   1. Conceptual mapping 
   2. Construction of an appropriate database (ecoinformatics)
