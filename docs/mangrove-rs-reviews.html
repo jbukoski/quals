@@ -25,7 +25,7 @@
 <meta name="author" content="Jacob J. Bukoski">
 
 
-<meta name="date" content="2017-12-05">
+<meta name="date" content="2017-12-06">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -292,61 +292,40 @@
 <p><em>“Multispectral and hyperspectral remote sensing for identification and mapping of wetland vegetation: A review”</em> <span class="citation">(Adam, Mutanga, and Rugege <a href="#ref-adam2010multispectral">2010</a>)</span></p>
 <p><strong>Key contribution: </strong> This review examines the status quo of mapping wetland vegetation using spectral (multi and hyper) imagery, with a particular focus on discriminating wetland vegetation as well as monitoring biophysical and biochemical characteristics.</p>
 <p><strong>Key findings: </strong></p>
+<p>The spectral and spatial composition of mangrove species and vegetation assemblages complicates use of multispectral (broadband) imagery</p>
 <ul>
-<li>the spectral and spatial composition of mangrove species and vegetation assemblages has complicated use of multispectral (broadband) imagery; hyperspectral (narrowband) imagery is promising but more difficult to access
+<li><p>Hyperspectral (narrowband) imagery is promising but more difficult to access</p></li>
+<li><p>Spectral signatures of different wetland vegetation types are often similar, and are “muddied” by spectral reflectance from soil, hydrologic regime or atmospheric conditions</p></li>
+</ul>
+<p>Spectral signatures affected most strongly by biochemical and biophysical properties of leaves, which vary greatly across species</p>
+<p>Discrimination of wetland species from Landsat TM or SPOT imagery has generally been insufficient due to: 1. Lack of fine, ecological divisions between vegetation species 2. Broad nature of spectral wavebands 3. Lack of high spectral and spatial resolution to detect subcanopy vegetation types</p>
+<p>Aritifical Neural Networks and fuzzy classification techniques have shown promise in better classifying mixed species pixels</p>
+<p>Most important biochemical and biophysical properties characterizing wetland species are: 1. Chlorophyll - green pigment 2. Biomass concentration - biophysical prop 3. Leaf water content</p>
+<p>Major issue of using vegetation indices (e.g., NDVI) to estimate biomass is the saturation problem - Mutanga and Skidmore (2004) propose one mechanism to resolve saturation problem</p>
+<p>Building spectral libraries via hyperspectral sensors is critical for discriminating wetland species, but also needs investigation at different sites &amp; scales as reflectance within species may vary depending on environmental conditions</p>
 <ul>
-<li>spectral signatures of different wetland veg are often similar, and are “muddied” by spectral reflectance from soil, hydrologic regime or atmospheric conditions</li>
-</ul></li>
-<li>spectral signatures affected most strongly by biochemical and biophysical properties of leaves, which vary greatly across species</li>
-<li>discrimination of wetland species from Landsat TM or SPOT imagery has generally been insufficient due to:
-<ol style="list-style-type: decimal">
-<li>lack of fine, ecological divisions between vegetation species</li>
-<li>broad nature of spectral wavebands</li>
-<li>lack of high spectral and spatial resolution to detect subcanopy vegetation types</li>
-</ol></li>
-<li>ANNs and fuzzy classification techniques have shown promise in better classifying mixed species pixels</li>
-<li>most important biochemical and biophysical properties characterizing wetland species are:
-<ol style="list-style-type: decimal">
-<li>chlorophyll - green pigment</li>
-<li>biomass concentration - biophysical prop</li>
-<li>leaf water content</li>
-</ol></li>
-<li>major issue of using vegetation indices (e.g., NDVI) to estimate biomass is the saturation problem
-<ul>
-<li>Mutanga and Skidmore (2004) propose one mechanism to resolve saturation problem</li>
-</ul></li>
-<li>building spectral libraries via hyperspectral sensors is critical for discriminating wetland species, but also needs investigation at different sites &amp; scales as reflectance within species may vary depending on environmental conditions</li>
+<li>Vaiphasa and Li Wang have done much of the work in building hyperspectral libraries for mangroves (see <a href="vegetation.html#vaiphasa2005">5.2.8</a> &amp; <a href="vegetation.html#wang2009">5.2.10</a>)</li>
 </ul>
 <p><strong>Research ideas:</strong></p>
 <ol style="list-style-type: decimal">
 <li>Spectral imagery can be effective in monitoring plant water content, which may vary significantly across mangrove species due to differing water use efficiencies</li>
 </ol>
-<p><strong>Further reading:</strong></p>
 </div>
 <div id="heumann-2011" class="section level3">
 <h3><span class="header-section-number">5.1.2</span> Heumann, 2011</h3>
 <p><em>“Satellite remote sensing of mangrove forests: Recent advances and future opportunities”</em> <span class="citation">(Heumann <a href="#ref-heumann2011satellite">2011</a>)</span></p>
 <p><strong>Key contribution: </strong> One of several reviews of mangroves and remote sensing techniques that focuses primarily (i.e., solely) on vegetation mapping.</p>
 <p><strong>Key findings: </strong></p>
-<ul>
-<li>Spectral discrimination of different species not successful using multispectral (broadband) imagery (Ramsey and Jensen, 1996).
+<p>Spectral discrimination of different species not successful using multispectral (broadband) imagery (Ramsey and Jensen, 1996).</p>
 <ul>
 <li>Mixed pixels also an issue for discriminating species as well as estimating canopy structure</li>
-</ul></li>
-<li>Spectral saturation at high biomass values is a particular problem for mapping biomass and volumes</li>
-<li>Very high resolution imagery effective at reducing mixed pixels just due to smaller size</li>
-<li>OBIA has typically been applied to species discrimination rather than extent of mangrove mappings</li>
-<li>Quickbird and IKONOS sensors are most common for very high resolution imagery due to long-term archiving of data
-<ul>
-<li>multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels</li>
-</ul></li>
-<li>Use of spectral data only is often insufficient for discrimination of species
-<ul>
-<li>Classification accuracies are greatly improved when other image properties are considered, such as texture</li>
-<li>Texture analaysis has been applied to species discrimination, but has not been investigated (as of 2011) for other forest characteristics</li>
-</ul></li>
-<li>C-band PolSAR has lowest ability to parse forest structure of SAR bands</li>
 </ul>
+<p>Spectral saturation at high biomass values is a particular problem for mapping biomass and volumes</p>
+<p>Very high resolution imagery effective at reducing mixed pixels just due to smaller size</p>
+<p>OBIA has typically been applied to species discrimination rather than extent of mangrove mappings</p>
+<p>Quickbird and IKONOS sensors are most common for very high resolution imagery due to long-term archiving of data - multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels</p>
+<p>Use of spectral data only is often insufficient for discrimination of species - Classification accuracies are greatly improved when other image properties are considered, such as texture - Texture analaysis has been applied to species discrimination, but has not been investigated (as of 2011) for other forest characteristics</p>
+<p>C-band PolSAR has lowest ability to parse forest structure of SAR bands</p>
 <p><em>Mangrove biomass specific findings:</em></p>
 <ul>
 <li>Canopy height and biomass have been shown to be strongly correlated in mangroves (e.g., Fromard et al., 1998; Smith and Whelan, 2006)
