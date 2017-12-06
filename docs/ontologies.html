@@ -298,7 +298,7 @@
 <li>Sampling protocol, including collection procedures and associated experimental manipulations</li>
 </ol>
 <p>The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the importance of separating “entities” and “traits”.</p>
-<p>The piece by Madin, 2008 (see Section <a href="ontologies.html#madin2008">6.2.3</a>) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.</p>
+<p>The pieces by Madin (2007 &amp;2008) (see Sections <a href="ontologies.html#madin2007">6.2.2</a> &amp; <a href="ontologies.html#madin2008">6.2.3</a>) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.</p>
 </div>
 <div id="madin2007" class="section level3">
 <h3><span class="header-section-number">6.2.2</span> Madin, 2007</h3>
@@ -307,7 +307,12 @@
 <ol style="list-style-type: decimal">
 <li>A discussion of ontologies and their relevance in ecology</li>
 <li>An introduction and overview of SEEK Extensible Observation Ontologies (OBOE)</li>
-<li>Several examples of use of OBOE for i) data discovery, ii) data summary, and iii) data integration</li>
+<li>Several examples of use of OBOE for
+<ol style="list-style-type: decimal">
+<li>Data discovery</li>
+<li>Data summary</li>
+<li>Data integration</li>
+</ol></li>
 </ol>
 <p><strong>Notes: </strong></p>
 <p><em>Ontology</em> - “A representation of the knowledge within a domain of interest, defined via the concepts within the domain as well as the properties and relationships among domain objects”</p>
@@ -327,16 +332,16 @@
 <li><em>Measurements</em> - <em>Observations</em> can be composed of <em>Measurements</em>, which represent measurable <em>Characteristics</em> of whatever entity is being observed
 <ul>
 <li><em>Measurements</em> are always associated with <em>Observations</em></li>
-<li>Can have a variety of different characteristics, which are defined via the <em>ofCharacteristic</em> property</li>
+<li>Can have a variety of different characteristics, which are defined via the <em>of Characteristic</em> property</li>
 </ul></li>
 <li><em>Characteristics</em> - “qualities” of the entity being observed</li>
 <li><em>Measurement standards</em> - the units, scales, categories, catalogs and lists used when measuring characteristics. Two subclasses of <em>Measurement standards</em> exist:
 <ol style="list-style-type: decimal">
-<li><em>Entity naming standard</em> - defines uniques names for unique identifies (e.g., “California”)</li>
+<li><em>Entity naming standard</em> - defines unique names for unique identifiers (e.g., “California”)</li>
 <li><em>Entity classification standard</em> - entities associated with a classification have one or more instances (e.g., “red”, “5 m”)</li>
 </ol>
 <ul>
-<li>Additionally, for ratio or other complex units (e.g., ct / ha), the individual components may be assigned <em>Measurement standards</em> such that automatic conversions or data discovery may be performed.</li>
+<li>Additionally, for ratio or other complex units (e.g., count/ha), the individual components may be assigned <em>Measurement standards</em> such that automatic conversions or data discovery may be performed.</li>
 </ul></li>
 </ol>
 <p>The different classes of the above can be used to describe the data, and facilitate machine-intelligent discovery, data summary and data integration. For example, data searches for density data may be able to identify datasets consisting of explicitly reported “density” data, as well as datasets that report the constituents of “density” (e.g., count &amp; area)</p>
@@ -350,7 +355,7 @@
 <li>What ontologies are and the forms they take</li>
 <li>Ongoing efforts to advance ontologies within ecology</li>
 </ol>
-<p><strong>Ontologies</strong> provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning.&quot;</p>
+<p><strong>Ontologies</strong> provide a “formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning.”</p>
 <p><strong>The issue:</strong> Lack of critical consideration of “concepts” within ecology complicates interpretation and synthesis of findings, as well as the location and reuse of existing datasets.</p>
 <p><strong>The solution:</strong> Ontologies provide a formal framework for establishing concepts within a discipline, and can resolve some of the issues that arise from multiple or nuanced interpretations of the same “concept” within ecology.</p>
 <p><strong>Notes: </strong> Ontologies within ecology are becoming more common, with three particular trends emerging:</p>
@@ -380,7 +385,7 @@
 <p><strong>Key significance:</strong> This piece focuses on how ecology (in some respects) has moved from a site-scale experimental field to one that is capable of large synthesis studies across broad spatial or temporal scales. They discuss issues of heterogeneity in data format and availability, and how to resolve them in order to perform synthetic analyses.</p>
 <p><strong>Key notes: </strong></p>
 <p>Reichman <em>et al</em> estimate that just 1% of ecological data that has been produced is available after publication of the associated results.</p>
-<p>They note three major technological challenges to “open data” (a la, Michiner, 2006), namely:</p>
+<p>They note three major technological challenges to “open data” (a la, Michener, 2006), namely:</p>
 <ol style="list-style-type: decimal">
 <li>Data dispersion - Decentralized existence across a broad range of databases (either local or online)</li>
 <li>Heterogeneity - Lack of consistency in collection, formatting and reporting</li>
@@ -399,14 +404,18 @@
 <li>Need scripted workflows that show quality control, processing and analysis of a dataset, particularly for derived datasets (e.g., meta-analyses or other secondary data objects)</li>
 <li>Unique identifiers (as DataONE) provides can be key for monitoring data provenance</li>
 </ul>
-<p><em>Social considerations:</em> Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.</p>
+<p><em>Social considerations:</em></p>
+<ul>
+<li>Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.</li>
+</ul>
 </div>
 <div id="wickham-2014" class="section level3">
 <h3><span class="header-section-number">6.2.5</span> Wickham, 2014</h3>
 <p><em>“Tidy data”</em> <span class="citation">(Wickham and others <a href="#ref-wickham2014tidy">2014</a>)</span></p>
 <p><strong>Key significance:</strong> A formal description of Hadley’s “tidy data” concept. See also this online <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">article</a>, which is a bit more of a code-based explanation of tidy data.</p>
 <p><strong>Key notes: </strong> Tidy data has the following fundamental format: each variable is a column, each observation is a row, and each type of observational unit is a table.</p>
-<p><em>Data tidying</em> - as organizing datasets such to facilitate analysis</p>
+<p><em>Data tidying</em> - organizing datasets such to facilitate analysis</p>
+<p>The “tidy data” framework builds from Codd’s relational database work (1990). Wickham describes tidy data as Codd’s “third normal form” but with constraints in statistical language and focus on a single database rather than many connected datasets.</p>
 <p>In organizing data, there is a general rule of thumb that it’s easier to describe functional relationships between variables (i.e., linear combinations of columns) rather than relationships between observations (rows); AND it’s easier to compare across groups of observations (rows) relative to between groups of variables (columns)</p>
 <p>There are four basic verbs for data manipulation:</p>
 <ol style="list-style-type: decimal">

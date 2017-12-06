@@ -290,7 +290,7 @@ The results are significant and lead the authors to additional hypotheses. The p
   
 The architecture of the ontology can be designed intelligently such that the ontology is extensible, and allows for both system-specific interpretations as well as across-system relationships. For example, they discuss the importance of separating "entities" and "traits".
 
-The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.
+The pieces by Madin (2007 &2008) (see Sections \@ref(madin2007) & \@ref(madin2008)) provides a more comprehensive overview of ontologies within ecology and should be referred to in conjunction with this piece.
 
 ### Madin, 2007 {#madin2007}
 
@@ -300,7 +300,10 @@ The piece by Madin, 2008 (see Section \@ref(madin2008)) provides a more comprehe
 
   1. A discussion of ontologies and their relevance in ecology
   2. An introduction and overview of SEEK Extensible Observation Ontologies (OBOE)
-  3. Several examples of use of OBOE for i) data discovery, ii) data summary, and iii) data integration
+  3. Several examples of use of OBOE for
+    1. Data discovery 
+    2. Data summary
+    3. Data integration
 
 **Notes: ** 
 
@@ -326,12 +329,12 @@ The five key characteristics of OBOE are:
   2. *Entities* - all *Observations* are composed of exactly one *Entity*
   3. *Measurements* - *Observations* can be composed of *Measurements*, which represent measurable *Characteristics* of whatever entity is being observed
     - *Measurements* are always associated with *Observations*
-    - Can have a variety of different characteristics, which are defined via the *ofCharacteristic* property
+    - Can have a variety of different characteristics, which are defined via the *of Characteristic* property
   4. *Characteristics* - "qualities" of the entity being observed
   5. *Measurement standards* - the units, scales, categories, catalogs and lists used when measuring characteristics. Two subclasses of *Measurement standards* exist:
-    1. *Entity naming standard* - defines uniques names for unique identifies (e.g., "California")
+    1. *Entity naming standard* - defines unique names for unique identifiers (e.g., "California")
     2. *Entity classification standard* - entities associated with a classification have one or more instances (e.g., "red", "5 m")
-    - Additionally, for ratio or other complex units (e.g., ct / ha), the individual components may be assigned *Measurement standards* such that automatic conversions or data discovery may be performed.
+    - Additionally, for ratio or other complex units (e.g., count/ha), the individual components may be assigned *Measurement standards* such that automatic conversions or data discovery may be performed.
 
 The different classes of the above can be used to describe the data, and facilitate machine-intelligent discovery, data summary and data integration. For example, data searches for density data may be able to identify datasets consisting of explicitly reported "density" data, as well as datasets that report the constituents of "density" (e.g., count & area)
 
@@ -345,7 +348,7 @@ The different classes of the above can be used to describe the data, and facilit
   2. What ontologies are and the forms they take
   3. Ongoing efforts to advance ontologies within ecology
 
-**Ontologies** provide a formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning."
+**Ontologies** provide a "formal mechanism for defining terms and their relationships, and can improve the location, interpretation and integration of data based on its inherent meaning."
 
 **The issue:** Lack of critical consideration of "concepts" within ecology complicates interpretation and synthesis of findings, as well as the location and reuse of existing datasets.
 
@@ -379,7 +382,7 @@ knitr::include_graphics(rep("images/madin2008.bmp"))
 
 Reichman *et al* estimate that just 1% of ecological data that has been produced is available after publication of the associated results.
 
-They note three major technological challenges to "open data" (a la, Michiner, 2006), namely:
+They note three major technological challenges to "open data" (a la, Michener, 2006), namely:
 
   1. Data dispersion - Decentralized existence across a broad range of databases (either local or online)
   2. Heterogeneity - Lack of consistency in collection, formatting and reporting
@@ -398,7 +401,9 @@ They note three major technological challenges to "open data" (a la, Michiner, 2
   - Need scripted workflows that show quality control, processing and analysis of a dataset, particularly for derived datasets (e.g., meta-analyses or other secondary data objects)
   - Unique identifiers (as DataONE) provides can be key for monitoring data provenance
   
-*Social considerations:* Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.
+*Social considerations:* 
+
+  - Social constraints to formalized sharing and archiving data are likely greater than the technical challenges. A formal reward system for promoting open access data may be key to advancing open data within ecology.
 
 ### Wickham, 2014
 
@@ -408,7 +413,9 @@ They note three major technological challenges to "open data" (a la, Michiner, 2
 
 **Key notes: ** Tidy data has the following fundamental format: each variable is a column, each observation is a row, and each type of observational unit is a table.
 
-*Data tidying* - as organizing datasets such to facilitate analysis
+*Data tidying* - organizing datasets such to facilitate analysis
+
+The "tidy data" framework builds from Codd's relational database work (1990). Wickham describes tidy data as Codd's "third normal form" but with constraints in statistical language and focus on a single database rather than many connected datasets.
 
 In organizing data, there is a general rule of thumb that it's easier to describe functional relationships between variables (i.e., linear combinations of columns) rather than relationships between observations (rows); AND it's easier to compare across groups of observations (rows) relative to between groups of variables (columns)
 
@@ -438,7 +445,7 @@ Catastrophic shifts occur abruptly, and thus "early-warning signals" of approach
 
 Conceptualization of ecosystem response curve as "folded backwards" implies that for certain environmental conditions, ecosystem may have two alternative stable states that are separated by an unstable equilibrium.
 
-The "catastrophic shift" is the point at which the bifurcation point is passed and the system shifts from a stable state to an unstable state or alternatively to an alternative stable state.
+The "catastrophic shift" is the point at which the bifurcation point is passed and the system shifts from a stable state either to an unstable state or to an alternative stable state.
 
 This has large implications for the state at which a system exists in, as well as restorative action to return it to a desired state (as returning conditions to original state may not be sufficient).
 
@@ -454,7 +461,7 @@ Lakes - One of the most common examples is loss of water clarity and vegetation 
 
 Hysteresis can be exemplified here as reduction in nutrient concentrations is not sufficient to reduce vegetation and return clarity to lake water.
 
-Desertification - Presence of desert vs vegetated landscapes may be conceived of as alternative stable states. May occur through time as vegetation promotes more moist conditions and lack of vegetation promotes drier conditions. May have feedbacks with the climate in the Sahel region that produce alternating stable states.
+Desertification - Presence of desert versus vegetated landscapes may be conceived of as alternative stable states. May occur through time as vegetation promotes more moist conditions and lack of vegetation promotes drier conditions. May have feedbacks with the climate in the Sahel region that produce alternating stable states.
 
 *Emerging patterns*
 
@@ -501,7 +508,7 @@ Parameters are defined as "environmental drivers".
 
 Each state is considered stable but associated dynamics (local stability, population fluctuations) are different given that they correspond to different parameter values.
 
-Given that the "landscape" changes, not all potential alternative stable states exist may be present at all times.
+Given that the "landscape" changes, not all potential alternative stable states exist or may be present at all times.
 
 *Hysteresis* - the dependence of the state of a system on its history (i.e., memory); "hysteresis is revealed if the return trajectory of the equilibrium point differs from that adopted during its outward journey" <- here the outward journey is influencing the system (i.e., it "remembers" its return) and thus it may be seen that the system exhibits a different return trajectory.
 
@@ -600,7 +607,9 @@ Summary statistics approach commonly employs increasing trend in summary stats s
 
 *Shortcomings of summary stats approaches*
 
-There are many hidden assumptions that occur with use of summary statistics. Variance may increase for reasons that do not signal approaching transition.
+There are many hidden assumptions that occur with use of summary statistics. 
+
+For example, variance may increase for reasons that do not signal approaching transition.
 
 Approaches based on increasing trends in summary stats assume a changing parameter has brought a system closer to a bifurcation. This assumption excludes at least three alternative explanations:
 
@@ -705,7 +714,7 @@ Key challenge is to maintain desirable states and avoid undesirable ones that ar
 
 Social factors can complicate things that may otherwise appear straightforward to optimize. For example: 
 
-  - Protection of reserves may appear straight forward at first, but may not respond to climate change or other shifting environmental parameters
+  - Protection of reserves may appear straightforward at first, but may not respond to climate change or other shifting environmental parameters
   - Use of corridors or other connectivity networks thus may be important, but ultimately may not account for social, economic or political factors that impact the efficacy of connectivity plans
   - Ultimately need to consider conservation efforts both inside as well as outside the reserves, as well as the key social factors that impact them
 
@@ -737,7 +746,7 @@ Interface between the two and resilience is complex. Strategies that increase ad
 
 "General resilience" - resilience in reference to all sorts of shocks; coping with uncertainty in all ways
 
-Important to consider both, as often times one things in terms of specified resilience and thus may not be considering important or unexpected shocks.
+Important to consider both, as one often thinks in terms of specified resilience and thus may not be considering important or unexpected shocks.
 
 *Tranformability and resilience at multiple scales*
 
@@ -787,7 +796,7 @@ Incorporating learning into the decision-making process may be one means of miti
 
 Idea that "decision-making" should be treated as an experiment.
 
-**Alternative methods to use beside decision theory:**
+**Alternative methods to use in place of or beside decision theory:**
 
 *Thresholds approach* - focus attention on critical boundaries that may lead to persistence of a new alternative state (often times with major consequences)
 
@@ -953,7 +962,7 @@ Studies have tried to rank vulnerabilities of different ecosystems and the facto
 
 The study examined mangrove sites in Eastern Africa, Western Africa, and the Pacific Islands to attain measurements of vulnerability and inform management.
 
-The vulnerability assessment methodology seeks to identify aspects that may already be experience climate change impacts and may also be more susceptible to future impacts.
+The vulnerability assessment methodology seeks to identify aspects that may already be experiencing climate change impacts and may also be more susceptible to future impacts.
 
 The assessments considers range of metrics within the exposure, sensitivity and adaptive capacity categories. In distributing vulnerabilities amongst each of these categories, appropriate management options (a la Johnson, 2017) that are effective may be identified. Sea level rise, for example, may not be able to be controlled whereas barriers to forests migrating inland may be removed via land planning.
 
