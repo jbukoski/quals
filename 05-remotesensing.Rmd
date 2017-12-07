@@ -61,46 +61,48 @@ Very high resolution imagery effective at reducing mixed pixels just due to smal
 OBIA has typically been applied to species discrimination rather than extent of mangrove mappings
 
 Quickbird and IKONOS sensors are most common for very high resolution imagery due to long-term archiving of data
-  - multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels
+
+  - Multispectral sensors but show improvement over Landsat TM or ETM+ due to reduced numbers of mixed pixels
 
 Use of spectral data only is often insufficient for discrimination of species
+
   - Classification accuracies are greatly improved when other image properties are considered, such as texture
   - Texture analaysis has been applied to species discrimination, but has not been investigated (as of 2011) for other forest characteristics
 
-C-band PolSAR has lowest ability to parse forest structure of SAR bands
+C-band polarimetric SAR has lowest ability to parse forest structure of SAR bands
   
 *Mangrove biomass specific findings:*
 
   - Canopy height and biomass have been shown to be strongly correlated in mangroves (e.g., Fromard et al., 1998; Smith and Whelan, 2006)
-    - must studies of height and biomass have employed SAR data
-    - different polarizations (based on wavelength) interact differently with different components of the forest
-      - trunks and soils may produce single or double bounce interactions
-      - signal may scatter within canopy
-        - P-band POLSAR or HV polarization of L-band SAR perform best in mapping aboveground biomass
+    - Most studies of height and biomass have employed SAR data
+    - Different polarizations (based on wavelength) interact differently with different components of the forest
+      - Trunks and soils may produce single or double bounce interactions (typically woody components best detected by L-band)
+      - Signal may scatter within canopy
+        - P-band polarimetric SAR or HV polarization of L-band SAR perform best in mapping aboveground biomass
 
 *Very-high resolution satellites:*
 
-  - The IKONOS and Quickbird are most commonly used, due to archiving of data and plans for long-term consistency
+  - IKONOS and Quickbird are most commonly used, due to archiving of data and plans for long-term consistency
     1. IKONOS > GeoEye-1 (successor) (multispect @ 1.65 m and panchrom @ 0.41 m)
-    2. Quickbird > Worldview-2 (successor) (<2m multi, <0.5 m panchrom)
-      - note that Worldview-2 has 8 multispectral channels, including those in yellow and red edge ranges designed for veg studies
+    2. Quickbird > Worldview-2 (successor) (<2 m multi, <0.5 m panchrom)
+      - Note that Worldview-2 has 8 multispectral channels, including those in yellow and red edge ranges designed for vegetation studies
 
 **Research ideas:**
 
-  - Coupling of species mapping with species-specific allometry equations for better estimates of mangrove biomass
+  - Coupling of species maps with species-specific allometric equations for better estimates of mangrove biomass
     - Might make sense in Americas where just three species exist (easier!)
 
 ### Kuenzer, 2011
 
 *"Remote sensing of mangrove ecosystems: A review"* [@kuenzer2011remote]
 
-**Key contribution: ** This is a very extensive review of remote sensing and mangroves.
+**Key contribution: ** This is a very extensive review of remote sensing and mangroves. It may not provide much more detail beyond that of the other two reviews of remote sensing and mangroves.
 
 **Notes: **
 
 *Optical imagery: *
 
-The spectral signature of mangrove leaves are largely a function of age, vitality, phenological props and physiological props. Greater discrimination between species (at least in Vietnam) may be seen in the NIR, but little differentiation seen in VIS:
+The spectral signature of mangrove leaves are largely a function of age, vitality, phenological properties and physiological properties. Greater discrimination between species (at least in Vietnam) may be seen in the NIR, but little differentiation seen across the visible light wavelengths:
 
 ```{r, echo=FALSE}
 knitr::include_graphics(rep("images/kuenzer2011RemSens.bmp"))
@@ -113,23 +115,29 @@ knitr::include_graphics(rep("images/kuenzer2011RemSens.bmp"))
     1. X-band - 3 cm wavelength, effective for direct backscatter from canopy
     2. C-band - 6 cm, plant/soil multiple and volume scattering
     3. L-band - 24 cm, direct backscatter from soil & water
+    4. P-band - 68 cm, longest wavelength
     
 ```{r, echo=FALSE}
-knitr::include_graphics(rep("images/kuenzer2011RemSensFig4.bmp"))
+knitr::include_graphics(rep("images/kuenzerRemSensFig4.bmp"))
 ```
   
 *Sensors:*
 
-  - See Table 2 in the study for an extensive list of sensors used within remote sensing of mangrove studies
-  - Aerial imagery is limited in that it cannot be scaled beyond immediate site/locality, but has value in that it can provide high-resolution data particularly for hard to access sites without field data.
-  - High spatial resolution data (IKONOS & Quickbird)
-    - Ultimate goal is to map mangroves at the species level
-    - A comparison of IKONOS and QuickBird found IKONOS (4 m) to be more effective at discriminating in species because of the higher spectral resolution. QuickBird has higher spatial resolution (1 m) but was less useful in this particular investigation (Greg's paper).
-  - Hyperspectral imagery
-    - identifying relevant bands is a time intensive process and many bands are highly correlated
-  - EnMAP sensor
-    - satellite hyperspectral data that will provide more access to hyperspectral datasets globally
-      - is this online? I'm not sure yet.
+See Table 2 in the study for an extensive list of sensors used within remote sensing of mangrove studies
+
+Aerial imagery is limited in that it cannot be scaled beyond immediate site/locality, but has value in that it can provide high-resolution data particularly for hard to access sites without field data.
+
+High spatial resolution data (IKONOS & Quickbird):
+
+  - Ultimate goal is to map mangroves at the species level
+  - A comparison of IKONOS and QuickBird found IKONOS (4 m) to be more effective at discriminating in species because of the higher spectral resolution. QuickBird has higher spatial resolution (1 m) but was less useful in this particular investigation (Greg's paper).
+
+Hyperspectral imagery
+  - Identifying relevant bands is a time intensive process and many bands are highly correlated
+
+EnMAP sensor
+  - Satellite hyperspectral data that will provide more access to hyperspectral datasets globally
+    - Is this online? I'm not sure yet.
   
 Several tables are given in the paper that describe the various data sensors and platforms and their relative benefits and limitations for remote sensing of mangroves.
 
@@ -137,10 +145,13 @@ Several tables are given in the paper that describe the various data sensors and
 
 The authors call for several needs within the remote sensing of mangrove space:
 
-  1. Need for homogenized classification schemes - ontologies, e.g., what is a sparse versus dense mangrove
-  2. Need for standardized data-processing models - standardiziing preprocessing, processing and post processing such that enhanced comparability of studies is enabled
-  3. Need for homogenized transparent accuracy assessment - self explanatory
-  4. Need for further investigations of synergistic data use - coupling of new, novel and disparate RS datasets to investigate novel research questions
+  1. Need for homogenized classification schemes
+    - "Ontologies", e.g., what is a sparse versus dense mangrove
+  2. Need for standardized data-processing models 
+    - Standardiziing preprocessing, processing and post processing such that enhanced comparability of studies is enabled
+  3. Need for homogenized transparent accuracy assessment
+  4. Need for further investigations of synergistic data use 
+    - Coupling of new, novel and disparate RS datasets to investigate novel research questions
   5. Need for ecosystem service assessments
   6. Need for interdisciplinary and well-networked research teams
 
@@ -150,29 +161,32 @@ The authors call for several needs within the remote sensing of mangrove space:
 
 **Key contribution:** This is an introductory piece to a special issue on monitoring mangroves using RS. There are potentially interesting pieces in the special issue but most are focused on vegetation dynamics rather than geomorphology.
 
-Giri is one of the key researchers working on mapping of mangrove forests using RS data, and offers some succint advice on steps for classifying mangrove forests:
+Giri is one of the key researchers working on mapping of mangrove forests using RS data, and offers some succinct advice on steps for classifying mangrove forests:
 
-  1. identify clear and concise objective
-  2. develop classification system and legend
-  3. satellite and secondary data acquisition
-  4. data pre-processing
-  5. training data collection
-  6. image classification
-  6. results validation
-  8. dissemination of results
-  9. application of classification results
+  1. Identify clear and concise objective
+  2. Develop classification system and legend
+  3. Satellite and secondary data acquisition
+  4. Data pre-processing
+  5. Training data collection
+  6. Image classification
+  6. Results validation
+  8. Dissemination of results
+  9. Application of classification results
  
-*Random notes:* 
+*Random notes: * 
 
   - Important to be clear on consideration of purely true mangroves, or true mangroves with mangrove associates.
   - Entire Landsat archive available in Amazon Web Services as well as Google Earth Engine.
 
 Article synopses:
 
-  - Zhu et al, 2016: Look at Back Propagation ANN to map mangrove forest biomass using WorldView-2 imagery. Find that inclusion of species dummy variable for *S. apetala* vs *K. candel* highly significant in improving biomass estimation accuracy.
-  - Cuogo et al, 2016: Examined SAR backscattering from Radarsat-2 C-band data for correlations with forest structure and species data in Amazon. *Might be interesting to look into their methods for sites in Thailand*
-  - Jones et al, 2016: Used Giri's data to assess changes in mangrove cover at national level for Madagascar. Produced higher accuracy maps with improved detail relative to Giri's data. Potentially interesting for Thailand.
-
+  - Zhu et al, 2016: 
+    - Looked at back-propagation artificial neural network to map mangrove forest biomass using WorldView-2 imagery. 
+    - Find that inclusion of species dummy variable for *S. apetala* vs *K. candel* highly significant in improving biomass estimation accuracy
+  - Cuogo et al, 2016: 
+    - Examined SAR backscattering from Radarsat-2 C-band data for correlations with forest structure and species data in Amazon. Might be interesting to look into their methods for sites in Thailand.
+  - Jones et al, 2016: 
+    - Used Giri's data to assess changes in mangrove cover at national level for Madagascar. Produced higher accuracy maps with improved detail relative to Giri's data. Potentially interesting for Thailand.
 
 ## Vegetation
 
@@ -186,10 +200,16 @@ Article synopses:
   2. What are the relationships between the canopy spectral variability at the blue, green, red and NIR wavelength regions and canopy species composition and structural variability?
   
 Their results largely showed that remote sensing of species composition is quite difficult (no relationships between species composition and spectral indices exist), but LAI and a few other parameters (canopy height) were found to be significantly correlated with some spectral bands/vegetation indices.
-  
-**Research design:** Field structure and species composition data was collected and coupled with remotely sensed spectral data. Regression and other statistical techniques were used to relate the data to the various spectral measures and their arithmetic transforms. Spectral measurements were taken in the lab, from a helicopter platform, and also from SPOT satellite.
 
-**Key notes & results: ** The following results and key conclusion of the study should be noted:
+**Key notes: **
+  
+*Research design:*
+
+Field structure and species composition data was collected and coupled with remotely sensed spectral data. Regression and other statistical techniques were used to relate the data to the various spectral measures and their arithmetic transforms. Spectral measurements were taken in the lab, from a helicopter platform, and also from SPOT satellite.
+
+*Key results: *
+
+The following results and key conclusion of the study should be noted:
 
   - LAI was calculated as a transform of canopy closure, which was collected with a hemispherical mirror
   - Significant correlations of any of the bands with percent species composition was not significant
@@ -201,22 +221,28 @@ Their results largely showed that remote sensing of species composition is quite
 
 *"Remote sensing techniques for mangrove mapping"* [@green1998remote]
 
-**Key significance: ** The study reviews common methods of remote sensing for mangrove mapping, with a particular emphasis on the fact that accuracy assessments are rarely performed following classification of RS mangrove imagery. The authors then couple the most commonly used techniques with accuracy assessments using field-based data to examine the relative strengths & weaknesses of the different techniques.
+**Key significance: ** The study reviews common methods of remote sensing for mangrove mapping, with a particular emphasis on the fact that accuracy assessments are rarely performed following classification of RS mangrove imagery. 
 
-**Research design:** The study employs three spectral image datasets (Landsat 6 TM, SPOT, and Airborne multispectral data at 1 m resolution) for generating of RS imagery of mangroves in the Turks and Caicos Islands. The review of classificatin of spectral imagery for mangroves identifies 5 different methodologies:
+The authors couple the most commonly used techniques with accuracy assessments using field-based data to examine the relative strengths & weaknesses of the different techniques.
+
+**Research design:** The study employs three spectral image datasets (Landsat 6 TM, SPOT, and Airborne multispectral data at 1 m resolution) for generating RS imagery of mangroves in the Turks and Caicos Islands of the Bahamas. The review of classifying spectral imagery for mangroves identifies 5 different methodologies:
 
   1. *Visual interpretation* - the user classifies areas, though often with a radiometric enhancement applied to the imagery
-  2. *Vegetation index* - different vegetation indices can be employed such as ratio indices (NDVI) or orthogonal indices (tasseled cap transformations); this study uses NDVI with a ISODATA clustering algorithm producing 50 classes that are identified and edited to match mangroves
-  3. *Unsupervised classification* - may or may not involve image enhancement; this study used ISODATA clustering algo on unenhanced imagery
-  4. *Supervised classification* - most common method of mangrove classification and may or may not include image enhancement (e.g., enhancing edges between stands or species types); this study uses 3 x 3 edge enhancement filter applied to imagery, useful in mangroves given linear nature
-  5. *PCA and band ratios* - ratios of different bands can be effective in distinguishing different landscape features; this study uses the ratios of various Landsat and SPOT bands, runs PCA, and then generates an image based on the most significant PCAs (which they then classify)
+  2. *Vegetation index* - different vegetation indices can be employed such as ratio indices (NDVI) or orthogonal indices (tasseled cap transformations)
+    - This study uses NDVI with a ISODATA clustering algorithm producing 50 classes that are identified and edited to match mangroves
+  3. *Unsupervised classification* - may or may not involve image enhancement 
+    - This study used ISODATA clustering algo on unenhanced imagery
+  4. *Supervised classification* - most common method of mangrove classification and may or may not include image enhancement (e.g., enhancing edges between stands or species types) 
+    - This study uses 3 x 3 edge enhancement filter applied to imagery, useful in mangroves given linear nature
+  5. *PCA and band ratios* - ratios of different bands can be effective in distinguishing different landscape features 
+    - This study uses the ratios of various Landsat and SPOT bands, runs PCA, and then generates an image based on the most significant PCAs (which they then classify)
   
 Accuracy assessment was performed using three metrics (following Congalton, 1991): 
 
   1. Overall accuracy - overall agreement as sum of correctly labelled sites divided by total number of sites
-  2. User accuracy - probability that a classified pixel actually represents that category on the ground
-  3. Producer accuracy - how often real features on ground are shown correctly on the map;  NOT used in this study]
-  4. Tau coefficient - indicates the percent of pixels classified correctly than would be expected by chance alone
+  2. User's accuracy - probability that a classified pixel actually represents that category on the ground
+  3. Producer's accuracy - how often real features on ground are shown correctly on the map (NOT used in this study)
+  4. Tau coefficient - indicates the percent of pixels classified correctly over what would be expected by chance alone
 
 **Key results:**
 
@@ -227,7 +253,7 @@ The authors largely justify the work based on:
 
 *Discrimination of mangrove vs. non-mangrove vegetation:*
 
-SPOT XS imagery was not effective at producing accurate classifications of mangrove extent. CASI (airborne) data was highly effective at identifying mangrove vegetation (with all five methods producing overall accuracies greater than 50%), whereas methods performed on Landsat data improved markedly with increased computational sophistication (i.e., method 5).
+SPOT XS imagery was not effective at producing accurate classifications of mangrove extent. Compact Airborne Spectral Imager  (CASI; airborne) data was highly effective at identifying mangrove vegetation (with all five methods producing overall accuracies greater than 50%), whereas methods performed on Landsat data improved markedly with increased computational sophistication (i.e., method 5).
 
 Accurate classification of Landsat data required the calculation of PCs and band ratios, rather than processing of just raw band data.
 
@@ -305,16 +331,14 @@ With the help of a polarimetric scattering model, they found that the three prim
 
 Additionally, they note two key concluding remarks:
 
-  1. Use of correlation backscatter to biomass relationships should be restricted to homogeneous closed canopies.
-  2. Distinguishing between stands of different developmental status should be possible via differences in backscaterring coefficients of the different SAR bands and polarizations
+  1. Correlating backscatter to biomass relationships should be restricted to homogeneous closed canopies.
+  2. Distinguishing between stands of different developmental status should be possible via differences in backscattering coefficients of the different SAR bands and polarizations
 
 A key figure that shows some of these differences is shown below:
 
 ```{r, echo=FALSE}
 knitr::include_graphics(rep("images/proisy2002.bmp"))
 ```
-
-
 
 ### Mutanga, 2004 {#mutanga2004}
 
@@ -341,7 +365,7 @@ A grass was grown in a greenhouse with two different nitrogen treatments (and on
 
 *SR* - The results from the SR tests are similar to that of NDVI; reconstruction of SR using all possible hyperspectral band combinations indicates that bands from the red edge portion are most sensitive to changes in biomass
 
-*TVI* - Although distribution of the R2 values for reconstruction of this index differed visually from that of NDVI and SR (which were quite similar), the most efficient TVI was found to be constructed from bands in the red edge portion of the spectrum. 
+*TVI* - Although distribution of the R^2^ values for reconstruction of this index differed visually from that of NDVI and SR (which were quite similar), the most efficient TVI was found to be constructed from bands in the red edge portion of the spectrum. 
 
 The green portion of the spectrum also did well (e.g., second "best") in reconstructing the vegetation indices.
 
@@ -397,13 +421,13 @@ It is important to note that the results do not support the expectation that the
   2. Nearest neighbor classification at the pixel level
   3. A hybrid classification that combines pixel and object based methods (MLCNN)
   
-The consider the conundrum that with increasing spatial resolution, the number of detectable sub-class elements increases as well and thus classification at the pixel level may deteriorate. Thus, they examine object-based classification as a means of getting around this particular issue.
+They consider the conundrum that with increasing spatial resolution, the number of detectable sub-class elements increases as well and thus classification at the pixel level may deteriorate. Thus, they examine object-based classification as a means of getting around this particular issue.
 
-**Research design:** For the site and imagery description see Section @\ref(wang2004a). The different classification approaches used in this study are described here:
+**Research design:** For the site and imagery description see Section \@ref(wang2004a). The different classification approaches used in this study are described here:
 
-  1. MLC at pixel level - 
+  1. MLC at pixel level - maximum likelihood classification of raster imagery using pixels
   2. Object-based classification - Used eCognition 3.0 software (region merging technique that uses a homogeneity criteria to detemine whether pixels and regions should be merged).
-    - The merging "breaks off" at a predetermined parameter (small param = small regions, large param = large regions), and there are in principle infinite choices of break-off parameters\*
+    - The merging "breaks off" at a predetermined parameter (small parameter = small regions, large parameter = large regions), and there are in principle infinite choices of break-off parameters\*
   3. The authors develop a joint procedure in which MLC at pixel level is first used, in which spectrally inseparable classes are identified, and all spectrally separable classes are masked out. An object-based classification procedure is then performed on the spectrally inseparable classes.
     
 \* To deal with the issue of infinate scale parameters, Wang *et al* develop a method to identify an optimal value. They use the training set data from the MLC image, reclassify all other pixels as 0s, and then use the image segmentation approach for several scale parameters. They then derive the pairwise Bhattacharya Distance values for the seven land cover classes at each scale, and select the scale at which BD reaches a maximum.
@@ -411,7 +435,7 @@ The consider the conundrum that with increasing spatial resolution, the number o
 **Key results:** In general, the accuracy of the classifications were relatively high for all three methods; however, the mixed pixel and object-based method performed the best. The key results are:
 
   - The pixel based approach generally did well in correctly classifying the land cover classes (88.9% overall accuracy), with the exception of the red mangroves (71.3% accuracy), black mangroves (81.8%) and rainforest (81%)
-  - The object-based approach improved classification of the rainforest (100%0), red mangroves (77.5%) and black mangroves (89.8%), but greatly misclassified white mangroves (21.9%) due to their existence along edges with red and black and thus being pulled into "objects"; overall accuracy was relatively lower relative to the pixel based approach as a result (80.4%)
+  - The object-based approach improved classification of the rainforest (100.0%), red mangroves (77.5%) and black mangroves (89.8%), but greatly misclassified white mangroves (21.9%) due to their existence along edges with red and black and thus being pulled into "objects"; overall accuracy was relatively lower relative to the pixel based approach as a result (80.4%)
   - The mixed pixel and object-based method performed the best because white mangrove, road, gap and lagoon all were highly separable using MLC, but distinguishing between red mangrove, black mangrove and rainforest benefitted from the object-based method (due to high confusion between these classes)
     - The mixed method approach achieved overall classification accuracies of 91.4%.
   
@@ -426,17 +450,17 @@ The consider the conundrum that with increasing spatial resolution, the number o
 
 *"Tropical mangrove species discrimination using hyperspectral data: A laboratory study"* [@vaiphasa2005tropical]
 
-**Key contribution:** At the time this study was written, hyperspectral studies of mangrove species classifications were relatively limited, and fairly inconclusive. This study soeeks to examine whether mangrove canopy leaves have sufficient spectral information to discriminate mangroves at the species level. Sixteen mangrove species were examined.
+**Key contribution:** At the time this study was written, hyperspectral studies of mangrove species classifications were relatively limited, and fairly inconclusive. This study seeks to examine whether mangrove canopy leaves have sufficient spectral information to discriminate mangroves at the species level. Sixteen mangrove species were examined.
 
-**Research design:** Canopy leaves from 16 species were collected in Chumphon and hyperspectral signatures at 2151 spectral bands from 400 - 2500 nm were collected in laboratory conditions.
+**Research design:** Canopy leaves from 16 species were collected in Chumphon and hyperspectral signatures at 2,151 spectral bands from 400 - 2,500 nm were collected in laboratory conditions.
 
-One way ANOVA was used to examine for differences of individual species from one another across all spectral bands, and spectral separability of the species using a Jeffries-Matusita distance analysis metric. Given the issue of a massive feature space (2151 bands), four "optimal" bands for assessing spectral separability were identified using a wrapper feature selection approach.
+One way ANOVA was used to examine for differences of individual species from one another across all spectral bands, and spectral separability of the species using a Jeffries-Matusita distance analysis metric. Given the issue of a massive feature space (2,151 bands), four "optimal" bands for assessing spectral separability were identified using a wrapper feature selection approach.
 
 **Key results:** The results generally show that discrimination between the sixteen species is generally achievable. Some particular key results include:
 
-  - 1941 of the 2151 bands were found to be spectrally dissimilar across all species (ANOVA analysis) at th p < 0.05 level. Of these 1941, 477 bands were significant at the < 0.01 level. The exceptions were primarily at the UV region (350-400 nm) and the shortwave infrared region (1800-2500 nm), where lighting conditions may have played an influential role.
+  - 1,941 of the 2,151 bands were found to be spectrally dissimilar across all species (ANOVA analysis) at th p < 0.05 level. Of these 1,941, 477 bands were significant at the < 0.01 level. The exceptions were primarily at the UV region (350-400 nm) and the shortwave infrared region (1,800-2,500 nm), where lighting conditions may have played an influential role.
   - The optimal band combination for classification was found to be:
-    - 720 nm, 1277 nm, 1415 nm and 1644 nm
+    - 720 nm, 1,277 nm, 1,415 nm and 1,644 nm
     - These results indicate that other properties beyond pigment (which would correspond to the 720 nm band) may play important roles in discrimination, and may be a result of other ecophysiological factors (water content, salinity, sugar, protein, oil, lignin, cellulose, leaf structure, etc.)
   - Pair-wise separability of mangrove species was possible for many of the species using these four bands and the J-M distance metric, but reduced separability was seen for species of the Rhizophoraceae family. 
     - There was high confusion both amongst species within Rhizophoraceae, as well as with *S. ovata*, *X. granatum* and *Pluchea indica*.
@@ -453,7 +477,7 @@ One way ANOVA was used to examine for differences of individual species from one
 
 **Key contribution:** This is one of the first studies to employ environmental data (pH) to refine classification maps of mangrove species. The study finds that classification accuracies are increased significantly, from 76.04% to 88.21%.
 
-**Research design:** The study coupled an existing mangrove species map produced from classification of ASTER imagery with a map of pH throught Pak Panang mangroves to examine the effectiveness of a post-classifier. In particular, they collected 200 pH measurements distributed throughout the forest, 150 of which were used for interpolation of a salinity profile, and 50 of which were used for validation. They additionall collected species composition and forest structure data at >500 plots of 15 x 15 m^2^ in the forest, and used these for accuracy assessment of the maps.
+**Research design:** The study coupled an existing mangrove species map produced from classification of ASTER imagery with a map of pH throught Pak Panang mangroves to examine the effectiveness of a post-classifier. In particular, they collected 200 pH measurements distributed throughout the forest, 150 of which were used for interpolation of a salinity profile, and 50 of which were used for validation. They additionally collected species composition and forest structure data at over 500 plots of 15 x 15 m^2^ in the forest, and used these for accuracy assessment of the maps.
 
 The post-classifier was based on a Bayesian approach that employed probabilities of species given a pH level, and pH level given a species.
 
@@ -474,18 +498,18 @@ The authors conclude that the method presented (classification followed by updat
 
 **Research design:** They collected leaves from all three species in both stressed and unstressed conditions, and also collected leaves from the top and bottom portions of the canopy. They then subjected each of the leaves to hyperspectral measurements in a laboratory setting before analyzing the data.
 
-To reduce the feature space prior to spectral discrimination, they first used the ANOVA across all spectral bands to remove any bands that were non significant at the p < 0.01 level (*a la* Vaiphasa, 2005). They then use Linear Discriminate Analysis (LDA) to examine for differences amongst the species.
+To reduce the feature space prior to spectral discrimination, they first used the ANOVA across all spectral bands to remove any bands that were non-significant at the p < 0.01 level (*a la* Vaiphasa, 2005). They then use Linear Discriminate Analysis (LDA) to examine for differences amongst the species.
 
 In addition, they use several indices of spectral bands identified by prior work as indices of leaf stress. Chlorophyl a and b contents drop dramatically in stressed leaves, greatly changing the reflectance properties of leaves. Studies have found that ratios are best in identifying stress characteristics, and they use these within ANOVA to compare means of ratios between stressed and unstressed leaves.
 
 **Key results:** The results generally find that hyperspectral data is effective in species discrimination and also identification of stressed mangrove trees. Some particularly key results are as follows:
 
-  - 116 of the 215 bands were significant at the p < 0.01 level for distinguishing between species and were clustered in the 350-510 nm, 610-690 nm, 760-810 nm, 1370-1550 nm, and 1850-2500 nm ranges of the spectrum
+  - 116 of the 215 bands were significant at the p < 0.01 level for distinguishing between species and were clustered in the 350-510 nm, 610-690 nm, 760-810 nm, 1,370-1,550 nm, and 1,850-2,500 nm ranges of the spectrum
   - Red, white and black mangroves were capable of being discriminated using the hyperspectral data
   - Use of the ratios for identifying stress in mangrove trees was effective, with different ratios performing better for different species (3/4 for red, 1/4 for white, and 4/4 for black)
-  - The specific band widths identified as significant in this study different from those of Vaiphasa, 2005
+  - The specific band widths identified as significant in this study were different from those of Vaiphasa, 2005
 
-**Key conclusions:** Some key, broader-level conclusion from the study are as follows:
+**Key conclusions:** Some key, broader-level conclusions from the study are as follows:
 
   1. Conventional challenges to analysing hyperspectral data are the large number of highly correlated bands available coupled with relatively smaller numbers of training and test samples.
   2. Wang and Sousa conclude that use of hyperspectral data is effective in overcoming the shortcomings of the multispectral datasets that they use in their 2004 sister studies.
@@ -577,12 +601,12 @@ Enhancement from flooded forest may range from approximately 2 - 10 dB.
 Of primary importance are three considerations:
 
   1. Incidence angle - angles at which imagery is collected vary greatly, and may be an important parameter for efficacy of detecting flooding
-    - The most effective angle may depend on the ecosystem type. Flooded forests verses swamps may exhibit different dominant backscattering mechanisms.
+    - The most effective angle may depend on the ecosystem type. Flooded forests versus swamps may exhibit different dominant backscattering mechanisms.
   2. Polarization - the polarization of the radar may effect the efficacy of the return in identifying inundated landscapes 
     - Majority of studies have used HH polarization (Seasat, SIR-A, SIR-B)
     - Qualitative assessments are consistent in findings that like-polarized scenes (HH or VV) are more effective at identifying flooded forests via L-band
   3. Frequency - use of P-, L-, or X-band may have different dominant backscattering mechanisms, and thus may influence detection of inundation.
-    - L-band commonly used due to ability to penetrate dense canopies, however may have have some limitations
+    - L-band commonly used due to ability to penetrate dense canopies, however may have some limitations
     - P-band may be promising for mapping of inundated forests in forests that are very tall or with very dense canopies
 
 *Applications in flooded forest research*
@@ -628,7 +652,7 @@ Spatial metrics at landscape level can be generally understood to provide inform
 
 GIS can also be useful for assessing scale dependencies. Semivariance and fractal dimensions are used to assess nature and degree of spatial autocorrelation within landscape elements over different spatial scales.
 
-Examples of overall scale dependent that may influence a study are:
+Examples of overall scale dependence that may influence a study are:
 
   1. The precision with which scales and the region of interest are defined
   2. Nature of the variables that are examined (local scale may be physical variables, regional may be climate or land use)
@@ -638,11 +662,11 @@ Explicit recognition of the importance of scale has led to the use of hierarchy 
 
 *Fluvial case study*
 
-The authors describe the different scales of environmental processes that shape the meandering and development of alluvial systems. They not the importance of both spatial and temporal scales.
+The authors describe the different scales of environmental processes that shape the meandering and development of alluvial systems. They note the importance of both spatial and temporal scales.
 
 Fine spatial scales may be seen in channeling or sedimentation along particular points within a river, and are likely due to interactions of flow and sediment properties at fine scales.
 
-At coarse spatial scales, development of abandoned channels are controlled by water flow cross floodplains and proximity of site to the channel.
+At coarse spatial scales, development of abandoned channels are controlled by water flow across floodplains and proximity of site to the channel.
 
 Additionally, for temporal scales, sharp pulses in water flow or longer term gradual shifts may have different effects on an alluvial system.
 
@@ -660,15 +684,15 @@ They note the importance of hydrology and geomorphology on mangrove health, citi
 
 The radar data used for the study consisted of three HH polarized L-band radar images, acquired at 26, 46 and 58 degree angles of incidence.
 
-The field data comprised of tide gauge data from give stations throughout the region slightly larger than the survey area, a 1200 m topographic survey transect, and test plots in the forest that were visited during the radar data acquisition period.
+The field data comprised of tide gauge data from five stations throughout the region slightly larger than the survey area, a 1,200 m topographic survey transect, and test plots in the forest that were visited during the radar data acquisition period.
 
-DN counterparts to mean backscatter coefficients were used to select break points fro classifying flooded versus non-flooded forests.
+DN counterparts to mean backscatter coefficients were used to select break points for classifying flooded versus non-flooded forests.
 
 *Results*
 
 All three datasets were coregistered, and field data were used to train a model on flooded vs. non-flooded forest areas.
 
-A spatial filter by a 5 by 5 and then 11 by 11 median filter to remove speckling. The processed image allowed for better discriminating between classes at a spatial frequency appropriate to the formation.
+A spatial filter was applied using a 5 by 5 and then 11 by 11 median filter to remove speckling. The processed image allowed for better discriminating between classes at a spatial frequency appropriate to the formation.
 
 The 58 and 46 deg images were combined to produce an inundation map (the 26 deg data had issues during time of collection, but was used for validation of land edge boundaries), and subsequently into a topographic map.
 
@@ -678,13 +702,13 @@ The authors then discuss various sources of error, which include resolution issu
 
 ### Souza-Filho & Paradella, 2002 {#souzafilho2002}
 
-*"Recognition of the main geobotanical features along the Bragan{\c{c}}a mangrove coast (Brazilian Amazon Region) from Landsat TM and RADARSAT-1 data"* [@souza2002recognition]
+*"Recognition of the main geobotanical features along the Bragan\c{c}a mangrove coast (Brazilian Amazon Region) from Landsat TM and RADARSAT-1 data"* [@souza2002recognition]
 
-**Key contribution: ** This study exemplifies integration of Landsat and SAR data for mapping of different ecosystem types and successional classes along the Bragan{\c{c}}a coastline at a landscape scale. Incorporation of landsat and SAR data enables mapping of not only different ecosystem types, but also successional classes (e.g., young vs. mature intertidal mangroves, degraded and renegerated mangroves, etc.).
+**Key contribution: ** This study exemplifies integration of Landsat and SAR data for mapping of different ecosystem types and successional classes along the Bragan\c{c}a coastline at a landscape scale. Incorporation of landsat and SAR data enables mapping of not only different ecosystem types, but also successional classes (e.g., young vs. mature intertidal mangroves, degraded and renegerated mangroves, etc.).
 
 **Key notes: **
 
-The authors process Landsat TM and RADARSAT-1 SAR data, and built a composite product using a "Intensity, Hue and Saturation" transform. The transform uses a RGB/IHS transform that incorporates channels formed from PCA of Landsat bands 1, 3 & 3; bands 5 & 7; band 4; as well as a intensity band from the RADARSAT-1 data (described in Harris et al., 1994, Paradella et al, 1998, Pohl, 1998).
+The authors process Landsat TM and RADARSAT-1 SAR data, and build a composite product using an "Intensity, Hue and Saturation" transform. The transform uses a RGB/IHS transform that incorporates channels formed from PCA of Landsat bands 1, 3 & 3; bands 5 & 7; band 4; as well as an intensity band from the RADARSAT-1 data (described in Harris et al., 1994, Paradella et al, 1998, Pohl, 1998).
 
 The resulting map incorporates the spectral data as well as the intensity data corresponding to SAR topography, with an array of colors and values across the landscape. Using field data and prior knowledge, the authors then visually interpret the map into a variety of different land features.
 
@@ -706,7 +730,7 @@ The methods are a little black-boxey and may require digging into the associated
 
 ### Souza-Filho, 2003 {#souzafilho2003}
 
-*"Use of synthetic aperture radar for recognition of coastal geomorphological features, land-use assessment and shoreline changes in Bragan{\c{c}}a coast, Para, Northern Brazil"* [@souza2003use]
+*"Use of synthetic aperture radar for recognition of coastal geomorphological features, land-use assessment and shoreline changes in Bragan\c{c}a coast, Para, Northern Brazil"* [@souza2003use]
 
 **Key contribution: ** This study is a sister study to that of [@souza2002recognition], and examines mapping of geomorphology as well as changes in coastal extents over time. The study uses SAR data acquired from over a 30 year period to investigate areas of coastal progradation versus erosion.
 
@@ -724,7 +748,7 @@ The authors provide a nice overview of the steps that must be taken for use of S
 
   1. Input data
     - Reading of image orbit data and 16 bit RADARSAT data
-  2. Proprocessing phase
+  2. Preprocessing phase
     - Radiometric correction - scaling of 16 bits to 8 bits, ground control point selection
     - Geometric correction - math model for geometric correction, geometric ortho-correction + speckle reduction
   3. Enhancement
@@ -762,13 +786,13 @@ Time series analysis of SAR data thus may be informative in investigating long-t
 
 *"Exploring LiDAR data for mapping the micro-topography and tidal hydro-dynamics of mangrove systems: An example from southeast Queensland, Australia"* [@knight2009exploring]
 
-**Key contribution: ** This is one of the very few studies that employs airborner LiDAR to derive a high resolution digital elevation model an examine inundation and hydrology characteristics within a mangrove forest.
+**Key contribution: ** This is one of the very few studies that employs airborne LiDAR to derive a high resolution digital elevation model and examine inundation and hydrology characteristics within a mangrove forest.
 
 **Key notes: **
 
 The study was motivated by the need to map habitats for a disease vector mosquito.
 
-The digital terrain model that they obtained had a vertical accuracy of 0.5 m, and was validated by using hydrological modeling and field data of tidal gauages over ten days.
+The digital terrain model that they obtained had a vertical accuracy of 0.5 m, and was validated by using hydrological modeling and field data of tidal gauges over ten days.
 
 The accuracy of the DTM and that of field data indicating habitats for mosquitos were found to validate one another.
 
@@ -778,9 +802,9 @@ The authors also note the importance of the LiDAR derived DTM for understanding 
 
 *Study design*
 
-LiDAR was flown over the area, producing a shapefile with 3 million points. The points were classified as ground versus non-ground by removal of points not contribution to ground terrain points by +/- 0.1 m. The ground point data was validated against GPS base-station data. 150 points were used to assess vertical accuracy across the entire area.
+LiDAR was flown over the area, producing a shapefile with 3 million points. The points were classified as ground versus non-ground by removal of points not contributing to ground terrain points by +/- 0.1 m. The ground point data was validated against GPS base-station data. 150 points were used to assess vertical accuracy across the entire area.
 
-The tidal inundation data was collected from 10 points in the field, recording water depth, pressure and temperature every 5 minutes continuously for 10 days. Locations of the tidal gauges were informed by the DEM, selecting for areas near to tidal source, in depressions or on hummocks. The tidal depths were used to validate inundation patterns expected given the LiDAR DTM.
+The tidal inundation data was collected from 10 points in the field, recording water depth, pressure and temperature every 5 minutes continuously for 10 days. Locations of the tidal gauges were informed by the DEM, selecting for areas near to tidal sources, in depressions or on hummocks. The tidal depths were used to validate inundation patterns expected given the LiDAR DTM.
 
 Tidal inundation was modeled in ArcMap by "flooding" of the landscape in 0.05 m increments, with flooding constrained to adjacent to water bodies (i.e., the back basin was not flooded until the berm was breached).
 
@@ -837,7 +861,7 @@ Among most important techniques for postprocessing of LiDAR point clouds for geo
 
 *"Geomorphic knowledge for mangrove restoration: A pan-tropical categorization"* [@balke2016geomorphic]
 
-**Key contribution: ** This study uses remotely sensed datasets to characterize geomorphic settings across the tropics with a goal of identifying difference that are relevant for restoration projects. The study uses spatial layers of both suspended sediment as well as tidal range to primarily classify the settings, and emerges with three different classes:
+**Key contribution: ** This study uses remotely sensed datasets to characterize geomorphic settings across the tropics with the goal of identifying differences that are relevant for restoration projects. The study uses spatial layers of both suspended sediment as well as tidal range to primarily classify the settings, and emerges with three different classes:
 
   1. Minerogenic and high tidal range (allochthonous)
   2. Minerogenic and low tidal range (allochthonous)
@@ -873,7 +897,7 @@ knitr::include_graphics(rep("images/balke2009epsl.bmp"))
 
 Their results show that sites with SOM > 60% were found mostly in the Caribbean, Hawaii and Florida. Sites elsewhere had average OM values of ~10%, and thus broad description of mangrove soils as "peat" is misleading.
 
-The broad majority of mangrove soils globally are organogenic.
+The broad majority of mangrove soils globally are minerogenic.
 
 They then describe a variety of relevant mangrove restoration and management techniques relevant for the various mangrove geomorphic settings.
 
@@ -881,7 +905,7 @@ In organogenic settings, key risk is collapse of peat following disturbance. Inf
 
 They note that low tidal ranges often indicate the importance of seasonal flooding to the site. Management and restoration in microtidal sites is thus often concerned with preserving networks of terrestrial freshwater sources.
 
-Minerogenic sites require high levels of sediment input to maintain intertidal surfaces at correct elevation relative to tidal frame, and thus proper management of hydroperiod at rates which mangrove prefer. Disturbances in sediment supply may influence long term health of mangroves. Use of bamboo fences in Vietnam and Thailand may help to reduce tidal energy and wave energy and promote sediment deposition.
+Minerogenic sites require high levels of sediment input to maintain intertidal surfaces at correct elevation relative to tidal frame, and thus proper management of hydroperiod at rates which mangroves prefer. Disturbances in sediment supply may influence long term health of mangroves. Use of bamboo fences in Vietnam and Thailand may help to reduce tidal energy and wave energy and promote sediment deposition.
 
 Interesting that they note the Chao Phraya river has undergone a ~75% reduction in sediment yield, with severe coastal erosion resulting.
 
@@ -899,9 +923,9 @@ The following studies provide key information on use of remote sensing as it rel
 
 *Overview notes on SAR data*
 
-SAR operates at X, C, L, or P-band frequencies in both polarimetric and interferometric formats.
+SAR operates at X-, C-, L-, or P-band frequencies in both polarimetric and interferometric formats.
 
-"Polarimetric systems measure the full scattering matrix from which the intensity and phase of scattered fields can be derived for any polarization". The backscattering coefficient relates to intensity whereas the phase information indicates phse different and correlation coefficients between signals.
+"Polarimetric systems measure the full scattering matrix from which the intensity and phase of scattered fields can be derived for any polarization". The backscattering coefficient relates to intensity whereas the phase information indicates phase difference and correlation coefficients between signals.
 
 SAR data may be used for *polarimetry* or *interferometry*:
 
@@ -928,7 +952,7 @@ For SAR data, the viewing angle may be an important criteria in identifying diff
 
 In the case studies, the backscattering coefficient was found to be enhanced towards the seaward zone due to both a more open canopy as well as the double-bounce effect from tidal inundation.
 
-Backscattering coefficient for approximating biomass may saturated at high biomass values (120-140 Mg/ha). 
+Backscattering coefficient for approximating biomass may saturate at high biomass values (120-140 Mg/ha). 
 
 The different interactions of different bands of microwave and various components of vegetation have been hard to untangle due to the interactions of the components.
 
@@ -972,7 +996,7 @@ Primary L-band SAR datasets that have been operating at global scales are:
   
 Interestingly, the authors note that mangroves may be an indicator ecosystem for impacts from regional to global climate change.
 
-The study review several relevant environmental policies for the GMW program:
+The study reviews several relevant environmental policies for the GMW program:
 
   1. Ramsar Convention
   2. Convention on Biological Diversity
@@ -1006,7 +1030,7 @@ Furthermore, given the ability to penetrate cloud cover and global coverage of s
 
 *Validation*
 
-In validating change, main variables to consider are extent, structure and AGB of mangroves. Often use RS data of different types (high res imagery, LiDAR, SAR, multispectral imagery) for validation given the difficult field conditions that exist within mangroves.
+In validating change, main variables to consider are extent, structure and AGB of mangroves. Often use RS data of different types (high resolution imagery, LiDAR, SAR, multispectral imagery) for validation given the difficult field conditions that exist within mangroves.
 
 In future, important for validation activities to co-occur with collection of SAR data to help validate the RS datasets.
 
@@ -1053,18 +1077,18 @@ Seven different dynamic cover types were defined, based on key ecological proces
   1. Ephemeral mudflats, non-vegetated
   2. Ephemeral mudflats, vegetated
   3. Emergent C3 grassland, flooded
-  4. Mixed C4-c3 grassland, partiall flooded
+  4. Mixed C4-C3 grassland, partially flooded
   5. Winter aquatic macrophytes
   6. Permanent water
   7. Permanent sand
   
-The RS datasets that were used were Beijing-1 microsatellite multispectral data (7 scenes), and Envisat advanced SAR C-band in like polarization (HH or VV). The multispectral data was primary imagery whereas the SAR imagery allowed for better delineation between murky waters and mudflats.
+The RS datasets that were used were Beijing-1 microsatellite multispectral data (7 scenes), and Envisat advanced SAR C-band in like polarization (HH or VV). The multispectral data was the primary imagery whereas the SAR imagery allowed for better delineation between murky waters and mudflats.
 
 The spectral data were used to create NDVI and NDWI indices for the landscape.
 
 The NDVI, NDWI and SAR data were used as inputs to the extended PCA analysis. They "performed standardized EPCA on these three time series using spatial (S-mode) and temporal (T-mode) forms of PCA orientation". 
 
-T-mode analysis outputs principal components as images for each time series that highlight dominant spatial patterns over time.
+T-mode analysis outputs principal components as images for each time series that highlight the dominant spatial patterns over time.
 
 S-mode analysis reveals recurrent temporal patterns in the study area.
 
@@ -1078,7 +1102,7 @@ The results produced maps with quite high classification accuracies (>90%). Thus
 
 The T-Mode EPCA primarily explained variance through the first principal component (94.7% of variation), which correlated with differences in prevalence of green emergent vegetation for the NDVI data, and gradients of submersion time for the NDWI and ASAR data.
 
-The S-mode EPCA highlighted temporal changes in the landscape. The first component (37.7% of variation) highlighted changed between August 2007 and late spring 2008, whereas the second component (35.4%) highlighted change between mid-winter and late spring 2008.
+The S-mode EPCA highlighted temporal changes in the landscape. The first component (37.7% of variation) highlighted changes between August 2007 and late spring 2008, whereas the second component (35.4%) highlighted change between mid-winter and late spring 2008.
 
 The major sources of error were mutual confusion of emergent C3 grassland with mixed C4/C3 grassland, as well as ephemeral non-vegetated mudflats with vegetated mudflats, permanent water, and winter aquatic macrophytes.
 
@@ -1133,7 +1157,7 @@ A major issue for delineating wetlands is the "fuzziness" of their boundaries, w
   
 *Hierarchical relationships in wetland classification*
 
-Given complexity in cover types, may need step wise classifications (i.e., classifications at multiple steps) or analyses at different spatial scales in order to improve accuracies.
+Given complexity in cover types, may need step-wise classifications (i.e., classifications at multiple steps) or analyses at different spatial scales in order to improve accuracies.
 
 In using hierarchical OBIA, researchers can examine "nestedness" within wetlands, which may allow for different scales of physical or ecological processes to emerge (biocomplexity).
 
@@ -1176,10 +1200,10 @@ The accuracy assessment brought to light important issues that may impinge upon 
 The author provides six key summary points:
 
   1. OBIA is effective for smoothing microvariation that often corresponds to "noise" and variance that is not ecologically meaningful; induces the unit of analysis to be more ecologically meaningful and effective for classifying into larger landscape classes.
-  2. OBIA is effective for mapping isolate wetlands
+  2. OBIA is effective for mapping isolated wetlands
   3. OBIA allows for hierarchical approaches - can delineate wetlands from other land types, and then begin to parse apart ecologically meaningful units within the wetland
   4. Flexibility in segmentation allows for both customization of analysis but may also hinder generalization and may induce biases into the analysis
-  5. OBIA for change detection can be developed greatly and may be useful in examining the "fate" or particular landscape objects
+  5. OBIA for change detection can be developed greatly and may be useful in examining the "fate" of particular landscape objects
   6. Wetland-specific challenges for RS inference remain in OBIA:
     - spectral similarities of diverse classes
     - subpixel mixing
